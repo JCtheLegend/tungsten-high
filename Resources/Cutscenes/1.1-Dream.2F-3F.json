@@ -1,0 +1,72 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Friend",
+      "direction": "down",
+      "speed": 2,
+      "text": "-8.5,3.5"
+    },
+    {
+      "type": "move",
+      "name": "Friend",
+      "direction": "right",
+      "speed": 2,
+      "text": "-3.5,3.5"
+    },
+    {
+      "type": "move",
+      "name": "Friend",
+      "direction": "downRight",
+      "speed": 2,
+      "text": "2,3"
+    },
+    {
+      "type": "move",
+      "name": "Friend",
+      "direction": "down",
+      "speed": 2,
+      "text": "2,-2"
+    },
+    {
+      "type": "move",
+      "name": "Friend",
+      "direction": "downLeft",
+      "speed": 2,
+      "text": "2,-2"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "4"
+    },
+    {
+      "type": "enableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Friend",
+      "direction": "downLeft",
+      "speed": 100,
+      "text": "-9.5,-3"
+    },
+    {
+      "type": "moveFace",
+      "name": "Friend",
+      "direction": "right"
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "location": "-7,-3",
+          "type": "CutsceneCollider",
+          "name": "1.1-Dream.2F-3F",
+          "size": "1,6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "He did not come this way",
+      "isTyped": "true"
+    },
+    {
+      "type": "fadeOut",
+      "name": "Morpheus"
+    },
+    {
+      "type": "disable",
+      "name": "Morpheus"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

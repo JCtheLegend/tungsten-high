@@ -1,0 +1,55 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "animate",
+      "name": "Friend",
+      "text": "80sFriendUp1"
+    },
+    {
+      "type": "wait",
+      "text": "1"
+    },
+    {
+      "type": "dialog",
+      "speakerSprite": "80s Friend",
+      "text": "Oh No!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "speakerSprite": "80s Friend",
+      "text": "We forgot to put our names on here!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "speakerSprite": "80s Friend",
+      "text": "Quick, go ask around to see if anyone has a marker we can use.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "8"
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "location": "7,14",
+          "type": "CutsceneCollider",
+          "name": "1.1-Dream.Gym.Caught",
+          "size": "1,2"
+        }
+      ]
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

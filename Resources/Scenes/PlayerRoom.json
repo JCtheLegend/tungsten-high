@@ -1,0 +1,12 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 1,
+      "maxGameCounter": 2,
+      "type": "cutscene",
+      "name": "1.1-PlayerRoom.1"
+    }
+  ]
+}

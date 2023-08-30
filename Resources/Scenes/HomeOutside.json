@@ -1,0 +1,64 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 2,
+      "maxSceneCounter": 3,
+      "minGameCounter": 1,
+      "maxGameCounter": 2,
+      "type": "Lawnmower",
+      "name": "Lawnmower",
+      "location": "44.5,10.5"
+    },
+    {
+      "minSceneCounter": 2,
+      "maxSceneCounter": 3,
+      "minGameCounter": 1,
+      "maxGameCounter": 2,
+      "type": "Car",
+      "name": "Car",
+      "location": "36,12",
+      "assets": [
+        {
+          "type": "CutsceneTrigger",
+          "fileName": "1.1-HomeOutside.CarLeave",
+          "destroy": true,
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 2,
+      "maxSceneCounter": 3,
+      "minGameCounter": 1,
+      "maxGameCounter": 2,
+      "type": "Dad",
+      "name": "Dad",
+      "location": "44.5,8.5",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [ "Hey son, want to give me a hand with this lawnmower?", "Ah, I'm just kidding, I'll try and fix it on my own.", "Have a good first day at super school! Your mom and I are both very proud of you." ],
+          "isTyped": [ true, true, true ],
+          "facePlayer": true
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 2,
+      "maxSceneCounter": 3,
+      "minGameCounter": 1,
+      "maxGameCounter": 2,
+      "type": "Mom",
+      "name": "Mom",
+      "location": "34,12",
+      "assets": [
+        {
+          "type": "CutsceneTrigger",
+          "fileName": "1.1-HomeOutside.CarLeave",
+          "destroy": true,
+          "facePlayer": true
+        }
+      ]
+    }
+  ]
+}

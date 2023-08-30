@@ -1,0 +1,7 @@
+dialogType,isEnd,speaker,speakerSprite,text,modifier,skipTo,isTyped,choiceNum,choiceData
+D,FALSE,Coach,Coach_1,Do you like Pizza?,,,TRUE,,
+C,FALSE,,,,,,FALSE,2,Yes/4/No/5
+D,FALSE,Coach,Coach_1,You like pizza,,6,TRUE,,
+D,FALSE,Coach,Coach_1,You do not like pizza,,,FALSE,,
+DC,FALSE,Coach,Coach_1,Are you sure?,,,FALSE,2,Yes/7/No/7
+D,TRUE,Coach,Coach_1,The End,,,FALSE,,

@@ -1,0 +1,62 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 3,
+      "maxGameCounter": 4,
+      "type": "Car",
+      "name": "Car",
+      "location": "-14,-3.5",
+      "assets": []
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 3,
+      "maxGameCounter": 4,
+      "type": "Handstand",
+      "name": "Handstand",
+      "location": "26,2.5",
+      "assets": []
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 3,
+      "maxGameCounter": 4,
+      "type": "Bubba",
+      "name": "Bubba",
+      "location": "44,10",
+      "assets": []
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 3,
+      "maxGameCounter": 4,
+      "type": "Micycle",
+      "name": "Micycle",
+      "location": "-13,0.5",
+      "assets": []
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 3,
+      "maxGameCounter": 4,
+      "type": "cutscene",
+      "name": "1.1-SchoolOutside.1"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 3,
+      "maxGameCounter": 4,
+      "location": "16,0.5",
+      "type": "CutsceneCollider",
+      "size": "1,30",
+      "name": "1.1-SchoolOutside.2"
+    }
+  ]
+}

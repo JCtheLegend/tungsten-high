@@ -1,0 +1,32 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 0,
+      "maxGameCounter": 1,
+      "type": "Character",
+      "name": "Friend",
+      "location": "5,1",
+      "facing":  "left"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 0,
+      "maxGameCounter": 1,
+      "type": "cutscene",
+      "name": "1.1-Dream.303.1"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 0,
+      "maxGameCounter": 1,
+      "location": "1.5,-2.5",
+      "type": "CutsceneCollider",
+      "size":  "1,11",
+      "name": "1.1-Dream.303.2"
+    }
+  ]
+}

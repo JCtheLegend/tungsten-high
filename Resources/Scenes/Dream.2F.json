@@ -1,0 +1,21 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 5,
+      "maxSceneCounter": 6,
+      "minGameCounter": 0,
+      "maxGameCounter": 1,
+      "type": "Character",
+      "name": "Friend",
+      "location": "37.5,41"
+    },
+    {
+      "minSceneCounter": 5,
+      "maxSceneCounter": 6,
+      "minGameCounter": 0,
+      "maxGameCounter": 1,
+      "type": "cutscene",
+      "name": "1.1-Dream.2F"
+    }
+  ]
+}

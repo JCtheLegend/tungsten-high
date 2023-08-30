@@ -1,0 +1,15 @@
+{
+  "Items": [
+    {
+      "type": "move",
+      "name": "Friend",
+      "direction": "down",
+      "speed": 2,
+      "text": "37.5,35"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "6"
+    }
+  ]
+}

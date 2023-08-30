@@ -1,0 +1,28 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "As the only cubic super in the school",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I have been nominated as guardian of the staircase",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I can't let you through right now'",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

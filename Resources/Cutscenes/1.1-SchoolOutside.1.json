@@ -1,0 +1,52 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "right",
+      "speed": 3,
+      "text": "-1,-3.5"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "up",
+      "speed": 3,
+      "text": "-1,0.5"
+    },
+    {
+      "type": "dialog",
+      "text": "Bye Mark! Have a good first day!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I'll be back to pick you up after school!'",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enable",
+      "name": "Player"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "up",
+      "speed": 3,
+      "text": "-1,20"
+    },
+    {
+      "type": "disable",
+      "name": "Car"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

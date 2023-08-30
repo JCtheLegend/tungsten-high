@@ -1,0 +1,24 @@
+{
+    "Items": [
+        {
+            
+        },
+        {
+            "type": "timeline",
+            "text": "CarArrive"
+        },
+        {
+            "type": "dialog",
+            "speaker": "Mom",
+            "text": "Bye honey! Have a great first day of school!",
+            "isTyped": "true"
+        },
+        {
+            "type": "enableMovement"
+        },
+        {
+            "type": "timeline",
+            "text": "CarLeave"
+        }
+    ]
+}

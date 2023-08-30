@@ -1,0 +1,21 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 6,
+      "maxSceneCounter": 7,
+      "minGameCounter": 0,
+      "maxGameCounter": 1,
+      "type": "Character",
+      "name": "Friend",
+      "location": "20,14"
+    },
+    {
+      "minSceneCounter": 6,
+      "maxSceneCounter": 7,
+      "minGameCounter": 0,
+      "maxGameCounter": 1,
+      "type": "cutscene",
+      "name": "1.1-Dream.Gym.1"
+    }
+  ]
+}

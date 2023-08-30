@@ -1,0 +1,23 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "The winners of the science fair get to see Anchor Man!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I would be so nervous!",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

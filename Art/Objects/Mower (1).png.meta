@@ -1,0 +1,864 @@
+fileFormatVersion: 2
+guid: 1a7a3622c918ba249bf4ba7325fda50c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3194589829887859782
+    second: Mower (1)_0
+  - first:
+      213: 1467365896302785433
+    second: Mower (1)_1
+  - first:
+      213: 4282860679894863342
+    second: Mower (1)_2
+  - first:
+      213: 5929612779247186264
+    second: Mower (1)_3
+  - first:
+      213: 5476595131837267478
+    second: Mower (1)_4
+  - first:
+      213: -594866608771457115
+    second: Mower (1)_5
+  - first:
+      213: -5953359402274432780
+    second: Mower (1)_6
+  - first:
+      213: 3634383275393504407
+    second: Mower (1)_7
+  - first:
+      213: 4464377297898542131
+    second: Mower (1)_8
+  - first:
+      213: 3610728734939983810
+    second: Mower (1)_9
+  - first:
+      213: -6089708843386820641
+    second: Mower (1)_10
+  - first:
+      213: -1415019965869100293
+    second: Mower (1)_11
+  - first:
+      213: 404202010275838843
+    second: Mower (1)_12
+  - first:
+      213: 8653700153066626647
+    second: Mower (1)_13
+  - first:
+      213: 804471742885832948
+    second: Mower (1)_14
+  - first:
+      213: -8257385491391345082
+    second: Mower (1)_15
+  - first:
+      213: 8107117389231888499
+    second: Mower (1)_16
+  - first:
+      213: 8527952869160937831
+    second: Mower (1)_17
+  - first:
+      213: 1696098851033142619
+    second: Mower (1)_18
+  - first:
+      213: -4859548670820934794
+    second: Mower (1)_19
+  - first:
+      213: -3927093346414892322
+    second: Mower (1)_20
+  - first:
+      213: -3160383716116936416
+    second: Mower (1)_21
+  - first:
+      213: -5365634812119683131
+    second: Mower (1)_22
+  - first:
+      213: -8961468915551708665
+    second: Mower (1)_23
+  - first:
+      213: 4076850338643694741
+    second: Mower (1)_24
+  - first:
+      213: -3891413946376521450
+    second: Mower (1)_25
+  - first:
+      213: -7292129099295933107
+    second: Mower (1)_26
+  - first:
+      213: -7928698899563446493
+    second: Mower (1)_27
+  - first:
+      213: 653622531068058952
+    second: Mower (1)_28
+  - first:
+      213: 3280275838974317886
+    second: Mower (1)_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mower (1)_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 941
+        width: 32
+        height: 66
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.3181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c9a8d4686755c20800000000000000
+      internalID: 3194589829887859782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 942
+        width: 32
+        height: 65
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99376ac12812d5410800000000000000
+      internalID: 1467365896302785433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 941
+        width: 33
+        height: 69
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.30434784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed0f97c817cf6b30800000000000000
+      internalID: 4282860679894863342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_3
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 941
+        width: 36
+        height: 67
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.31343284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85135a208673a4250800000000000000
+      internalID: 5929612779247186264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 941
+        width: 39
+        height: 66
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.3181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e3bc39146c00c40800000000000000
+      internalID: 5476595131837267478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_5
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 941
+        width: 39
+        height: 66
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.3181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af9f6798fb9eb7f0800000000000000
+      internalID: -594866608771457115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_6
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 941
+        width: 33
+        height: 66
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.3181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f853377a2b616da0800000000000000
+      internalID: -5953359402274432780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_7
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 941
+        width: 32
+        height: 66
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.3181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794537b455cef6230800000000000000
+      internalID: 3634383275393504407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 685
+        width: 32
+        height: 68
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.30882353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3349f88cf77a4fd30800000000000000
+      internalID: 4464377297898542131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 685
+        width: 33
+        height: 69
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.30434784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfa46a67a2eb1230800000000000000
+      internalID: 3610728734939983810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 685
+        width: 33
+        height: 69
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.30434784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7af5452120d7ba0800000000000000
+      internalID: -6089708843386820641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 685
+        width: 45
+        height: 68
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.30882353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2794096d6dc5ce0800000000000000
+      internalID: -1415019965869100293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_12
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 685
+        width: 79
+        height: 66
+      alignment: 9
+      pivot: {x: 0.18987343, y: 0.3181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b7df736930c9500800000000000000
+      internalID: 404202010275838843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_13
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 640
+        width: 21
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e9740a07e181870800000000000000
+      internalID: 8653700153066626647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 685
+        width: 50
+        height: 66
+      alignment: 9
+      pivot: {x: 0.62, y: 0.3181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8ac82b9ce0a2b00800000000000000
+      internalID: 804471742885832948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_15
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 685
+        width: 32
+        height: 66
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.3181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e872425afd76d80800000000000000
+      internalID: -8257385491391345082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 429
+        width: 32
+        height: 68
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.30882353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3781f89ef44428070800000000000000
+      internalID: 8107117389231888499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 429
+        width: 33
+        height: 69
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.30434784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7696c9393ff595670800000000000000
+      internalID: 8527952869160937831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_18
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 429
+        width: 32
+        height: 66
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.3181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5557cf2be0c98710800000000000000
+      internalID: 1696098851033142619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 429
+        width: 33
+        height: 69
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.30434784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b1ffa1b3a6f8cb0800000000000000
+      internalID: -4859548670820934794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_20
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 429
+        width: 37
+        height: 77
+      alignment: 9
+      pivot: {x: 0.4054054, y: 0.27272728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edae32778692089c0800000000000000
+      internalID: -3927093346414892322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_21
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 429
+        width: 32
+        height: 66
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.3181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029cbee21cf0424d0800000000000000
+      internalID: -3160383716116936416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_22
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 430
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfe225119f6985b0800000000000000
+      internalID: -5365634812119683131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_23
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 429
+        width: 32
+        height: 66
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.3181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ad5de408772a380800000000000000
+      internalID: -8961468915551708665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 173
+        width: 32
+        height: 61
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.34426227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594d94d68c1e39830800000000000000
+      internalID: 4076850338643694741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 173
+        width: 32
+        height: 52
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.40384617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619f93422abeef9c0800000000000000
+      internalID: -3891413946376521450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_26
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 175
+        width: 32
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5588235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d3d2438372dca90800000000000000
+      internalID: -7292129099295933107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 175
+        width: 32
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5588235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f7d70eb5a97f190800000000000000
+      internalID: -7928698899563446493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_28
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 175
+        width: 32
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5588235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dd08d9a32221900800000000000000
+      internalID: 653622531068058952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mower (1)_29
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 175
+        width: 32
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5588235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e355c53fe71e58d20800000000000000
+      internalID: 3280275838974317886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

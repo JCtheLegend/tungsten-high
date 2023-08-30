@@ -1,0 +1,122 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "speakerSprite": "Paperboy",
+      "text": "It's not good enough!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "speakerSprite": "Sparks(girl)",
+      "text": "The amplifier is something no one's ever done before, even at...",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "speakerSprite": "Paperboy",
+      "text": "Where is the showmanship?! The shock factor!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "speakerSprite": "80s Friend",
+      "text": "We're not going to win with some glow in the dark cells. We need something else.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "speakerSprite": "Sparks(girl)",
+      "text": "Ant... we promised not to...",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "speakerSprite": "Sparks(girl)",
+      "text": "I know what we promised! We just... We need something more.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "speakerSprite": "Marcy",
+      "text": "Marcy, what do you think?",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "speakerSprite": "Marcy",
+      "text": "I think... I think you're...",
+      "isTyped": "true"
+    },
+    {
+      "type": "animate",
+      "name": "Marcy",
+      "text": "MarcyGrab",
+      "isContinue": "false"
+    },
+    {
+      "type": "move",
+      "name": "Boxes_0",
+      "direction": "upRight",
+      "speed": 10,
+      "text": "19,19",
+      "isContinue": "true"
+    },
+    {
+      "type": "disableCollider",
+      "name": "Boxes_0"
+    },
+    {
+      "type": "rotate",
+      "name": "Boxes_0",
+      "direction": "right",
+      "speed": 1,
+      "text": "360",
+      "isContinue": "true"
+    },
+    {
+      "type": "hide",
+      "name": "Player"
+    },
+    {
+      "type": "animate",
+      "name": "Marcy",
+      "text": "MarcyGrabPlayer",
+      "isContinue": "true"
+    },
+    {
+      "type": "dialog",
+      "speakerSprite": "80s Friend",
+      "text": "You're not supposed to be here.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "speakerSprite": "80s Friend",
+      "text": "You're not...",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "WhiteFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "0"
+    },
+    {
+      "type": "setGameCounter",
+      "text": "1"
+    },
+    {
+      "type": "loadScene",
+      "text": "Player Room"
+    }
+  ]
+}
