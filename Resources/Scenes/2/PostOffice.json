@@ -1,0 +1,24 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 4, 4 ],
+      "validStages": [ 1, 1 ],
+      "type": "Pickup",
+      "name": "Quarter"
+    },
+    {
+      "validScenes": [ 4, 4 ],
+      "validStages": [ 1, 1 ],
+      "type": "Mailman",
+      "name": "Mailman",
+      "location": "0,-0.5",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "name": "2.PR.MailQuarter",
+          "fileName": "2.PR.MailQuarter"
+        }
+      ]
+    }
+  ]
+}

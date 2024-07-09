@@ -1,0 +1,77 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Is color and decor more fun to you than punching and kicking?",
+      "name": "Seagull",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Then consider joining the Style and Flair Club!",
+      "name": "Seagull",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We work on making costumes for our students and keeping this campus as nice looking as possible!",
+      "name": "Seagull",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "The team jerseys we design are also on display in the Super Olympics we have against Platinum Prep.",
+      "name": "Seagull",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Which we haven't won since '92...",
+      "name": "Seagull",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "...anyway!",
+      "name": "Seagull",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We also are in charge of throwing the Snow Ball and hosting other school events!",
+      "name": "Seagull",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialogAndChoice",
+      "text": "Sign up for Style and Flair Club?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "skips": [
+        0,
+        2
+      ],
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "You have successfully signed up for Style and Flair Club.",
+      "isTyped": "true"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 1
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

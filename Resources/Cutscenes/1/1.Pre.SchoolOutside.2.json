@@ -1,0 +1,118 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "right",
+      "text": "16, 0.5",
+      "speed": 1
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "right"
+    },
+    {
+      "type": "teleport",
+      "name": "Micycle",
+      "text": "0, 0.5"
+    },
+    {
+      "type": "animate",
+      "name": "Micycle",
+      "text": "BikeWalkRight",
+      "isContinue": "true"
+    },
+    {
+      "type": "move",
+      "name": "Micycle",
+      "direction": "right",
+      "speed": 3,
+      "text": "14,0.5",
+      "animateOverride": true
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "down",
+      "speed": 2,
+      "text": "16,2"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "down"
+    },
+    {
+      "type": "dialog",
+      "text": "Whoops, sorry about that.",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "It's kinda hard to see when I'm zoomin.",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "animate",
+      "name": "Micycle",
+      "text": "MikeTransformPerson"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "dialog",
+      "text": "I'm Mike by the way.  You new to this school too?",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Cool, I'll see ya inside.",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Micycle",
+      "direction": "right",
+      "speed": 3,
+      "text": "24,0.5"
+    },
+    {
+      "type": "move",
+      "name": "Micycle",
+      "direction": "right",
+      "speed": 3,
+      "text": "24,0.5"
+    },
+    {
+      "type": "move",
+      "name": "Micycle",
+      "direction": "up",
+      "speed": 3,
+      "text": "24,2"
+    },
+    {
+      "type": "moveFace",
+      "name": "Micycle",
+      "direction": "right"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

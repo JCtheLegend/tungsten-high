@@ -10,13 +10,19 @@ public class EnemyController : MonoBehaviour
     protected SpriteRenderer sprite;
 
     [SerializeField] string hurtAnimation;
+    [SerializeField] string deadAnimation;
     [SerializeField] string defaultAnimation;
-    [SerializeField] string arriveAnimationX;
-    [SerializeField] string arriveAnimationY;
-    [SerializeField] SpriteRenderer enemyHealthBar;
-    [SerializeField] SoundController sound;
 
-    [SerializeField] private float moveSpeed = 1;
+    [SerializeField] internal GameObject enemyHealthBar;
+    [SerializeField] internal SpriteRenderer enemyCurrentHealthBar;
+    [SerializeField] CutsceneManager cutscene;
+    [SerializeField] FightCard fightCard;
+    public PlayerCombatController player;
+
+    [SerializeField] protected float moveSpeed = 1;
+
+    [SerializeField] internal string onDeathCutscene;
+
     internal Vector2 moveVelocity;
     public int currentHealth;
     public int maxHealth;
@@ -24,32 +30,41 @@ public class EnemyController : MonoBehaviour
     public int collisionDamage;
     Sprite enemyHealthBarFull;
 
-    combatState state;
+
+    protected combatState state;
 
     protected Rigidbody2D rb;
 
+    internal MusicController music;
+    internal SoundController sound;
+
     protected virtual void Start()
     {
-        enemyHealthBarFull = enemyHealthBar.sprite;
+        enemyHealthBarFull = enemyCurrentHealthBar.sprite;
+        music = GameObject.Find("Music Manager").GetComponent<MusicController>();
+        sound = GetComponent<SoundController>();
+    }
+
+    protected virtual void Awake()
+    {
+        
     }
 
     // Update is called once per frame
     protected virtual void Update()
     {
-        sprite.sortingOrder = 32767 - (int)Mathf.Ceil((rb.position.y + 50) * 100);
-        if (state == combatState.hurt)
+        if (state == combatState.dead)
+        {
+            ChangeAnimationState(deadAnimation, 0);
+        }
+        else if (state == combatState.hurt)
         {
             ChangeAnimationState(hurtAnimation, 0);
         }
-        else if (state == combatState.arrivedX)
+        else
         {
-            ChangeAnimationState(arriveAnimationX, 0);
+            ChangeAnimationState(defaultAnimation, 0);
         }
-        else if (state == combatState.arrivedY)
-        {
-            ChangeAnimationState(arriveAnimationY, 0);
-        }
-        rb.velocity = moveVelocity;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -64,9 +79,9 @@ public class EnemyController : MonoBehaviour
 
     protected virtual void HandleCollision(GameObject collisionObject)
     {
-        if (collisionObject.tag == "Player Attack" && state == combatState.none)
+        if (collisionObject.CompareTag("Player Attack") && state == combatState.none)
         {
-            StartCoroutine(Hurt(collisionObject.gameObject.GetComponentInParent<PlayerCombatController>().attackDamage));
+            StartCoroutine(Hurt(collisionObject.GetComponentInParent<PlayerCombatController>().attackDamage));
         }
     }
     protected void ChangeAnimationState(string newState, int layer)
@@ -77,13 +92,12 @@ public class EnemyController : MonoBehaviour
         animator.Play(newState, layer);
     }
 
-    protected enum combatState { none, attacking, hurt, arrivedX, arrivedY };
+    protected enum combatState { none, attacking, hurt, arrivedX, arrivedY, dead };
 
-    IEnumerator Hurt(int damage)
+    protected virtual IEnumerator Hurt(int damage)
     {
         state = combatState.hurt;
         TakeDamage(damage);
-        Debug.Log(currentHealth);
         sound.PlayAudio("punch-hit");
         float p = ((float)currentHealth / maxHealth);
         CropEnemyHealthSprite(p);
@@ -96,6 +110,14 @@ public class EnemyController : MonoBehaviour
         currentHealth += amount;
         if (currentHealth <= 0)
         {
+            foreach(SpriteRenderer s in enemyHealthBar.GetComponentsInChildren<SpriteRenderer>())
+            {
+                StartCoroutine(GameManager.FadeOut(s, 1));
+            }
+            foreach(SpriteRenderer s in player.playerHealthBar.GetComponentsInChildren<SpriteRenderer>())
+            {
+                StartCoroutine(GameManager.FadeOut(s, 1));
+            }
             Die();
         }
         if (currentHealth >= maxHealth)
@@ -116,13 +138,32 @@ public class EnemyController : MonoBehaviour
 
     internal virtual void Die()
     {
-
+        if (onDeathCutscene != "")
+        {
+            cutscene.BeginCutscene(onDeathCutscene);
+        }
     }
 
-    private void CropEnemyHealthSprite(float percentage)
+    internal virtual void StartMusic()
     {
+        //music.ChangeSong("Fight Music 1");
+    }
+
+    internal virtual IEnumerator StartFight()
+    {
+        //StartCoroutine(fightCard.DisplayTitleCard());
+        CropEnemyHealthSprite(1);
+        yield return null;
+    }
+
+    internal void CropEnemyHealthSprite(float percentage)
+    {
+        if(percentage < 0)
+        {
+            percentage = 0;
+        }
         Rect r = new Rect(0, 0, (int)Mathf.Ceil(enemyHealthBarFull.rect.width * percentage), enemyHealthBarFull.rect.height);
         Sprite newSprite = Sprite.Create(enemyHealthBarFull.texture, r, new Vector2(0, 0.5f), 16);
-        enemyHealthBar.sprite = newSprite;
+        enemyCurrentHealthBar.sprite = newSprite;
     }
 }

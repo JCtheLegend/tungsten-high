@@ -1,0 +1,60 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "startBlack"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "down"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "1.5, 14"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "move",
+      "name": "Norbert",
+      "direction": "up",
+      "speed": 3,
+      "text": "1.5,13"
+    },
+    {
+      "type": "dialog",
+      "text": "You did it!",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You beat that nightmare!",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Let's grab the key and get back to <THE PLACE>, so you can back to your dream.",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "addFollow",
+      "name": "Player",
+      "text": "Norbert"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

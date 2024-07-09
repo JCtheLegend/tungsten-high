@@ -1,0 +1,504 @@
+fileFormatVersion: 2
+guid: 4e0da859da43ca14dbd595e046540b9d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4196945051952985655
+    second: Crab Death_0
+  - first:
+      213: -3778578716836804775
+    second: Crab Death_1
+  - first:
+      213: -785937726215493999
+    second: Crab Death_2
+  - first:
+      213: 4934449165584289643
+    second: Crab Death_3
+  - first:
+      213: -7855776891618054848
+    second: Crab Death_7
+  - first:
+      213: -7812996542887384854
+    second: Crab Death_8
+  - first:
+      213: -4283090237504215788
+    second: Crab Death_9
+  - first:
+      213: 4201394568178232596
+    second: Crab Death_10
+  - first:
+      213: 128752892813724620
+    second: Crab Death_11
+  - first:
+      213: -7248597377857386931
+    second: Crab Death_12
+  - first:
+      213: -1363550703249418234
+    second: Crab Death_13
+  - first:
+      213: 2484057291046727869
+    second: Crab Death_14
+  - first:
+      213: 7227548190378825966
+    second: Crab Death_15
+  - first:
+      213: -3970921870619305878
+    second: Crab Death_16
+  - first:
+      213: -848696103484864460
+    second: Crab Death_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crab Death_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 416
+        width: 23
+        height: 72
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736bd73d94b8e3a30800000000000000
+      internalID: 4196945051952985655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crab Death_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 416
+        width: 23
+        height: 72
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95747134daacf8bc0800000000000000
+      internalID: -3778578716836804775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crab Death_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 440
+        width: 36
+        height: 61
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.18032786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196e8555dc9c715f0800000000000000
+      internalID: -785937726215493999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crab Death_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 451
+        width: 40
+        height: 47
+      alignment: 9
+      pivot: {x: 0.475, y: 0.4042553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fcfdc4f5faa7440800000000000000
+      internalID: 4934449165584289643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crab Death_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 320
+        width: 48
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5208334, y: 0.53658533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d226ce98caaf290800000000000000
+      internalID: -7855776891618054848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crab Death_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 337
+        width: 41
+        height: 35
+      alignment: 9
+      pivot: {x: 0.4390244, y: 0.62857145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8a7dd0a09a29390800000000000000
+      internalID: -7812996542887384854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crab Death_9
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 337
+        width: 40
+        height: 34
+      alignment: 9
+      pivot: {x: 0.45000002, y: 0.64705884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4152e9c2f186f84c0800000000000000
+      internalID: -4283090237504215788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crab Death_10
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 337
+        width: 52
+        height: 34
+      alignment: 9
+      pivot: {x: 0.4615385, y: 0.64705884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41de48d891a5e4a30800000000000000
+      internalID: 4201394568178232596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crab Death_11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 213
+        width: 59
+        height: 28
+      alignment: 9
+      pivot: {x: 0.44067797, y: 0.71428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb47f7e21c69c100800000000000000
+      internalID: 128752892813724620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crab Death_12
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 215
+        width: 49
+        height: 24
+      alignment: 9
+      pivot: {x: 0.4489796, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d468bfce61fc76b90800000000000000
+      internalID: -7248597377857386931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crab Death_13
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 220
+        width: 56
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5178572, y: 0.7894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608959b1cd1b31de0800000000000000
+      internalID: -1363550703249418234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crab Death_14
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 220
+        width: 59
+        height: 20
+      alignment: 9
+      pivot: {x: 0.4915254, y: 0.85}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db03f82f1f4297220800000000000000
+      internalID: 2484057291046727869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crab Death_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 92
+        width: 59
+        height: 20
+      alignment: 9
+      pivot: {x: 0.4915254, y: 0.85}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee81c8439c86d4460800000000000000
+      internalID: 7227548190378825966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crab Death_16
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 92
+        width: 59
+        height: 20
+      alignment: 9
+      pivot: {x: 0.4915254, y: 0.85}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6818e6f89374e8c0800000000000000
+      internalID: -3970921870619305878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crab Death_17
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 92
+        width: 59
+        height: 20
+      alignment: 9
+      pivot: {x: 0.4915254, y: 0.85}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438c685f363d834f0800000000000000
+      internalID: -848696103484864460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

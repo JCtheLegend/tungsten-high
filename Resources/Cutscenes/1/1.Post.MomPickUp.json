@@ -1,0 +1,90 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "down",
+      "text": "24,-1",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "down"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "left",
+      "text": "24,-4",
+      "speed": 5
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "down",
+      "text": "24,-2",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "down"
+    },
+    {
+      "type": "dialog",
+      "text": "Hi honey, how was your first day at school?",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Beat up any bad guys, haha?",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, just a punching bag? That's nice.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "hide",
+      "name": "Player"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Car"
+    },
+    {
+      "type": "playSound",
+      "name": "car"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "left",
+      "speed": 4,
+      "text": "-15,-4"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "loadScene",
+      "name": "Home Front"
+    }
+  ]
+}

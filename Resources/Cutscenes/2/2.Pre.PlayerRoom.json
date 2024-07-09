@@ -1,0 +1,61 @@
+{
+  "Items": [
+    {
+      "type": "disableCollider",
+      "name": "Bed"
+    },
+    {
+      "type": "hide",
+      "name": "Player"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "-3.1875, 2.8125"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "changeCostume",
+      "text": "pjs"
+    },
+    {
+      "type": "animate",
+      "name": "Bed",
+      "text": "bed_wakeup",
+      "isContinue": "false"
+    },
+    {
+      "type": "animate",
+      "name": "Player",
+      "text": "pj_sit",
+      "isContinue": "false"
+    },
+    {
+      "type": "unhide",
+      "name": "Player"
+    },
+    {
+      "type": "animate",
+      "name": "Bed",
+      "text": "bed_get_out",
+      "isContinue": "false"
+    },
+    {
+      "type": "enableCollider",
+      "name": "Bed"
+    },
+    {
+      "type": "changeSong",
+      "name": "Home"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 1
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

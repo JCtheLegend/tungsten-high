@@ -1,0 +1,15 @@
+{
+  "Items": [
+    {
+      "type": "move",
+      "name": "Stranger",
+      "direction": "up",
+      "speed": 4,
+      "text": "0,32"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 7 
+    }
+  ]
+}

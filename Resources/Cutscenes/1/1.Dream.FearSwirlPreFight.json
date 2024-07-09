@@ -1,0 +1,43 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement",
+      "text": 1
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "animate",
+      "name": "Fear Swirl",
+      "text": "fear_crab_morph"
+    },
+    {
+      "type": "wait",
+      "text": 5
+    },
+    {
+      "type": "playSound",
+      "name": "lightning"
+    },
+    {
+      "type": "startWhite"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "clearFade"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "loadScene",
+      "name": "Crab Battle"
+    }
+  ]
+}

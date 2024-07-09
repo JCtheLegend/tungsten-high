@@ -1,0 +1,183 @@
+{
+  "Items": [
+    {
+      "type": "startWhite"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "0.5, -3.5"
+    },
+    {
+      "type": "moveCamera",
+      "name": "Camera",
+      "text": "0.5, -6",
+      "speed": 5
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "move",
+      "name": "Mom",
+      "direction": "left",
+      "text": "5.5,-7.5",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Mom",
+      "direction": "left"
+    },
+    {
+      "type": "dialog",
+      "text": "Well, what is taking you guys so long?",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Your dinner is getting cold!",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Ah, sorry. I was stuck having a nightmare about that darn lawnmower.",
+      "name": "Dad",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Luckily, our son is a household hero and was able to get me out of it.",
+      "name": "Dad",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Looks like your schooling is already paying off!",
+      "name": "Dad",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh? Well, that's wonderful, I'm excited to see what you can accomplish after an entire year then!",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now, let's go eat some dinner.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Mom",
+          "direction": "right",
+          "speed": 2,
+          "text": "9,-7.5"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Player",
+          "direction": "right",
+          "speed": 3,
+          "text": "4.5,-3.5"
+        },
+        {
+          "type": "move",
+          "name": "Player",
+          "direction": "down",
+          "speed": 2,
+          "text": "4.5,-7.5"
+        },
+        {
+          "type": "move",
+          "name": "Player",
+          "direction": "right",
+          "speed": 2,
+          "text": "9,-7.5"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Dad",
+          "direction": "down",
+          "speed": 2,
+          "text": "0.5,-3.5"
+        },
+        {
+          "type": "move",
+          "name": "Dad",
+          "direction": "right",
+          "speed": 2,
+          "text": "4.5,-3.5"
+        },
+        {
+          "type": "move",
+          "name": "Dad",
+          "direction": "down",
+          "speed": 2,
+          "text": "4.5,-7.5"
+        },
+        {
+          "type": "move",
+          "name": "Dad",
+          "direction": "right",
+          "speed": 2,
+          "text": "9,-7.5"
+        }
+      ],
+      "isContinue": false
+    },
+    {
+      "type": "wait",
+      "text": 7
+    },
+    {
+      "type": "clearFade"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Your health has been restored.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "loadScene",
+      "name": "Kitchen+DiningRoom"
+    }
+  ]
+}

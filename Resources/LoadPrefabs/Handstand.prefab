@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 15266275779167267}
   - component: {fileID: 3742773261764861622}
   - component: {fileID: 2158819051083833669}
+  - component: {fileID: 2688518336525995176}
   m_Layer: 0
   m_Name: Handstand
   m_TagString: Untagged
@@ -122,12 +123,12 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!114 &6712080876656508984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,7 +160,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03125, y: 0.09375}
+  m_Offset: {x: 0, y: -0.43551862}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -170,7 +171,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1875, y: 1.9375}
+  m_Size: {x: 1.0625, y: 1.0039628}
   m_EdgeRadius: 0
 --- !u!114 &3742773261764861622
 MonoBehaviour:
@@ -198,12 +199,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upMoveAnim: HandstandWalkUp
   downMoveAnim: HandstandWalkDown
-  rightMoveAnim: HandstandWalkRight
-  leftMoveAnim: HandstandWalkLeft
+  rightMoveAnim: HandstandWalkSide
+  leftMoveAnim: 
   defaultUpAnim: 
   defaultDownAnim: 
   defaultRightAnim: 
   defaultLeftAnim: 
   initialFacing: 3
-  mirrorFace: 0
+  mirrorFace: 1
   hasIdleAnims: 0
+--- !u!114 &2688518336525995176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9133624028604295805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd37bcca108f114c91bb0a0ec156db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yOverride: 0
+  yCoord: 0

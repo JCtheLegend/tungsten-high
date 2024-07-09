@@ -1,0 +1,42 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Alright <Name>, you will be working with Mike this week at the Bank!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "It's on the southwest side of the town square.",
+      "isTyped": "true"
+    },
+    {
+      "type": "moveFace",
+      "name": "Micycle",
+      "direction": "down"
+    },
+    {
+      "type": "dialog",
+      "text": "Mike is hanging out with you!",
+      "isTyped": "false"
+    },
+    {
+      "type": "addFollow",
+      "name": "Player",
+      "text": "Micycle"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 3
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

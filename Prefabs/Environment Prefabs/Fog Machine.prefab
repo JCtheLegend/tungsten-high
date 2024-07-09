@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6804647924426185936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6804647924426185942}
+  - component: {fileID: 6804647924426185937}
+  m_Layer: 0
+  m_Name: Fog Machine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6804647924426185942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6804647924426185936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.024246, y: -14.841587, z: -91.77695}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6804647924426185937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6804647924426185936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5ee64f598747ee42ab72bef0f8c05ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fogOptions:
+  - {fileID: 7189899079404944331, guid: 3426d0672702623478a4c3ecd2d70bef, type: 3}
+  - {fileID: 1676126821852529773, guid: 3426d0672702623478a4c3ecd2d70bef, type: 3}
+  - {fileID: -7905504830826982729, guid: 3426d0672702623478a4c3ecd2d70bef, type: 3}
+  - {fileID: -4374128259796738687, guid: 3426d0672702623478a4c3ecd2d70bef, type: 3}
+  - {fileID: -8753999380091107599, guid: 3426d0672702623478a4c3ecd2d70bef, type: 3}
+  - {fileID: 5498665306009267039, guid: 3426d0672702623478a4c3ecd2d70bef, type: 3}
+  fogTemplate: {fileID: 3823381531100692295, guid: cfcf4337a3a1d614491be6e9eb0c8f83, type: 3}
+  minX: -10
+  maxX: 35
+  minY: -25
+  maxY: 6
+  speed: 1
+  reloadTime: 2

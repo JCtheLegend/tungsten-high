@@ -16,6 +16,9 @@ GameObject:
   - component: {fileID: 5394220818732484867}
   - component: {fileID: 8726607918060688278}
   - component: {fileID: 6277887746778328165}
+  - component: {fileID: 5596563631468297669}
+  - component: {fileID: 6753830474469311658}
+  - component: {fileID: 2803648571087975150}
   m_Layer: 0
   m_Name: Micycle
   m_TagString: Untagged
@@ -159,7 +162,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03125, y: 0.09375}
+  m_Offset: {x: 0.0038647652, y: -0.46376708}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -170,7 +173,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1875, y: 1.9375}
+  m_Size: {x: 0.93882847, y: 0.75996584}
   m_EdgeRadius: 0
 --- !u!114 &8726607918060688278
 MonoBehaviour:
@@ -196,6 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e198e015c7ca8a542af80e930b4e3fc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   upMoveAnim: MikeWalkUp
   downMoveAnim: MikeWalkDown
   rightMoveAnim: MikeWalkRight
@@ -205,5 +209,45 @@ MonoBehaviour:
   defaultRightAnim: 
   defaultLeftAnim: 
   initialFacing: 1
-  mirrorFace: 0
+  mirrorFace: 1
   hasIdleAnims: 0
+--- !u!114 &5596563631468297669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3759104295059007325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd37bcca108f114c91bb0a0ec156db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yOverride: 0
+  yCoord: 0
+--- !u!114 &6753830474469311658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3759104295059007325}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd37bcca108f114c91bb0a0ec156db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yOverride: 0
+  yCoord: 0
+--- !u!114 &2803648571087975150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3759104295059007325}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bf9ad162b24f1f47b6b9a04f4788082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

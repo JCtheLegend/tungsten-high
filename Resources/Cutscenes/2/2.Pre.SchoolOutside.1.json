@@ -1,0 +1,87 @@
+{
+  "Items": [
+    {
+      "type": "setBlack"
+    },
+    {
+      "type": "fillFade"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "hide",
+      "name": "Player"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "2, 0.5"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Car"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "right",
+      "speed": 3,
+      "text": "-1,-3.5"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "up",
+      "speed": 3,
+      "text": "-1,0"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "unhide",
+      "name": "Player"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "dialog",
+      "text": "Bye Mark! I'll see you at home!",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Player"
+    },
+    {
+      "type": "playSound",
+      "name": "car"
+    },
+    {
+      "type": "enableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "up",
+      "speed": 3,
+      "text": "-1,10"
+    },
+    {
+      "type": "disable",
+      "name": "Car"
+    }
+  ]
+}

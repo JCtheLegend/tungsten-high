@@ -1,0 +1,1944 @@
+fileFormatVersion: 2
+guid: f284860273c478d41aa3665bef8a7ad5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6798710942246945305
+    second: Day 1 People_0
+  - first:
+      213: 3571194273090145695
+    second: Day 1 People_1
+  - first:
+      213: 2693362176741893349
+    second: Day 1 People_2
+  - first:
+      213: 3454089163099724987
+    second: Day 1 People_3
+  - first:
+      213: 3828782680781741376
+    second: Day 1 People_4
+  - first:
+      213: 4316571416533174374
+    second: Day 1 People_5
+  - first:
+      213: 7248429851206179949
+    second: Day 1 People_6
+  - first:
+      213: 7267375298736782051
+    second: Day 1 People_7
+  - first:
+      213: 4796851869082136147
+    second: Day 1 People_8
+  - first:
+      213: -5543010339955042091
+    second: Day 1 People_9
+  - first:
+      213: -7561693388273449620
+    second: Day 1 People_10
+  - first:
+      213: 1770018867042671327
+    second: Day 1 People_11
+  - first:
+      213: -3130734707230348380
+    second: Day 1 People_12
+  - first:
+      213: 1494578748110903851
+    second: Day 1 People_13
+  - first:
+      213: -6207238663595880267
+    second: Day 1 People_14
+  - first:
+      213: 4922296745366023319
+    second: Day 1 People_15
+  - first:
+      213: 8947184706452555094
+    second: Day 1 People_16
+  - first:
+      213: 6938641027029966323
+    second: Day 1 People_17
+  - first:
+      213: -4603654723201663636
+    second: Day 1 People_18
+  - first:
+      213: -8722454808234723704
+    second: Day 1 People_19
+  - first:
+      213: -3135188261331959497
+    second: Day 1 People_20
+  - first:
+      213: -2342501980471635102
+    second: Day 1 People_21
+  - first:
+      213: -268739145081832989
+    second: Day 1 People_22
+  - first:
+      213: 4245574691341217323
+    second: Day 1 People_23
+  - first:
+      213: 5493621895094411965
+    second: Day 1 People_24
+  - first:
+      213: -1604207468245833920
+    second: Day 1 People_25
+  - first:
+      213: -460676162311917021
+    second: Day 1 People_26
+  - first:
+      213: -2802198937536569295
+    second: Day 1 People_27
+  - first:
+      213: -341099852185438962
+    second: Day 1 People_28
+  - first:
+      213: 2566066658461916201
+    second: Day 1 People_29
+  - first:
+      213: -5322104438486444329
+    second: Day 1 People_30
+  - first:
+      213: -2979925467206030196
+    second: Day 1 People_31
+  - first:
+      213: 3858035717779966267
+    second: Day 1 People_32
+  - first:
+      213: 1869418663798129418
+    second: Day 1 People_33
+  - first:
+      213: 1722274179316634392
+    second: Day 1 People_34
+  - first:
+      213: 6407857146221010388
+    second: Day 1 People_35
+  - first:
+      213: 6758540251033224451
+    second: Day 1 People_36
+  - first:
+      213: 2424344316162465260
+    second: Day 1 People_37
+  - first:
+      213: 8369222989706753088
+    second: Day 1 People_38
+  - first:
+      213: -7444680313104335283
+    second: Day 1 People_39
+  - first:
+      213: 5796532352769682567
+    second: Day 1 People_40
+  - first:
+      213: 3353336705401288956
+    second: Day 1 People_41
+  - first:
+      213: 7176525199981392189
+    second: Day 1 People_42
+  - first:
+      213: 2165283110080520949
+    second: Day 1 People_43
+  - first:
+      213: -8657674766215703940
+    second: Day 1 People_44
+  - first:
+      213: -6329440094019952209
+    second: Day 1 People_45
+  - first:
+      213: -4191287248415434913
+    second: Day 1 People_46
+  - first:
+      213: -8728080601123183352
+    second: Day 1 People_47
+  - first:
+      213: -7229342084184354039
+    second: Day 1 People_48
+  - first:
+      213: -5734194304108958511
+    second: Day 1 People_49
+  - first:
+      213: 3651542457293124529
+    second: Day 1 People_50
+  - first:
+      213: 6237238697078262754
+    second: Day 1 People_51
+  - first:
+      213: -7623411543105907739
+    second: Day 1 People_52
+  - first:
+      213: -6490840559550891012
+    second: Day 1 People_53
+  - first:
+      213: 1005268644428011127
+    second: Day 1 People_54
+  - first:
+      213: 5286917811859873170
+    second: Day 1 People_55
+  - first:
+      213: -33886661149581468
+    second: Day 1 People_56
+  - first:
+      213: -5374768141285472243
+    second: Day 1 People_57
+  - first:
+      213: 9053355720552353914
+    second: Day 1 People_58
+  - first:
+      213: -537109535773393502
+    second: Day 1 People_59
+  - first:
+      213: 6408324416296708194
+    second: Day 1 People_60
+  - first:
+      213: 1129498319107977622
+    second: Day 1 People_61
+  - first:
+      213: -5366000296282200364
+    second: Day 1 People_62
+  - first:
+      213: 4370604097137039409
+    second: Day 1 People_63
+  - first:
+      213: 6350826759603202438
+    second: Day 1 People_64
+  - first:
+      213: -6545401952217339702
+    second: Day 1 People_65
+  - first:
+      213: 7109560390465094423
+    second: Day 1 People_66
+  - first:
+      213: -7818828636802557571
+    second: Day 1 People_67
+  - first:
+      213: 457979836515471280
+    second: Day 1 People_68
+  - first:
+      213: 8786223630430000892
+    second: Day 1 People_69
+  - first:
+      213: 3050842667060402863
+    second: Day 1 People_70
+  - first:
+      213: -6803919009543915343
+    second: Day 1 People_71
+  - first:
+      213: -1520248757209068760
+    second: Day 1 People_72
+  - first:
+      213: -1659048290972488015
+    second: Day 1 People_73
+  - first:
+      213: -3494544242629621050
+    second: Day 1 People_74
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Day 1 People_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 288
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed3fcc4b6026a1a0800000000000000
+      internalID: -6798710942246945305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 288
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d8277354e6f8130800000000000000
+      internalID: 3571194273090145695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 288
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e46c2431aeb06520800000000000000
+      internalID: 2693362176741893349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 288
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcd5151bc36fef20800000000000000
+      internalID: 3454089163099724987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 288
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04dd92aff81922530800000000000000
+      internalID: 3828782680781741376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 288
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668801a45da87eb30800000000000000
+      internalID: 4316571416533174374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 288
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c5b7cbb88979460800000000000000
+      internalID: 7248429851206179949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 288
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea77aa7457ead460800000000000000
+      internalID: 7267375298736782051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 288
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e2fc03c57d19240800000000000000
+      internalID: 4796851869082136147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 288
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d899a4c6754313b0800000000000000
+      internalID: -5543010339955042091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 288
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c658a8b4de77f0790800000000000000
+      internalID: -7561693388273449620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_11
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 288
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda51d718ce509810800000000000000
+      internalID: 1770018867042671327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_12
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 288
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab6c810f556d84d0800000000000000
+      internalID: -3130734707230348380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_13
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 288
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a9ff9e37fcdb410800000000000000
+      internalID: 1494578748110903851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_14
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 288
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b01c44a2557bd9a0800000000000000
+      internalID: -6207238663595880267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_15
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 288
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c6a9a7fc28f4440800000000000000
+      internalID: 4922296745366023319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 224
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65589e71619ca2c70800000000000000
+      internalID: 8947184706452555094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 224
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd921860410b4060800000000000000
+      internalID: 6938641027029966323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 224
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6df303ab688c10c0800000000000000
+      internalID: -4603654723201663636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 224
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88675c1c09d93f680800000000000000
+      internalID: -8722454808234723704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 224
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731855323e29d74d0800000000000000
+      internalID: -3135188261331959497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_21
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 224
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263d6502cd2cd7fd0800000000000000
+      internalID: -2342501980471635102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_22
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 224
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9b720eb2f354cf0800000000000000
+      internalID: -268739145081832989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_23
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 224
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e28c010bf4bea30800000000000000
+      internalID: 4245574691341217323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_24
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 224
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db22963d1044d3c40800000000000000
+      internalID: 5493621895094411965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_25
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 224
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047ad2d9ec5bcb9e0800000000000000
+      internalID: -1604207468245833920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_26
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 224
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32278ec98795b99f0800000000000000
+      internalID: -460676162311917021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_27
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 224
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130e72ab9e69c19d0800000000000000
+      internalID: -2802198937536569295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_28
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 224
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e057c8ddd7b244bf0800000000000000
+      internalID: -341099852185438962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_29
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 224
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c989fb7008c9320800000000000000
+      internalID: 2566066658461916201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_30
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 224
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d65c7ef5361426b0800000000000000
+      internalID: -5322104438486444329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_31
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 224
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c6b0e639d25a6d0800000000000000
+      internalID: -2979925467206030196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 160
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b394b096b0f7a8530800000000000000
+      internalID: 3858035717779966267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_33
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 160
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a034c20ce5281f910800000000000000
+      internalID: 1869418663798129418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_34
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 160
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813def7bd3fb6e710800000000000000
+      internalID: 1722274179316634392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_35
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 160
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd93fbcf184de850800000000000000
+      internalID: 6407857146221010388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_36
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 160
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305c30fcc882bcd50800000000000000
+      internalID: 6758540251033224451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_37
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 160
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedd9129f4005a120800000000000000
+      internalID: 2424344316162465260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_38
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 160
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044f08397f3752470800000000000000
+      internalID: 8369222989706753088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_39
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 160
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e7217e2be2fa890800000000000000
+      internalID: -7444680313104335283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_40
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 160
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c65e7a67b617050800000000000000
+      internalID: 5796532352769682567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_41
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 160
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8f8b187f1798e20800000000000000
+      internalID: 3353336705401288956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_42
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 160
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31b78285a3289360800000000000000
+      internalID: 7176525199981392189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_43
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 160
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2a0863481ac0e10800000000000000
+      internalID: 2165283110080520949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_44
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 160
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7299d2aba2c9d780800000000000000
+      internalID: -8657674766215703940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_45
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 160
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa163d0f4cf4928a0800000000000000
+      internalID: -6329440094019952209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_46
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 160
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57d296347e85d5c0800000000000000
+      internalID: -4191287248415434913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_47
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 160
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8052317cfe0afd680800000000000000
+      internalID: -8728080601123183352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903d8685da73cab90800000000000000
+      internalID: -7229342084184354039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_49
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 96
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc648659ac0c60b0800000000000000
+      internalID: -5734194304108958511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3b639a482eca230800000000000000
+      internalID: 3651542457293124529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_51
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 96
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb8ba67c8f1f8650800000000000000
+      internalID: 6237238697078262754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_52
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 96
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e35f849793343690800000000000000
+      internalID: -7623411543105907739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_53
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 96
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb754aa6e6ebe5a0800000000000000
+      internalID: -6490840559550891012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_54
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 96
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77658f6818e63fd00800000000000000
+      internalID: 1005268644428011127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_55
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 96
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dd7941db7ee5940800000000000000
+      internalID: 5286917811859873170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_56
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 96
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f1e8fd24c978ff0800000000000000
+      internalID: -33886661149581468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_57
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 96
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08c79c2adcf865b0800000000000000
+      internalID: -5374768141285472243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_58
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 96
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7016c4af0bf3ad70800000000000000
+      internalID: 9053355720552353914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_59
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 96
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad70c219bdcb88f0800000000000000
+      internalID: -537109535773393502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_60
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 96
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268e3d69a11fee850800000000000000
+      internalID: 6408324416296708194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_61
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 96
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691f4d4acb8ccaf00800000000000000
+      internalID: 1129498319107977622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_62
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 96
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6657b29232885b0800000000000000
+      internalID: -5366000296282200364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_63
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 96
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13858b7154187ac30800000000000000
+      internalID: 4370604097137039409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_64
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 64
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689a13c2a4ba22850800000000000000
+      internalID: 6350826759603202438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_65
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 64
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8efed7a9f0a25a0800000000000000
+      internalID: -6545401952217339702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_66
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 32
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7130cdec18b3aa260800000000000000
+      internalID: 7109560390465094423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_67
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 32
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d795bbfd7c0fd7390800000000000000
+      internalID: -7818828636802557571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_68
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 32
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfcbcd1c321b5600800000000000000
+      internalID: 457979836515471280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_69
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 32
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf65ce827dfeee970800000000000000
+      internalID: 8786223630430000892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_70
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 32
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa9dbbdd35c65a20800000000000000
+      internalID: 3050842667060402863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_71
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 32
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b87b93a5bf9391a0800000000000000
+      internalID: -6803919009543915343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_72
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 32
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b03585fcdf6eae0800000000000000
+      internalID: -1520248757209068760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_73
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 32
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bead5f8e50e9f8e0800000000000000
+      internalID: -1659048290972488015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Day 1 People_74
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cacc26b682e08fc0800000000000000
+      internalID: -3494544242629621050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

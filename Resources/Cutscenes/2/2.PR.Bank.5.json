@@ -1,0 +1,57 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "0, -2"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "Thanks again for your help today!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "I'll make sure to change the combination for the bank vault.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "But don't tell anyone the code anyway! Or your strategy for opening it!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "Bank vaults are notorius for being robbed in superhero towns.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "Anyway, see you tomorrow!",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 6,
+      "maxGameCounter": 10,
+      "location": "1, 10",
+      "type": "Wally",
+      "name": "Wally",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Hi, I'm Wally.",
+            "Huh, your planner has an extra page.",
+            "'Save and Quit'? I wonder what that does."
+          ],
+          "isTyped": [ true, true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 10,
+      "maxGameCounter": 13,
+      "location": "2.5, -3.5",
+      "type": "Wally",
+      "name": "Wally",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "You ever wonder how we just kind of teleport to each class?",
+            "I'm not sure how it happens...",
+            "I don't even move and I end up where I need to be.",
+            "See you in the gym, I guess."
+          ],
+          "isTyped": [ true, true, true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    }
+  ]
+}

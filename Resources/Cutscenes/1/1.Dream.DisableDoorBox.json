@@ -1,0 +1,8 @@
+{
+  "Items": [
+    {
+      "type": "disableCollider",
+      "name": "Dream Door"
+    }
+  ]
+}

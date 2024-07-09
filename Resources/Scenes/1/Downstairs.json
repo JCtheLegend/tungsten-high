@@ -1,0 +1,103 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 1,
+      "maxSceneCounter": 2,
+      "minGameCounter": 1,
+      "maxGameCounter": 2,
+      "type": "Mom",
+      "name": "Mom",
+      "location": "9,0"
+    },
+    {
+      "minSceneCounter": 1,
+      "maxSceneCounter": 2,
+      "minGameCounter": 1,
+      "maxGameCounter": 2,
+      "location": "7,2.5",
+      "type": "CutsceneCollider",
+      "size": "2,1",
+      "name": "1.Pre.Downstairs",
+      "fileName": "1.Pre.Downstairs",
+      "destroy": true
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 14,
+      "maxGameCounter": 15,
+      "type": "Mom",
+      "name": "Mom",
+      "location": "2,-7.5"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 2,
+      "minGameCounter": 14,
+      "maxGameCounter": 15,
+      "type": "Dreampad",
+      "name": "Dreampad",
+      "location": "0,-4"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 15,
+      "maxGameCounter": 16,
+      "type": "Mom",
+      "name": "Mom",
+      "location": "9,-7.5"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 2,
+      "minGameCounter": 14,
+      "maxGameCounter": 16,
+      "type": "Dad",
+      "name": "Dad",
+      "location": "0,-2.5"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 14,
+      "maxGameCounter": 15,
+      "type": "cutscene",
+      "name": "InHome"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 15,
+      "maxGameCounter": 16,
+      "type": "cutscene",
+      "name": "1.Post.AfterLawnmower"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 2,
+      "minGameCounter": 14,
+      "maxGameCounter": 15,
+      "location": "0.5,-2.5",
+      "type": "CutsceneActTrigger",
+      "size": "2,1",
+      "name": "Dreamwalk",
+      "fileName": "Dreamwalk"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 16,
+      "maxGameCounter": 17,
+      "type": "Goblin",
+      "name": "Goblin",
+      "location": "-6, 2.5",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Post.PetGoblin"
+        }
+      ]
+    }
+  ]
+}

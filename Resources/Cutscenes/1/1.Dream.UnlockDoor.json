@@ -1,0 +1,66 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "animate",
+      "name": "Lock",
+      "text": "unlock"
+    },
+    {
+      "type": "fadeOut",
+      "name": "Lock"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey, uhh. I'm gonna have to stay behind here.",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Can't go into your subconcious, I would abstract and disappear.",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Plus, I do have these boxes in here to finish cleaning up.",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Don't take what you see in there too seriously.",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Lots of weird things can show up in your subconcious.",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Anyway, have a nice dream!",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "unlockDoor",
+      "name": "Dream Door"
+    },
+    {
+      "type": "enableCollider",
+      "name": "Dream Door"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "startFight"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "School isn't over yet.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "text": "9,-2.5",
+      "direction": "down",
+      "speed": 2
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

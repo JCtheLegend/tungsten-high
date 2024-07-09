@@ -1,0 +1,374 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "4.53, -3.51"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "playSound",
+      "name": "school-bell"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "dialog",
+      "text": "Good Morning Class!",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I hope you all had a great first day of school yesterday!",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Today, we will be taking our first steps towards making a difference",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "as heroes here in our city.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now, you can't help out the people of this town without getting to know them first.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "So, today we are going to the middle of downtown to see if we can meet some people.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "This will also allow you to start on your first assignment for this class.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Which is:",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "'Find three people in town to help out this week...'",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "'... and write a three page paper about your experience doing so.'",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You hear a collective groan from the class.",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "Yes, yes. This is still a school. But don't think about it as homework!'",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Think of it as a... mission!",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Yes, all superheroses has missions, and you are no different!",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You should see your missions for each class in your planner.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Alright, lets head out to the front steps of the school.'",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I'll meet you guys there!",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "right",
+          "speed": 2,
+          "text": "6,1.5"
+        },
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "down",
+          "speed": 2,
+          "text": "6,-0.5"
+        },
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "right",
+          "speed": 2,
+          "text": "9,-0.5"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "wait",
+          "text": 3
+        },
+        {
+          "type": "move",
+          "name": "Kid Fi",
+          "direction": "right",
+          "speed": 2,
+          "text": "9,-1"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Moe",
+          "direction": "right",
+          "speed": 2,
+          "text": "6,-6"
+        },
+        {
+          "type": "move",
+          "name": "Moe",
+          "direction": "down",
+          "speed": 2,
+          "text": "6,-1"
+        },
+        {
+          "type": "move",
+          "name": "Moe",
+          "direction": "right",
+          "speed": 2,
+          "text": "9,-1"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "right",
+          "speed": 2,
+          "text": "-4.5,-8"
+        },
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "right",
+          "speed": 2,
+          "text": "6,-8"
+        },
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "up",
+          "speed": 2,
+          "text": "6,-1"
+        },
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "right",
+          "speed": 2,
+          "text": "9,-1"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "right",
+          "speed": 2,
+          "text": "2, -3.5"
+        },
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "down",
+          "speed": 2,
+          "text": "2,-5.5"
+        },
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "right",
+          "speed": 2,
+          "text": "6,-5.5"
+        },
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "up",
+          "speed": 2,
+          "text": "6,-1.5"
+        },
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "right",
+          "speed": 2,
+          "text": "9,-1.5"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Bloom",
+          "direction": "down",
+          "speed": 2,
+          "text": "0,-2"
+        },
+        {
+          "type": "move",
+          "name": "Bloom",
+          "direction": "right",
+          "speed": 2,
+          "text": "6,-2"
+        },
+        {
+          "type": "move",
+          "name": "Bloom",
+          "direction": "up",
+          "speed": 2,
+          "text": "6,-0.5"
+        },
+        {
+          "type": "move",
+          "name": "Bloom",
+          "direction": "right",
+          "speed": 2,
+          "text": "9,-0.5"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Laser Boy",
+          "direction": "right",
+          "speed": 2,
+          "text": "-3,-1.5"
+        },
+        {
+          "type": "move",
+          "name": "Laser Boy",
+          "direction": "up",
+          "speed": 2,
+          "text": "-3,0"
+        },
+        {
+          "type": "move",
+          "name": "Laser Boy",
+          "direction": "right",
+          "speed": 2,
+          "text": "9,0"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "wait",
+          "text": 5
+        },
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "right",
+          "speed": 2,
+          "text": "-3,-3.5"
+        },
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "up",
+          "speed": 2,
+          "text": "-3,0"
+        },
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "right",
+          "speed": 2,
+          "text": "9,0"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 2
+    }
+  ]
+}

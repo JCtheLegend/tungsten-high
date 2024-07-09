@@ -1,0 +1,25 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 2,
+      "maxSceneCounter": 3,
+      "minGameCounter": 20,
+      "maxGameCounter": 21,
+      "type": "Fear Swirl",
+      "name": "Fear Swirl",
+      "location": "0,2",
+      "facing": "right"
+    },
+    {
+      "minSceneCounter": 2,
+      "maxSceneCounter": 3,
+      "minGameCounter": 20,
+      "maxGameCounter": 21,
+      "location": "-3,2",
+      "type": "CutsceneCollider",
+      "size": "1,5",
+      "name": "1.Dream.FearSwirlMove1",
+      "fileName": "1.Dream.FearSwirlMove1"
+    }
+  ]
+}

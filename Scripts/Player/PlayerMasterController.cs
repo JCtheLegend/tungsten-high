@@ -11,4 +11,16 @@ public class PlayerMasterController : MonoBehaviour
     [SerializeField] internal PlayerAnimationController anim;
     [SerializeField] internal SoundController sound;
     [SerializeField] internal CutsceneManager cutscene;
+
+    public IEnumerator TransitionRoom(string roomName)
+    {
+        SpriteRenderer s = GameObject.Find("BlackFade").GetComponent<SpriteRenderer>();
+        StartCoroutine(GameManager.FadeIn(s, 1));
+        while (s.color.a < 1)
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
+        yield return new WaitForSeconds(1);
+        GameManager.LoadScene(roomName);
+    }
 }

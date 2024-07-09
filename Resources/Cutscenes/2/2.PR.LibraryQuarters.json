@@ -1,0 +1,79 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "checkCondition",
+      "name": "LibraryQuarters",
+      "skips": [
+        10,
+        0
+      ]
+    },
+    {
+      "type": "dialog",
+      "text": "Hello, welcome to the library.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We have books on all sorts of things. What are you looking for today?",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Quarters? We have some books about coins and money.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, you mean actual quarters.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Yes, I do believe I have some quarters. Some people just can't avoid the late fees.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You got 20 quarters",
+      "isTyped": "true"
+    },
+    {
+      "type": "updateInventory",
+      "name": "Quarter",
+      "text": 20
+    },
+    {
+      "type": "addCondition",
+      "name": "LibraryQuarters"
+    },
+    {
+      "type": "goto",
+      "text": 11
+    },
+    {
+      "type": "dialog",
+      "text": "I would still recommend the books on Quarters. They're very interesting.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You're also free to check for quarters by the bookshelves.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Come back soon!",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

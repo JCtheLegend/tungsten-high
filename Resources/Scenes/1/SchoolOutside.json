@@ -1,0 +1,65 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 3,
+      "maxGameCounter": 4,
+      "type": "Car",
+      "name": "Car",
+      "location": "-14,-3.5"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 3,
+      "maxGameCounter": 4,
+      "type": "Handstand",
+      "name": "Handstand",
+      "location": "26,2.5"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 3,
+      "maxGameCounter": 4,
+      "type": "Bubba",
+      "name": "Bubba",
+      "location": "25,15"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 3,
+      "maxGameCounter": 4,
+      "type": "Micycle",
+      "name": "Micycle",
+      "location": "-13,0.5"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 3,
+      "maxGameCounter": 4,
+      "type": "cutscene",
+      "name": "1.1-SchoolOutside.1"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 13,
+      "maxGameCounter": 14,
+      "type": "Car",
+      "name": "Car",
+      "location": "35,-4"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 13,
+      "maxGameCounter": 14,
+      "type": "cutscene",
+      "name": "MomPickUp"
+    }
+  ]
+}

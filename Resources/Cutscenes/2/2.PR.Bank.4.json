@@ -1,0 +1,93 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "Alright, I need to put these quarters in the bank vault.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "Unfortunately, I will need your guys' help with this as well.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "We did just get a new security system for the vault.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "And, I uh.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "I don't know how to unlock it.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "Like, I know the code!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "All of these buttons and numbers are too tricky to figure out.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "So I'm gonna need you guys to figure out how to put in this code.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "The default code for the machine is:",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "123456",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "The Red Button will reset the numbers back to 0. The Green Button will enter the code.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "Okay! I'll leave you guys to it!",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 7
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4453221899842195585}
   - component: {fileID: 8462368466747741324}
   - component: {fileID: -2649878521035065156}
+  - component: {fileID: 3669702883364427119}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -185,6 +186,24 @@ MonoBehaviour:
   defaultDownAnim: 
   defaultRightAnim: 
   defaultLeftAnim: 
-  initialFacing: 0
+  initialFacing: 3
   mirrorFace: 1
   hasIdleAnims: 0
+--- !u!114 &3669702883364427119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3474633156372202464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 826203ddd1271fb42afaaf2589a2ac7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faceUp: {fileID: 4415614275910597299, guid: ac6f4fe7b0bb266478a9ef3174dbb676, type: 3}
+  faceDown: {fileID: 2819339094451051288, guid: ac6f4fe7b0bb266478a9ef3174dbb676, type: 3}
+  faceRight: {fileID: 6888712588412301968, guid: ac6f4fe7b0bb266478a9ef3174dbb676, type: 3}
+  faceLeft: {fileID: 0}
+  initialFacing: 3
+  mirrorFace: 1

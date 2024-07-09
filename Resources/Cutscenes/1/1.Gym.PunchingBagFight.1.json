@@ -1,0 +1,80 @@
+{
+  "Items": [
+    {
+      "type": "startBlack"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Alright kid, we're going to start you off with some of the basics.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You can move around the ring. Try getting a feel for that!",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    },
+    {
+      "type": "wait",
+      "text": 5
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "CombatPlayer",
+      "direction": "down",
+      "speed": 2,
+      "text": "20.5,2"
+    },
+    {
+      "type": "dialog",
+      "text": "Now, let's see how hard you can hit.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Punching Bag",
+      "direction": "down",
+      "speed": 2,
+      "text": "20.5,4"
+    },
+    {
+      "type": "dialog",
+      "text": "Press Z to punch. It's that easy!",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Be careful not to run into the bag! It might hurt.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

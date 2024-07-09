@@ -1,0 +1,225 @@
+{
+  "Items": [
+    {
+      "type": "startWhite"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "3, -3.5"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "down"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "This is the realm of thoughts, dreams, ideas, and perceptions of reality.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Things that you could argue are not quite real,",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "but in another sense, are what makes our life real at all.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Your powers will involve the exploration, manipulation, and interpretaion of this realm.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "And these things are what we will be shaping here in this class.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Hm, I wonder why the activity here is low...",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Usually the first day of school has this place pretty active",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "with lots of fear, excitement, and wonder in the air.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Well, have a look around, see if you can find what is going on.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "clearFade"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "editObjects",
+      "loadObjs": [
+        {
+          "location": "-10.52, -3",
+          "name": "Seer",
+          "facing": "down",
+          "assets": [
+            {
+              "type": "SimpleDialogTrigger",
+              "dialog": [
+                "Heh, I knew you would come talk to me.",
+                "I can see 5 seconds into the future, you see?",
+                "Hm, well bye.",
+                "...",
+                "Oh wait you haven't left yet."
+              ],
+              "isTyped": [ true, true, true, true, true ],
+              "facePlayer": true,
+              "talkMeter": {
+                "range": 0.4,
+                "speed": 1
+              }
+            }
+          ]
+        },
+        {
+          "location": "13, -7.5",
+          "name": "Songbird",
+          "facing": "right",
+          "assets": [
+            {
+              "type": "SimpleDialogTrigger",
+              "dialog": [
+                "La, la, laaaa <3",
+                "The music here is so atmospheric!",
+                "I must remember it..."
+              ],
+              "isTyped": [ true, true, true ],
+              "facePlayer": true,
+              "talkMeter": {
+                "range": 0.4,
+                "speed": 1
+              }
+            }
+          ]
+        },
+        {
+          "name": "Dreamy",
+          "location": "16, -7.5",
+          "facing": "left",
+          "assets": [
+            {
+              "type": "SimpleDialogTrigger",
+              "dialog": [
+                "Ugh, this Ephemera thing, is like, so lame.",
+                "I make much better dreams than this."
+              ],
+              "isTyped": [ true, true ],
+              "destroy": true,
+              "facePlayer": true,
+              "talkMeter": {
+                "range": 0.2,
+                "speed": 2
+              }
+            }
+          ]
+        },
+        {
+          "name": "Wally",
+          "location": "-13, 18",
+          "facing": "up",
+          "assets": [
+            {
+              "type": "SimpleDialogTrigger",
+              "dialog": [
+                "There isn't anything out there.",
+                "Just a Box Collider keeping us from infinite nothingness.",
+                "You can't see it? Figures..."
+              ],
+              "isTyped": [ true, true, true ],
+              "facePlayer": false,
+              "talkMeter": {
+                "range": 0.4,
+                "speed": 1
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sandman",
+          "location": "17.5, 11.5",
+          "facing": "left",
+          "assets": [
+            {
+              "type": "SimpleDialogTrigger",
+              "dialog": [
+                "I found this sign!",
+                "I wonder who's idea this was for it to show up here."
+              ],
+              "isTyped": [ true, true ],
+              "facePlayer": true,
+              "talkMeter": {
+                "range": 0.4,
+                "speed": 1
+              }
+            }
+          ]
+        },
+        {
+          "name": "Maven",
+          "location": "0, -3.5",
+          "facing": "down",
+          "assets": [
+            {
+              "type": "SimpleDialogTrigger",
+              "dialog": [
+                "Ah, the Dreamwalker. You must have some experience in a place like this."
+              ],
+              "isTyped": [ true ],
+              "facePlayer": true,
+              "talkMeter": {
+                "range": 0.4,
+                "speed": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

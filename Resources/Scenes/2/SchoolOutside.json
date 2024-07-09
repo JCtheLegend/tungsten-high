@@ -1,0 +1,84 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 0, 0 ],
+      "type": "Car",
+      "name": "Car",
+      "location": "-14,-3.5"
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 0, 0 ],
+      "type": "cutscene",
+      "name": "2.Pre.SchoolOutside.1"
+    },
+    {
+      "validScenes": [ 7, 7 ],
+      "validStages": [ 1, 1 ],
+      "type": "cutscene",
+      "name": "2.PR.Ending"
+    },
+    {
+      "validScenes": [ 2, 7 ],
+      "validStages": [ 1, 1 ],
+      "type": "Ms Nice",
+      "name": "Ms Nice",
+      "location": "26,6.5"
+    },
+    {
+      "validScenes": [ 2, 2 ],
+      "validStages": [ 1, 1 ],
+      "type": "cutscene",
+      "name": "2.PR.FrontSteps"
+    },
+    {
+      "validScenes": [ 2, 7 ],
+      "validStages": [ 1, 1 ],
+      "type": "Micycle",
+      "name": "Micycle",
+      "location": "29,6.5",
+      "facing": "left"
+    },
+    {
+      "validScenes": [ 2, 7 ],
+      "validStages": [ 1, 1 ],
+      "type": "Laser Boy",
+      "name": "Laser Boy",
+      "location": "22,6.5",
+      "facing": "right"
+    },
+    {
+      "validScenes": [ 2, 7 ],
+      "validStages": [ 1, 1 ],
+      "type": "Bloom",
+      "name": "Bloom",
+      "location": "26,4.5",
+      "facing": "up"
+    },
+    {
+      "validScenes": [ 7, 7 ],
+      "validStages": [ 1, 1 ],
+      "type": "Mirror",
+      "name": "Mirror",
+      "location": "22,3.25",
+      "facing": "right"
+    },
+    {
+      "validScenes": [ 7, 7 ],
+      "validStages": [ 1, 1 ],
+      "type": "Moe",
+      "name": "Moe",
+      "location": "28,4.5",
+      "facing": "left"
+    },
+    {
+      "validScenes": [ 7, 7 ],
+      "validStages": [ 1, 1 ],
+      "type": "Bubba",
+      "name": "Bubba",
+      "location": "22,5",
+      "facing": "right"
+    }
+  ]
+}

@@ -65,6 +65,12 @@ TextureImporter:
   - first:
       213: 1249300982610974707
     second: Mom_20
+  - first:
+      213: 206669613714303037
+    second: Mom_21
+  - first:
+      213: -1953979367115778338
+    second: Mom_22
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -198,7 +204,7 @@ TextureImporter:
         width: 19
         height: 30
       alignment: 9
-      pivot: {x: 0.47368422, y: 0.43333337}
+      pivot: {x: 0.47368422, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -240,7 +246,7 @@ TextureImporter:
         width: 19
         height: 30
       alignment: 9
-      pivot: {x: 0.47368422, y: 0.43333337}
+      pivot: {x: 0.47368422, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -282,7 +288,7 @@ TextureImporter:
         width: 19
         height: 31
       alignment: 9
-      pivot: {x: 0.47368422, y: 0.4516129}
+      pivot: {x: 0.47368422, y: 0.48387095}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -303,7 +309,7 @@ TextureImporter:
         width: 19
         height: 28
       alignment: 9
-      pivot: {x: 0.47368422, y: 0.5}
+      pivot: {x: 0.47368422, y: 0.5357143}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -450,7 +456,7 @@ TextureImporter:
         width: 16
         height: 30
       alignment: 9
-      pivot: {x: 0.5625, y: 0.4666667}
+      pivot: {x: 0.5625, y: 0.53333336}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -471,7 +477,7 @@ TextureImporter:
         width: 16
         height: 28
       alignment: 9
-      pivot: {x: 0.5625, y: 0.46428573}
+      pivot: {x: 0.5625, y: 0.5357143}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -492,7 +498,7 @@ TextureImporter:
         width: 16
         height: 31
       alignment: 9
-      pivot: {x: 0.4375, y: 0.4516129}
+      pivot: {x: 0.4375, y: 0.516129}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -513,7 +519,7 @@ TextureImporter:
         width: 16
         height: 29
       alignment: 9
-      pivot: {x: 0.5625, y: 0.4827586}
+      pivot: {x: 0.5625, y: 0.51724136}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -534,7 +540,7 @@ TextureImporter:
         width: 16
         height: 31
       alignment: 9
-      pivot: {x: 0.4375, y: 0.48387095}
+      pivot: {x: 0.4375, y: 0.516129}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -555,7 +561,7 @@ TextureImporter:
         width: 16
         height: 27
       alignment: 9
-      pivot: {x: 0.5625, y: 0.44444445}
+      pivot: {x: 0.5625, y: 0.5185185}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -576,7 +582,7 @@ TextureImporter:
         width: 16
         height: 30
       alignment: 9
-      pivot: {x: 0.4375, y: 0.4666667}
+      pivot: {x: 0.4375, y: 0.53333336}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -597,7 +603,7 @@ TextureImporter:
         width: 16
         height: 31
       alignment: 9
-      pivot: {x: 0.5625, y: 0.48387095}
+      pivot: {x: 0.5625, y: 0.516129}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -618,7 +624,7 @@ TextureImporter:
         width: 16
         height: 31
       alignment: 9
-      pivot: {x: 0.5625, y: 0.4516129}
+      pivot: {x: 0.5625, y: 0.516129}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -626,6 +632,48 @@ TextureImporter:
       bones: []
       spriteID: 3f7d216ef98665110800000000000000
       internalID: 1249300982610974707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mom_21
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 221
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38ee4f2bec3ed200800000000000000
+      internalID: 206669613714303037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mom_22
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 221
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed61f944e1212e4e0800000000000000
+      internalID: -1953979367115778338
       vertices: []
       indices: 
       edges: []

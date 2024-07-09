@@ -1,0 +1,32 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Good morning, honey! How did you sleep?",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "A bad dream? Oh, I'm sorry to hear that.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Grab some breakfast in the dining room if you want, and then we can head to school.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 2
+    }
+  ]
+}

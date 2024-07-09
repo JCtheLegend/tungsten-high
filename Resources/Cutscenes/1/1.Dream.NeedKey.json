@@ -1,0 +1,26 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey, you're gonna need that key.",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "text": "1.5,14",
+      "direction": "up",
+      "speed": 2
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

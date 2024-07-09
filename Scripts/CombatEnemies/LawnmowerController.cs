@@ -16,20 +16,26 @@ public class LawnmowerController : EnemyController
     public string preSwingAnim;
     public string postSwingAnim;
     [Header("Bounds")]
-    public int minX;
-    public int minY;
-    public int maxX;
-    public int maxY;
+    public float minX;
+    public float minY;
+    public float maxX;
+    public float maxY;
     [Header("AdjustSwing")]
     public float number1;
     public float number2;
     [Header("Movement")]
     public int mowSpeed;
     public int sideSpeed;
+    bool stoppingSuck;
+
+    IEnumerator attackRoutine;
+    bool isSucking = false;
+
+    public GameObject explosion;
     // Start is called before the first frame update
-    protected override void Start()
+    protected override void Awake()
     {
-        base.Start();
+        base.Awake();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
@@ -40,16 +46,38 @@ public class LawnmowerController : EnemyController
     protected override void Update()
     {
         base.Update();
-        Debug.DrawLine(new Vector2(transform.position.x, 4), new Vector2(number1, 4));
-        Debug.DrawLine(new Vector2(0, transform.position.y), new Vector2(0, number2));
         if (Input.GetKeyDown(KeyCode.P))
         {
             StartCoroutine(Combat());
         }
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            StopCoroutine(attackRoutine);
+            StartCoroutine(StopSuck());
+        }
+    }
+
+    internal override IEnumerator StartFight()
+    {
+        StartCoroutine(base.StartFight());
+        yield return new WaitForSeconds(8);
+        player.GetComponent<CutsceneMoveableObject>().enabled = false;
+
+        Heal(100);
+        enemyHealthBar.SetActive(true);
+        player.playerHealthBar.SetActive(true);
+        StartMusic();
+        player.EnableInput();
+        StartCoroutine(Combat());
     }
 
     protected override void HandleCollision(GameObject collisionObject)
     {
+        if (collisionObject.CompareTag("Player") && isSucking)
+        {
+            StopCoroutine(attackRoutine);
+            StartCoroutine(StopSuck());
+        }
         base.HandleCollision(collisionObject);
     }
 
@@ -64,32 +92,51 @@ public class LawnmowerController : EnemyController
                 switch (attackNum)
                 {
                     case 1:
-                        StartCoroutine(TheBigSuck());
+                        attackRoutine = TheBigSuck();
+                        StartCoroutine(attackRoutine);
                         break;
                     case 2:
-                        StartCoroutine(SwingyThingy());
+                        attackRoutine = SwingyThingy();
+                        StartCoroutine(attackRoutine);
                         break;
                     case 3:
-                        StartCoroutine(MowDown());
+                        attackRoutine = MowDown();
+                        StartCoroutine(attackRoutine);
                         break;
                 }
             }
-            yield return new WaitForSeconds(5);
+            while (isAttacking)
+            {
+                yield return new WaitForSeconds(1);
+            }
         }
     }
 
     IEnumerator TheBigSuck()
     {
-        Debug.Log("suck");
+        isSucking = true;
         ChangeAnimationState(bigSuckTiltDownAnim, 0);
         yield return new WaitForSeconds(animator.runtimeAnimatorController.animationClips[0].length);
         ChangeAnimationState(bigSuckSpinAnim, 0);
+        yield return new WaitForSeconds(0.5f);
+        sound.PlayAudio("mower-long");
         transform.GetChild(1).GetComponent<PolygonCollider2D>().enabled = true;
+        transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = true;
         yield return new WaitForSeconds(5);
+        isSucking = false;
+        StartCoroutine(StopSuck());
+    }
+
+    IEnumerator StopSuck()
+    {
+        sound.StopAudio();
         transform.GetChild(1).GetComponent<PolygonCollider2D>().enabled = false;
+        yield return new WaitForEndOfFrame();
         ChangeAnimationState(bigSuckTiltUpAnim, 0);
         yield return new WaitForSeconds(animator.runtimeAnimatorController.animationClips[0].length);
+        transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
         ChangeAnimationState(idleAnim, 0);
+        attackRoutine = null;
         isAttacking = false;
     }
 
@@ -102,7 +149,7 @@ public class LawnmowerController : EnemyController
         cord.GetComponent<BoxCollider2D>().enabled = true;
         cord.GetComponent<SpriteRenderer>().enabled = true;
         ChangeAnimationState(idleAnim, 0);
-        StartCoroutine(cord.GetComponent<MoveableObject>().RotateAroundPoint(true, new Vector2(number1, number2), -45, 0.25f));
+        StartCoroutine(cord.GetComponent<MoveableObject>().RotateAroundPoint(true, new Vector2(transform.position.x + number1, transform.position.y + number2), -45, 2.5f));
         while (MoveableObject.ConvertSwingAngle(cord.GetComponent<MoveableObject>().NormalAngle(), 180) > -45)
         {
             yield return new WaitForEndOfFrame();
@@ -114,12 +161,12 @@ public class LawnmowerController : EnemyController
         ChangeAnimationState(postSwingAnim, 0);
         yield return new WaitForSeconds(animator.runtimeAnimatorController.animationClips[0].length);
         ChangeAnimationState(idleAnim, 0);
+        attackRoutine = null;
         isAttacking = false;
     } 
 
     IEnumerator MowDown()
     {
-        Debug.Log("mow");
         StartCoroutine(move.Move(new Vector2(minX, rb.position.y), sideSpeed));
         while (rb.position.x > minX)
         {
@@ -132,26 +179,58 @@ public class LawnmowerController : EnemyController
             yield return new WaitForSeconds(0.1f);
         }
         yield return new WaitForSeconds(0.5f);
-        int rushPos = Random.Range(0, maxX - minX);
+        float rushPos = Random.Range(0, maxX - minX);
         StartCoroutine(move.Move(new Vector2(minX + rushPos, rb.position.y), sideSpeed));
         while (rb.position.x > minX + rushPos)
         {
             yield return new WaitForSeconds(0.1f);
         }
         yield return new WaitForSeconds(0.5f);
+        sound.PlayAudio("mower");
         StartCoroutine(move.Move(new Vector2(minX + rushPos, minY), mowSpeed));
         while(rb.position.y > minY)
         {
             yield return new WaitForSeconds(0.1f);
         }
-        rb.position = new Vector2(0, 4);
+        yield return new WaitForSeconds(2);
+        rb.position = new Vector2(rb.position.x, 10);
+        while (rb.position.y < 10)
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
+        yield return new WaitForEndOfFrame();
+        StartCoroutine(move.Move(new Vector2(rb.position.x, maxY), mowSpeed));
+        while (rb.position.y > maxY)
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
+        attackRoutine = null;
         isAttacking = false;
     }
 
     internal override void Die()
     {
+        music.ChangeSong("Victory");
+        state = combatState.dead;
+        if (attackRoutine != null)
+        {
+            StopCoroutine(attackRoutine);
+        }
+        rb.velocity = Vector2.zero;
         base.Die();
+        StartCoroutine(Explode());
     }
 
-
+    IEnumerator Explode()
+    {
+        for(int i = 0; i < 50; i++)
+        {
+            Vector2 randomCoord = new Vector2(Random.Range(sprite.bounds.min.x, sprite.bounds.max.x), Random.Range(sprite.bounds.min.y, sprite.bounds.max.y));
+            float randomSize = Random.Range(0.2f, 1f);
+            GameObject explode = Instantiate(explosion, randomCoord, Quaternion.identity);
+            explode.transform.localScale *= randomSize;
+            yield return new WaitForSeconds(0.1f);
+            StartCoroutine(GameManager.FlickerRed(sprite));
+        }
+    }
 }

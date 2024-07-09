@@ -1,0 +1,171 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 2, 2 ],
+      "type": "cutscene",
+      "name": "2.Gym.Track.1"
+    },
+    {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 2, 2 ],
+      "location": "50, 14.5",
+      "type": "Gym Teacher",
+      "name": "Gym Teacher"
+    },
+    {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 2, 2 ],
+      "location": "48, 17",
+      "type": "Bloom",
+      "name": "Bloom",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Whew, that was tough!",
+            "I hope that fighting won't be the only way to resolve conflict..."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 2, 2 ],
+      "location": "46, 17",
+      "type": "Kitchenette",
+      "name": "Kitchenette",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Heh, I can't wait to use my powers to fight.",
+            "Get ready for the spoon-fork 1-2 combo!"
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 2, 2 ],
+      "location": "41, 14.5",
+      "type": "Slicky",
+      "name": "Slicky",
+      "facing": "right",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Can't wait until we start sparring each other.",
+            "This class will respect the Slick!"
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 2, 2 ],
+      "location": "41, 14.5",
+      "type": "Micycle",
+      "name": "Micycle",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "I can't believe the punching bag beat me...",
+            "I should've just biked out of there."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "location": "41, 14.5",
+      "type": "Puddle",
+      "name": "Puddle",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Puddle doesn't have much to say right now."
+          ],
+          "isTyped": [ true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "location": "48, 12",
+      "type": "Laser Boy",
+      "name": "Laser Boy",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "*Pant, pant*",
+            "Awww, my hands hurt."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "location": "41, 15.5",
+      "type": "Sticky",
+      "name": "Sticky",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Ugh, I can't get these stupid gloves off.",
+            "Stupid sticky powers."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    }
+  ]
+}

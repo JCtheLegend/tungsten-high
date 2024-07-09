@@ -1,0 +1,52 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "animate",
+      "name": "Dad",
+      "text": "DadSleep",
+      "isContinue": true
+    },
+    {
+      "type": "dialog",
+      "text": "Looks like Dad's taking a nap.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Fixing that mower must've really took it out of him.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Well, go wake him up and tell him it's time for dinner.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Mom",
+      "direction": "right",
+      "text": "9,-7.5",
+      "speed": 3
+    },
+    {
+      "type": "unhide",
+      "name": "Dreampad"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 3
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

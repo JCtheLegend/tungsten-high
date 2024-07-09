@@ -1,0 +1,64 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 1, 1 ],
+      "type": "Bank Guy",
+      "name": "Bank Guy",
+      "location": "-0.5,2.5",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "name": "2.PR.Bank.1",
+          "fileName": "2.PR.Bank.1"
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 1, 1 ],
+      "type": "Pickup",
+      "name": "Quarter"
+    },
+    {
+      "validScenes": [ 5, 5 ],
+      "validStages": [ 1, 1 ],
+      "type": "UnlockDoor",
+      "name": "Door"
+    },
+    {
+      "validScenes": [ 4, 4 ],
+      "validStages": [ 1, 1 ],
+      "type": "Bank Guy",
+      "name": "Bank Guy",
+      "location": "1.25,1",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "name": "2.PR.Bank.2",
+          "fileName": "2.PR.Bank.2"
+        }
+      ]
+    },
+    {
+      "validScenes": [ 7, 7 ],
+      "validStages": [ 1, 1 ],
+      "type": "Bank Guy",
+      "name": "Bank Guy",
+      "location": "0,0.5",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "name": "2.PR.BankGuy.Final",
+          "fileName": "2.PR.BankGuy.Final"
+        }
+      ]
+    },
+    {
+      "validScenes": [ 7, 7 ],
+      "validStages": [ 1, 1 ],
+      "type": "cutscene",
+      "name": "2.PR.Bank.5"
+    }
+  ]
+}

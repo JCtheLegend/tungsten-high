@@ -1,0 +1,39 @@
+{
+  "Items": [
+    {
+      "type": "startWhite"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "3, -3.5"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Well class, I hope to see your presence again tomorrow.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "setStageCounter",
+      "text": 5
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 0
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

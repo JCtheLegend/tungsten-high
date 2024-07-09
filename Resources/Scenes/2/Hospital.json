@@ -1,0 +1,26 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 4, 4 ],
+      "validStages": [ 1, 1 ],
+      "type": "Pickup",
+      "name": "Quarter"
+    },
+    {
+      "validScenes": [ 4, 4 ],
+      "validStages": [ 1, 1 ],
+      "type": "Nurse",
+      "name": "Nurse",
+      "location": "-0.5,1"
+    },
+    {
+      "validScenes": [ 4, 4 ],
+      "validStages": [ 1, 1 ],
+      "type": "CutsceneActTrigger",
+      "name": "2.PR.NurseQuarter",
+      "fileName": "2.PR.NurseQuarter",
+      "location": "-0.5,0",
+      "size": "1,1"
+    }
+  ]
+}

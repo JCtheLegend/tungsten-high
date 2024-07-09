@@ -1,0 +1,40 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "pickup",
+      "name": "Key"
+    },
+    {
+      "type": "dialog",
+      "text": "You recieved a Key!",
+      "isTyped": "true"
+    },
+    {
+      "type": "animate",
+      "name": "Player",
+      "text": "default_back",
+      "isContinue": "true"
+    },
+    {
+      "type": "hide",
+      "name": "Key"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "disable",
+      "name": "1.Dream.NeedKey"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 6
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

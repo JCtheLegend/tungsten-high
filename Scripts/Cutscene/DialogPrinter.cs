@@ -14,15 +14,30 @@ public class DialogPrinter : MonoBehaviour
     internal bool textDone = false;
     internal bool advanceText = false;
 
+    AudioSource audioSource;
+    public AudioClip beep;
+
+    float minPitch = 0.5f;
+    float maxPitch = 3;
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
+    internal Sprite FindHead(string name)
+    {
+        Sprite[] spriteCol = Resources.LoadAll<Sprite>("Heads/Heads");
+        List <Sprite> sList = spriteCol.ToList();
+        return sList.Find(x => x.name == name);
+    }
+
     internal IEnumerator PrintText(CutsceneAction d)
     {
         textDone = false;
-        if(d.sprite != null && d.sprite != "") {
+        if(d.name != null && d.name != "") {
             speakerSprite.enabled = true;
-            if (speakerSprite != null) {
-                Sprite[] spriteCol = Resources.LoadAll<Sprite>("Sprites/" + d.sprite);
-                speakerSprite.sprite = spriteCol[1];
-            }
+            speakerSprite.sprite = FindHead(d.name);
         }
         else
         {
@@ -34,7 +49,58 @@ public class DialogPrinter : MonoBehaviour
 
                 if (d.isTyped)
                 {
-                    StartCoroutine(TypeText(dialogLine, d.text, defaultDelay));
+                    switch (d.name)
+                    {
+                        case "Dad":
+                        case "Gym Teacher":
+                        case "Jumper":
+                        case "Bubba":
+                        case "Nimbus":
+                        case "Micycle":
+                        case "Moe":
+                        case "Maven":
+                        case "Sticky":
+                        case "Sandman":
+                        case "George":
+                        case "Ram":
+                        case "Stilts":
+                        case "Cubert":
+                            minPitch = 0.25f;
+                            maxPitch = 0.75f;
+                            break;
+                        case "Mom":
+                        case "Slicky":
+                        case "Ms Nice":
+                        case "Ms Sparks":
+                        case "Laser Boy":
+                        case "Mirror":
+                        case "Principal Fi":
+                        case "Old Fi":
+                        case "Kitchenette":
+                        case "Freshy":
+                        case "Marcy":
+                        case "Seer":
+                        case "Seagull":
+                        case "Handstand":
+                        case "Paperboy":
+                        case "Wally":
+                        case "Regina":
+                        case "Friend":
+                            minPitch = 0.75f;
+                            maxPitch = 1.25f;
+                            break;
+                        case "Bloom":
+                        case "Kid Fi":
+                        case "Songbird":
+                        case "Dreamy":
+                        case "Puddle":
+                        case "Young Sparks":
+                        case "Ivy":
+                            minPitch = 1.25f;
+                            maxPitch = 1.75f;
+                            break;
+                    }
+                    StartCoroutine(TypeText(dialogLine, d.text, defaultDelay, d.name != null && d.name != ""));
                     while (!textDone)
                     {
                         yield return new WaitForEndOfFrame();
@@ -60,9 +126,9 @@ public class DialogPrinter : MonoBehaviour
         }
     }
 
-    public IEnumerator TypeText(TextMeshPro textLine, string text, float delay)
+    public IEnumerator TypeText(TextMeshPro textLine, string text, float delay, bool sound)
     {
-        for (int i = 0; i < text.Length+1; i++)
+        for (int i = 1; i < text.Length+1; i++)
         {
             if (advanceText)
             {
@@ -70,6 +136,12 @@ public class DialogPrinter : MonoBehaviour
                 break;
             }
             textLine.text = text.Substring(0, i);
+            if (i % 2 == 0 && text[i-1] != ' ' && sound)
+            {
+                audioSource.Stop();
+                audioSource.pitch = Random.Range(minPitch, maxPitch);
+                audioSource.PlayOneShot(beep);
+            }
             yield return new WaitForSeconds(delay);
         }
         advanceText = false;

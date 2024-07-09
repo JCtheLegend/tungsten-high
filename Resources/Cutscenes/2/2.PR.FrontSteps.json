@@ -1,0 +1,406 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "down",
+      "text": "24, 4.5",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "location": "24, 8.5",
+          "name": "Mirror",
+          "type": "Mirror",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "down",
+          "speed": 3,
+          "text": "24,3.25"
+        },
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "left",
+          "speed": 3,
+          "text": "22,3.25"
+        },
+        {
+          "type": "moveFace",
+          "name": "Mirror",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "location": "24, 8.5",
+          "name": "Moe",
+          "type": "Moe",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Moe",
+          "direction": "down",
+          "speed": 3,
+          "text": "24,4.5"
+        },
+        {
+          "type": "move",
+          "name": "Moe",
+          "direction": "right",
+          "speed": 3,
+          "text": "28,4.5"
+        },
+        {
+          "type": "moveFace",
+          "name": "Moe",
+          "direction": "left"
+        }
+      ]
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "location": "24, 8.5",
+          "name": "Bubba",
+          "type": "Bubba",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "down",
+          "speed": 3,
+          "text": "24,5"
+        },
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "left",
+          "speed": 3,
+          "text": "22,5"
+        },
+        {
+          "type": "moveFace",
+          "name": "Bubba",
+          "direction": "right"
+        }
+      ]
+    },
+    {
+      "type": "dialog",
+      "text": "Alright, we have to be back by the end of class, so let's not dilly-dally!",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "left",
+          "speed": 3,
+          "text": "24,6.5"
+        },
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "down",
+          "speed": 3,
+          "text": "24,0.5"
+        },
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "left",
+          "speed": 3,
+          "text": "6,0.5"
+        },
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "down",
+          "speed": 3,
+          "text": "6,-20"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "wait",
+      "text": "0.5"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Bloom",
+          "direction": "left",
+          "speed": 3,
+          "text": "24,6.5"
+        },
+        {
+          "type": "move",
+          "name": "Bloom",
+          "direction": "down",
+          "speed": 3,
+          "text": "24,0.5"
+        },
+        {
+          "type": "move",
+          "name": "Bloom",
+          "direction": "left",
+          "speed": 3,
+          "text": "6,0.5"
+        },
+        {
+          "type": "move",
+          "name": "Bloom",
+          "direction": "down",
+          "speed": 3,
+          "text": "6,-20"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "wait",
+      "text": "0.25"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Laser Boy",
+          "direction": "right",
+          "speed": 3,
+          "text": "23,6.5"
+        },
+        {
+          "type": "move",
+          "name": "Laser Boy",
+          "direction": "down",
+          "speed": 3,
+          "text": "23,0.5"
+        },
+        {
+          "type": "move",
+          "name": "Laser Boy",
+          "direction": "left",
+          "speed": 3,
+          "text": "6,0.5"
+        },
+        {
+          "type": "move",
+          "name": "Laser Boy",
+          "direction": "down",
+          "speed": 3,
+          "text": "6,-20"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "wait",
+      "text": "0.25"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "left",
+          "speed": 3,
+          "text": "24,6.5"
+        },
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "down",
+          "speed": 3,
+          "text": "24,1"
+        },
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "left",
+          "speed": 3,
+          "text": "6,1"
+        },
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "down",
+          "speed": 3,
+          "text": "6,-20"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "wait",
+      "text": "0.25"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "left",
+          "speed": 3,
+          "text": "24,6.5"
+        },
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "down",
+          "speed": 3,
+          "text": "24,0.5"
+        },
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "left",
+          "speed": 3,
+          "text": "6,0.5"
+        },
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "down",
+          "speed": 3,
+          "text": "6,-20"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "wait",
+      "text": "0.25"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Moe",
+          "direction": "left",
+          "speed": 3,
+          "text": "24,6.5"
+        },
+        {
+          "type": "move",
+          "name": "Moe",
+          "direction": "down",
+          "speed": 3,
+          "text": "24,1"
+        },
+        {
+          "type": "move",
+          "name": "Moe",
+          "direction": "left",
+          "speed": 3,
+          "text": "6,1"
+        },
+        {
+          "type": "move",
+          "name": "Moe",
+          "direction": "down",
+          "speed": 3,
+          "text": "6,-20"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "wait",
+      "text": "0.25"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "left",
+          "speed": 3,
+          "text": "24,6.5"
+        },
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "down",
+          "speed": 3,
+          "text": "24,0"
+        },
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "left",
+          "speed": 3,
+          "text": "6,0"
+        },
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "down",
+          "speed": 3,
+          "text": "6,-20"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 3
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

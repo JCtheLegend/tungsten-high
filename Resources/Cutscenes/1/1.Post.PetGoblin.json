@@ -1,0 +1,36 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "You wonder where Goblin has been hiding all day.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialogAndChoice",
+      "text": "Pet Goblin?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "skips": [
+        0,
+        1
+      ],
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "What a good kitty.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Looking to be the next sidekick for a local superhero?",
+      "name": "Nimbus",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Want to build your resume with an internship in the superhero industry?",
+      "name": "Nimbus",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Then Hero Club is the place for you!",
+      "name": "Nimbus",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Come and see how you can become the next household name of Garnet City!",
+      "name": "Nimbus",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialogAndChoice",
+      "text": "Sign up for Hero Club?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "skips": [
+        0,
+        2
+      ],
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "You have successfully signed up for Hero Club!",
+      "isTyped": "true"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 1
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "I am a Stranger.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Stranger1",
+      "speed": 2,
+      "text": "-1, 5",
+      "isContinue": true,
+      "animateOverride": true
+    },
+    {
+      "type": "move",
+      "name": "Stranger2",
+      "speed": 2,
+      "text": "-1, 5",
+      "isContinue": true,
+      "animateOverride": true
+    },
+    {
+      "type": "move",
+      "name": "Stranger3",
+      "speed": 2,
+      "text": "-1, 5",
+      "isContinue": true,
+      "animateOverride": true
+    },
+    {
+      "type": "move",
+      "name": "Stranger4",
+      "speed": 2,
+      "text": "-1, 5",
+      "isContinue": true,
+      "animateOverride": true
+    },
+    {
+      "type": "move",
+      "name": "Stranger5",
+      "speed": 2,
+      "text": "-1, 5",
+      "isContinue": true,
+      "animateOverride": true
+    },
+    {
+      "type": "move",
+      "name": "Stranger6",
+      "speed": 2,
+      "text": "-1, 5",
+      "isContinue": true,
+      "animateOverride": true
+    },
+    {
+      "type": "fadeOut",
+      "name": "Stranger1"
+    },
+    {
+      "type": "fadeOut",
+      "name": "Stranger2"
+    },
+    {
+      "type": "fadeOut",
+      "name": "Stranger3"
+    },
+    {
+      "type": "fadeOut",
+      "name": "Stranger4"
+    },
+    {
+      "type": "fadeOut",
+      "name": "Stranger5"
+    },
+    {
+      "type": "fadeOut",
+      "name": "Stranger6"
+    },
+    {
+      "type": "setWhite"
+    },
+    {
+      "type": "animate",
+      "text": "fear_transform",
+      "name": "Fear"
+    },
+    {
+      "type": "animate",
+      "text": "fear_pulse",
+      "name": "Fear"
+    },
+    {
+      "type": "dialog",
+      "text": "You do not know me, but you see me everywhere.",
+      "isTyped": "true"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "speed": 1,
+      "text": "3.55, 4.28",
+      "direction": "left"
+    },
+    {
+      "type": "dialog",
+      "text": "You cannot run.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You are mine",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "0"
+    },
+    {
+      "type": "setStageCounter",
+      "text": "0"
+    },
+    {
+      "type": "setDayCounter",
+      "text": "2"
+    },
+    {
+      "type": "changeCostume",
+      "text": "pjs"
+    },
+    {
+      "type": "loadScene",
+      "name": "Player Room"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "Items": [
+    {
+      "type": "startBlack"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "hide",
+      "name": "Player"
+    },
+    {
+      "type": "dialog",
+      "text": "...",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey...",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "animate",
+      "name": "80's Desk (1)",
+      "text": "80s_desk_sleeping"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "changeSong",
+      "name": "Old"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "dialog",
+      "name": "Friend",
+      "text": "Hey! Wake up!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Friend",
+      "text": "It's time for the science fair! Let's go!",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "-1.75, 0"
+    },
+    {
+      "type": "unhide",
+      "name": "Player"
+    },
+    {
+      "type": "animate",
+      "name": "80's Desk (1)",
+      "text": "regular_desk"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

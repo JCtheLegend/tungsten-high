@@ -1,0 +1,24 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 4, 4 ],
+      "validStages": [ 1, 1 ],
+      "type": "Librarian",
+      "name": "Librarian",
+      "location": "0,0",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "name": "2.PR.LibraryQuarters",
+          "fileName": "2.PR.LibraryQuarters"
+        }
+      ]
+    },
+    {
+      "validScenes": [ 4, 4 ],
+      "validStages": [ 1, 1 ],
+      "type": "Pickup",
+      "name": "Quarter"
+    }
+  ]
+}

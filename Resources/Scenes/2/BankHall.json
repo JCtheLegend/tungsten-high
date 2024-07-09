@@ -1,0 +1,17 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 5, 5 ],
+      "validStages": [ 1, 1 ],
+      "type": "cutscene",
+      "name": "2.PR.Bank.3"
+    },
+    {
+      "validScenes": [ 5, 5 ],
+      "validStages": [ 1, 1 ],
+      "type": "Bank Guy",
+      "name": "Bank Guy",
+      "location": "0,-8"
+    }
+  ]
+}

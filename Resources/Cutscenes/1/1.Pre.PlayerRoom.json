@@ -1,0 +1,82 @@
+{
+  "Items": [
+    {
+      "type": "disableCollider",
+      "name": "Bed"
+    },
+    {
+      "type": "hide",
+      "name": "Player"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "-3.1875, 2.8125"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "changeCostume",
+      "text": "pjs"
+    },
+    {
+      "type": "animate",
+      "name": "Bed",
+      "text": "bed_wakeup",
+      "isContinue": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "Mark!",
+      "isTyped": "true",
+      "name": "Mom"
+    },
+    {
+      "type": "dialog",
+      "text": "Hurry up and get dressed!",
+      "isTyped": "true",
+      "name": "Mom"
+    },
+    {
+      "type": "dialog",
+      "text": "You don't want to be late for your first day of school!",
+      "isTyped": "true",
+      "name": "Mom"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "animate",
+      "name": "Player",
+      "text": "pj_sit",
+      "isContinue": "false"
+    },
+    {
+      "type": "unhide",
+      "name": "Player"
+    },
+    {
+      "type": "animate",
+      "name": "Bed",
+      "text": "bed_get_out",
+      "isContinue": "false"
+    },
+    {
+      "type": "enableCollider",
+      "name": "Bed"
+    },
+    {
+      "type": "changeSong",
+      "name": "Home"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 1
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

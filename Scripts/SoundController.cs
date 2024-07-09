@@ -8,12 +8,16 @@ public class SoundController: MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
         audioSource = GetComponent<AudioSource>();
     }
     public void PlayAudio(string clip)
     {
-        audioSource.clip = Resources.Load<AudioClip>(clip);
+        audioSource.clip = Resources.Load<AudioClip>("Sounds/" + clip);
         audioSource.Play();
+    }
+
+    public void StopAudio()
+    {
+        audioSource.Stop();
     }
 }

@@ -1,0 +1,43 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 3,
+      "maxSceneCounter": 4,
+      "minGameCounter": 0,
+      "maxGameCounter": 1,
+      "type": "Character",
+      "name": "Friend",
+      "location": "-8.5,5.5"
+    },
+    {
+      "minSceneCounter": 3,
+      "maxSceneCounter": 4,
+      "minGameCounter": 0,
+      "maxGameCounter": 1,
+      "type": "cutscene",
+      "name": "1.1-Dream.2F-3F"
+    },
+    {
+      "minSceneCounter": 4,
+      "maxSceneCounter": 5,
+      "minGameCounter": 0,
+      "maxGameCounter": 1,
+      "location": "-7,-3",
+      "type": "CutsceneCollider",
+      "name": "1.1-Dream.2F-3F.2",
+      "fileName": "1.1-Dream.2F-3F.2",
+      "size": "1,8",
+      "destroy": true
+    },
+    {
+      "minSceneCounter": 4,
+      "maxSceneCounter": 5,
+      "minGameCounter": 0,
+      "maxGameCounter": 1,
+      "type": "Character",
+      "name": "Friend",
+      "location": "-9.5,-3",
+      "facing": "right"
+    }
+  ]
+}

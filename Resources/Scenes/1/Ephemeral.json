@@ -1,0 +1,72 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 9,
+      "maxGameCounter": 10,
+      "type": "cutscene",
+      "name": "1.1-PsychClass.2"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 9,
+      "maxGameCounter": 10,
+      "type": "Seer",
+      "name": "Seer",
+      "location": "-2.25,-1.5",
+      "facing": "down"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 9,
+      "maxGameCounter": 10,
+      "type": "Wally",
+      "name": "Wally",
+      "location": "0, -0.5",
+      "facing": "down"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 9,
+      "maxGameCounter": 10,
+      "type": "Sandman",
+      "name": "Sandman",
+      "location": "-3, -3.5",
+      "facing": "down"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 9,
+      "maxGameCounter": 10,
+      "type": "Songbird",
+      "name": "Songbird",
+      "location": "0, -6.5",
+      "facing": "up"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 9,
+      "maxGameCounter": 10,
+      "type": "Dreamy",
+      "name": "Dreamy",
+      "location": "2.25, -5.5",
+      "facing": "up"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 9,
+      "maxGameCounter": 10,
+      "type": "Maven",
+      "name": "Maven",
+      "location": "0, -3.5",
+      "facing": "down"
+    }
+  ]
+}

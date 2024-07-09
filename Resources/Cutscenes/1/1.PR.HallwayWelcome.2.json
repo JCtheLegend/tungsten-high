@@ -1,0 +1,211 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "left",
+      "speed": 3,
+      "text": "-21,3"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "up",
+      "speed": 3,
+      "text": "-21,4.5"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Handstand"
+    },
+    {
+      "type": "move",
+      "name": "Sandman",
+      "direction": "down",
+      "speed": 3,
+      "text": "-21,9"
+    },
+    {
+      "type": "moveFace",
+      "name": "Sandman",
+      "direction": "down"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey everyone, I'm Sandy!",
+      "name": "Sandman",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I'm also helping out here with your first day here.",
+      "name": "Sandman",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Here follow me, and we'll make our way to your first class.",
+      "name": "Sandman",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Sandman",
+          "direction": "up",
+          "speed": 2,
+          "text": "-21,43.5"
+        },
+        {
+          "type": "move",
+          "name": "Sandman",
+          "direction": "left",
+          "speed": 2,
+          "text": "-23.5,43.5"
+        },
+        {
+          "type": "moveFace",
+          "name": "Sandman",
+          "direction": "down"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "up",
+          "speed": 2,
+          "text": "-18.5,41.5"
+        },
+        {
+          "type": "moveFace",
+          "name": "Bubba",
+          "direction": "up"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "up",
+          "speed": 2,
+          "text": "-23.5,41.5"
+        },
+        {
+          "type": "moveFace",
+          "name": "Micycle",
+          "direction": "up"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Handstand",
+          "direction": "up",
+          "speed": 2,
+          "text": "-21,43.5"
+        },
+        {
+          "type": "moveFace",
+          "name": "Handstand",
+          "direction": "down"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Player",
+          "direction": "up",
+          "speed": 2,
+          "text": "-21,39"
+        }
+      ],
+      "isContinue": false
+    },
+    {
+      "type": "dialog",
+      "text": "Well, here we are!",
+      "name": "Sandman",
+      "isTyped": "true"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Player"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "left",
+          "speed": 2,
+          "text": "-30,41.5"
+        },
+        {
+          "type": "moveFace",
+          "name": "Micycle",
+          "direction": "up"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "left",
+          "speed": 2,
+          "text": "-30,41.5"
+        },
+        {
+          "type": "moveFace",
+          "name": "Bubba",
+          "direction": "up"
+        }
+      ],
+      "isContinue": false
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 1
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

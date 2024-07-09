@@ -1,0 +1,23 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "You found 1 Quarter!",
+      "isTyped": "false"
+    },
+    {
+      "type": "updateInventory",
+      "name": "quarters",
+      "text": 1
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

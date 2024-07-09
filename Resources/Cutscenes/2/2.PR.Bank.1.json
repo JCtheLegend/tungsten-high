@@ -1,0 +1,142 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Hello, what can I do for you?",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, you guys are from the superhero school!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Hold on one second, I'll be right there.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Bank Guy",
+      "direction": "right",
+      "speed": 3,
+      "text": "5,2.7"
+    },
+    {
+      "type": "moveFace",
+      "name": "Bank Guy",
+      "direction": "down"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "teleport",
+      "name": "Bank Guy",
+      "text": "5,1"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "right"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "move",
+      "name": "Bank Guy",
+      "direction": "left",
+      "speed": 3,
+      "text": "1.25,1"
+    },
+    {
+      "type": "dialog",
+      "text": "Awesome, so you guys are here to help me for the week...",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "and boy, do I have a fantastic job for you!",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "The bank seems to be having what they call a coin shortage.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Specifically, the bank is all out of quarters. We have no quarters.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "And since it is against Federal law for a bank to be without quarters...",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "we're gonna need you boys to go around the town and ask if they have any spare change.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I can give you these bills to pay back the townsfolk for all of the quarters you bring back.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You recieved $25!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You'll have to bring me back 100 quarters!",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You can keep whatever you find past that.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I'll be waiting back here! Come back whenever you finish!",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "moveFace",
+      "name": "Bank Guy",
+      "direction": "down"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 4
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

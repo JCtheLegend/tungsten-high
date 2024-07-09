@@ -1,0 +1,25 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "You should probably sit down and eat your food.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "text": "-11,-3.5",
+      "direction": "left",
+      "speed": 2
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

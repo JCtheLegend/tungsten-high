@@ -1,0 +1,69 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "checkCondition",
+      "name": "MailQuarters",
+      "skips": [
+        8,
+        0
+      ]
+    },
+    {
+      "type": "dialog",
+      "text": "Ah, I love making people do my job for me.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, hey, are you here to pick up any mail?",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "The bank needs quarters? Ah, I think I can help with that.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "People usually buy their stamps with coins.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You got 50 quarters!",
+      "isTyped": "true"
+    },
+    {
+      "type": "updateInventory",
+      "name": "Quarter",
+      "text": 50
+    },
+    {
+      "type": "addCondition",
+      "name": "MailQuarters"
+    },
+    {
+      "type": "goto",
+      "text": 11
+    },
+    {
+      "type": "dialog",
+      "text": "I'm all out of quarters, buddy.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Make sure to stop by if you have any health problems. Bye now!",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

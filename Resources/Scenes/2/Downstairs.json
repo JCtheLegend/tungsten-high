@@ -1,0 +1,19 @@
+{
+  "Items": [
+    {
+      "validScenes": [1, 1],
+      "type": "Mom",
+      "name": "Mom",
+      "location": "0,-2.5"
+    },
+    {
+      "validScenes": [ 1, 1 ],
+      "location": "1,-0.5",
+      "type": "CutsceneCollider",
+      "size": "100,1",
+      "name": "2.Pre.Downstairs",
+      "fileName": "2.Pre.Downstairs",
+      "destroy": true
+    }
+  ]
+}

@@ -2,53 +2,79 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCombatController : CombatController
+public class PlayerCombatController : MonoBehaviour
 {
     [SerializeField] PlayerCombatMasterController player;
     [SerializeField] AnimationClip punchAnimation;
     [SerializeField] private float moveSpeed = 1;
     [SerializeField] GameObject playerAttackObject;
-    [SerializeField] SpriteRenderer playerHealthBar;
+    [SerializeField] internal GameObject playerHealthBar;
+    [SerializeField] internal SpriteRenderer playerCurrentHealthBar;
+    [SerializeField] GameObject enemyHealthBar;
+    [SerializeField] SpriteRenderer blackFade;
+    [SerializeField] GameObject gameOver;
     Sprite playerHealthBarFull;
-    bool inputEnabled;
 
     public bool lockMovement = true;
 
-    private Vector2 moveVelocity;
+    internal Vector2 moveVelocity;
 
-    internal Vector2 position;
-    private int arenaWidth;
-    private int arenaHeight;
+    [SerializeField] Vector2 resetPos;
+
+    public float arenaMinWidth;
+    public float arenaMinHeight;
+    public float arenaMaxWidth;
+    public float arenaMaxHeight;
 
     internal bool inCombat = false;
-    internal combatAction action = combatAction.none;
+    public combatAction action = combatAction.none;
     private Rigidbody2D rb;
 
     public int attackDamage;
     public int currentHealth;
     public int maxHealth;
 
-    private void Start()
+    IEnumerator movingRoutine;
+    IEnumerator punchingRoutine;
+
+    SoundController sound;
+    MusicController music;
+
+    public Planner p;
+
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        
-        SpriteRenderer sprite = GetComponent<SpriteRenderer>();
-        playerHealthBarFull = playerHealthBar.sprite;
+        playerHealthBarFull = playerCurrentHealthBar.sprite;
+        sound = GameObject.Find("Sound Manager").GetComponent<SoundController>();
+        Debug.Log(sound);
+        music = GameObject.Find("Music Manager").GetComponent<MusicController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K) && !inCombat)
-        {
-            BeginCombat(new Vector2(50, 50), 100, 100);
-        }
-        else if (Input.GetKeyDown(KeyCode.K) && inCombat){
-            EndCombat();
-        }
-        if (inCombat)
+        if (inCombat && action != combatAction.dead)
         {
             CombatMove();
+        }
+        if (Input.GetKeyDown(KeyCode.Escape) && !player.cutscene.inCutscene)
+        {
+            if (GameManager.sceneCounter >= 7) //FIXME
+            {
+                if (!p.gameObject.activeInHierarchy)
+                {
+                    Time.timeScale = 0;
+                    DisableInput();
+                    p.gameObject.SetActive(true);
+                }
+                else
+                {
+                    Time.timeScale = 1;
+                    p.gameObject.SetActive(false);
+                    EnableInput();
+                }
+            }
         }
     }
 
@@ -57,14 +83,6 @@ public class PlayerCombatController : CombatController
         ApplyMovement();
         ApplyBlock();
         ApplyAttack();
-    }
-
-    internal void BeginCombat(Vector2 startPosition, int arenaHeight, int arenaWidth)
-    {
-        inCombat = true;
-        position = startPosition;
-        this.arenaHeight = arenaHeight;
-        this.arenaWidth = arenaWidth;
     }
 
     internal void EndCombat()
@@ -97,27 +115,38 @@ public class PlayerCombatController : CombatController
         rb.velocity = moveVelocity;
     }
 
+    public void StopMovement()
+    {
+        if (movingRoutine != null)
+        {
+            StopCoroutine(movingRoutine);
+        }
+        rb.velocity = Vector2.zero;
+        action = combatAction.none;
+    }
+
+
     private void Move(direction dir)
     {
-        if (dir == direction.down && position.y != 0)
+        if (dir == direction.down && rb.position.y > arenaMinHeight)
         {
-            StartCoroutine(MoveDown());
-            position.y -= 1;
+            movingRoutine = MoveDown();
+            StartCoroutine(movingRoutine);
         }
-        else if (dir == direction.left && position.x != 0)
+        else if (dir == direction.left && rb.position.x > arenaMinWidth)
         {
-            StartCoroutine(MoveLeft());
-            position.x -= 1;
+            movingRoutine = MoveLeft();
+            StartCoroutine(movingRoutine);
         }
-        else if (dir == direction.up && position.y != (arenaHeight - 1))
+        else if (dir == direction.up && rb.position.y < arenaMaxHeight)
         {
-            StartCoroutine(MoveUp());
-            position.y++;
+            movingRoutine = MoveUp();
+            StartCoroutine(movingRoutine);
         }
-        else if (dir == direction.right && position.x != (arenaWidth - 1))
+        else if (dir == direction.right && rb.position.x < arenaMaxWidth)
         {
-            StartCoroutine(MoveRight());
-            position.x++;
+            movingRoutine = MoveRight();
+            StartCoroutine(movingRoutine);
         }
 
     }
@@ -126,19 +155,26 @@ public class PlayerCombatController : CombatController
     {
         if (Input.GetKeyDown(KeyCode.Z) && action == combatAction.none)
         {
-            StartCoroutine(Punch());
+            punchingRoutine = Punch();
+            StartCoroutine(punchingRoutine);
         }
     }
 
     IEnumerator Punch()
     {
-        action = combatAction.punch;
-        GameObject playerAttack = Instantiate(playerAttackObject, new Vector2(this.transform.position.x, this.transform.position.y + 0.5f), Quaternion.identity);
-        playerAttack.transform.parent = gameObject.transform;
-        //player.sound.PlayAudio("punch-swing");
-        yield return new WaitForSeconds(punchAnimation.length);
-        Destroy(playerAttack);
-        action = combatAction.none;
+        if (action != combatAction.dead)
+        {
+            action = combatAction.punch;
+            GameObject playerAttack = Instantiate(playerAttackObject, new Vector2(this.transform.position.x, this.transform.position.y + 0.5f), Quaternion.identity);
+            playerAttack.transform.parent = gameObject.transform;
+            sound.PlayAudio("punch-swing");
+            yield return new WaitForSeconds(punchAnimation.length);
+            Destroy(playerAttack);
+            if (currentHealth > 0)
+            {
+                action = combatAction.none;
+            }
+        }
     }
 
     void ApplyBlock()
@@ -163,7 +199,6 @@ public class PlayerCombatController : CombatController
     {
         float newPosition = Mathf.Ceil(rb.position.x - 0.5f) - 0.5f;
         action = combatAction.moveLeft;
-        Debug.Log(newPosition);
         while (rb.position.x > newPosition && action == combatAction.moveLeft)
         {
             moveVelocity = new Vector2(-moveSpeed, 0);
@@ -246,35 +281,56 @@ public class PlayerCombatController : CombatController
         action = combatAction.none;
     }
 
-   
-
-    public IEnumerator Hurt(int damage)
+    IEnumerator DamageMoveDown()
     {
+        float newPosition = rb.position.y;
         action = combatAction.hurt;
-        player.sound.PlayAudio("player-hurt");
-        TakeDamage(damage);
-        float p = ((float)currentHealth / maxHealth);
-        CropPlayerHealthSprite(p);
-        float newPosition = Mathf.Floor(rb.position.y - 1);
+        if (rb.position.y > arenaMinHeight + 1)
+        {
+            newPosition = Mathf.Ceil(rb.position.y - 2);
+        }
+        else if (rb.position.y > arenaMinHeight)
+        {
+            newPosition = Mathf.Ceil(rb.position.y - 1);
+        }
         while (rb.position.y > newPosition)
         {
-            moveVelocity = new Vector2(0, -2 * moveSpeed);
-            yield return new WaitForSeconds(0.0000001f);
+
+            moveVelocity = new Vector2(0, -moveSpeed);
+            yield return new WaitForEndOfFrame();
         }
         moveVelocity = Vector2.zero;
-        rb.position = new Vector2(Mathf.Floor(rb.position.x) + 0.5f, newPosition);
-        Debug.Log(rb.position);
-        yield return new WaitForSeconds(0.25f);
+        while (rb.position.y != newPosition && lockMovement)
+        {
+            transform.position = new Vector2(rb.position.x, newPosition);
+            yield return new WaitForEndOfFrame();
+        }
+
+        yield return new WaitForSeconds(0.5f);
         action = combatAction.none;
+    }
+
+   
+
+    public void Hurt(int damage)
+    {
+        action = combatAction.hurt;
+        TakeDamage(damage);
+        StartCoroutine(GameManager.FlickerRed(player.anim.sprite));
+        float p = ((float)currentHealth / maxHealth);
+        CropPlayerHealthSprite(p);
+        sound.PlayAudio("player-hurt");
+        if (currentHealth <= 0)
+        {
+            StartCoroutine(Die());
+            return;
+        }
+        StartCoroutine(DamageMoveDown());
     }
 
     private void ChangeHealth(int amount)
     {
         currentHealth += amount;
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
         if (currentHealth >= maxHealth)
         {
             currentHealth = maxHealth;
@@ -291,25 +347,52 @@ public class PlayerCombatController : CombatController
         ChangeHealth(heal);
     }
 
-    internal void Die()
+    IEnumerator Die()
     {
 
+        music.StopMusic();
+        sound.PlayAudio("Death");
+        enemyHealthBar.SetActive(false);
+        playerHealthBar.SetActive(false);
+        DisableInput();
+        if (movingRoutine != null)
+        {
+            StopCoroutine(movingRoutine);
+        }
+        if(punchingRoutine != null)
+        {
+            StopCoroutine(punchingRoutine);
+        }
+        rb.velocity = Vector2.zero;
+        action = combatAction.dead;
+        StartCoroutine(GameManager.FadeIn(blackFade, 0.5f));
+        yield return new WaitForSeconds(3);
+        StartCoroutine(GameManager.FadeOut(player.anim.sprite, 0.5f));
+        player.anim.sprite.sprite = null;
+        yield return new WaitForSeconds(3);
+        music.ChangeSong("Game Over");
+        gameOver.SetActive(true);
+        Destroy(gameObject);
     }
 
     internal void DisableInput()
     {
-        inputEnabled = false;
+        inCombat = false;
     }
 
     internal void EnableInput()
     {
-        inputEnabled = true;
+        inCombat = true;
     }
     private void CropPlayerHealthSprite(float percentage)
     {
+        if(percentage < 0)
+        {
+            percentage = 0;
+        }
         Rect r = new Rect(0, 0, (int)Mathf.Ceil(playerHealthBarFull.rect.width * percentage), playerHealthBarFull.rect.height);
         Sprite newSprite = Sprite.Create(playerHealthBarFull.texture, r, new Vector2(0, 0.5f), 16);
-        playerHealthBar.sprite = newSprite;
+        playerCurrentHealthBar.sprite = newSprite;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -324,18 +407,15 @@ public class PlayerCombatController : CombatController
 
     protected virtual void HandleCollision(GameObject collisionObject)
     {
-        Debug.Log(this.tag);
-        Debug.Log(collisionObject);
-        Debug.Log(collisionObject.tag);
-        if (collisionObject.CompareTag("Enemy"))
+        if (collisionObject.CompareTag("Enemy") && action != combatAction.hurt && action != combatAction.dead)
         {
-            StartCoroutine(Hurt(collisionObject.GetComponent<EnemyController>().attackDamage));
+            Hurt(collisionObject.GetComponent<EnemyController>().attackDamage);
         }
-        if (collisionObject.CompareTag("Enemy Attack"))
+        if (collisionObject.CompareTag("Enemy Attack") && action != combatAction.hurt && action != combatAction.dead)
         {
-            StartCoroutine(Hurt(collisionObject.GetComponentInParent<EnemyController>().attackDamage));
+            Hurt(collisionObject.GetComponentInParent<EnemyController>().attackDamage);
         }
     }
 
-    public enum combatAction { none, punch, moveLeft, moveRight, moveUp, moveDown, block, hurt };
+    public enum combatAction { none, punch, moveLeft, moveRight, moveUp, moveDown, block, hurt, dead };
 }

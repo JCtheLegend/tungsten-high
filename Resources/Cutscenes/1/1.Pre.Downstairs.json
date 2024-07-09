@@ -1,0 +1,58 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Mom",
+      "direction": "left",
+      "speed": 2,
+      "text": "3,0"
+    },
+    {
+      "type": "moveFace",
+      "name": "Mom",
+      "direction": "up"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, hey Mark.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We have to leave soon, or you'll be late for school!",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I'll be waiting in the car outside.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Mom",
+      "direction": "down",
+      "speed": 2,
+      "text": "3,-7"
+    },
+    {
+      "type": "disable",
+      "name": "Mom"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "2"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

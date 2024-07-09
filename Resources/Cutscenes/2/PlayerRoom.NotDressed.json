@@ -1,0 +1,25 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "You should probably get dressed before going to school.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "text": "5,-4",
+      "direction": "up",
+      "speed": 2
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

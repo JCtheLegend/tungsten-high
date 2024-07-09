@@ -1,0 +1,15 @@
+{
+  "Items": [
+    {
+      "type": "move",
+      "name": "Fear Swirl",
+      "direction": "right",
+      "speed": 3,
+      "text": "20,0"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 3 
+    }
+  ]
+}

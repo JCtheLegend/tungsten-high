@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 5296640210036921077}
   - component: {fileID: 8810816436533610592}
   - component: {fileID: 6071666832549607315}
+  - component: {fileID: -1167216992344450841}
+  - component: {fileID: 3545203961045595099}
   m_Layer: 0
   m_Name: Bubba
   m_TagString: Untagged
@@ -159,7 +161,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03125, y: 0.09375}
+  m_Offset: {x: 0, y: -0.46755674}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -170,7 +172,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1875, y: 1.9375}
+  m_Size: {x: 1.125, y: 0.8773865}
   m_EdgeRadius: 0
 --- !u!114 &8810816436533610592
 MonoBehaviour:
@@ -196,14 +198,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e198e015c7ca8a542af80e930b4e3fc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   upMoveAnim: BubbaWalkUp
   downMoveAnim: BubbaWalkDown
-  rightMoveAnim: BubbleWalkSide
+  rightMoveAnim: BubbaWalkSide
   leftMoveAnim: 
   defaultUpAnim: 
   defaultDownAnim: 
   defaultRightAnim: 
   defaultLeftAnim: 
   initialFacing: 1
-  mirrorFace: 0
+  mirrorFace: 1
   hasIdleAnims: 0
+--- !u!114 &-1167216992344450841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3996496089594150059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd37bcca108f114c91bb0a0ec156db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yOverride: 0
+  yCoord: 0
+--- !u!114 &3545203961045595099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3996496089594150059}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bf9ad162b24f1f47b6b9a04f4788082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

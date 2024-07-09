@@ -1,0 +1,519 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "down",
+      "text": "15, -7",
+      "speed": 2
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "left",
+      "text": "13.5, -7",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "moveCamera",
+      "text": "20, 0",
+      "direction": "up",
+      "isContinue": false,
+      "speed": 2
+    },
+    {
+      "type": "teleport",
+      "name": "Principal Fi",
+      "text": "10, 0.5"
+    },
+    {
+      "type": "move",
+      "name": "Principal Fi",
+      "direction": "right",
+      "text": "15.5, 0.5",
+      "speed": 2
+    },
+    {
+      "type": "move",
+      "name": "Principal Fi",
+      "direction": "right",
+      "text": "16.5, 1.85",
+      "speed": 1
+    },
+    {
+      "type": "move",
+      "name": "Principal Fi",
+      "direction": "right",
+      "text": "19.66, 1.85",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Principal Fi",
+      "direction": "down"
+    },
+    {
+      "type": "playSound",
+      "name": "mic"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "dialog",
+      "text": "*cough* Check, check.",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Sorry about that.",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Ahem, welcome everyone!",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I hope you all had a great first day here at Tungsten High!",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I am the principal here at Tungsten High,",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "and I'd like to extend a very warm welcome to the new students coming in this year.",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We are so excited to help you learn how to use your powers and become your own hero here!",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now, I'd like to introduce to you the staff for this year.",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I'm sure you have already met some of them today.",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Our Physical Powers and Combat Teacher, Coach Morrison",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "teleport",
+      "name": "Gym Teacher",
+      "text": "10, 0.5"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "move",
+      "name": "Gym Teacher",
+      "direction": "right",
+      "text": "15.5, 0.5",
+      "speed": 2
+    },
+    {
+      "type": "move",
+      "name": "Gym Teacher",
+      "direction": "right",
+      "text": "16.5, 1.85",
+      "speed": 1
+    },
+    {
+      "type": "move",
+      "name": "Gym Teacher",
+      "direction": "right",
+      "text": "18, 1.85",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Gym Teacher",
+      "direction": "down"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "move",
+      "name": "Gym Teacher",
+      "direction": "right",
+      "text": "23, 3",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Gym Teacher",
+      "direction": "down"
+    },
+    {
+      "type": "dialog",
+      "text": "Our Public Relations teacher, Miss Cordial",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "teleport",
+      "name": "Ms Nice",
+      "text": "10, 0.5"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "move",
+      "name": "Ms Nice",
+      "direction": "right",
+      "text": "15.5, 0.5",
+      "speed": 2
+    },
+    {
+      "type": "move",
+      "name": "Ms Nice",
+      "direction": "right",
+      "text": "16.5, 1.85",
+      "speed": 1
+    },
+    {
+      "type": "move",
+      "name": "Ms Nice",
+      "direction": "right",
+      "text": "18, 1.85",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Ms Nice",
+      "direction": "down"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "move",
+      "name": "Ms Nice",
+      "direction": "right",
+      "text": "21.5, 3",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Ms Nice",
+      "direction": "down"
+    },
+    {
+      "type": "dialog",
+      "text": "Our Shapeshifting Teacher, Mr. Juniper",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "teleport",
+      "name": "Mr Wood",
+      "text": "10, 0.5"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "move",
+      "name": "Mr Wood",
+      "direction": "right",
+      "text": "15.5, 0.5",
+      "speed": 2
+    },
+    {
+      "type": "move",
+      "name": "Mr Wood",
+      "direction": "right",
+      "text": "16.5, 1.85",
+      "speed": 1
+    },
+    {
+      "type": "move",
+      "name": "Mr Wood",
+      "direction": "right",
+      "text": "18, 1.85",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Mr Wood",
+      "direction": "down"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "move",
+      "name": "Mr Wood",
+      "direction": "right",
+      "text": "20, 3",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Mr Wood",
+      "direction": "down"
+    },
+    {
+      "type": "dialog",
+      "text": "Our Psychic Powers Teacher, Maven",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "teleport",
+      "name": "Maven",
+      "text": "10, 0.5"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "move",
+      "name": "Maven",
+      "direction": "right",
+      "text": "15.5, 0.5",
+      "speed": 2
+    },
+    {
+      "type": "move",
+      "name": "Maven",
+      "direction": "right",
+      "text": "16.5, 1.85",
+      "speed": 1
+    },
+    {
+      "type": "move",
+      "name": "Maven",
+      "direction": "right",
+      "text": "18, 1.85",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Maven",
+      "direction": "down"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "move",
+      "name": "Maven",
+      "direction": "right",
+      "text": "18.5, 3",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Maven",
+      "direction": "down"
+    },
+    {
+      "type": "dialog",
+      "text": "and our Natural Powers and Science Teacher, Ms. Sparks",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "teleport",
+      "name": "Ms Sparks",
+      "text": "10, 0.5"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "move",
+      "name": "Ms Sparks",
+      "direction": "right",
+      "text": "15.5, 0.5",
+      "speed": 2
+    },
+    {
+      "type": "move",
+      "name": "Ms Sparks",
+      "direction": "right",
+      "text": "16.5, 1.85",
+      "speed": 1
+    },
+    {
+      "type": "move",
+      "name": "Ms Sparks",
+      "direction": "right",
+      "text": "18, 1.85",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Ms Sparks",
+      "direction": "down"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "move",
+      "name": "Ms Sparks",
+      "direction": "left",
+      "text": "17, 3",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Ms Sparks",
+      "direction": "down"
+    },
+    {
+      "type": "dialog",
+      "text": "On behalf of the entire Tungsten High staff, we hope you have an amazing school year!",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now, before you head home, make sure to check out the different clubs you can join here.",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Clubs will meet every Monday, Wendesday, and Friday after school.",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "These clubs are a ton of fun, so make sure to go sign up for one in the cafeteria.",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Okay, I think that is all I have today.",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You are dismissed!",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "playSound",
+      "name": "school-bell"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "moveCamera",
+      "text": "13.5, -5.068",
+      "direction": "down",
+      "isContinue": false,
+      "speed": 2
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Player"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Assembly"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Assembly.2"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Assembly.3"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Assembly.4"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Assembly.5"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Assembly.6"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Assembly.7"
+    },
+    {
+      "type": "setStageCounter",
+      "text": 6
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 0
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

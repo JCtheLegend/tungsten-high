@@ -1,0 +1,32 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "move",
+      "name": "Bank Guy",
+      "direction": "up",
+      "speed": 3,
+      "text": "0,4"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 6
+    },
+    {
+      "type": "move",
+      "name": "Bank Guy",
+      "direction": "up",
+      "speed": 3,
+      "text": "0,8"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

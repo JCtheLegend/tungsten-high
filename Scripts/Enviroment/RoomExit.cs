@@ -8,5 +8,5 @@ public class RoomExit : MonoBehaviour
 
     public int toEntranceNum;
 
-    public string startingCutscene;
+    public bool locked = false;
 }

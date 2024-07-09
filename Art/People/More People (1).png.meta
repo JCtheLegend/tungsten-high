@@ -1,0 +1,2361 @@
+fileFormatVersion: 2
+guid: 4e30ba0b998d2d34d9a7c737d87ca9c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 881041329571493824
+    second: More People (1)_0
+  - first:
+      213: 1359434132636516589
+    second: More People (1)_1
+  - first:
+      213: -3144925707579611227
+    second: More People (1)_2
+  - first:
+      213: -1409031364913112617
+    second: More People (1)_3
+  - first:
+      213: 8085919654727982917
+    second: More People (1)_4
+  - first:
+      213: 2879763994348152906
+    second: More People (1)_5
+  - first:
+      213: -3938896536840120787
+    second: More People (1)_6
+  - first:
+      213: 6510560601060406253
+    second: More People (1)_7
+  - first:
+      213: 4064533392023867253
+    second: More People (1)_8
+  - first:
+      213: -8987660051635584968
+    second: More People (1)_9
+  - first:
+      213: 903484379063381714
+    second: More People (1)_10
+  - first:
+      213: 2692329002029332117
+    second: More People (1)_11
+  - first:
+      213: 7169139674092836679
+    second: More People (1)_12
+  - first:
+      213: -9198008976497728921
+    second: More People (1)_13
+  - first:
+      213: 6401583009665750116
+    second: More People (1)_14
+  - first:
+      213: -1436494086575643847
+    second: More People (1)_15
+  - first:
+      213: 8969645531205576795
+    second: More People (1)_16
+  - first:
+      213: -220850169670483672
+    second: More People (1)_17
+  - first:
+      213: 359483749661407298
+    second: More People (1)_18
+  - first:
+      213: 1316292695053880585
+    second: More People (1)_19
+  - first:
+      213: 3983990288270091918
+    second: More People (1)_20
+  - first:
+      213: -3529383646297866709
+    second: More People (1)_21
+  - first:
+      213: -991704229003285622
+    second: More People (1)_22
+  - first:
+      213: -787559708205871276
+    second: More People (1)_23
+  - first:
+      213: 1754526403003070958
+    second: More People (1)_24
+  - first:
+      213: 6945661022775119755
+    second: More People (1)_25
+  - first:
+      213: -316121646576102596
+    second: More People (1)_26
+  - first:
+      213: 5225801996279426023
+    second: More People (1)_27
+  - first:
+      213: -8391179457243299659
+    second: More People (1)_28
+  - first:
+      213: 4610001169058163796
+    second: More People (1)_29
+  - first:
+      213: 7637465918520019457
+    second: More People (1)_30
+  - first:
+      213: -3017761646355219421
+    second: More People (1)_31
+  - first:
+      213: 1701226607927977410
+    second: More People (1)_32
+  - first:
+      213: 1591739824550597392
+    second: More People (1)_33
+  - first:
+      213: 6392871814279760341
+    second: More People (1)_34
+  - first:
+      213: -1114317360278697616
+    second: More People (1)_35
+  - first:
+      213: 7109346649181468770
+    second: More People (1)_36
+  - first:
+      213: 290636946269467078
+    second: More People (1)_37
+  - first:
+      213: 2266378187698657010
+    second: More People (1)_38
+  - first:
+      213: 780713002534163742
+    second: More People (1)_39
+  - first:
+      213: 2785070041168813317
+    second: More People (1)_40
+  - first:
+      213: 7417699515589523630
+    second: More People (1)_41
+  - first:
+      213: 2286665378048296716
+    second: More People (1)_42
+  - first:
+      213: -2067411148883091751
+    second: More People (1)_43
+  - first:
+      213: -3513329184342294176
+    second: More People (1)_44
+  - first:
+      213: 2400166284655683981
+    second: More People (1)_45
+  - first:
+      213: 9207374516064416220
+    second: More People (1)_46
+  - first:
+      213: 2673860733146208591
+    second: More People (1)_47
+  - first:
+      213: -4837924535700499460
+    second: More People (1)_48
+  - first:
+      213: -5062551116756887178
+    second: More People (1)_49
+  - first:
+      213: 2168908302297823629
+    second: More People (1)_50
+  - first:
+      213: 6058945802731007939
+    second: More People (1)_51
+  - first:
+      213: 7518472468862305764
+    second: More People (1)_52
+  - first:
+      213: -1311569375043897112
+    second: More People (1)_53
+  - first:
+      213: -487397947470245317
+    second: More People (1)_54
+  - first:
+      213: 8432563755336231923
+    second: More People (1)_55
+  - first:
+      213: -1851856552656323148
+    second: More People (1)_56
+  - first:
+      213: 5076068255805517151
+    second: More People (1)_57
+  - first:
+      213: -9076251259537077491
+    second: More People (1)_58
+  - first:
+      213: -4868961883993220257
+    second: More People (1)_59
+  - first:
+      213: 4951891694748512567
+    second: More People (1)_60
+  - first:
+      213: -4718439086145863214
+    second: More People (1)_61
+  - first:
+      213: 8239059477840679061
+    second: More People (1)_62
+  - first:
+      213: 2144902253991426934
+    second: More People (1)_63
+  - first:
+      213: 264259617201162682
+    second: More People (1)_64
+  - first:
+      213: 3798152749837933215
+    second: More People (1)_65
+  - first:
+      213: 5754075386711498157
+    second: More People (1)_66
+  - first:
+      213: -3109197990244579839
+    second: More People (1)_67
+  - first:
+      213: 635926633512135826
+    second: More People (1)_68
+  - first:
+      213: -2462629539102007001
+    second: More People (1)_69
+  - first:
+      213: 5412658134544221954
+    second: More People (1)_70
+  - first:
+      213: -4734537630216588341
+    second: More People (1)_71
+  - first:
+      213: 3796549881932585781
+    second: More People (1)_72
+  - first:
+      213: -3707507799938065974
+    second: More People (1)_73
+  - first:
+      213: -3815692147547249307
+    second: More People (1)_74
+  - first:
+      213: 5226955771161639803
+    second: More People (1)_75
+  - first:
+      213: 6876996759050953965
+    second: More People (1)_76
+  - first:
+      213: 5106853362026625850
+    second: More People (1)_77
+  - first:
+      213: -1655665078502877150
+    second: More People (1)_78
+  - first:
+      213: -8421951255982607595
+    second: More People (1)_79
+  - first:
+      213: -1138022940142177836
+    second: More People (1)_80
+  - first:
+      213: -1483467985683376549
+    second: More People (1)_81
+  - first:
+      213: 2685751202869001463
+    second: More People (1)_82
+  - first:
+      213: 612305261626972856
+    second: More People (1)_83
+  - first:
+      213: 2031930182903320212
+    second: More People (1)_84
+  - first:
+      213: 5631449009324492897
+    second: More People (1)_85
+  - first:
+      213: 5104282228892950750
+    second: More People (1)_86
+  - first:
+      213: 8205362742275356809
+    second: More People (1)_87
+  - first:
+      213: -1610508626133130214
+    second: More People (1)_88
+  - first:
+      213: 6899656235471406785
+    second: More People (1)_89
+  - first:
+      213: 7175591483035507263
+    second: More People (1)_90
+  - first:
+      213: 3909843180093421982
+    second: More People (1)_91
+  - first:
+      213: -1005524127195290080
+    second: More People (1)_92
+  - first:
+      213: 3256946563983934356
+    second: More People (1)_93
+  - first:
+      213: 6504503367293060774
+    second: More People (1)_94
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: More People (1)_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 480
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7fb89db661a3c00800000000000000
+      internalID: 881041329571493824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 480
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0475b142eadd210800000000000000
+      internalID: 1359434132636516589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 480
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a729b24bbafa54d0800000000000000
+      internalID: -3144925707579611227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 480
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d958f0607d127ce0800000000000000
+      internalID: -1409031364913112617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 480
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f196eb515f63070800000000000000
+      internalID: 8085919654727982917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 480
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48e410681af6f720800000000000000
+      internalID: 2879763994348152906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 480
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26d0aa087a3659c0800000000000000
+      internalID: -3938896536840120787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 480
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3fbda4f582a5a50800000000000000
+      internalID: 6510560601060406253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 480
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fcb41d59f186830800000000000000
+      internalID: 4064533392023867253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 450
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830ca4c3dca654380800000000000000
+      internalID: -8987660051635584968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 416
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2deef228142d98c00800000000000000
+      internalID: 903484379063381714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 416
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596b07876f21d5520800000000000000
+      internalID: 2692329002029332117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_12
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 416
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7479673cc86ed7360800000000000000
+      internalID: 7169139674092836679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 416
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762affaa19b1a5080800000000000000
+      internalID: -9198008976497728921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_14
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 416
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4649d4b84ddf6d850800000000000000
+      internalID: 6401583009665750116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 416
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933a5b73d3c801ce0800000000000000
+      internalID: -1436494086575643847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 416
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58ada066159a7c70800000000000000
+      internalID: 8969645531205576795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_17
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 416
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821c438d0f16fecf0800000000000000
+      internalID: -220850169670483672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 416
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248f711d0942df400800000000000000
+      internalID: 359483749661407298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_19
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 384
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dc02d6b39644210800000000000000
+      internalID: 1316292695053880585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 384
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86e1f02f0af94730800000000000000
+      internalID: 3983990288270091918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_21
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 384
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2eb75ee54c150fc0800000000000000
+      internalID: -3529383646297866709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_22
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 384
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ba10c0242cc32f0800000000000000
+      internalID: -991704229003285622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_23
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 384
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f8af83e960215f0800000000000000
+      internalID: -787559708205871276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_26
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 384
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33150e8909ec9bf0800000000000000
+      internalID: -316121646576102596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_27
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 384
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb23c66a37c58840800000000000000
+      internalID: 5225801996279426023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 352
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b04574fdba8c8b80800000000000000
+      internalID: -8391179457243299659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_29
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 352
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ce8df63a30aff30800000000000000
+      internalID: 4610001169058163796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_30
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 352
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ac981b9cabdf960800000000000000
+      internalID: 7637465918520019457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_31
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 352
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cf23c75c1ce16d0800000000000000
+      internalID: -3017761646355219421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_32
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 352
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c56dff1698fb9710800000000000000
+      internalID: 1701226607927977410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_33
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 352
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0135e21efeef61610800000000000000
+      internalID: 1591739824550597392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_34
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 352
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d980c05b0b08b850800000000000000
+      internalID: 6392871814279760341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_35
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 352
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0798985c3462980f0800000000000000
+      internalID: -1114317360278697616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_36
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 352
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26833994c1979a260800000000000000
+      internalID: 7109346649181468770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_37
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 323
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1fef443cc880400800000000000000
+      internalID: 290636946269467078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_38
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 291
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6d87434fac37f10800000000000000
+      internalID: 2266378187698657010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_39
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 290
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15d393e656a5da00800000000000000
+      internalID: 780713002534163742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_40
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 291
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d137e427e86a620800000000000000
+      internalID: 2785070041168813317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_41
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 291
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8fc45a866f0f660800000000000000
+      internalID: 7417699515589523630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_42
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 290
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07c0cacb0edbbf10800000000000000
+      internalID: 2286665378048296716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_43
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 290
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de142283841f43e0800000000000000
+      internalID: -2067411148883091751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_44
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 290
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061c344a8b52e3fc0800000000000000
+      internalID: -3513329184342294176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_45
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 291
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8965cee48a1f4120800000000000000
+      internalID: 2400166284655683981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_46
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 290
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1f000f65a27cf70800000000000000
+      internalID: 9207374516064416220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_47
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 224
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f499b0a8b267b1520800000000000000
+      internalID: 2673860733146208591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_48
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 224
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3dc67644d3cdcb0800000000000000
+      internalID: -4837924535700499460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_49
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 224
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679d274f4943eb9b0800000000000000
+      internalID: -5062551116756887178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 224
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d897bdc0c92891e10800000000000000
+      internalID: 2168908302297823629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_51
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 224
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf202d1b13b51450800000000000000
+      internalID: 6058945802731007939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_52
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 224
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5871830eaf65860800000000000000
+      internalID: 7518472468862305764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_53
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 224
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e83a363a9e5ccde0800000000000000
+      internalID: -1311569375043897112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_54
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 224
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3218cc262a6c39f0800000000000000
+      internalID: -487397947470245317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_55
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 224
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb66aece0c760570800000000000000
+      internalID: 8432563755336231923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_56
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 192
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdb0f3e642ec46e0800000000000000
+      internalID: -1851856552656323148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_57
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 192
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dacea3f21d17640800000000000000
+      internalID: 5076068255805517151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_58
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 192
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bc917419daa0280800000000000000
+      internalID: -9076251259537077491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_59
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 192
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bdaaf96f8fd6cb0800000000000000
+      internalID: -4868961883993220257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_60
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 192
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73131b79247a8b440800000000000000
+      internalID: 4951891694748512567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_61
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 192
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d105f786acb48eb0800000000000000
+      internalID: -4718439086145863214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_63
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 192
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bf71f5c3934cd10800000000000000
+      internalID: 2144902253991426934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_64
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 192
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab981c3c8b6daa300800000000000000
+      internalID: 264259617201162682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_65
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 160
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a53c07dcfb5b430800000000000000
+      internalID: 3798152749837933215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_66
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 160
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadd1cbe3159adf40800000000000000
+      internalID: 5754075386711498157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_67
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 160
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1060d1fa6e8e9d4d0800000000000000
+      internalID: -3109197990244579839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_68
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 160
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c63b567e343d800800000000000000
+      internalID: 635926633512135826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_69
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 160
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721e0745b7bf2ddd0800000000000000
+      internalID: -2462629539102007001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_70
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 160
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207032855ef9d1b40800000000000000
+      internalID: 5412658134544221954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_71
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 160
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc378372c1b8b4eb0800000000000000
+      internalID: -4734537630216588341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_72
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 160
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b94aca00e00b430800000000000000
+      internalID: 3796549881932585781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_73
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 160
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac993b69c494c8cc0800000000000000
+      internalID: -3707507799938065974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_74
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 128
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565e23d4530fb0bc0800000000000000
+      internalID: -3815692147547249307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_75
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 96
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b74cc8490e98840800000000000000
+      internalID: 5226955771161639803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_76
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 96
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4aeb0dd10007f50800000000000000
+      internalID: 6876996759050953965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_77
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 96
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b3b9353103fd640800000000000000
+      internalID: 5106853362026625850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_78
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 96
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22811d81265e509e0800000000000000
+      internalID: -1655665078502877150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_79
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 96
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513708f34f73f1b80800000000000000
+      internalID: -8421951255982607595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_80
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 96
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1749a5a2ee430f0800000000000000
+      internalID: -1138022940142177836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_81
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 96
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b569dad0ab9a96be0800000000000000
+      internalID: -1483467985683376549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_82
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 96
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcb5124d74b54520800000000000000
+      internalID: 2685751202869001463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_83
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 96
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bad06d24685f7800800000000000000
+      internalID: 612305261626972856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_84
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 64
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ec8585cbdd23c10800000000000000
+      internalID: 2031930182903320212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_85
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 32
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168038b890de62e40800000000000000
+      internalID: 5631449009324492897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_86
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 32
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0e08eb4ad06d640800000000000000
+      internalID: 5104282228892950750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_87
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 32
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9883c82b0fd4fd170800000000000000
+      internalID: 8205362742275356809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_88
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 32
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14e1a7ffe256a9e0800000000000000
+      internalID: -1610508626133130214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_89
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 32
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6059b4ac080cf50800000000000000
+      internalID: 6899656235471406785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_90
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 32
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a56a79f62d49360800000000000000
+      internalID: 7175591483035507263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_91
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 32
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99b3f438ad824630800000000000000
+      internalID: 3909843180093421982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_92
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 32
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026a0714229ab02f0800000000000000
+      internalID: -1005524127195290080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_93
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 32
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49301b6d4aff23d20800000000000000
+      internalID: 3256946563983934356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More People (1)_94
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6c5d7a953a44a50800000000000000
+      internalID: 6504503367293060774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

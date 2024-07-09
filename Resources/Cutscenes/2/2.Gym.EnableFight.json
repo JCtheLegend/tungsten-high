@@ -1,0 +1,8 @@
+{
+  "Items": [
+    {
+      "type": "enableCollider",
+      "name": "FightCollider"
+    }
+  ]
+}

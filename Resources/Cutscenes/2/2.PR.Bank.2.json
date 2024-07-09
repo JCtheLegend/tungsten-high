@@ -1,0 +1,79 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "Hey, have you guys collected enough quarters?",
+      "isTyped": "true"
+    },
+    {
+      "type": "checkInventory",
+      "name": "Quarter",
+      "text": 100,
+      "skips": [
+        3,
+        0
+      ]
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "No? I think there's still time to find enough quarters.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "Make sure to check in all the buisnesses around Garnet Square.",
+      "isTyped": "true"
+    },
+    {
+      "type": "goto",
+      "text": 12
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "Awesome, come with me! We gotta put these in the vault.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Bank Guy",
+      "direction": "right",
+      "speed": 3,
+      "text": "5,1"
+    },
+    {
+      "type": "moveFace",
+      "name": "Bank Guy",
+      "direction": "up"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "teleport",
+      "name": "Bank Guy",
+      "text": "5,10"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 5
+    },
+    {
+      "type": "unlockDoor",
+      "name": "Door"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

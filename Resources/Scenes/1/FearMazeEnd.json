@@ -1,0 +1,78 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 3, 3 ],
+      "type": "Fear Swirl",
+      "name": "Fear Swirl",
+      "location": "-1.5,2",
+      "facing": "right"
+    },
+    {
+      "validScenes": [ 4, 4 ],
+      "type": "Fear Swirl",
+      "name": "Fear Swirl",
+      "location": "1.5,13.5",
+      "facing": "right"
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "location": "-3,2",
+      "type": "CutsceneCollider",
+      "size": "1,5",
+      "name": "1.Dream.FearSwirlMove2",
+      "fileName": "1.Dream.FearSwirlMove2"
+    },
+    {
+      "validScenes": [ 3, 4 ],
+      "location": "1.5,13.5",
+      "type": "CutsceneCollider",
+      "size": "5,1",
+      "name": "1.Dream.FearSwirlPreFight",
+      "fileName": "1.Dream.FearSwirlPreFight"
+    },
+    {
+      "validScenes": [ 5, 5 ],
+      "type": "cutscene",
+      "name": "1.Dream.PostCrabFight"
+    },
+    {
+      "validScenes": [ 5, 5 ],
+      "type": "Norbert",
+      "name": "Norbert",
+      "location": "1.5,8",
+      "facing": "up"
+    },
+    {
+      "validScenes": [ 5, 5 ],
+      "type": "Key",
+      "name": "Key",
+      "location": "1.5,16"
+    },
+    {
+      "validScenes": [ 5, 5 ],
+      "type": "CutsceneActTrigger",
+      "name": "1.Dream.KeyGet",
+      "fileName": "1.Dream.KeyGet",
+      "location": "1.5,16",
+      "size": "1,1"
+    },
+    {
+      "validScenes": [ 0, 4 ],
+      "type": "CutsceneCollider",
+      "name": "1.Dream.DoorLocked",
+      "fileName": "1.Dream.DoorLocked",
+      "location": "1.5,11",
+      "size": "5,1",
+      "destroy": false
+    }
+    {
+      "validScenes": [ 5, 5 ],
+      "type": "CutsceneCollider",
+      "name": "1.Dream.NeedKey",
+      "fileName": "1.Dream.NeedKey",
+      "location": "1.5,11",
+      "size": "5,1",
+      "destroy": false
+    }
+  ]
+}

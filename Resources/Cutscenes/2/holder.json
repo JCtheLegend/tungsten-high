@@ -1,0 +1,144 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "42, 14.5"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "text": "46, 14.5",
+      "direction": "right",
+      "speed": 3
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "text": "46, 12",
+      "direction": "down",
+      "speed": 3
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "right"
+    },
+    {
+      "type": "move",
+      "name": "Sticky",
+      "text": "44, 14.5",
+      "direction": "right",
+      "speed": 3
+    },
+    {
+      "type": "move",
+      "name": "Sticky",
+      "text": "44, 17",
+      "direction": "up",
+      "speed": 3
+    },
+    {
+      "type": "moveFace",
+      "name": "Sticky",
+      "direction": "right"
+    },
+    {
+      "type": "move",
+      "name": "Slicky",
+      "text": "44, 14.5",
+      "direction": "right",
+      "speed": 3
+    },
+    {
+      "type": "move",
+      "name": "Slicky",
+      "text": "44, 12",
+      "direction": "down",
+      "speed": 3
+    },
+    {
+      "type": "moveFace",
+      "name": "Slicky",
+      "direction": "right"
+    },
+    {
+      "type": "move",
+      "name": "Micycle",
+      "text": "46, 14.5",
+      "direction": "right",
+      "speed": 3
+    },
+    {
+      "type": "move",
+      "name": "Puddle",
+      "text": "44, 14.5",
+      "direction": "right",
+      "speed": 3
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "dialog",
+      "text": "Alright class, listen up.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You won't always be in the best condition when faced with a fight.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You might be tired, weak, hurt, or affected by someone's powers.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You'll need to be careful how you use your energy in a fight, especially when you're working hard.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "So, today's assignment is going to be...",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Running around the track, and then defeating the punching bag.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+
+    {
+      "type": "dialog",
+      "text": "You'll do that 4 times.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Ok let's get started",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    }
+  ]
+}

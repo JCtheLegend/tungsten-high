@@ -1,0 +1,50 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "stopMusic"
+    },
+    {
+      "type": "move",
+      "name": "CombatPlayer",
+      "direction": "up",
+      "speed": 2,
+      "text": "18.5,0"
+    },
+    {
+      "type": "dialog",
+      "text": "Nice work!",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "For a beginner, you've got a lot of potential.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now, let's have you step out and we can let the rest of the class try it out.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 2
+    },
+    {
+      "type": "loadScene",
+      "name": "Gym"
+    }
+  ]
+}

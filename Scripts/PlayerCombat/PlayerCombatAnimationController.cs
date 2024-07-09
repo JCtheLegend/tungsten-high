@@ -10,7 +10,7 @@ public class PlayerCombatAnimationController : MonoBehaviour
     [SerializeField] Sprite forwardSprite;
     [SerializeField] Sprite sideSprite;
     [SerializeField] Sprite backSprite;
-    SpriteRenderer sprite;
+    internal SpriteRenderer sprite;
 
     private string currentState;
     private int currentLayer;
@@ -25,6 +25,7 @@ public class PlayerCombatAnimationController : MonoBehaviour
     const string combatMoveUpDown = "combat_walk_forward";
     const string combatHurt = "combat_hurt";
     const string combatBlock = "combat_block";
+    const string dead = "death";
 
     private void Start()
     {
@@ -62,6 +63,10 @@ public class PlayerCombatAnimationController : MonoBehaviour
                     break;
                 case PlayerCombatController.combatAction.hurt:
                     ChangeAnimationState(combatHurt, playerBaseLayer);
+                    break;
+                case PlayerCombatController.combatAction.dead:
+                    sprite.sortingLayerName = "Dialog";
+                    ChangeAnimationState(dead, playerBaseLayer);
                     break;
                 default:
                     ChangeAnimationState(defaultCombat, playerBaseLayer);

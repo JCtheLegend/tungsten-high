@@ -1,0 +1,36 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "So, now that you've got the basics down,",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "let's turn up the difficulty up a bit.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "move",
+      "name": "CombatPlayer",
+      "direction": "down",
+      "speed": 2,
+      "text": "18.5,0"
+    },
+    {
+      "type": "startFight"
+    }
+  ]
+}

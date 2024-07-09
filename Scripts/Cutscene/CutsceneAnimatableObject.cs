@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class CutsceneAnimatableObject : AnimatableObject
 {
@@ -19,7 +20,7 @@ public class CutsceneAnimatableObject : AnimatableObject
         }
         else
         {
-            yield return new WaitForSeconds(anim.runtimeAnimatorController.animationClips[0].length);
+            yield return new WaitForSeconds(anim.runtimeAnimatorController.animationClips.First(a => a.name == animation).length);
             cut.setAnimateDone();
         }
     }

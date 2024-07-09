@@ -1,0 +1,152 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "dialog",
+      "text": "Ok class, that's about all the time we have for today.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "editObjects",
+      "loadObjs": [
+        {
+          "name": "Micycle",
+          "location": "0,-3.51",
+          "facing": "up"
+        },
+        {
+          "name": "Laser Boy",
+          "location": "-4.5,-1.01",
+          "facing": "up"
+        },
+        {
+          "name": "Bloom",
+          "location": "0,-1.01",
+          "facing": "up"
+        },
+        {
+          "name": "Bubba",
+          "location": "-4.5,-3.51",
+          "facing": "up"
+        },
+        {
+          "name": "Moe",
+          "location": "0,-6.01",
+          "facing": "up"
+        },
+        {
+          "name": "Kid Fi",
+          "location": "4.5,-1.01",
+          "facing": "up"
+        },
+        {
+          "name": "Mirror",
+          "location": "-4.5, -6.01",
+          "facing": "up"
+        },
+        {
+          "location": "2, 1.5",
+          "name": "Ms Nice",
+          "facing": "down",
+          "assets": [
+            {
+              "type": "SimpleDialogTrigger",
+              "dialog": [
+                "Nice work today!",
+                "Tomorrow we will be walking around town. Make sure not to miss it!"
+              ],
+              "isTyped": [ true, true ],
+              "facePlayer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "4.53, -3.51"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Don't worry about not being able to meet everybody, we have a long school year ahead of us.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Starting conversations takes practice, the more you do it with certain people, the easier it will be.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "And if you become friends with people, it will take almost no effort at all!",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "playSound",
+      "name": "school-bell"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "dialog",
+      "text": "Well, that's the bell. See you all tomorrow, and keep trying to meet new people here at Tungsten High!",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "editObjects",
+      "loadObjs": [
+        {
+          "type": "EnableExit",
+          "name": "Exit"
+        }
+      ]
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setStageCounter",
+      "text": 2
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 0
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

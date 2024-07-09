@@ -1,0 +1,165 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "left"
+    },
+    {
+      "type": "dialogAndChoice",
+      "text": "Go to Bed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "skips": [
+        2,
+        0
+      ],
+      "isTyped": "false"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement",
+      "skip": 3
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "disableCollider",
+      "name": "Dream Bed"
+    },
+    {
+      "type": "animate",
+      "name": "Bed",
+      "text": "bed_sleep",
+      "isContinue": "true"
+    },
+    {
+      "type": "hide",
+      "name": "Player"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "-3.625,2.808"
+    },
+    {
+      "type": "wait",
+      "text": 5
+    },
+    {
+      "type": "disableCollider",
+      "name": "CameraColliders"
+    },
+    {
+      "type": "unhide",
+      "name": "Player"
+    },
+    {
+      "type": "color",
+      "name": "Player",
+      "text": "1,1,1,0.5"
+    },
+    {
+      "type": "animate",
+      "name": "Player",
+      "text": "sleep_spin",
+      "isContinue": "true"
+    },
+    {
+      "type": "moveCamera",
+      "text": "-4,-26",
+      "speed": 3,
+      "isContinue": true
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "speed": 3,
+      "text": "-3.625,-22.69",
+      "animateOverride": true
+    },
+    {
+      "type": "hide",
+      "name": "Player"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "-3,-22.69"
+    },
+    {
+      "type": "changeCostume",
+      "text": "pjs"
+    },
+    {
+      "type": "animate",
+      "name": "Dream Bed",
+      "text": "bed_sleep",
+      "isContinue": "true"
+    },
+    {
+      "type": "color",
+      "name": "Player",
+      "text": "1,1,1,1"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "animate",
+      "name": "Dream Bed",
+      "text": "bed_wake_calm"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "animate",
+      "name": "Dream Bed",
+      "text": "bed_get_out",
+      "isContinue": "true"
+    },
+    {
+      "type": "unhide",
+      "name": "Player"
+    },
+    {
+      "type": "animate",
+      "name": "Player",
+      "text": "pj_sit"
+    },
+    {
+      "type": "enableCollider",
+      "name": "Dream Bed"
+    },
+    {
+      "type": "setGameCounter",
+      "text": "20"
+    },
+    {
+      "type": "setStageCounter",
+      "text": 7
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 0
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

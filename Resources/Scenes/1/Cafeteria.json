@@ -1,0 +1,977 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 9,
+      "minGameCounter": 0,
+      "maxGameCounter": 12,
+      "type": "Table",
+      "name": "Table",
+      "location": "-5,-2"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 9,
+      "minGameCounter": 0,
+      "maxGameCounter": 12,
+      "type": "Table",
+      "name": "Table",
+      "location": "-5,-7"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 9,
+      "minGameCounter": 0,
+      "maxGameCounter": 12,
+      "type": "Table",
+      "name": "Table",
+      "location": "5, -2"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 9,
+      "minGameCounter": 0,
+      "maxGameCounter": 12,
+      "type": "Table",
+      "name": "Table",
+      "location": "5, -7"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Micycle",
+      "name": "Micycle",
+      "location": "-3.5,-3",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Laser Boy",
+      "name": "Laser Boy",
+      "location": "-5.5,-3",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Bloom",
+      "name": "Bloom",
+      "location": "3.5,-3",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Bubba",
+      "name": "Bubba",
+      "location": "-6.5,-0.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Moe",
+      "name": "Moe",
+      "location": "-3.5,-0.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Freshy",
+      "name": "Freshy",
+      "location": "3.5,-0.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Seer",
+      "name": "Seer",
+      "location": "6.5,-0.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Mirror",
+      "name": "Mirror",
+      "location": "-4.5, -8",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Sticky",
+      "name": "Sticky",
+      "location": "-6.5, -5.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Slicky",
+      "name": "Slicky",
+      "location": "-6.5, -8",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Nimbus",
+      "name": "Nimbus",
+      "location": "-3.5, -5.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Jumper",
+      "name": "Jumper",
+      "location": "-4.5, -5.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Puddle",
+      "name": "Puddle",
+      "location": "5.5, -3",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Wally",
+      "name": "Wally",
+      "location": "6.5, -3",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Kitchenette",
+      "name": "Kitchenette",
+      "location": "3.5, -8",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Seagull",
+      "name": "Seagull",
+      "location": "4.5, -5.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Songbird",
+      "name": "Songbird",
+      "location": "6.5, -5.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "Dreamy",
+      "name": "Dreamy",
+      "location": "5.5, -8",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "-5.5,-0.5",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.1",
+      "fileName": "1.1-Cafeteria.NeedFood"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "-12.5,-4",
+      "type": "CutsceneCollider",
+      "size": "1,6",
+      "name": "1.1-NeedLunchLeft",
+      "fileName": "1.1-NeedLunchLeft"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "0,-12.5",
+      "type": "CutsceneCollider",
+      "size": "4,1",
+      "name": "1.1-NeedLunchBottom",
+      "fileName": "1.1-NeedLunchBottom"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "DisableExit",
+      "name": "Side 2F Exit"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "type": "DisableExit",
+      "name": "Lower 2F Exit"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "-4.5,-0.5",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.2",
+      "fileName": "1.1-Cafeteria.NeedFood"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "4.5,-0.5",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.3",
+      "fileName": "1.1-Cafeteria.NeedFood"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "5.5,-0.5",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.4",
+      "fileName": "1.1-Cafeteria.NeedFood"
+
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "-6.5,-3",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.5",
+      "fileName": "1.1-Cafeteria.NeedFood"
+
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "-4.5,-3",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.6",
+      "fileName": "1.1-Cafeteria.NeedFood"
+
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "4.5,-3",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.7",
+      "fileName": "1.1-Cafeteria.NeedFood"
+
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "-5.5,-5.5",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.8",
+      "fileName": "1.1-Cafeteria.NeedFood"
+
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "3.5,-5.5",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.9",
+      "fileName": "1.1-Cafeteria.NeedFood"
+
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "5.5,-5.5",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.10",
+      "fileName": "1.1-Cafeteria.NeedFood"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "-5.5,-8",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.11",
+      "fileName": "1.1-Cafeteria.NeedFood"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "-3.5,-8",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.12",
+      "fileName": "1.1-Cafeteria.NeedFood"
+
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "3.5,-8",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.13",
+      "fileName": "1.1-Cafeteria.NeedFood"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "4.5,-8",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.14",
+      "fileName": "1.1-Cafeteria.NeedFood"
+
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "6.5,-8",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.15",
+      "fileName": "1.1-Cafeteria.NeedFood"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "0,2.75",
+      "type": "CutsceneActTrigger",
+      "size": "6,1",
+      "name": "1.1-Cafeteria.GetFood",
+      "fileName": "1.1-Cafeteria.GetFood",
+      "destroy": true
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "-6.5,-1.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "-3.5,-1.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "3.5,-1.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "6.5,-1.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "-6.5,-6.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "-4.5,-6.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "-3.5,-6.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "4.5,-6.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 8,
+      "maxGameCounter": 9,
+      "location": "6.5,-6.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "location": "-6, 0.4",
+      "type": "Dodgeball Board",
+      "name": "Dodgeball Board"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "location": "0, 0.4",
+      "type": "Hero Board",
+      "name": "Hero Board"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "location": "6, 0.4",
+      "type": "Costume Board",
+      "name": "Costume Board"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "location": "-6, 0.5",
+      "type": "Folding Table",
+      "name": "Folding Table",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-ClubDodgeball"
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "location": "0, 0.5",
+      "type": "Folding Table",
+      "name": "Folding Table",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-ClubHero"
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "location": "6, 0.5",
+      "type": "Folding Table",
+      "name": "Folding Table",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-ClubCostume"
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "location": "-9,-9",
+      "type": "Table",
+      "name": "Table"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "location": "-5,-9",
+      "type": "Table",
+      "name": "Table"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "location": "5,-9",
+      "type": "Table",
+      "name": "Table"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "location": "9,-9",
+      "type": "Table",
+      "name": "Table"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "type": "Jumper",
+      "name": "Jumper",
+      "location": "-9, -0",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-ClubDodgeball"
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 0,
+      "maxGameCounter": 8,
+      "type": "Cafeteria Cover",
+      "name": "Cafeteria Cover",
+      "location": "0, 3.5"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 9,
+      "maxGameCounter": 100,
+      "type": "Cafeteria Cover",
+      "name": "Cafeteria Cover",
+      "location": "0, 3.5"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "type": "Puddle",
+      "name": "Puddle",
+      "location": "9, -5",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Puddle wants to join dodgeball."
+          ],
+          "isTyped": [ true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "type": "Freshy",
+      "name": "Freshy",
+      "location": "2.5, -5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "I think I might join style and flair.",
+            "I think I know how we could spice things up.",
+            "Oddly enough, you smell cinnamon in the air."
+          ],
+          "isTyped": [ true, true, false ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "type": "Kitchenette",
+      "name": "Kitchenette",
+      "location": "-5, -6",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "I'd probably pop the ball if I did dodgeball."
+          ],
+          "isTyped": [ true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "type": "Micycle",
+      "name": "Micycle",
+      "location": "-8, -5.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Hm, I wonder what superheroes we could intern with.",
+            "I wonder if ol' Anchorman is still around."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "type": "Nimbus",
+      "name": "Nimbus",
+      "location": "2.6, -0.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-ClubHero"
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 12,
+      "maxGameCounter": 14,
+      "type": "Seagull",
+      "name": "Seagull",
+      "location": "9, -0.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-ClubCostume"
+        }
+      ]
+    }
+  ]
+}

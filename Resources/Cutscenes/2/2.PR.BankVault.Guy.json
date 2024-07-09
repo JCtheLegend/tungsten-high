@@ -1,0 +1,28 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "The default code for the machine is:",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "123456",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Once we open the vault and put the quarters in, you should be good for the day!",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

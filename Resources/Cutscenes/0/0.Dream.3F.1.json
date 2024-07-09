@@ -1,0 +1,66 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "name": "Friend",
+      "text": "Joe's bringing the plant.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We just need to get to the gym to set up our poster.",
+      "name": "Friend",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Friend",
+      "direction": "down",
+      "speed": 2,
+      "text": "-24,41"
+    },
+    {
+      "type": "move",
+      "name": "Friend",
+      "direction": "right",
+      "speed": 3,
+      "text": "-11,41"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "2"
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "location": "14,41",
+          "type": "CutsceneCollider",
+          "name": "1.1-Dream.3F.2",
+          "fileName": "1.1-Dream.3F.2",
+          "size": "1,8",
+          "destroy": true
+        }
+      ]
+    },
+    {
+      "type": "enableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Friend",
+      "text": "16,41"
+    },
+    {
+      "type": "moveFace",
+      "name": "Friend",
+      "direction": "left"
+    }
+  ]
+}

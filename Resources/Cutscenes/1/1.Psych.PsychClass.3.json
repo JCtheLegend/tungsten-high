@@ -1,0 +1,147 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Hm, under development you say?",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Well, perhaps this area is a bigger dream of someone else then...",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "There is much I do not know about the Ephemeral Realm.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "My magic carpet and I have explored for many years, and there are always new things to discover.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Nonetheless, thank you for enlightening me. I suppose that is all we have for class today.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "clearFade"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "editObjects",
+      "loadObjs": [
+        {
+          "type": "Seer",
+          "name": "Seer",
+          "location": "-2.25,-1.5",
+          "facing": "down"
+        },
+        {
+          "type": "Wally",
+          "name": "Wally",
+          "location": "0, -0.5",
+          "facing": "down"
+        },
+        {
+          "type": "Sandman",
+          "name": "Sandman",
+          "location": "-3, -3.5",
+          "facing": "down"
+        },
+        {
+          "type": "Songbird",
+          "name": "Songbird",
+          "location": "0, -6.5",
+          "facing": "up"
+        },
+        {
+          "type": "Dreamy",
+          "name": "Dreamy",
+          "location": "2.25, -5.5",
+          "facing": "up"
+        },
+        {
+          "type": "Maven",
+          "name": "Maven",
+          "location": "0, -3.5",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "moveFace",
+      "name": "Maven",
+      "direction": "down"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "3, -3.5"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "down"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Well class, it seems as if our exploration is cut short today.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "No matter, We have the rest of the school year to learn.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Let us return!",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "playSound",
+      "name": "teleport"
+    },
+    {
+      "type": "dreamExit"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 1
+    },
+    {
+      "type": "loadScene",
+      "name": "MentalClassroom"
+    }
+  ]
+}

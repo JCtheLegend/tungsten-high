@@ -1,0 +1,65 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Hi, this is the sign up for the dodgeball team!",
+      "name": "Jumper",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "The school district decided it wasn't fair for kids with powers to play traditional sports.",
+      "name": "Jumper",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "So we play dodgeball instead!",
+      "name": "Jumper",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We will have tryouts late this week, so it's not guarenteed that you'll be on the team",
+      "name": "Jumper",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "But we encourage eveyone to come and try their best!",
+      "name": "Jumper",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialogAndChoice",
+      "text": "Sign up for the dodgeball team?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "skips": [
+        0,
+        2
+      ],
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "You have successfully signed up for dodgeball team.",
+      "isTyped": "true"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 1
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

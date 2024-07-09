@@ -31,7 +31,6 @@ public class Faces : MonoBehaviour
                 sprite.sprite = faceDown;
                 break;
             case direction.left:
-                Debug.Log("left");
                 sprite.flipX = false;
                 sprite.sprite = faceRight;
                 break;

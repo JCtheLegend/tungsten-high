@@ -1,0 +1,121 @@
+{
+  "Items": [
+    {
+      "type": "startBlack"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Car"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "38, 12"
+    },
+    {
+      "type": "hide",
+      "name": "Player"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Car"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "up",
+      "text": "36,12",
+      "speed": 3
+    },
+    {
+      "type": "moveFace",
+      "name": "Car",
+      "direction": "up"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "unhide",
+      "name": "Player"
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "location": "34, 12",
+          "name": "Mom",
+          "type": "Mom",
+          "facing": "left"
+        }
+      ]
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "dialog",
+      "text": "Your father wasn't able to fix the lawnmower today.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "He might ask you for help after dinner.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Mom",
+      "direction": "down",
+      "text": "34,11",
+      "speed": 3
+    },
+    {
+      "type": "move",
+      "name": "Mom",
+      "direction": "right",
+      "text": "42,11",
+      "speed": 3
+    },
+    {
+      "type": "move",
+      "name": "Mom",
+      "direction": "up",
+      "text": "42,14.5",
+      "speed": 3
+    },
+    {
+      "type": "hide",
+      "name": "Mom"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Player"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 2
+    },
+    {
+      "type": "disable",
+      "name": "Mom"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

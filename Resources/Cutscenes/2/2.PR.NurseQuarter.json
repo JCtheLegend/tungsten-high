@@ -1,0 +1,74 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "checkCondition",
+      "name": "NurseQuarters",
+      "skips": [
+        9,
+        0
+      ]
+    },
+    {
+      "type": "dialog",
+      "text": "Hello, welcome to Garnet Hospital!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Are you looking to visit someone today?",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, quarters?",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Hm, let me check. Health Insurance doesn't ususally pay us in quarters.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Here's what I could find.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You got 10 quarters!",
+      "isTyped": "true"
+    },
+    {
+      "type": "updateInventory",
+      "name": "Quarter",
+      "text": 10
+    },
+    {
+      "type": "addCondition",
+      "name": "NurseQuarters"
+    },
+    {
+      "type": "goto",
+      "text": 12
+    },
+    {
+      "type": "dialog",
+      "text": "Sorry, I don't have any more quarters for you today.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Make sure to stop by if you have any health problems. Bye now!",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

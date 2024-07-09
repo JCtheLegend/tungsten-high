@@ -1,0 +1,32 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 1, 1 ],
+      "type": "Norbert",
+      "name": "Norbert",
+      "location": "5.4,4.75",
+      "facing": "down"
+    },
+    {
+      "validScenes": [ 1, 1 ],
+      "location": "1,2",
+      "type": "CutsceneCollider",
+      "size": "1,10",
+      "name": "1.Dream.HubCenter",
+      "fileName": "1.Dream.HubCenter"
+    },
+    {
+      "validScenes": [ 6, 6 ],
+      "location": "7,7",
+      "type": "CutsceneActTrigger",
+      "size": "2,2",
+      "name": "1.Dream.UnlockDoor",
+      "fileName": "1.Dream.UnlockDoor"
+    },
+    {
+      "validScenes": [ 6, 6 ],
+      "type": "cutscene",
+      "name": "1.Dream.DisableDoorBox"
+    }
+  ]
+}

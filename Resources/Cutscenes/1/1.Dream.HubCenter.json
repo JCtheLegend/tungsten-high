@@ -1,0 +1,113 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "right",
+      "speed": 3,
+      "text": "1,3"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "right"
+    },
+    {
+      "type": "dialog",
+      "text": "...!",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "move",
+      "name": "Norbert",
+      "direction": "left",
+      "speed": 3,
+      "text": "3.5,4.75"
+    },
+    {
+      "type": "move",
+      "name": "Norbert",
+      "direction": "down",
+      "speed": 3,
+      "text": "3.5,3"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, uh, hey boss!",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I wasn't sleeping or anything, just uh, organizing these unsorted thoughts that came in today.",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "And uhh, I might be looking for the key to your subconcious.",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "When I closed up last night, I locked up and may have left it somewhere",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "And uhh, you're gonna need to get in there in order to have a dream... and therefore wake up.",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I haven't checked your Fears yet, maybe we should head there next.",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Don't worry, I'll be right there with you!",
+      "name": "Norbert",
+      "isTyped": "true"
+    },
+    {
+      "type": "move",
+      "name": "Norbert",
+      "direction": "left",
+      "speed": 3,
+      "text": "-1,3"
+    },
+    {
+      "type": "moveFace",
+      "name": "Norbert",
+      "direction": "right"
+    },
+    {
+      "type": "dialog",
+      "text": "Norbert is hanging out with you!",
+      "isTyped": "false"
+    },
+    {
+      "type": "addFollow",
+      "name": "Player",
+      "text": "Norbert"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 2
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

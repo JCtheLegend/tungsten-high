@@ -1,0 +1,51 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 2, 2 ],
+      "type": "Car",
+      "name": "Car",
+      "location": "36,12",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "2.Pre.HomeOutside.CarLeave",
+          "destroy": true,
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 2, 2 ],
+      "validStages": [ 0, 0 ],
+      "type": "MowerDad",
+      "name": "Dad",
+      "location": "45,8.5",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Hey son, look I got the mower running!",
+            "Have a good day at school!"
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 2, 2 ],
+      "validStages": [ 0, 0 ],
+      "type": "Mom",
+      "name": "Mom",
+      "location": "34,12",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "2.Pre.HomeOutside.CarLeave",
+          "destroy": true,
+          "facePlayer": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "checkCondition",
+      "name": "FountainQuarters",
+      "skips": [
+        7,
+        0
+      ]
+    },
+    {
+      "type": "dialog",
+      "text": "You think you see some quarters at the bottom of the fountain.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialogAndChoice",
+      "text": "Climb in and grab the quarters?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "skips": [
+        0,
+        2
+      ],
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "You found 5 quarters.",
+      "isTyped": "true"
+    },
+    {
+      "type": "updateInventory",
+      "name": "Quarter",
+      "text": 5
+    },
+    {
+      "type": "addCondition",
+      "name": "FountainQuarters"
+    },
+    {
+      "type": "dialog",
+      "text": "You're also soaking wet.",
+      "isTyped": "true"
+    },
+    {
+      "type": "goto",
+      "text": 10
+    },
+    {
+      "type": "dialog",
+      "text": "You don't see any more quarters in the fountain."
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

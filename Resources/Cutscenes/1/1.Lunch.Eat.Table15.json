@@ -1,0 +1,126 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "6.5, -8"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "startWhite"
+    },
+    {
+      "type": "changeCostume",
+      "text": ""
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Your health has been restored.",
+      "isTyped": "true"
+    },
+    {
+      "type": "editObjects",
+      "loadObjs": [
+        {
+          "type": "EnableExit",
+          "name": "Side 2F Exit"
+        },
+        {
+          "type": "EnableExit",
+          "name": "Lower 2F Exit"
+        }
+      ]
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "6.5, -8.5"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "-5.5, 0"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.1"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.2"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.3"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.4"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.5"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.6"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.7"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.8"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.9"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.10"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.11"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.12"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.13"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.14"
+    },
+    {
+      "type": "disable",
+      "name": "1.1-Cafeteria.15"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 1
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "CombatPlayer",
+      "direction": "up",
+      "text": "-1.5, -2",
+      "speed": 5
+    },
+    {
+      "type": "move",
+      "name": "Crab",
+      "direction": "down",
+      "text": "-1, 2",
+      "speed": 5
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "location": "-0.8125, 1.625",
+          "name": "Key",
+          "type": "Key"
+        }
+      ]
+    },
+    {
+      "type": "animate",
+      "name": "Crab",
+      "text": "crab_die"
+    },
+    {
+      "type": "animate",
+      "name": "Crab",
+      "text": "fear_swim_up",
+      "isContinue": "true"
+    },
+    {
+      "type": "move",
+      "name": "Crab",
+      "direction": "up",
+      "text": "-1, 10",
+      "speed": 5,
+      "isContinue": "false"
+    },
+    {
+      "type": "wait",
+      "text": 5
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 5
+    },
+    {
+      "type": "loadScene",
+      "name": "Fear Maze End"
+    }
+  ]
+}

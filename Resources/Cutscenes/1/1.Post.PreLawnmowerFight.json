@@ -1,0 +1,90 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "up",
+      "text": "3,8",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Thank goodness you're here!",
+      "name": "Dad",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I feel like I've been fighting against this mower all day!",
+      "name": "Dad",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Care to give me a hand?",
+      "name": "Dad",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "up",
+      "text": "3,11",
+      "speed": 1
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "move",
+      "name": "Mower",
+      "direction": "down",
+      "text": "3, 13",
+      "speed": 5
+    },
+    {
+      "type": "playSound",
+      "name": "lightning"
+    },
+    {
+      "type": "startWhite"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "clearFade"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "loadScene",
+      "name": "Lawnmower Battle"
+    }
+  ]
+}

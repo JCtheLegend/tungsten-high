@@ -1,0 +1,41 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "He did not come this way",
+      "isTyped": "true"
+    },
+    {
+      "type": "fadeOut",
+      "name": "Morpheus"
+    },
+    {
+      "type": "disable",
+      "name": "Morpheus"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Micycle",
+      "direction": "right",
+      "speed": 3,
+      "text": "24,0.5"
+    },
+    {
+      "type": "loadScene",
+      "text": "Player Room"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 0
+    }
+  ]
+}

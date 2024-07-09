@@ -1,0 +1,362 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 4,
+      "maxGameCounter": 5,
+      "type": "Cafeteria Side Block",
+      "name": "Cafeteria Side Block",
+      "location": "-16.25,21"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 4,
+      "maxGameCounter": 5,
+      "type": "Cafeteria Front Block",
+      "name": "Cafeteria Front Block",
+      "location": "9,10"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 4,
+      "maxGameCounter": 5,
+      "type": "Folding Table",
+      "name": "Folding Table",
+      "location": "41,9"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 4,
+      "maxGameCounter": 5,
+      "type": "Folding Table",
+      "name": "Folding Table",
+      "location": "37,9"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 4,
+      "maxGameCounter": 5,
+      "type": "Handstand",
+      "name": "Handstand",
+      "location": "5,1",
+      "assets": []
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 4,
+      "maxGameCounter": 5,
+      "type": "Bubba",
+      "name": "Bubba",
+      "location": "7.5,0",
+      "facing": "left",
+      "assets": []
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 4,
+      "maxGameCounter": 5,
+      "type": "Micycle",
+      "name": "Micycle",
+      "location": "10.5,0",
+      "facing": "left",
+      "assets": []
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 4,
+      "maxGameCounter": 5,
+      "type": "cutscene",
+      "name": "1.1-2F.1"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 4,
+      "maxGameCounter": 5,
+      "location": "-16.5,1",
+      "type": "CutsceneCollider",
+      "size": "1,8",
+      "name": "1.1-2F.2",
+      "fileName": "1.1-2F.2"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 4,
+      "maxGameCounter": 5,
+      "type": "Sandman",
+      "name": "Sandman",
+      "location": "-21,15",
+      "facing": "down"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 6,
+      "maxGameCounter": 7,
+      "type": "cutscene",
+      "name": "1.1-2F.3"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 6,
+      "maxGameCounter": 8,
+      "type": "Sandman",
+      "name": "Sandman",
+      "location": "-21.5,44",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Sorry, I can only give one planner per person."
+          ],
+          "isTyped": [ true ],
+          "facePlayer": true
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 6,
+      "maxGameCounter": 8,
+      "type": "Folding Table",
+      "name": "Folding Table",
+      "location": "-21.5,43.5"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 6,
+      "maxGameCounter": 8,
+      "type": "Stack of Planners",
+      "name": "Stack of Planners",
+      "location": "-20.17,43.49"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 6,
+      "maxGameCounter": 8,
+      "type": "Box of Planners",
+      "name": "Box of Planners",
+      "location": "-22.78,43.49"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 6,
+      "maxGameCounter": 9,
+      "location": "29, 5",
+      "type": "Nimbus",
+      "name": "Nimbus",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Hey, I'm Nimbus.",
+            "Clouds are actually pretty heavy, so that's how I can stay on the ground."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 9,
+      "maxGameCounter": 11,
+      "location": "0, 5",
+      "type": "Nimbus",
+      "name": "Nimbus",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "My name might be Nimbus,",
+            "But the type of cloud I am depends on my mood."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 6,
+      "maxGameCounter": 9,
+      "location": "-17.5, 14",
+      "type": "Micycle",
+      "name": "Micycle",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "I saw this guy on my way to school fixing his lawnmower.",
+            "He was getting pretty upset about it lol.",
+            "Oh that was your dad? Oof."
+          ],
+          "isTyped": [ true, true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 9,
+      "maxGameCounter": 11,
+      "location": "6, 9",
+      "type": "Micycle",
+      "name": "Micycle",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Hey I was thinking, you must live pretty close by if I saw your dad this morning.",
+            "I'll ususally be biking myself to school everyday.",
+            "Let me know if you need a ride or something."
+          ],
+          "isTyped": [ true, true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 6,
+      "maxGameCounter": 9,
+      "location": "-21, -2",
+      "type": "Bloom",
+      "name": "Bloom",
+      "facing": "right",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "I have to go stand outside for lunch.",
+            "I wish they would put some tables out there so people could sit with me..."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 9,
+      "maxGameCounter": 13,
+      "location": "14.5, 45.4",
+      "type": "Bloom",
+      "name": "Bloom",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "I have to go stand outside for lunch.",
+            "I wish they would put some tables out there so people could sit with me..."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 9,
+      "maxGameCounter": 13,
+      "location": "-16, 45.4",
+      "type": "Sandman",
+      "name": "Sandman",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Man, I could really use a nap"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 0,
+      "maxGameCounter": 13,
+      "type": "DisableExit",
+      "name": "Front Exit"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 0,
+      "maxGameCounter": 12,
+      "location": "9,-4.5",
+      "type": "CutsceneCollider",
+      "size": "6,1",
+      "name": "1.1-InSchool",
+      "fileName": "1.1-InSchool"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 12,
+      "maxGameCounter": 13,
+      "location": "9,-4.5",
+      "type": "CutsceneCollider",
+      "size": "6,1",
+      "name": "1.1-SignUp",
+      "fileName": "1.1-SignUp"
+    }
+  ]
+}

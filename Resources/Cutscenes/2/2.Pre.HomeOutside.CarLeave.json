@@ -1,0 +1,63 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, I'm going to run a few errands after work.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "So I can't give you a ride home today.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "But it's a nice day! And we don't live too far from school, so you can get some exercise walking home.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "disable",
+      "name": "Player"
+    },
+    {
+      "type": "disable",
+      "name": "Mom"
+    },
+    {
+      "type": "playSound",
+      "name": "car"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Car"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "down",
+      "speed": 3,
+      "text": "36,2"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "3"
+    },
+    {
+      "type": "loadScene",
+      "name": "School Front"
+    }
+  ]
+}

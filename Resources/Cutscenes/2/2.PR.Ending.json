@@ -1,0 +1,196 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "24, 4.5"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Well class, we had a great day helping out the town.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Remember, you'll have to write a report about your work this week, so don't forget all the fun things you did!",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Well, that's the bell! I'll see you all tomorrow!",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "up",
+          "speed": 3,
+          "text": "24,8.75"
+        },
+        {
+          "type": "disable",
+          "name": "Ms Nice"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "wait",
+      "text": "0.25"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Bloom",
+          "direction": "up",
+          "speed": 3,
+          "text": "24,8.75"
+        },
+        {
+          "type": "disable",
+          "name": "Bloom"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "wait",
+      "text": "0.25"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Laser Boy",
+          "direction": "up",
+          "speed": 3,
+          "text": "23,8.75"
+        },
+        {
+          "type": "disable",
+          "name": "Laser Boy"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "wait",
+      "text": "0.25"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "up",
+          "speed": 3,
+          "text": "24,8.75"
+        },
+        {
+          "type": "disable",
+          "name": "Micycle"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "wait",
+      "text": "0.25"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "up",
+          "speed": 3,
+          "text": "24,8.75"
+        },
+        {
+          "type": "disable",
+          "name": "Bubba"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "wait",
+      "text": "0.25"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Moe",
+          "direction": "up",
+          "speed": 3,
+          "text": "24,8.75"
+        },
+        {
+          "type": "disable",
+          "name": "Moe"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "wait",
+      "text": "0.25"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "left",
+          "speed": 3,
+          "text": "24,8.75"
+        },
+        {
+          "type": "disable",
+          "name": "Mirror"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "setStageCounter",
+      "text": 2
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 0
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "Items": [
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "53, 14"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "enableChildren",
+      "name": "RaceController"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

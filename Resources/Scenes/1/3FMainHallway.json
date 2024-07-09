@@ -1,0 +1,156 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 6,
+      "maxGameCounter": 13,
+      "location": "-17.5, 12",
+      "type": "Songbird",
+      "name": "Songbird",
+      "facing": "left",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "*Humming*",
+            "Oh! Careful, I can get songs stuck in people's heads.",
+            "Don't listen too hard!"
+          ],
+          "isTyped": [ true, true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 6,
+      "maxGameCounter": 13,
+      "location": "22, 5",
+      "type": "Freshy",
+      "name": "Freshy",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "He doesn't seem too keen on conversation.",
+            "But strangely the area smells like lavender."
+          ],
+          "isTyped": [ false, false ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 6,
+      "maxGameCounter": 13,
+      "location": "0.5, 5",
+      "type": "Dreamy",
+      "name": "Dreamy",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Wow, you started a conversation with the most popular girl in school.",
+            "Nice work kid"
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.2,
+            "speed": 2
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 6,
+      "maxGameCounter": 13,
+      "location": "-24.25, 28",
+      "type": "Kitchenette",
+      "name": "Kitchenette",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "My hands can turn into a fork and a spoon",
+            "I probably could've gotten into Platinum Prep if I could do a knife."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 6,
+      "maxGameCounter": 10,
+      "location": "16, 45.4",
+      "type": "Handstand",
+      "name": "Handstand",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "If you ever get lost, make sure to check the... oh.",
+            "You don't have a map in your planner yet.",
+            "Well, it helps to know that the 300 rooms are on the 3rd floor and the 200 rooms are on the 2nd Floor."
+          ],
+          "isTyped": [ true, true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 100,
+      "minGameCounter": 10,
+      "maxGameCounter": 13,
+      "location": "16, 45.4",
+      "type": "Handstand",
+      "name": "Handstand",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "What's on the first floor?",
+            "I don't know, we aren't allowed down there"
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    }
+  ]
+}

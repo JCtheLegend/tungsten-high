@@ -1,0 +1,154 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "text": "20, -2.5",
+      "direction": "up",
+      "speed": 3
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "text": "20, -2.5",
+      "direction": "up",
+      "speed": 3
+    },
+    {
+      "type": "playSound",
+      "name": "school-bell"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "dialog",
+      "text": "This is the Combat 101 Class.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "My name is Mr. Morrison, but you can call me Coach.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "In this class, you will be learning how to fight.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now, I know that some of you have certain powers that can help you fight. You might breathe fire or have super strength.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "But, I know that some of you don't.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "And you never know what might happen out in the real world.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Your powers might not be working or you might not be able to use them for some reason.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "But, knowing how to use your fists will always come in handy.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Today, each of you will be coming into the ring to learn how to hit and move around in a fight.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now, can I get any volunteers for who wants to go first?",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialogAndChoice",
+      "text": "Raise your hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "skips": [
+        0,
+        2
+      ],
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "You were the only person to raise your hand. You look like an idiot.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Great!",
+      "name": "Gym Teacher",
+      "isTyped": "true",
+      "skip": 4
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "wait",
+      "text": 3
+    },
+    {
+      "type": "dialog",
+      "text": "Well, no one wants to go? Ok then I guess I'll pick you.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Coach is pointing right at you.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Why don't you come up here champ, and we can get started.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "loadScene",
+      "name": "PunchingBag"
+    }
+  ]
+}

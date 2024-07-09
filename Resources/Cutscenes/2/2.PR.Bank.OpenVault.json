@@ -1,0 +1,109 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "animate",
+      "name": "Bank Vault",
+      "text": "vault_open",
+      "isContinue": "false"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "You did it!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "Ohhh, you're supposed to STEP on the buttons.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "Well thanks so much guys! Let me go put these quarters away.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Bank Guy",
+      "direction": "right",
+      "speed": 3,
+      "text": "-4,-5"
+    },
+    {
+      "type": "move",
+      "name": "Bank Guy",
+      "direction": "up",
+      "speed": 3,
+      "text": "-4, 0.5"
+    },
+    {
+      "type": "move",
+      "name": "Bank Guy",
+      "direction": "right",
+      "speed": 3,
+      "text": "0,0.5"
+    },
+    {
+      "type": "move",
+      "name": "Bank Guy",
+      "direction": "up",
+      "speed": 3,
+      "text": "0,1.5"
+    },
+    {
+      "type": "teleport",
+      "name": "Bank Guy",
+      "text": "0,100"
+    },
+    {
+      "type": "wait",
+      "text": 3
+    },
+    {
+      "type": "moveFace",
+      "name": "Bank Guy",
+      "direction": "down"
+    },
+    {
+      "type": "teleport",
+      "name": "Bank Guy",
+      "text": "0,1.5"
+    },
+    {
+      "type": "move",
+      "name": "Bank Guy",
+      "direction": "down",
+      "speed": 3,
+      "text": "0,0.5"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "We're all set! Quarters have been secured!",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 7
+    },
+    {
+      "type": "loadScene",
+      "name": "Bank"
+    }
+  ]
+}

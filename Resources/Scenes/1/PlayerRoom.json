@@ -1,0 +1,20 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 0, 0 ],
+      "validDays": [ 1, 1 ],
+      "type": "cutscene",
+      "name": "1.Pre.PlayerRoom"
+    },
+    {
+      "validStages": [ 6, 6 ],
+      "validDays": [ 1, 1 ],
+      "type": "CutsceneActTrigger",
+      "name": "1.GoToBed",
+      "fileName": "1.Post.GoToBed",
+      "location": "-4,2",
+      "size": "2,2"
+    }
+  ]
+}

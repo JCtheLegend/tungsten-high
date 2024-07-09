@@ -1,0 +1,1800 @@
+fileFormatVersion: 2
+guid: 4b5a7a6342bdea549bb666724c9aa3c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5617026753456627300
+    second: City People (2)_0
+  - first:
+      213: 3656627691827806894
+    second: City People (2)_1
+  - first:
+      213: 701568160312976743
+    second: City People (2)_2
+  - first:
+      213: 7155487286791909871
+    second: City People (2)_3
+  - first:
+      213: 6521179921579744726
+    second: City People (2)_4
+  - first:
+      213: -425651452705205612
+    second: City People (2)_5
+  - first:
+      213: -321452012092350352
+    second: City People (2)_6
+  - first:
+      213: 6605593882651960792
+    second: City People (2)_7
+  - first:
+      213: 2634808097990221306
+    second: City People (2)_8
+  - first:
+      213: 1703415447352140801
+    second: City People (2)_9
+  - first:
+      213: 2925061682882728692
+    second: City People (2)_10
+  - first:
+      213: -2976905168560487981
+    second: City People (2)_11
+  - first:
+      213: 6472459255806533945
+    second: City People (2)_12
+  - first:
+      213: 4098847207429811739
+    second: City People (2)_13
+  - first:
+      213: -2368644908275976461
+    second: City People (2)_14
+  - first:
+      213: -960186370401637975
+    second: City People (2)_15
+  - first:
+      213: 1908677991699233067
+    second: City People (2)_16
+  - first:
+      213: 8014727274746420030
+    second: City People (2)_17
+  - first:
+      213: 6251636843203302687
+    second: City People (2)_18
+  - first:
+      213: -7766502000413624035
+    second: City People (2)_19
+  - first:
+      213: -7438954700106563385
+    second: City People (2)_20
+  - first:
+      213: 1415597377366238199
+    second: City People (2)_21
+  - first:
+      213: 7966009915640443794
+    second: City People (2)_22
+  - first:
+      213: -1442224278689725974
+    second: City People (2)_23
+  - first:
+      213: 366716404714944326
+    second: City People (2)_24
+  - first:
+      213: -4994495180807901299
+    second: City People (2)_25
+  - first:
+      213: 963841039561617103
+    second: City People (2)_26
+  - first:
+      213: 6023397398937884576
+    second: City People (2)_27
+  - first:
+      213: 3314661699563414655
+    second: City People (2)_28
+  - first:
+      213: -6689946669869252254
+    second: City People (2)_29
+  - first:
+      213: 2675777816812385820
+    second: City People (2)_30
+  - first:
+      213: 8756877951638505753
+    second: City People (2)_31
+  - first:
+      213: 8901404823934878551
+    second: City People (2)_32
+  - first:
+      213: 4697475797019002102
+    second: City People (2)_33
+  - first:
+      213: -568138033501179185
+    second: City People (2)_34
+  - first:
+      213: 8619760249731128386
+    second: City People (2)_35
+  - first:
+      213: 4163597267010365268
+    second: City People (2)_36
+  - first:
+      213: -2427811077904558771
+    second: City People (2)_37
+  - first:
+      213: -1309892192234403845
+    second: City People (2)_38
+  - first:
+      213: 192257008135606454
+    second: City People (2)_39
+  - first:
+      213: 1007892927247703880
+    second: City People (2)_40
+  - first:
+      213: 6312024305748338081
+    second: City People (2)_41
+  - first:
+      213: -5499339034003607851
+    second: City People (2)_42
+  - first:
+      213: 4847360587126422507
+    second: City People (2)_43
+  - first:
+      213: 7426955572394426864
+    second: City People (2)_44
+  - first:
+      213: -6159845168501423389
+    second: City People (2)_45
+  - first:
+      213: 94622555890571826
+    second: City People (2)_46
+  - first:
+      213: -4494708747129332615
+    second: City People (2)_47
+  - first:
+      213: 4500424558158480626
+    second: City People (2)_48
+  - first:
+      213: -296140029201795081
+    second: City People (2)_49
+  - first:
+      213: -8690664210212302924
+    second: City People (2)_50
+  - first:
+      213: 1265812442439019326
+    second: City People (2)_51
+  - first:
+      213: 6555953831956102095
+    second: City People (2)_52
+  - first:
+      213: -7808132027046208586
+    second: City People (2)_53
+  - first:
+      213: -5109433701596372084
+    second: City People (2)_54
+  - first:
+      213: -1240912574882301802
+    second: City People (2)_55
+  - first:
+      213: -5705295395029009598
+    second: City People (2)_56
+  - first:
+      213: 28542664840795770
+    second: City People (2)_57
+  - first:
+      213: -7080799045097051900
+    second: City People (2)_58
+  - first:
+      213: -732010143602065321
+    second: City People (2)_59
+  - first:
+      213: -8825458794701067952
+    second: City People (2)_60
+  - first:
+      213: 7293180482365885406
+    second: City People (2)_61
+  - first:
+      213: 5043484889870872499
+    second: City People (2)_62
+  - first:
+      213: -7641562681268866260
+    second: City People (2)_63
+  - first:
+      213: 7866471583244843228
+    second: City People (2)_64
+  - first:
+      213: 5486308760107305804
+    second: City People (2)_65
+  - first:
+      213: -5504703323601422429
+    second: City People (2)_66
+  - first:
+      213: 8169751877266489756
+    second: City People (2)_67
+  - first:
+      213: -9083493528065601577
+    second: City People (2)_68
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: City People (2)_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ed5ad6210b3fd40800000000000000
+      internalID: 5617026753456627300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 368
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2c0471383feb230800000000000000
+      internalID: 3656627691827806894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 368
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765ed2556887cb900800000000000000
+      internalID: 701568160312976743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 368
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe13e04a6c56d4360800000000000000
+      internalID: 7155487286791909871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 368
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd9b268692ef7a50800000000000000
+      internalID: 6521179921579744726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_5
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 368
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492906b4248c71af0800000000000000
+      internalID: -425651452705205612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 367
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070a6ee1919f98bf0800000000000000
+      internalID: -321452012092350352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 336
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5a6f963a8cbab50800000000000000
+      internalID: 6605593882651960792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 336
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd970c5108b09420800000000000000
+      internalID: 2634808097990221306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 336
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1046654035fb3a710800000000000000
+      internalID: 1703415447352140801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 336
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2d45a5a18e79820800000000000000
+      internalID: 2925061682882728692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d18de18588efa6d0800000000000000
+      internalID: -2976905168560487981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_12
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 336
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931a98d866bc2d950800000000000000
+      internalID: 6472459255806533945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 336
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ea47b81d702e830800000000000000
+      internalID: 4098847207429811739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 302
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f63c2b6102e02fd0800000000000000
+      internalID: -2368644908275976461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_15
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 304
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9e90a559bbca2f0800000000000000
+      internalID: -960186370401637975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_16
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 302
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29b6d5558cfc7a10800000000000000
+      internalID: 1908677991699233067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_17
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 302
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b15e61ef70a3f60800000000000000
+      internalID: 8014727274746420030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 302
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1590e7169642c650800000000000000
+      internalID: 6251636843203302687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 304
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d193cfd4497d73490800000000000000
+      internalID: -7766502000413624035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_20
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 304
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c00def0d1683c890800000000000000
+      internalID: -7438954700106563385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3a3e6805635a310800000000000000
+      internalID: 1415597377366238199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293fcf200d3fc8e60800000000000000
+      internalID: 7966009915640443794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 272
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae14146e8a03cfbe0800000000000000
+      internalID: -1442224278689725974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_24
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 269
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647b75c80a6d61500800000000000000
+      internalID: 366716404714944326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_25
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 270
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f6b83581dffaab0800000000000000
+      internalID: -4994495180807901299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_26
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 272
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce630f9150406d00800000000000000
+      internalID: 963841039561617103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_27
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 272
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a754b06508679350800000000000000
+      internalID: 6023397398937884576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74e111014b000e20800000000000000
+      internalID: 3314661699563414655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261c228d2f88823a0800000000000000
+      internalID: -6689946669869252254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_30
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 240
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16f8fc5fb5422520800000000000000
+      internalID: 2675777816812385820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_31
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 240
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9190dd0e91ea68970800000000000000
+      internalID: 8756877951638505753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75346949684288b70800000000000000
+      internalID: 8901404823934878551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4005e5959c03140800000000000000
+      internalID: 4697475797019002102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_34
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2f5c9f7719d18f0800000000000000
+      internalID: -568138033501179185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c9146174a8f9770800000000000000
+      internalID: 8619760249731128386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457a0f797a118c930800000000000000
+      internalID: 4163597267010365268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 208
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d459dbf00beae4ed0800000000000000
+      internalID: -2427811077904558771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_38
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 208
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf78fc3cdf352dde0800000000000000
+      internalID: -1309892192234403845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b09083fab80ba200800000000000000
+      internalID: 192257008135606454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_40
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f5a3cf641ccfd00800000000000000
+      internalID: 1007892927247703880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_41
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5e2cdd9a0d89750800000000000000
+      internalID: 6312024305748338081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_42
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de66ca094c6ea3b0800000000000000
+      internalID: -5499339034003607851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_43
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 144
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb36e585c8454340800000000000000
+      internalID: 4847360587126422507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_44
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 144
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f18d2f4eb8d11760800000000000000
+      internalID: 7426955572394426864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_45
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 112
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2011c9475d38aa0800000000000000
+      internalID: -6159845168501423389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_46
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 112
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ad89796ba205100800000000000000
+      internalID: 94622555890571826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_47
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 112
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cd38e55369f91c0800000000000000
+      internalID: -4494708747129332615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f40b779a48b47e30800000000000000
+      internalID: 4500424558158480626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_49
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 80
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f737a36636e3ebf0800000000000000
+      internalID: -296140029201795081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_50
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 80
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf481822fe846780800000000000000
+      internalID: -8690664210212302924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_51
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3be8d7b5b1119110800000000000000
+      internalID: 1265812442439019326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_52
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbba95764d6bfa50800000000000000
+      internalID: 6555953831956102095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_53
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb5f886a41f3a390800000000000000
+      internalID: -7808132027046208586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_54
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8360fc8e15a719b0800000000000000
+      internalID: -5109433701596372084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_55
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 49
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69833d8769467cee0800000000000000
+      internalID: -1240912574882301802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_56
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 49
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bbf90f018b2d0b0800000000000000
+      internalID: -5705295395029009598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_57
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 49
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7657c60767656000800000000000000
+      internalID: 28542664840795770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_58
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 49
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409a01fb8c2fbbd90800000000000000
+      internalID: -7080799045097051900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_59
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750cd9a17a067d5f0800000000000000
+      internalID: -732010143602065321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_60
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059eef94cfba58580800000000000000
+      internalID: -8825458794701067952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_61
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 48
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb0b3ef105963560800000000000000
+      internalID: 7293180482365885406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_62
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 17
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfadca29ce0ef540800000000000000
+      internalID: 5043484889870872499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_63
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 16
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2376166a37b3f590800000000000000
+      internalID: -7641562681268866260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_64
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 16
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd873030a325b2d60800000000000000
+      internalID: 7866471583244843228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_65
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 16
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b4f46efb8432c40800000000000000
+      internalID: 5486308760107305804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_66
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a733da0e7d5b93b0800000000000000
+      internalID: -5504703323601422429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_67
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91cc831c0ac06170800000000000000
+      internalID: 8169751877266489756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City People (2)_68
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df071c33c2f0f180800000000000000
+      internalID: -9083493528065601577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

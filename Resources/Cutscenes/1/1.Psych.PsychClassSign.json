@@ -1,0 +1,37 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "The developer regrets to inform you that the current area is under construction.",
+      "isTyped": "true"
+    },
+    {
+      "type": "editObjects",
+      "loadObjs": [
+        {
+          "name": "Maven",
+          "facing": "down",
+          "assets": [
+            {
+              "type": "CutsceneActTrigger",
+              "fileName": "1.1-PsychClass.3",
+              "facePlayer": true
+            }
+          ]
+        },
+        {
+          "type": "enableMovement"
+        }
+      ]
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "Items": [
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 0, 0 ],
+      "type": "Folding Table",
+      "name": "Folding Table",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Sorry man, only one map per person"
+          ],
+          "isTyped": [ true ],
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ],
+      "location": "2.5,3"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 0, 0 ],
+      "type": "cutscene",
+      "name": "2.Hall.GetMap"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 0, 0 ],
+      "type": "School Map",
+      "name": "School Map",
+      "location": "2,3"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 0, 0 ],
+      "type": "DisableExit",
+      "name": "Front Exit"
+    },
+    {
+      "validStages": [ 5, 5 ],
+      "location": "9,-4.5",
+      "type": "CutsceneCollider",
+      "size": "6,1",
+      "name": "InSchool",
+      "fileName": "InSchool"
+    },
+    {
+      "validStages": [1, 1],
+      "validScenes": [ 0, 0 ],
+      "location": "2.5, 3.5",
+      "type": "Sandman",
+      "name": "Sandman",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Sorry man, only one map per person"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    }
+  ]
+}

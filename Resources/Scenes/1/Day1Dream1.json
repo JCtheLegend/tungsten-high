@@ -1,0 +1,17 @@
+{
+  "Items": [
+    {
+      "type": "Stranger",
+      "name": "Stranger",
+      "location": "0,-5",
+      "facing": "up"
+    },
+    {
+      "location": "0,-7",
+      "type": "CutsceneCollider",
+      "size": "10,1",
+      "name": "1.Dream.DreamStrangerUp1",
+      "fileName": "1.Dream.DreamStrangerUp1"
+    }
+  ]
+}

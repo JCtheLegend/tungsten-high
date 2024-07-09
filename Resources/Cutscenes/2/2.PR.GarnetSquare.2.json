@@ -1,0 +1,74 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "32,-36"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "text": "right"
+    },
+    {
+      "type": "teleport",
+      "name": "Micycle",
+      "text": "31.5,-35"
+    },
+    {
+      "type": "moveFace",
+      "name": "Micycle",
+      "text": "right"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Ah, <Name> and Mike you're back!",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I hope you guys had a great time helping out at the bank.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "And just in time, we are about to head back to school.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Well, let's get going! We don't want to miss your second class!",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "wait",
+      "text": "3"
+    },
+    {
+      "type": "loadScene",
+      "name": "School Front"
+    }
+  ]
+}

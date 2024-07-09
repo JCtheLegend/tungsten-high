@@ -20,21 +20,20 @@ public class PlayerCollisionController : MonoBehaviour
     {
         if (collisionObject.CompareTag("Enemy Attack"))
         {
-            StartCoroutine(player.combat.Hurt(collisionObject.GetComponentInParent<EnemyController>().attackDamage));
+            player.combat.Hurt(collisionObject.GetComponentInParent<EnemyController>().attackDamage);
         }
-        if (collisionObject.CompareTag("Door"))
+        if (collisionObject.CompareTag("Door") && !player.cutscene.inCutscene)
         {
             GameManager.RoomData.toEntranceNum = collisionObject.GetComponent<RoomExit>().toEntranceNum;
-            GameManager.RoomData.startingCutscene = collisionObject.GetComponent<RoomExit>().startingCutscene;
-            GameManager.debugCounterToggle = false;
-            GameManager.LoadScene(collisionObject.GetComponent<RoomExit>().roomName);
+            player.input.DisableInput();
+            StartCoroutine(WalkOut(collisionObject.GetComponent<RoomExit>().roomName));
         }
-        if (collisionObject.CompareTag("CollideCutsceneTrigger"))
+        if (collisionObject.CompareTag("CollideCutsceneTrigger") && !player.cutscene.inCutscene)
         {
             bool startCutscene = false;
             CutsceneTrigger cutsceneTrigger = collisionObject.GetComponent<CutsceneTrigger>();
             if (cutsceneTrigger.conditions.Contains("notDressed")) {
-                if (player.anim.inPjs)
+                if (player.anim.costume == "pjs")
                 {
                     startCutscene = true;
                 }
@@ -46,10 +45,16 @@ public class PlayerCollisionController : MonoBehaviour
             if (startCutscene) {
                 if (cutsceneTrigger.destroy)
                 {
-                    Destroy(collisionObject);
+                    Destroy(collisionObject.GetComponent<CutsceneTrigger>());
                 }
                 player.action.StartCutscene(cutsceneTrigger.cutsceneFileName);
             }
         }
+    }
+
+    IEnumerator WalkOut(string roomName)
+    {
+        yield return new WaitForSeconds(1);
+        StartCoroutine(player.TransitionRoom(roomName));
     }
 }

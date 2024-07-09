@@ -1,0 +1,28 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey son, look I got the mower running!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey son, look I got the mower running!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Have a good day at school!",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

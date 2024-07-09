@@ -1,0 +1,34 @@
+{
+  "Items": [
+    {
+      "type": "startBlack"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "-4,-1.5"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "You don't have any homework today, so you might as well call it a day.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 5
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

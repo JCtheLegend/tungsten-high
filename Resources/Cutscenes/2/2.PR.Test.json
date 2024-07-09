@@ -1,0 +1,101 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "location": "24, 8.5",
+          "name": "Mirror",
+          "type": "Mirror",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "down",
+          "speed": 3,
+          "text": "24,4.5"
+        },
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "left",
+          "speed": 3,
+          "text": "22,0.5"
+        }
+      ],
+      "isContinue": false
+    },
+    {
+      "type": "move",
+      "name": "Laser Boy",
+      "direction": "down",
+      "speed": 3,
+      "text": "24,4.5"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "left",
+          "speed": 3,
+          "text": "15,6.5"
+        },
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "down",
+          "speed": 3,
+          "text": "15,0"
+        },
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "right",
+          "speed": 3,
+          "text": "24,0"
+        },
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "up",
+          "speed": 3,
+          "text": "24,6.5"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "addFollow",
+      "name": "Ms Nice",
+      "text": "Bloom"
+    },
+    {
+      "type": "addFollow",
+      "name": "Bloom",
+      "text": "Mirror"
+    },
+    {
+      "type": "addFollow",
+      "name": "Mirror",
+      "text": "Laser Boy"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

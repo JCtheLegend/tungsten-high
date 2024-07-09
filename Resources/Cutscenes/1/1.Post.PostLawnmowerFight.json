@@ -1,0 +1,41 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "CombatPlayer",
+      "direction": "up",
+      "text": "-1.5, -2",
+      "speed": 5
+    },
+    {
+      "type": "startWhite"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "wait",
+      "text": 5
+    },
+    {
+      "type": "playSound",
+      "name": "teleport"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 4
+    },
+    {
+      "type": "loadScene",
+      "name": "Downstairs"
+    }
+  ]
+}

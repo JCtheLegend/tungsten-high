@@ -1,0 +1,23 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Your father wasn't able to fix the lawnmower today.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "He might ask you for help after dinner.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

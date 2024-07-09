@@ -1,0 +1,24 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 6, 6 ],
+      "validStages": [ 1, 1 ],
+      "type": "cutscene",
+      "name": "2.PR.Bank.4"
+    },
+    {
+      "validScenes": [ 6, 6 ],
+      "validStages": [ 1, 1 ],
+      "type": "Bank Guy",
+      "name": "Bank Guy",
+      "location": "-6, -5",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "name": "2.PR.BankVault.Guy",
+          "fileName": "2.PR.BankVault.Guy"
+        }
+      ]
+    }
+  ]
+}

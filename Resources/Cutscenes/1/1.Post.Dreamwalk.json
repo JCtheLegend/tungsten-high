@@ -1,0 +1,58 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "0, -3.375"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "dialogAndChoice",
+      "text": "Dreamwalk?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "skips": [
+        2,
+        0
+      ],
+      "isTyped": "false"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement",
+      "skip": 6
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "playSound",
+      "name": "teleport"
+    },
+    {
+      "type": "dreamExit"
+    },
+    {
+      "type": "startWhite"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "loadScene",
+      "name": "PreLawnmowerFight"
+    }
+  ]
+}

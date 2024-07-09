@@ -1,0 +1,111 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Alright, welcome to Tungsten High!",
+      "name": "Handstand",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "If you'll follow me, I'll take you all to your first class.",
+      "name": "Handstand",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Handstand",
+          "direction": "left",
+          "speed": 3,
+          "text": "-1,1"
+        },
+        {
+          "type": "teleport",
+          "name": "Handstand",
+          "text": "-21, 6.5"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "up",
+          "speed": 3,
+          "text": "7.5,1"
+        },
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "left",
+          "speed": 3,
+          "text": "-1,1"
+        },
+        {
+          "type": "teleport",
+          "name": "Bubba",
+          "text": "-18.5, 5.5"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "up",
+          "speed": 3,
+          "text": "10.5,1"
+        },
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "left",
+          "speed": 3,
+          "text": "-1,1"
+        },
+        {
+          "type": "teleport",
+          "name": "Micycle",
+          "text": "-23.5, 5.5"
+        }
+      ]
+    },
+    {
+      "type": "wait",
+      "text": 3
+    },
+    {
+      "type": "moveFace",
+      "name": "Bubba",
+      "direction": "up"
+    },
+    {
+      "type": "moveFace",
+      "name": "Handstand",
+      "direction": "up"
+    },
+    {
+      "type": "moveFace",
+      "name": "Micycle",
+      "direction": "up"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

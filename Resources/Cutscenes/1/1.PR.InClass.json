@@ -1,0 +1,25 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Class isn't over yet.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "text": "6.5,-0.5",
+      "direction": "right",
+      "speed": 2
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

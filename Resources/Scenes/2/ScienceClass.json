@@ -1,0 +1,142 @@
+{
+  "Items": [
+    {
+      "type": "Micycle",
+      "name": "Micycle",
+      "location": "2.66,-7.5",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Sorry man, looks like you don't have a lab partner for the day."
+          ],
+          "isTyped": [ true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "Laser Boy",
+      "name": "Laser Boy",
+      "location": "-2.66,-3.5",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Finally, a class that I can probably do well at.",
+            "Natural Powers class didn't go well for me. I made eye contact with someone accidentally."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "Bloom",
+      "name": "Bloom",
+      "location": "4.33,-7.5",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Hi! Looks like we have class together again."
+          ],
+          "isTyped": [ true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "Bubba",
+      "name": "Bubba",
+      "location": "-4.33,-7.5",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "This is the last class right?",
+            "I can't wait for this to be over."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "Moe",
+      "name": "Moe",
+      "location": "-4.33,-3.5",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "All this walking...",
+            "I hope we don't have to walk anywhere this class."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "Mirror",
+      "name": "Mirror",
+      "location": "-2.66, -7.5",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Lots of people make faces at me.",
+            "A natural thing to do into a mirror, I guess."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "Ms Sparks",
+      "name": "Ms Sparks",
+      "location": "0, 1.5",
+      "facing": "down"
+    },
+    {
+      "location": "3.5,-4",
+      "type": "CutsceneCollider",
+      "size": "3,1",
+      "name": "2.Sci.1",
+      "fileName": "2.Sci.1",
+      "destroy": true
+    }
+  ]
+}

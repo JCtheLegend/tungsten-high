@@ -1,0 +1,65 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Friend",
+      "direction": "down",
+      "speed": 2,
+      "text": "-8.5,3.5"
+    },
+    {
+      "type": "move",
+      "name": "Friend",
+      "direction": "right",
+      "speed": 2,
+      "text": "-3.5,3.5"
+    },
+    {
+      "type": "move",
+      "name": "Friend",
+      "direction": "right",
+      "speed": 2,
+      "text": "2,3"
+    },
+    {
+      "type": "move",
+      "name": "Friend",
+      "direction": "down",
+      "speed": 2,
+      "text": "2,0"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "4"
+    },
+    {
+      "type": "teleport",
+      "name": "Friend",
+      "text": "-9.5,-3"
+    },
+    {
+      "type": "moveFace",
+      "name": "Friend",
+      "direction": "right"
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "location": "-7,-3",
+          "type": "CutsceneCollider",
+          "name": "1.1-Dream.2F-3F.2",
+          "size": "1,6",
+          "fileName": "1.1-Dream.2F-3F.2",
+          "destroy": true
+        }
+      ]
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

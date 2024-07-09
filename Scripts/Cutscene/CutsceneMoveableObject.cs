@@ -4,20 +4,23 @@ using UnityEngine;
 
 public class CutsceneMoveableObject : MoveableObject
 {
-    CutsceneManager cut;
-
+    Collider2D col;
     private new void Awake()
     {
         base.Awake();
-        cut = GameObject.Find("Cutscene Manager").GetComponent<CutsceneManager>();
+        col = GetComponent<Collider2D>();
     }
 
-    public IEnumerator CutsceneMove(Vector2 coords, float speed, bool isContinue)
+    public IEnumerator CutsceneMove(Vector2 coords, float speed, bool isContinue, Ref<bool> isDone, direction d)
     {
+        if (col)
+        {
+            col.enabled = false;
+        }
         Vector2 initialPos = rb.position;
         if (isContinue)
         {
-            cut.setMovementDone();
+            isDone.Value = true;
         }
         StartCoroutine(Move(coords, speed));
         while(!ArrivedToPoint(initialPos, rb.position, coords))
@@ -26,15 +29,26 @@ public class CutsceneMoveableObject : MoveableObject
         }
         if (!isContinue)
         {
-            cut.setMovementDone();
+            isDone.Value = true;
+        }
+        if (col)
+        {
+            col.enabled = true;
+        }
+        if(GetComponent<AnimatableObject>() != null)
+        {
+            GetComponent<AnimatableObject>().StopAnimation();
+        }
+        if (GetComponent<Faces>() != null) {
+            GetComponent<Faces>().Face(d);
         }
     }
 
-    public IEnumerator CutsceneRotate(bool clockwise, float deg, float speed, bool isContinue)
+    public IEnumerator CutsceneRotate(bool clockwise, float deg, float speed, bool isContinue, Ref<bool> isDone)
     {
         if (isContinue)
         {
-            cut.setMovementDone();
+            isDone.Value = true;
         }
         StartCoroutine(Rotate(clockwise, deg, speed));
         while (transform.rotation.z < deg)
@@ -43,7 +57,7 @@ public class CutsceneMoveableObject : MoveableObject
         }
         if (!isContinue)
         {
-            cut.setMovementDone();
+            isDone.Value = true;
         }
     }
 }

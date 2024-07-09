@@ -1,0 +1,108 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "right",
+      "speed": 3,
+      "text": "-21.5,41"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "-21.5,41"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "dialog",
+      "text": "Hey, hope your first class went well!",
+      "name": "Sandman",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Public Relations doesn't seem always like superhero work, but you'll find that there's a lot of different ways to help people.",
+      "name": "Sandman",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Speaking of exciting classes, I'm sure you'll like the next one.",
+      "name": "Sandman",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Here, we got something for you!",
+      "name": "Sandman",
+      "isTyped": "true"
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "location": "-21.5, 42.5",
+          "type": "Planner Icon",
+          "name": "Planner Icon"
+        }
+      ]
+    },
+    {
+      "type": "animate",
+      "name": "Player",
+      "text": "get_item",
+      "isContinue": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You recieved the Planner!",
+      "isTyped": "true"
+    },
+    {
+      "type": "hide",
+      "name": "Planner Icon"
+    },
+    {
+      "type": "animate",
+      "name": "Player",
+      "text": "default_back",
+      "isContinue": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "This will help you keep track of your classes,",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "as well as other important information during your time here.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You can check your Planner by pressing Esc",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "1"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

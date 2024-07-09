@@ -49,7 +49,7 @@ public class AnimatableObject : MonoBehaviour
                     if (mirrorFace)
                     {
                         anim.gameObject.GetComponent<SpriteRenderer>().flipX = true;
-                        anim.Play(defaultLeftAnim);
+                        anim.Play(defaultRightAnim);
                     }
                     else
                     {
@@ -74,12 +74,21 @@ public class AnimatableObject : MonoBehaviour
     public void AnimateMove(direction dir)
     {
         anim.enabled = true;
+        anim.gameObject.GetComponent<SpriteRenderer>().flipX = false;
         switch (dir)
         {
             case direction.left:
             case direction.downLeft:
             case direction.upLeft:
-                anim.Play(leftMoveAnim);
+                if (mirrorFace)
+                {
+                    anim.gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                    anim.Play(rightMoveAnim);
+                }
+                else
+                {
+                    anim.Play(leftMoveAnim);
+                }
                 break;
             case direction.right:
             case direction.downRight:

@@ -1,0 +1,94 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "changeCostume",
+      "text": "lunch"
+    },
+    {
+      "type": "editObjects",
+      "loadObjs": [
+        {
+          "name": "1.1-Cafeteria.1",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.1"
+        },
+        {
+          "name": "1.1-Cafeteria.2",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.2"
+        },
+        {
+          "name": "1.1-Cafeteria.3",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.3"
+        },
+        {
+          "name": "1.1-Cafeteria.4",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.4"
+        },
+        {
+          "name": "1.1-Cafeteria.5",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.5"
+        },
+        {
+          "name": "1.1-Cafeteria.6",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.6"
+        },
+        {
+          "name": "1.1-Cafeteria.7",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.7"
+        },
+        {
+          "name": "1.1-Cafeteria.8",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.8"
+        },
+        {
+          "name": "1.1-Cafeteria.9",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.9"
+        },
+        {
+          "name": "1.1-Cafeteria.10",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.10"
+        },
+        {
+          "name": "1.1-Cafeteria.11",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.11"
+        },
+        {
+          "name": "1.1-Cafeteria.12",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.12"
+        },
+        {
+          "name": "1.1-Cafeteria.13",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.13"
+        },
+        {
+          "name": "1.1-Cafeteria.14",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.14"
+        },
+        {
+          "name": "1.1-Cafeteria.15",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.1-Cafeteria.15"
+        }
+      ]
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

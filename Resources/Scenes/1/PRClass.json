@@ -1,0 +1,114 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 5,
+      "maxGameCounter": 6,
+      "location": "8.5,-1",
+      "type": "CutsceneCollider",
+      "size": "1,2",
+      "name": "1.1-PRClass.InClass",
+      "fileName": "1.1-PRClass.InClass"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 5,
+      "maxGameCounter": 6,
+      "type": "DisableExit",
+      "name": "Exit"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 5,
+      "maxGameCounter": 6,
+      "type": "Micycle",
+      "name": "Micycle",
+      "location": "0,-3.51",
+      "facing": "up"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 5,
+      "maxGameCounter": 6,
+      "type": "Laser Boy",
+      "name": "Laser Boy",
+      "location": "-4.5,-1.01",
+      "facing": "up"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 5,
+      "maxGameCounter": 6,
+      "type": "Bloom",
+      "name": "Bloom",
+      "location": "0,-1.01",
+      "facing": "up"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 5,
+      "maxGameCounter": 6,
+      "type": "Bubba",
+      "name": "Bubba",
+      "location": "-4.5,-3.51",
+      "facing": "up"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 5,
+      "maxGameCounter": 6,
+      "type": "Moe",
+      "name": "Moe",
+      "location": "0,-6.01",
+      "facing": "up"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 5,
+      "maxGameCounter": 6,
+      "type": "Ms Nice",
+      "name": "Ms Nice",
+      "location": "2,1.5"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 5,
+      "maxGameCounter": 6,
+      "type": "Kid Fi",
+      "name": "Kid Fi",
+      "location": "4.5,-1.01",
+      "facing": "up"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 5,
+      "maxGameCounter": 6,
+      "type": "Mirror",
+      "name": "Mirror",
+      "location": "-4.5, -6.01",
+      "facing": "up"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 5,
+      "maxGameCounter": 6,
+      "location": "4.5,-4",
+      "type": "CutsceneActTrigger",
+      "size": "1,2",
+      "name": "1.1-PRClass.1.v1",
+      "fileName": "1.1-PRClass.1.v1",
+      "destroy": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "I am a Stranger.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You do not know me.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Main Stranger",
+      "direction": "up",
+      "speed": 4,
+      "text": "0,32",
+      "isContinue": true
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 8
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

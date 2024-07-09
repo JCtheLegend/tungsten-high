@@ -1,0 +1,27 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "CombatPlayer",
+      "direction": "down",
+      "speed": 3,
+      "text": "58.5, 11"
+    },
+    {
+      "type": "switchNormal"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "down",
+      "speed": 3,
+      "text": "58.5,8"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "3, -3.5"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "dialog",
+      "text": "Good Afternoon, boys and girls.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "As you can see this is not your standard classroom.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "There are no desks, no pencils, and no paper.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "There will, in fact, be almost no interaction with this physical world.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Why? Because your powers don't relate to it.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Your powers are related to what I would like to call the Ephemeral World.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "What is the Ephemeral World? Well, let me show you.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "playSound",
+      "name": "teleport"
+    },
+    {
+      "type": "dreamExit"
+    },
+    {
+      "type": "startWhite"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "loadScene",
+      "name": "Ephemeral"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

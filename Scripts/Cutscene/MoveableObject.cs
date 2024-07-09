@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveableObject : MonoBehaviour
 {
-    protected Rigidbody2D rb;
+    internal Rigidbody2D rb;
 
     Vector2 vel = Vector2.zero;
     float spin = 0;
@@ -15,7 +15,7 @@ public class MoveableObject : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-    void Update()
+    void FixedUpdate()
     {
         rb.velocity = vel;
         transform.Rotate(0, 0, spin);

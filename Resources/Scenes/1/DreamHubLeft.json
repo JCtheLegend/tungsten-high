@@ -1,0 +1,25 @@
+{
+  "Items": [
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 20,
+      "maxGameCounter": 21,
+      "type": "Stranger",
+      "name": "Stranger",
+      "location": "21,0",
+      "facing": "down"
+    },
+    {
+      "minSceneCounter": 0,
+      "maxSceneCounter": 1,
+      "minGameCounter": 20,
+      "maxGameCounter": 21,
+      "location": "16,2",
+      "type": "CutsceneCollider",
+      "size": "1,10",
+      "name": "1.Dream.HubLeft",
+      "fileName": "1.Dream.HubLeft"
+    }
+  ]
+}

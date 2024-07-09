@@ -1,0 +1,193 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Hi!",
+      "name": "Handstand",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I'm Handstand! As you can probably guess, my power is having perfect balance on my hands.",
+      "name": "Handstand",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I noticed that you can turn into a bike. That's pretty neat!",
+      "name": "Handstand",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Anyway, I'm helping with Orientation today here at Tungsten High.",
+      "name": "Handstand",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey! You up there!",
+      "name": "Handstand",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "teleport",
+      "name": "Bubba",
+      "text": "25, 15"
+    },
+    {
+      "type": "animate",
+      "name": "Bubba",
+      "text": "BubbaFloat",
+      "isContinue": "true"
+    },
+    {
+      "type": "moveCamera",
+      "text": "25, 15",
+      "direction": "up",
+      "isContinue": false,
+      "speed": 4
+    },
+    {
+      "type": "dialog",
+      "text": "Come on down, we're about to head inside!",
+      "name": "Handstand",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Bubba"
+    },
+    {
+      "type": "move",
+      "name": "Bubba",
+      "direction": "down",
+      "speed": 2,
+      "text": "25,2",
+      "animateOverride": true
+    },
+    {
+      "type": "dialog",
+      "text": "Heh, I was just getting a good look at this crappy school.",
+      "name": "Bubba",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "It's not like I'll be here for long anyway. My application to Platinum Prep is still under review.",
+      "name": "Bubba",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Um, ok. Well, first period is starting soon, and we should get you guys to your first class.",
+      "name": "Handstand",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "So, if you guys will follow me.",
+      "name": "Handstand",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Handstand",
+      "direction": "left",
+      "speed": 2,
+      "text": "24,2.5"
+    },
+    {
+      "type": "move",
+      "name": "Handstand",
+      "direction": "left",
+      "speed": 2,
+      "text": "24,2.5"
+    },
+    {
+      "type": "move",
+      "name": "Handstand",
+      "direction": "up",
+      "speed": 2,
+      "text": "24,8.5"
+    },
+    {
+      "type": "disable",
+      "name": "Handstand"
+    },
+    {
+      "type": "move",
+      "name": "Micycle",
+      "direction": "up",
+      "speed": 2,
+      "text": "24,8.5"
+    },
+    {
+      "type": "disable",
+      "name": "Micycle"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "dialog",
+      "text": "Heh, I wonder what power you've got.",
+      "name": "Bubba",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Actually, it's probably not even worth knowing, seeing as you're going here.",
+      "name": "Bubba",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Player"
+    },
+    {
+      "type": "move",
+      "name": "Bubba",
+      "direction": "left",
+      "speed": 2,
+      "text": "24,2.5"
+    },
+    {
+      "type": "move",
+      "name": "Bubba",
+      "direction": "up",
+      "speed": 2,
+      "text": "24,8.5"
+    },
+    {
+      "type": "disable",
+      "name": "Bubba"
+    },
+    {
+      "type": "setStageCounter",
+      "text": 1
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 0
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

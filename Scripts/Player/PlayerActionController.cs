@@ -5,26 +5,38 @@ using UnityEngine;
 public class PlayerActionController : MonoBehaviour
 {
     [SerializeField] PlayerMasterController player;
-    [SerializeField] CutsceneManager cutsceneManager;
 
     internal void Interact(RaycastHit2D ray)
     {
         GameObject collider = ray.collider.gameObject;
-        if(collider.CompareTag("CutsceneTrigger"))
+        if (collider.CompareTag("CutsceneTrigger"))
         {
-            if (collider.GetComponent<CutsceneTrigger>().facePlayer)
+            if (collider.GetComponent<CutsceneTrigger>() != null)
             {
-                collider.GetComponent<Faces>().FacePlayer(player.input.facing);
+                if (collider.GetComponent<CutsceneTrigger>().facePlayer)
+                {
+                    collider.GetComponent<Faces>().FacePlayer(player.input.facing);
+                }             
+                StartCutscene(ray.collider.gameObject.GetComponent<CutsceneTrigger>().cutsceneFileName);
+                if (collider.GetComponent<CutsceneTrigger>().destroy)
+                {
+                    Destroy(collider.gameObject, 0.5f);
+                }
             }
-            StartCutscene(ray.collider.gameObject.GetComponent<CutsceneTrigger>().cutsceneFileName);
         }
-        else if(collider.CompareTag("Door"))
+        else if (collider.CompareTag("Door"))
         {
-            GameManager.RoomData.toEntranceNum = collider.GetComponent<RoomExit>().toEntranceNum;
-            GameManager.RoomData.startingCutscene = collider.GetComponent<RoomExit>().startingCutscene;
-            // player.sound.PlayAudio("door-open");
-            GameManager.debugCounterToggle = false;
-            GameManager.LoadScene(collider.GetComponent<RoomExit>().roomName);
+            if (collider.GetComponent<RoomExit>().locked)
+            {
+                StartCutscene("LockedDoor");
+            }
+            else
+            {
+                GameManager.RoomData.toEntranceNum = collider.GetComponent<RoomExit>().toEntranceNum;
+                // player.sound.PlayAudio("door-open");
+                player.input.DisableInput();
+                StartCoroutine(player.TransitionRoom(collider.GetComponent<RoomExit>().roomName));
+            }
         }
         else if (collider.CompareTag("OutfitChanger"))
         {
@@ -36,12 +48,23 @@ public class PlayerActionController : MonoBehaviour
             {
                 collider.GetComponent<Faces>().FacePlayer(player.input.facing);
             }
-            StartCoroutine(cutsceneManager.HandleCutscene(collider.GetComponent<SimpleDialogTrigger>().CreateSimpleDialog()));
+            GameObject g = GameObject.Find("ConversationTracker");
+            if (g != null)
+            {
+                g.GetComponent<ConversationTracker>().AddConvo(collider.name);
+            }
+            StartCoroutine(player.cutscene.HandleCutscene(collider.GetComponent<SimpleDialogTrigger>().CreateSimpleDialog()));
+        }
+        else if (collider.CompareTag("Pickup"))
+        {
+            collider.GetComponent<PickupObject>().Pickup();
         }
     }
 
+    
+
     internal void StartCutscene(string fileName)
     {
-        cutsceneManager.BeginCutscene(fileName);
+        player.cutscene.BeginCutscene(fileName);
     }
 }
