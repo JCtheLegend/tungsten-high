@@ -126,8 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2936317968726198176}
   rayLength: 1
-  facing: 0
-  p: {fileID: 0}
+  facing: 3
   old_p: {fileID: 0}
 --- !u!114 &2936317968726198191
 MonoBehaviour:

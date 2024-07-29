@@ -4,30 +4,79 @@ using UnityEngine;
 
 public class LaserShooter : MonoBehaviour
 {
+    float bulbWidth = -0.4f;
     public Vector2 offset;
-    public SpriteRenderer beam;
-    public SpriteRenderer impact;
+    public Transform startBeam;
+    public Transform impact;
+
+    public SpriteRenderer[] inner;
+    public SpriteRenderer[] middle;
+    public SpriteRenderer[] outer;
+
+    public Color innerColor;
+    public Color middleColor;
+    public Color outerColor;
+
+    public direction dir = direction.down;
+
+    int layerMask;
     // Start is called before the first frame update
     void Start()
     {
-        
+        layerMask = LayerMask.GetMask("Player", "Wall");
+        foreach (SpriteRenderer s in inner)
+        {
+            s.color = innerColor;
+        }
+        foreach (SpriteRenderer s in middle)
+        {
+            s.color = middleColor;
+        }
+        foreach (SpriteRenderer s in outer)
+        {
+            s.color = outerColor;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        DrawLaser();  
+        DrawLaser(direction.down, startBeam, offset);
     }
 
-    void DrawLaser()
+    void DrawLaser(direction dir, Transform beam, Vector3 beamOffset)
     {
-        int layerMask = LayerMask.GetMask("Player", "Wall");
-        Vector2 laserVector = new Vector2(this.transform.position.x, this.transform.position.y) + offset;
-        RaycastHit2D hit = Physics2D.Raycast(laserVector, Vector2.down, 10, layerMask);
+        Vector2 laserVector = transform.position + beamOffset;
+        RaycastHit2D hit = new RaycastHit2D();
+        
+        switch (dir)
+        {
+            case direction.down:
+                hit = Physics2D.Raycast(laserVector, Vector2.down, 1000, layerMask);
+                break;
+            case direction.right:
+                hit = Physics2D.Raycast(laserVector, Vector2.right, 1000, layerMask);             
+                break;
+        }
         if (hit)
         {
-            beam.transform.localScale = new Vector3(1, Vector3.Distance(transform.position, hit.point) - 1.5f, 1);
-            impact.transform.position = new Vector2(transform.position.x, hit.point.y - 0.25f);
+           
+                switch (dir)
+                {
+                    case direction.down:
+                        beam.localScale = new Vector3(1, Vector3.Distance(laserVector, hit.point) + bulbWidth, 1);
+                        impact.position = new Vector2(transform.position.x, hit.point.y + 0.1875f);
+                        impact.localRotation = Quaternion.Euler(new Vector3(0, 0, 0));
+                        break;
+                    case direction.right:
+                        beam.localScale = new Vector3(1, Vector3.Distance(laserVector, hit.point), 1);
+                        impact.position = new Vector2(hit.point.x - 0.1875f, hit.point.y);
+                        impact.localRotation = Quaternion.Euler(new Vector3(0, 0, 90));
+                        break;
+                }
+              
         }
     }
+
+  
 }

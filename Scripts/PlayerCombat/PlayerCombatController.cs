@@ -47,7 +47,6 @@ public class PlayerCombatController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerHealthBarFull = playerCurrentHealthBar.sprite;
         sound = GameObject.Find("Sound Manager").GetComponent<SoundController>();
-        Debug.Log(sound);
         music = GameObject.Find("Music Manager").GetComponent<MusicController>();
     }
 

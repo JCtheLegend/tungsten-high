@@ -13,7 +13,6 @@ public class ResetPuzzle : MonoBehaviour
     {
         foreach(GameObject g in objects)
         {
-            Debug.Log(g);
             positions.Add(g.transform.position);
             sprites.Add(g.GetComponent<SpriteRenderer>().sprite);
         }

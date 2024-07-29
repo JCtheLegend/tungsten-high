@@ -14,11 +14,24 @@
       "type": "switchNormal"
     },
     {
+      "type": "enableCollider",
+      "name": "Player"
+    },
+    {
+      "type": "disableCollider",
+      "name": "InsideBoundries"
+    },
+    {
       "type": "move",
       "name": "Player",
       "direction": "down",
       "speed": 3,
+      "isTyped": "true",
       "text": "58.5,8"
+    },
+    {
+      "type": "enableCollider",
+      "name": "InsideBoundries"
     },
     {
       "type": "enableMovement"

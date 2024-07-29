@@ -1,0 +1,81 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "text": "20, -2.5",
+      "direction": "up",
+      "speed": 3
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "text": "20, -2.5",
+      "direction": "up",
+      "speed": 3
+    },
+    {
+      "type": "playSound",
+      "name": "school-bell"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "dialog",
+      "text": "Alright class, listen up.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Yesterday we had an... acceptable introduction to combat.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We are going to spend the rest of this week covering the basics of handling yourself in a fight.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Today, we are going to be working on our endurance and speed.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "That's right, we're going to be running.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh you'll be alright, quit your whining.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Follow me outside and we'll get started.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "1"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

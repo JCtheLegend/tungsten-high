@@ -1,0 +1,45 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "20, -5.5"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Alright class, have a good rest of your day.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "playSound",
+      "name": "school-bell"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "0"
+    },
+    {
+      "type": "setStageCounter",
+      "text": "3"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

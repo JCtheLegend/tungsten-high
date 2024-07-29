@@ -1,0 +1,602 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 0, 10 ],
+      "type": "Table",
+      "name": "Table",
+      "location": "-5,-2"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 0, 10 ],
+      "type": "Table",
+      "name": "Table",
+      "location": "-5,-7"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 0, 10 ],
+      "type": "Table",
+      "name": "Table",
+      "location": "5, -2"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 0, 10 ],
+      "type": "Table",
+      "name": "Table",
+      "location": "5, -7"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 0, 10 ],
+      "type": "Micycle",
+      "name": "Micycle",
+      "location": "-3.5,-3",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Laser Boy",
+      "name": "Laser Boy",
+      "location": "-5.5,-3",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Bloom",
+      "name": "Bloom",
+      "location": "3.5,-3",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Bubba",
+      "name": "Bubba",
+      "location": "-6.5,-0.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Moe",
+      "name": "Moe",
+      "location": "-3.5,-0.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Freshy",
+      "name": "Freshy",
+      "location": "3.5,-0.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Seer",
+      "name": "Seer",
+      "location": "6.5,-0.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Mirror",
+      "name": "Mirror",
+      "location": "-4.5, -8",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Sticky",
+      "name": "Sticky",
+      "location": "-6.5, -5.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Slicky",
+      "name": "Slicky",
+      "location": "-6.5, -8",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Nimbus",
+      "name": "Nimbus",
+      "location": "-3.5, -5.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Jumper",
+      "name": "Jumper",
+      "location": "-4.5, -5.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Puddle",
+      "name": "Puddle",
+      "location": "5.5, -3",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Wally",
+      "name": "Wally",
+      "location": "6.5, -3",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Kitchenette",
+      "name": "Kitchenette",
+      "location": "3.5, -8",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Seagull",
+      "name": "Seagull",
+      "location": "4.5, -5.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Songbird",
+      "name": "Songbird",
+      "location": "6.5, -5.5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "Dreamy",
+      "name": "Dreamy",
+      "location": "5.5, -8",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "People are too busy eating to talk"
+          ],
+          "isTyped": [ true ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "-5.5,-0.5",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.1",
+      "fileName": "2.Lunch.NeedFood"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "-12.5,-4",
+      "type": "CutsceneCollider",
+      "size": "1,6",
+      "name": "2.Lunch.NeedLeft",
+      "fileName": "2.Lunch.NeedLeft"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "0,-12.5",
+      "type": "CutsceneCollider",
+      "size": "4,1",
+      "name": "2.Lunch.NeedBottom",
+      "fileName": "2.Lunch.NeedBottom"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "DisableExit",
+      "name": "Side 2F Exit"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "type": "DisableExit",
+      "name": "Lower 2F Exit"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "-4.5,-0.5",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.2",
+      "fileName": "2.Lunch.NeedFood"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "4.5,-0.5",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.3",
+      "fileName": "2.Lunch.NeedFood"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "5.5,-0.5",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.4",
+      "fileName": "2.Lunch.NeedFood"
+
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "-6.5,-3",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.5",
+      "fileName": "2.Lunch.NeedFood"
+
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "-4.5,-3",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.6",
+      "fileName": "2.Lunch.NeedFood"
+
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "4.5,-3",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.7",
+      "fileName": "2.Lunch.NeedFood"
+
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "-5.5,-5.5",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.8",
+      "fileName": "2.Lunch.NeedFood"
+
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "3.5,-5.5",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.9",
+      "fileName": "2.Lunch.NeedFood"
+
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "5.5,-5.5",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.10",
+      "fileName": "2.Lunch.NeedFood"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "-5.5,-8",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.11",
+      "fileName": "1.Lunch.NeedFood"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "-3.5,-8",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.12",
+      "fileName": "2.Lunch.NeedFood"
+
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "3.5,-8",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.13",
+      "fileName": "2.Lunch.NeedFood"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "4.5,-8",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.14",
+      "fileName": "2.Lunch.NeedFood"
+
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "6.5,-8",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "1.1-Cafeteria.15",
+      "fileName": "2.Lunch.NeedFood"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "0,2.75",
+      "type": "CutsceneActTrigger",
+      "size": "6,1",
+      "name": "1.1-Cafeteria.GetFood",
+      "fileName": "2.Lunch.GetFood",
+      "destroy": true
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "-6.5,-1.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "-3.5,-1.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "3.5,-1.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "6.5,-1.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "-6.5,-6.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "-4.5,-6.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "-3.5,-6.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "4.5,-6.25",
+      "type": "LunchTray",
+      "name": "tray"
+    },
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
+      "location": "6.5,-6.25",
+      "type": "LunchTray",
+      "name": "tray"
+    }
+  ]
+}

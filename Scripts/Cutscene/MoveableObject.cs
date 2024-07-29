@@ -28,7 +28,7 @@ public class MoveableObject : MonoBehaviour
         while(!ArrivedToPoint(initialPos, rb.position, coords))
         {
             Vector2 normVec = (coords - initialPos).normalized;
-            vel = normVec * speed;
+            vel = 1.0f * speed * normVec;
             yield return new WaitForSeconds(0.001f);
         }
         rb.position = coords;

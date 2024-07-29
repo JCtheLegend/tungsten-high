@@ -7,9 +7,22 @@
       "name": "2.Gym.Track.1"
     },
     {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "type": "cutscene",
+      "name": "2.Gym.AfterRace"
+    },
+    {
       "validScenes": [ 1, 1 ],
       "validStages": [ 2, 2 ],
       "location": "50, 14.5",
+      "type": "Gym Teacher",
+      "name": "Gym Teacher"
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "67, 14",
       "type": "Gym Teacher",
       "name": "Gym Teacher"
     },
@@ -106,6 +119,8 @@
       ]
     },
     {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 2, 2 ],
       "location": "41, 14.5",
       "type": "Puddle",
       "name": "Puddle",
@@ -126,6 +141,8 @@
       ]
     },
     {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 2, 2 ],
       "location": "48, 12",
       "type": "Laser Boy",
       "name": "Laser Boy",
@@ -147,9 +164,171 @@
       ]
     },
     {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 2, 2 ],
       "location": "41, 15.5",
       "type": "Sticky",
       "name": "Sticky",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Ugh, I can't get these stupid gloves off.",
+            "Stupid sticky powers."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "64, 13",
+      "type": "Kitchenette",
+      "name": "Kitchenette",
+      "facing": "right",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Heh, I can't wait to use my powers to fight.",
+            "Get ready for the spoon-fork 1-2 combo!"
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "68, 11",
+      "type": "Slicky",
+      "name": "Slicky",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Can't wait until we start sparring each other.",
+            "This class will respect the Slick!"
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "65, 11",
+      "type": "Micycle",
+      "name": "Micycle",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "I can't believe the punching bag beat me...",
+            "I should've just biked out of there."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "70.5, 13",
+      "type": "Puddle",
+      "name": "Puddle",
+      "facing": "left",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Puddle doesn't have much to say right now."
+          ],
+          "isTyped": [ true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "70.5, 15",
+      "type": "Laser Boy",
+      "name": "Laser Boy",
+      "facing": "left",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "*Pant, pant*",
+            "Awww, my hands hurt."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "64, 15",
+      "type": "Sticky",
+      "name": "Sticky",
+      "facing": "right",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Ugh, I can't get these stupid gloves off.",
+            "Stupid sticky powers."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "69.5, 11",
+      "type": "Bloom",
+      "name": "Bloom",
       "facing": "up",
       "assets": [
         {

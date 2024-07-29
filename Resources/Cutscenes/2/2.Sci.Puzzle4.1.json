@@ -1,0 +1,29 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "moveCamera",
+      "text": "0,-27",
+      "speed": 10
+    },
+    {
+      "type": "teleport",
+      "name": "Hero Cell",
+      "text": "-10, -27"
+    },
+    {
+      "type": "dialog",
+      "text": "Prisms can change where an exotron beam goes. They can also be pushed!",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

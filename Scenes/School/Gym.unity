@@ -16651,7 +16651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2666116501411388522, guid: d3be9b940d4d4e04f96b7b55aa255b94, type: 3}
       propertyPath: debugSceneCounter
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2666116501411388522, guid: d3be9b940d4d4e04f96b7b55aa255b94, type: 3}
       propertyPath: debugStageCounter

@@ -2385,13 +2385,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 2030305490668762684, guid: 299ae8493e6b9cd48b3f0b60cd70d114, type: 3}
+      propertyPath: m_RefResolutionX
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030305490668762684, guid: 299ae8493e6b9cd48b3f0b60cd70d114, type: 3}
+      propertyPath: m_RefResolutionY
+      value: 192
+      objectReference: {fileID: 0}
     - target: {fileID: 2030305490668762685, guid: 299ae8493e6b9cd48b3f0b60cd70d114, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2030305490668762685, guid: 299ae8493e6b9cd48b3f0b60cd70d114, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0040817633
+      value: -0.0031996146
       objectReference: {fileID: 0}
     - target: {fileID: 2030305490668762685, guid: 299ae8493e6b9cd48b3f0b60cd70d114, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2444,17 +2452,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 536c8399b011eb446ac025401b4eb763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &280814175 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 915768383395418876, guid: 299ae8493e6b9cd48b3f0b60cd70d114, type: 3}
-  m_PrefabInstance: {fileID: 280814173}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02a8942f195030442868bf50de1adbb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &380014815
@@ -3343,7 +3340,7 @@ PrefabInstance:
     - target: {fileID: 2936317968726198190, guid: 12ca4a76a0d154a4cb5b9d3c6d3d8ea0, type: 3}
       propertyPath: p
       value: 
-      objectReference: {fileID: 280814175}
+      objectReference: {fileID: 0}
     - target: {fileID: 2936317968726198191, guid: 12ca4a76a0d154a4cb5b9d3c6d3d8ea0, type: 3}
       propertyPath: room
       value: 
@@ -3700,8 +3697,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 280814174}
     - target: {fileID: 2666116501411388522, guid: d3be9b940d4d4e04f96b7b55aa255b94, type: 3}
+      propertyPath: debugDayCounter
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666116501411388522, guid: d3be9b940d4d4e04f96b7b55aa255b94, type: 3}
       propertyPath: debugGameCounter
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666116501411388522, guid: d3be9b940d4d4e04f96b7b55aa255b94, type: 3}
+      propertyPath: debugStageCounter
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2666116501411388523, guid: d3be9b940d4d4e04f96b7b55aa255b94, type: 3}
       propertyPath: m_RootOrder

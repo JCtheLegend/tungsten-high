@@ -12,9 +12,14 @@ public class Faces : MonoBehaviour
     public direction initialFacing;
     public bool mirrorFace = true;
 
-    private void Start()
+    private void Awake()
     {
         sprite = GetComponent<SpriteRenderer>();
+        
+    }
+
+    private void Start()
+    {
         Face(initialFacing);
     }
 

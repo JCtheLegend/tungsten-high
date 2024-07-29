@@ -34,7 +34,7 @@ public class SceneLoader : MonoBehaviour
             }
             PickupManager.CreatePickup("Quarter");
         }
-        if(GameObject.Find("Music Manager(Clone)") == null)
+        if(GameObject.Find("Music Manager") == null)
         {
             GameObject m = Instantiate(music);
             m.name = "Music Manager";

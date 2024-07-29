@@ -49,13 +49,12 @@ public class PunchingBag2Controller : EnemyController
     internal override IEnumerator StartFight()
     {
         StartCoroutine(base.StartFight());
-        yield return new WaitForSeconds(3);
         player.GetComponent<CutsceneMoveableObject>().enabled = false;
         player.Heal(100);
         Heal(100);
         enemyHealthBar.SetActive(true);
         player.playerHealthBar.SetActive(true);
-        //yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(0);
         player.EnableInput();
         StartMusic();
         moveCoroutine = BattleRoutine();
@@ -102,14 +101,15 @@ public class PunchingBag2Controller : EnemyController
         armsCollider.enabled = false;
     }
 
-    internal override void Die()
+    internal override IEnumerator Die()
     {
+        yield return new WaitForSeconds(0);
         if (moveCoroutine != null)
         {
             StopCoroutine(moveCoroutine);
         }
         moveCoroutine = move.Move(new Vector2(58.5f, 13.5f), moveSpeed);
         StartCoroutine(moveCoroutine);
-        base.Die();
+        StartCoroutine(base.Die());
     }
 }

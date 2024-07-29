@@ -11,9 +11,9 @@ public class CutsceneMoveableObject : MoveableObject
         col = GetComponent<Collider2D>();
     }
 
-    public IEnumerator CutsceneMove(Vector2 coords, float speed, bool isContinue, Ref<bool> isDone, direction d)
+    public IEnumerator CutsceneMove(Vector2 coords, float speed, bool isContinue, Ref<bool> isDone, direction d, bool collide = false)
     {
-        if (col)
+        if (col && !collide)
         {
             col.enabled = false;
         }

@@ -1,0 +1,62 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 4, 4 ],
+      "type": "Seer",
+      "name": "Seer",
+      "location": "-2.25,-1.5",
+      "facing": "down"
+    },
+    {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 4, 4 ],
+      "type": "Wally",
+      "name": "Wally",
+      "location": "0, -0.5",
+      "facing": "down"
+    },
+    {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 4, 4 ],
+      "type": "Sandman",
+      "name": "Sandman",
+      "location": "-3, -3.5",
+      "facing": "down"
+    },
+    {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 4, 4 ],
+      "type": "Songbird",
+      "name": "Songbird",
+      "location": "0, -6.5",
+      "facing": "up"
+    },
+    {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 4, 4 ],
+      "type": "Dreamy",
+      "name": "Dreamy",
+      "location": "2.25, -5.5",
+      "facing": "up"
+    },
+    {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 4, 4 ],
+      "type": "Maven",
+      "name": "Maven",
+      "location": "0, -3.5",
+      "facing": "down"
+    },
+    {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 4, 4 ],
+      "location": "3,-4",
+      "type": "CutsceneActTrigger",
+      "size": "1,1",
+      "name": "2.Psych.1",
+      "fileName": "2.Pysch.1",
+      "destroy": true
+    }
+  ]
+}

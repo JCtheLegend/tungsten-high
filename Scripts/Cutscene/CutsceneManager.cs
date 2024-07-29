@@ -33,6 +33,7 @@ public class CutsceneManager : MonoBehaviour
     GameObject dreamEntrance;
     public bool isCombat;
     public bool isPuzzle;
+    IEnumerator currentCutscene;
     private void Awake()
     {
         printer = GetComponent<DialogPrinter>();
@@ -40,9 +41,12 @@ public class CutsceneManager : MonoBehaviour
         dialogBox.SetActive(false);
     }
 
+    public void StopCutscene(){
+        StopAllCoroutines();
+    }
+
     public void BeginCutscene(string filename)
     {
-        Debug.Log(filename);
         CutsceneAction[] c = CreateCutsceneFromTextFile(filename);
         List<CutsceneAction> actions = c.ToList();
         StartCoroutine(HandleCutscene(actions));
@@ -74,10 +78,10 @@ public class CutsceneManager : MonoBehaviour
         inCutscene = true;
         for(i = 0; i < actions.Count; i++) {
             CutsceneAction a = actions[i];
-            //Debug.Log(a.type);
             actionDone = false;
             timelineDone = false;
             animateDone = false;
+            //Debug.Log(a.type);
             switch (a.type) {
                 case "disableMovement":
                     if (isCombat)
@@ -100,7 +104,7 @@ public class CutsceneManager : MonoBehaviour
                         player.input.DisableInput();
                         player.GetComponent<CutsceneMoveableObject>().enabled = true;
                         player.GetComponent<PlayerMovementController>().enabled = false;
-                        player.GetComponent<BoxCollider2D>().enabled = false;
+                        //player.GetComponent<BoxCollider2D>().enabled = false;
                     }
                     actionDone = true;
                     break;
@@ -370,7 +374,6 @@ public class CutsceneManager : MonoBehaviour
                     actionDone = true;
                     break;
                 case "loadScene":
-                    Debug.Log(a.name);
                     GameManager.RoomData.toEntranceNum = 0;
                     GameManager.LoadScene(a.name);
                     break;
@@ -403,13 +406,13 @@ public class CutsceneManager : MonoBehaviour
                     break;
                 default:
                     Debug.Log("INVALID CUTSCENE ACTION");
+                    actionDone = true;
                     break;
             }
             while (!actionDone)
             {
                 yield return new WaitForEndOfFrame();
             }
-            Debug.Log("Ended Action " + a.type);
             inChoice = false;
             if (a.skip > 0)
             {
@@ -455,7 +458,6 @@ public class CutsceneManager : MonoBehaviour
 
     public CutsceneAction[] CreateCutsceneFromTextFile(string fileName)
     {
-        Debug.Log(fileName);
         TextAsset t = Resources.Load<TextAsset>("Cutscenes/"+GameManager.dayCounter+"/"+fileName);
         return JsonHelper.FromJson<CutsceneAction>(t.text);
     }
@@ -528,9 +530,9 @@ public class CutsceneManager : MonoBehaviour
             actionDone = true;
         }
         Ref<bool> shouldContinue = new Ref<bool>(false);
-
-        foreach (CutsceneAction move in a.moveSet)
+        for(int p = 0; p < a.moveSet.Length; p++)
         {
+            CutsceneAction move = a.moveSet[p];
             switch (move.type)
             {
             case "animate":
@@ -562,6 +564,9 @@ public class CutsceneManager : MonoBehaviour
             case "moveFace":
                 MoveFace(move);
                 break;
+            case "goto":
+                p = int.Parse(move.text) - 1;
+                break;
             default:
                 StartCoroutine(HandleMoveSetMove(move, shouldContinue));
                 while (!shouldContinue.Value)
@@ -591,7 +596,7 @@ public class CutsceneManager : MonoBehaviour
         {
             m.gameObject.GetComponent<PlayerAnimationController>().CutsceneAnimateMove(Direction.ParseDirection(a.direction), a.animateOverride);
         }
-        StartCoroutine(m.CutsceneMove(coords, a.speed, false, isDone, Direction.ParseDirection(a.direction)));
+        StartCoroutine(m.CutsceneMove(coords, a.speed, false, isDone, Direction.ParseDirection(a.direction), a.isTyped));
         while (!isDone.Value)
         {
             yield return new WaitForEndOfFrame();
@@ -613,7 +618,7 @@ public class CutsceneManager : MonoBehaviour
         {
             m.gameObject.GetComponent<PlayerAnimationController>().CutsceneAnimateMove(Direction.ParseDirection(a.direction), a.animateOverride);
         }
-        StartCoroutine(m.CutsceneMove(coords, a.speed, a.isContinue, isDone, Direction.ParseDirection(a.direction)));
+        StartCoroutine(m.CutsceneMove(coords, a.speed, a.isContinue, isDone, Direction.ParseDirection(a.direction), a.isTyped));
         if(!a.isContinue)
         {
             while (!isDone.Value)
@@ -752,7 +757,7 @@ public class CutsceneAction
     public string sprite;
     public string direction;
     public string text;
-    public int speed;
+    public float speed;
     public bool animateOverride = false;
     public List<string> choices;
     public int skip = 0;

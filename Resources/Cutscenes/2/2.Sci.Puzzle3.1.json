@@ -1,0 +1,34 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "moveCamera",
+      "text": "71,1",
+      "speed": 10
+    },
+    {
+      "type": "teleport",
+      "name": "Hero Cell",
+      "text": "60,0"
+    },
+    {
+      "type": "dialog",
+      "text": "We have also set up lasers that revert a cell back to normal.",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Make sure to avoid them if you want the cell to stay strong!",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

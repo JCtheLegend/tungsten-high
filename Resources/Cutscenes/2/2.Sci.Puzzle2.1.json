@@ -1,0 +1,49 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Excellent work!",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We have 5 more problems for you to solve today.",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "moveCamera",
+      "text": "35,1",
+      "speed": 10
+    },
+    {
+      "type": "teleport",
+      "name": "Hero Cell",
+      "text": "28,8"
+    },
+    {
+      "type": "dialog",
+      "text": "Integrity Exocells can do more than just punch! They can move objects much heavier than themselves.",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "If you ever get stuck on a problem, press 'R' to restart",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

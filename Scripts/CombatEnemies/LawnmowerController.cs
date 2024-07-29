@@ -208,8 +208,9 @@ public class LawnmowerController : EnemyController
         isAttacking = false;
     }
 
-    internal override void Die()
+    internal override IEnumerator Die()
     {
+        yield return new WaitForSeconds(0);
         music.ChangeSong("Victory");
         state = combatState.dead;
         if (attackRoutine != null)

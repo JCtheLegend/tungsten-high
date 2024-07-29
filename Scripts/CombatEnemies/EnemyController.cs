@@ -118,7 +118,7 @@ public class EnemyController : MonoBehaviour
             {
                 StartCoroutine(GameManager.FadeOut(s, 1));
             }
-            Die();
+            StartCoroutine(Die());
         }
         if (currentHealth >= maxHealth)
         {
@@ -136,8 +136,9 @@ public class EnemyController : MonoBehaviour
         ChangeHealth(heal);
     }
 
-    internal virtual void Die()
+    internal virtual IEnumerator Die()
     {
+        yield return new WaitForSeconds(1);
         if (onDeathCutscene != "")
         {
             cutscene.BeginCutscene(onDeathCutscene);

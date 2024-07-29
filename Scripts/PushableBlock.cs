@@ -10,7 +10,7 @@ public class PushableBlock : MonoBehaviour
     RaycastHit2D downRay;
     RaycastHit2D leftRay;
     RaycastHit2D rightRay;
-    int rayLength = 1;
+    float rayLength = 0.9f;
     [SerializeField] Sprite notMoveable;
     // Start is called before the first frame update
     void Start()
@@ -23,15 +23,16 @@ public class PushableBlock : MonoBehaviour
     void Update()
     {
         int layerMask = LayerMask.GetMask("Wall");
-        downRay = Physics2D.Raycast(transform.position, Vector2.down, rayLength, layerMask);
-        upRay = Physics2D.Raycast(transform.position, Vector2.up, rayLength, layerMask);
-        rightRay = Physics2D.Raycast(transform.position, Vector2.right, rayLength, layerMask);
-        leftRay = Physics2D.Raycast(transform.position, Vector2.left, rayLength, layerMask);
+        downRay = Physics2D.Raycast(transform.position + 1.1f * Vector3.down, Vector2.down, rayLength, layerMask);
+        upRay = Physics2D.Raycast(transform.position + 1.1f * Vector3.up, Vector2.up, rayLength, layerMask);
+        rightRay = Physics2D.Raycast(transform.position + 1.1f * Vector3.right, Vector2.right, rayLength, layerMask);
+        leftRay = Physics2D.Raycast(transform.position + 1.1f * Vector3.left, Vector2.left, rayLength, layerMask);
+        Debug.DrawRay(transform.position + 1.1f * Vector3.down, Vector2.down, Color.red, rayLength);
     }
 
     public void Move(direction dir)
     {
-        if(s.sprite == notMoveable)
+        if(s && s.sprite == notMoveable)
         {
             return;
         }
@@ -41,28 +42,40 @@ public class PushableBlock : MonoBehaviour
                 if (!downRay)
                 {
                     StartCoroutine(move.Move(new Vector2(transform.position.x, transform.position.y - 2), 3));
-                    s.sprite = notMoveable;
+                    if(name == "Pushable Block")
+                    {
+                        s.sprite = notMoveable;
+                    }
                 }
                 break;
             case direction.up:
                 if (!upRay)
                 {
                     StartCoroutine(move.Move(new Vector2(transform.position.x, transform.position.y + 2), 3));
-                    s.sprite = notMoveable;
+                    if (name == "Pushable Block")
+                    {
+                        s.sprite = notMoveable;
+                    }
                 }
                 break;
             case direction.right:
                 if (!rightRay)
                 {
                     StartCoroutine(move.Move(new Vector2(transform.position.x + 2, transform.position.y), 3));
-                    s.sprite = notMoveable;
+                    if (name == "Pushable Block")
+                    {
+                        s.sprite = notMoveable;
+                    }
                 }
                 break;
             case direction.left:
                 if (!leftRay)
                 {
                     StartCoroutine(move.Move(new Vector2(transform.position.x - 2, transform.position.y), 3));
-                    s.sprite = notMoveable;
+                    if (name == "Pushable Block")
+                    {
+                        s.sprite = notMoveable;
+                    }
                 }
                 break;
         }

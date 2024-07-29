@@ -1,18 +1,30 @@
 {
   "Items": [
     {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 2, 2 ],
       "location": "20,-6",
       "type": "CutsceneCollider",
       "size": "10,1",
-      "name": "2.Gym.1",
-      "fileName": "2.Gym.1"
+      "name": "2.Gym.First",
+      "fileName": "2.Gym.First"
     },
     {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "type": "cutscene",
+      "name": "2.Gym.Final"
+    },
+    {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 2, 2 ],
       "location": "20, 0",
       "type": "Gym Teacher",
       "name": "Gym Teacher"
     },
     {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 2, 2 ],
       "location": "15, -0.5",
       "type": "Bloom",
       "name": "Bloom",
@@ -34,6 +46,8 @@
       ]
     },
     {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 2, 2 ],
       "location": "15, -0.5",
       "type": "Kitchenette",
       "name": "Kitchenette",
@@ -55,6 +69,8 @@
       ]
     },
     {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 2, 2 ],
       "location": "16, -2.75",
       "type": "Slicky",
       "name": "Slicky",
@@ -76,6 +92,8 @@
       ]
     },
     {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 2, 2 ],
       "location": "17, -5",
       "type": "Micycle",
       "name": "Micycle",
@@ -97,6 +115,8 @@
       ]
     },
     {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 2, 2 ],
       "location": "22.75, -4",
       "type": "Puddle",
       "name": "Puddle",
@@ -117,6 +137,8 @@
       ]
     },
     {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 2, 2 ],
       "location": "24.5, -1.25",
       "type": "Laser Boy",
       "name": "Laser Boy",
@@ -138,6 +160,175 @@
       ]
     },
     {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 2, 2 ],
+      "location": "25.5, -4",
+      "type": "Sticky",
+      "name": "Sticky",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Ugh, I can't get these stupid gloves off.",
+            "Stupid sticky powers."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "20, 0",
+      "type": "Gym Teacher",
+      "name": "Gym Teacher"
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "15, -0.5",
+      "type": "Bloom",
+      "name": "Bloom",
+      "facing": "right",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Whew, that was tough!",
+            "I hope that fighting won't be the only way to resolve conflict..."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "15, -0.5",
+      "type": "Kitchenette",
+      "name": "Kitchenette",
+      "facing": "right",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Heh, I can't wait to use my powers to fight.",
+            "Get ready for the spoon-fork 1-2 combo!"
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "16, -2.75",
+      "type": "Slicky",
+      "name": "Slicky",
+      "facing": "right",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Can't wait until we start sparring each other.",
+            "This class will respect the Slick!"
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "17, -5",
+      "type": "Micycle",
+      "name": "Micycle",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "I can't believe the punching bag beat me...",
+            "I should've just biked out of there."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "22.75, -4",
+      "type": "Puddle",
+      "name": "Puddle",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "Puddle doesn't have much to say right now."
+          ],
+          "isTyped": [ true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "24.5, -1.25",
+      "type": "Laser Boy",
+      "name": "Laser Boy",
+      "facing": "left",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "*Pant, pant*",
+            "Awww, my hands hurt."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true,
+          "talkMeter": {
+            "range": 0.4,
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
       "location": "25.5, -4",
       "type": "Sticky",
       "name": "Sticky",

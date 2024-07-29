@@ -90,8 +90,10 @@ public class PunchingBagController : EnemyController
         }
     }
 
-    internal override void Die()
+    internal override IEnumerator Die()
     {
+        yield return new WaitForSeconds(0);
+
         if (moveCoroutine != null)
         {
             StopCoroutine(moveCoroutine);

@@ -44,7 +44,11 @@ public class HeroCell : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int layerMask = LayerMask.GetMask("Pushable Block");
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            GameObject.Find("Cutscene Manager").GetComponent<CutsceneManager>().BeginCutscene("2.Sci.Puzzle4.1");
+        }
+        int layerMask = LayerMask.GetMask("Cell Interact");
         RaycastHit2D downRay = Physics2D.Raycast(transform.position, Vector2.down, rayLength, layerMask);
         RaycastHit2D upRay = Physics2D.Raycast(transform.position, Vector2.up, rayLength, layerMask);
         RaycastHit2D rightRay = Physics2D.Raycast(transform.position, Vector2.right, rayLength, layerMask);
@@ -75,12 +79,11 @@ public class HeroCell : MonoBehaviour
             {
                 ChangeAnimationState("Hero Cell Push Up", 0);
                 pushTimer -= Time.deltaTime;
-                Debug.Log(pushTimer);
                 if(pushTimer < 0)
                 {
                     pushTimer = pushTimeLimit;
                     upRay.collider.GetComponent<PushableBlock>().Move(direction.up);
-                    Debug.Log("Button Held");
+                    Debug.Log("Button Held u");
                 }
             }
             else if(v == -1 && downRay && state == State.Strength)
@@ -91,7 +94,7 @@ public class HeroCell : MonoBehaviour
                 {
                     pushTimer = pushTimeLimit;
                     downRay.collider.GetComponent<PushableBlock>().Move(direction.down);
-                    Debug.Log("Button Held");
+                    Debug.Log("Button Held d");
                 }
             }
             else if(h == 1 && rightRay && state == State.Strength)
@@ -102,7 +105,7 @@ public class HeroCell : MonoBehaviour
                 {
                     pushTimer = pushTimeLimit;
                     rightRay.collider.GetComponent<PushableBlock>().Move(direction.right);
-                    Debug.Log("Button Held");
+                    Debug.Log("Button Held r");
                 }
             }
             else if(h == -1 && leftRay && state == State.Strength)
@@ -160,22 +163,43 @@ public class HeroCell : MonoBehaviour
 
     protected virtual void HandleCollisionExit(GameObject collisionObject)
     {
-        if (collisionObject.CompareTag("Strength Laser"))
+        if (collisionObject.CompareTag("Laser"))
         {
-            strengthTimer = StartCoroutine(StrengthTimer());
+            switch (collisionObject.GetComponent<LaserBeam>().type)
+            {
+                case "strength":
+                    strengthTimer = StartCoroutine(StrengthTimer());
+                    break;
+                case "normal":
+                    break;
+            }
+
         }
     }
 
     protected virtual void HandleCollision(GameObject collisionObject)
     {
-        if(collisionObject.CompareTag("Strength Laser"))
+        if (collisionObject.CompareTag("Laser"))
         {
-            if (strengthTimer != null)
+            switch (collisionObject.GetComponent<LaserBeam>().type)
             {
-                StopCoroutine(strengthTimer);
+                case "strength":
+                    if (strengthTimer != null)
+                    {
+                        StopCoroutine(strengthTimer);
+                    }
+                    state = State.Strength;
+                    break;
+                case "normal":
+                    if (strengthTimer != null)
+                    {
+                        StopCoroutine(strengthTimer);
+                    }
+                    state = State.Normal;
+                    break;
             }
-            state = State.Strength;
         }
+
         if (collisionObject.CompareTag("CollideCutsceneTrigger"))
         {
             CutsceneTrigger cutsceneTrigger = collisionObject.GetComponent<CutsceneTrigger>();

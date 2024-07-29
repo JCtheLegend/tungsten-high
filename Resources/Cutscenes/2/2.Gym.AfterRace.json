@@ -1,0 +1,60 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "66.5, 11"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "dialog",
+      "text": "Well done today, everyone.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Don't be worried if you didn't get the time you wanted.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We'll have plenty more grades throughout the school year.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now, let's get back so you guys can make it to lunch.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "loadScene",
+      "name": "Gym"
+    }
+  ]
+}

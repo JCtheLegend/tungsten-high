@@ -1,0 +1,37 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "animate",
+      "name": "Player",
+      "text": "get_item",
+      "isContinue": "true"
+    },
+    {
+      "type": "enableChildren",
+      "name": "Finish"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "disable",
+      "name": "Finish"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "3"
+    },
+    {
+      "type": "loadScene",
+      "name": "School Track"
+    }
+  ]
+}
