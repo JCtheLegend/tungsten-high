@@ -37,6 +37,7 @@ public class EnemyController : MonoBehaviour
 
     internal MusicController music;
     internal SoundController sound;
+    internal MoveableObject move;
 
     protected virtual void Start()
     {
@@ -47,7 +48,10 @@ public class EnemyController : MonoBehaviour
 
     protected virtual void Awake()
     {
-        
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
+        move = GetComponent<MoveableObject>();
     }
 
     // Update is called once per frame
@@ -86,6 +90,7 @@ public class EnemyController : MonoBehaviour
     }
     protected void ChangeAnimationState(string newState, int layer)
     {
+        if (newState == null || newState == "") return;
         if (currentState == newState && currentLayer == layer) return;
         currentState = newState;
         currentLayer = layer;

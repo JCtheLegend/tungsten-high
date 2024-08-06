@@ -12,7 +12,7 @@ public class PunchingBag2Controller : EnemyController
     public SpriteRenderer wheels;
     public Sprite upWheels;
     public Sprite sideWheels;
-    // Start is called before the first frame update
+    // Start is called before the first frame updated
     [Header("Bounds")]
     public float minX;
     public float minY;
@@ -26,10 +26,6 @@ public class PunchingBag2Controller : EnemyController
     protected override void Start()
     {
         base.Start();
-        animator = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
-        sprite = GetComponent<SpriteRenderer>();
-        move = GetComponent<MoveableObject>();
     }
 
     // Update is called once per frame

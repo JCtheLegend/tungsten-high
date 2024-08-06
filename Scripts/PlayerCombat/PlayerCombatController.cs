@@ -26,7 +26,7 @@ public class PlayerCombatController : MonoBehaviour
     public float arenaMaxWidth;
     public float arenaMaxHeight;
 
-    internal bool inCombat = false;
+    public bool inCombat = false;
     public combatAction action = combatAction.none;
     private Rigidbody2D rb;
 
@@ -46,6 +46,10 @@ public class PlayerCombatController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         playerHealthBarFull = playerCurrentHealthBar.sprite;
+    }
+
+    private void Start()
+    {
         sound = GameObject.Find("Sound Manager").GetComponent<SoundController>();
         music = GameObject.Find("Music Manager").GetComponent<MusicController>();
     }
@@ -127,22 +131,22 @@ public class PlayerCombatController : MonoBehaviour
 
     private void Move(direction dir)
     {
-        if (dir == direction.down && rb.position.y > arenaMinHeight)
+        if (dir == direction.down && transform.position.y > arenaMinHeight)
         {
             movingRoutine = MoveDown();
             StartCoroutine(movingRoutine);
         }
-        else if (dir == direction.left && rb.position.x > arenaMinWidth)
+        else if (dir == direction.left && transform.position.x > arenaMinWidth)
         {
             movingRoutine = MoveLeft();
             StartCoroutine(movingRoutine);
         }
-        else if (dir == direction.up && rb.position.y < arenaMaxHeight)
+        else if (dir == direction.up && transform.position.y < arenaMaxHeight)
         {
             movingRoutine = MoveUp();
             StartCoroutine(movingRoutine);
         }
-        else if (dir == direction.right && rb.position.x < arenaMaxWidth)
+        else if (dir == direction.right && transform.position.x < arenaMaxWidth)
         {
             movingRoutine = MoveRight();
             StartCoroutine(movingRoutine);
@@ -196,112 +200,80 @@ public class PlayerCombatController : MonoBehaviour
 
     IEnumerator MoveLeft()
     {
-        float newPosition = Mathf.Ceil(rb.position.x - 0.5f) - 0.5f;
+        float newPosition = Mathf.Ceil(transform.position.x - 0.5f) - 0.5f;
         action = combatAction.moveLeft;
-        while (rb.position.x > newPosition && action == combatAction.moveLeft)
+        while (transform.position.x > newPosition && action == combatAction.moveLeft)
         {
             moveVelocity = new Vector2(-moveSpeed, 0);
-            yield return new WaitForEndOfFrame();
-            if (action == combatAction.hurt)
-            {
-                yield break;
-            }
+            yield return new WaitForSeconds(0.001f);
         }
         moveVelocity = Vector2.zero;
-        while (rb.position.x != newPosition && lockMovement)
-        {
-            transform.position = new Vector2(newPosition, rb.position.y);
-            yield return new WaitForEndOfFrame();
-        }
+        transform.position = new Vector2(newPosition, transform.position.y);
         action = combatAction.none;
     }
     IEnumerator MoveRight()
     {
-        float newPosition = Mathf.Floor(rb.position.x + 0.5f) + 0.5f;
+        float newPosition = Mathf.Floor(transform.position.x + 0.5f) + 0.5f;
         action = combatAction.moveRight;
-        while (rb.position.x < newPosition && action == combatAction.moveRight)
+        while (transform.position.x < newPosition && action == combatAction.moveRight)
         {
             moveVelocity = new Vector2(moveSpeed, 0);
-            yield return new WaitForEndOfFrame();
-            if (action == combatAction.hurt)
-            {
-                yield break;
-            }
+            yield return new WaitForSeconds(0.001f);
         }
         moveVelocity = Vector2.zero;
-        while(rb.position.x != newPosition && lockMovement)
-        {
-            transform.position = new Vector2(newPosition, rb.position.y);
-            yield return new WaitForEndOfFrame();
-        }
+        transform.position = new Vector2(newPosition, transform.position.y);
         action = combatAction.none;
     }
     IEnumerator MoveUp()
     {
-        float newPosition = Mathf.Floor(rb.position.y + 1);
+        float newPosition = Mathf.Floor(transform.position.y + 1);
         action = combatAction.moveUp;
-        while (rb.position.y < newPosition && action == combatAction.moveUp)
+        while (transform.position.y < newPosition && action == combatAction.moveUp)
         {
             moveVelocity = new Vector2(0, moveSpeed);
-            yield return new WaitForEndOfFrame();
-            if (action == combatAction.hurt)
-            {
-                yield break;
-            }
+            yield return new WaitForSeconds(0.001f);
         }
         moveVelocity = Vector2.zero;
-        while (rb.position.y != newPosition && lockMovement)
-        {
-            transform.position = new Vector2(rb.position.x, newPosition);
-            yield return new WaitForEndOfFrame();
-        }
+        transform.position = new Vector2(transform.position.x, newPosition);
         action = combatAction.none;
     }
     IEnumerator MoveDown()
     {
-        float newPosition = Mathf.Ceil(rb.position.y - 1);
+        float newPosition = Mathf.Ceil(transform.position.y - 1);
         action = combatAction.moveDown;
-        while (rb.position.y > newPosition && action == combatAction.moveDown)
+        while (transform.position.y > newPosition && action == combatAction.moveDown)
         {
            
             moveVelocity = new Vector2(0, -moveSpeed);
-            yield return new WaitForEndOfFrame();
-            if (action == combatAction.hurt)
-            {
-                yield break;
-            }
+            yield return new WaitForSeconds(0.001f);
         }
         moveVelocity = Vector2.zero;
-        while (rb.position.y != newPosition && lockMovement)
-        {
-            transform.position = new Vector2(rb.position.x, newPosition);
-            yield return new WaitForEndOfFrame();
-        }
+        transform.position = new Vector2(transform.position.x, newPosition);
         action = combatAction.none;
     }
 
     IEnumerator DamageMoveDown()
     {
-        float newPosition = rb.position.y;
+        float newPosition = transform.position.y;
         action = combatAction.hurt;
-        if (rb.position.y > arenaMinHeight + 1)
+        if (transform.position.y > arenaMinHeight + 1)
         {
-            newPosition = Mathf.Ceil(rb.position.y - 2);
+            newPosition = Mathf.Ceil(transform.position.y - 2);
         }
-        else if (rb.position.y > arenaMinHeight)
+        else if (transform.position.y > arenaMinHeight)
         {
-            newPosition = Mathf.Ceil(rb.position.y - 1);
+            newPosition = Mathf.Ceil(transform.position.y - 1);
         }
-        while (rb.position.y > newPosition)
+        while (transform.position.y > newPosition)
         {
 
             moveVelocity = new Vector2(0, -moveSpeed);
             yield return new WaitForEndOfFrame();
         }
         moveVelocity = Vector2.zero;
-        while (rb.position.y != newPosition && lockMovement)
+        while (transform.position.y != newPosition && lockMovement)
         {
-            transform.position = new Vector2(rb.position.x, newPosition);
+            transform.position = new Vector2(transform.position.x, newPosition);
             yield return new WaitForEndOfFrame();
         }
 

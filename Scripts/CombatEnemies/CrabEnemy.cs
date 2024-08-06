@@ -20,14 +20,6 @@ public class CrabEnemy : EnemyController
     Coroutine currentAction;
 
     int moved = 0;
-    protected override void Awake()
-    {
-        base.Awake();
-        animator = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
-        sprite = GetComponent<SpriteRenderer>();
-        move = GetComponent<MoveableObject>();
-    }
 
     internal override IEnumerator StartFight()
     {
@@ -40,6 +32,12 @@ public class CrabEnemy : EnemyController
         StartMusic();
         player.EnableInput();
         StartCoroutine(Combat());
+    }
+
+    private void Awake()
+    {
+        base.Awake();
+        move = GetComponent<MoveableObject>();
     }
 
     protected override void Update()
