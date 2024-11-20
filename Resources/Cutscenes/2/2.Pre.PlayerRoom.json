@@ -21,6 +21,10 @@
       "text": "pjs"
     },
     {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
       "type": "animate",
       "name": "Bed",
       "text": "bed_wakeup",

@@ -1,0 +1,324 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "6, -8"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "down",
+          "speed": 3,
+          "text": "6,-32.5"
+        },
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "right",
+          "speed": 3,
+          "text": "35,-32.5"
+        },
+        {
+          "type": "move",
+          "name": "Ms Nice",
+          "direction": "down",
+          "speed": 3,
+          "text": "35,-36"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "wait",
+          "text": "0.8"
+        },
+        {
+          "type": "move",
+          "name": "Bloom",
+          "direction": "down",
+          "speed": 3,
+          "text": "6.3,-32.4"
+        },
+        {
+          "type": "move",
+          "name": "Bloom",
+          "direction": "right",
+          "speed": 3,
+          "text": "38.67,-32.4"
+        },
+        {
+          "type": "move",
+          "name": "Bloom",
+          "direction": "down",
+          "speed": 3,
+          "text": "38.67,-36.23"
+        },
+        {
+          "type": "moveFace",
+          "name": "Bloom",
+          "direction": "left"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "wait",
+          "text": "1.3"
+        },
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "down",
+          "speed": 3,
+          "text": "5.9,-32.7"
+        },
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "right",
+          "speed": 3,
+          "text": "35.75,-32.7"
+        },
+        {
+          "type": "move",
+          "name": "Mirror",
+          "direction": "down",
+          "speed": 3,
+          "text": "35.75,-34.25"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "wait",
+          "text": "1.8"
+        },
+        {
+          "type": "move",
+          "name": "Moe",
+          "direction": "down",
+          "speed": 3,
+          "text": "5.8,-32.5"
+        },
+        {
+          "type": "move",
+          "name": "Moe",
+          "direction": "right",
+          "speed": 3,
+          "text": "38,-32.5"
+        },
+        {
+          "type": "move",
+          "name": "Moe",
+          "direction": "down",
+          "speed": 3,
+          "text": "38,-35"
+        },
+        {
+          "type": "moveFace",
+          "name": "Moe",
+          "direction": "left"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "wait",
+          "text": "1.3"
+        },
+        {
+          "type": "move",
+          "name": "Laser Boy",
+          "direction": "down",
+          "speed": 3,
+          "text": "6.2,-32.5"
+        },
+        {
+          "type": "move",
+          "name": "Laser Boy",
+          "direction": "right",
+          "speed": 3,
+          "text": "34.75,-32.5"
+        },
+        {
+          "type": "move",
+          "name": "Laser Boy",
+          "direction": "down",
+          "speed": 3,
+          "text": "34.75,-33"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "wait",
+          "text": "1.5"
+        },
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "down",
+          "speed": 3,
+          "text": "6.2,-32.4"
+        },
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "right",
+          "speed": 3,
+          "text": "31.5,-32.4"
+        },
+        {
+          "type": "move",
+          "name": "Micycle",
+          "direction": "down",
+          "speed": 3,
+          "text": "31.5,-35"
+        },
+        {
+          "type": "moveFace",
+          "name": "Micycle",
+          "direction": "right"
+        }
+
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "wait",
+          "text": "1.4"
+        },
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "down",
+          "speed": 3,
+          "text": "6.1,-33"
+        },
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "right",
+          "speed": 3,
+          "text": "34,-33"
+        },
+        {
+          "type": "move",
+          "name": "Bubba",
+          "direction": "down",
+          "speed": 3,
+          "text": "34,-34.25"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "wait",
+          "text": "2"
+        },
+        {
+          "type": "move",
+          "name": "Player",
+          "direction": "down",
+          "speed": 3,
+          "text": "6,-32.5"
+        },
+        {
+          "type": "move",
+          "name": "Player",
+          "direction": "right",
+          "speed": 3,
+          "text": "30,-32.5"
+        },
+        {
+          "type": "move",
+          "name": "Player",
+          "direction": "down",
+          "speed": 3,
+          "text": "30,-36"
+        },
+        {
+          "type": "move",
+          "name": "Player",
+          "direction": "right",
+          "speed": 3,
+          "text": "32,-36"
+        }
+      ],
+      "isContinue": true
+    },
+    {
+      "type": "wait",
+      "text": 3
+    },
+    {
+      "type": "dialog",
+      "text": "Alright folks, it's your last day to help out in town this week!",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Make sure to finish up whatever missions your assigned townsfolk have for you.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "editObjects",
+      "loadObjs": [
+        {
+          "name": "Ms Nice",
+          "assets": [
+            {
+              "type": "CutsceneTrigger",
+              "fileName": "4.PR.MsNicePre",
+              "facePlayer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 4
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

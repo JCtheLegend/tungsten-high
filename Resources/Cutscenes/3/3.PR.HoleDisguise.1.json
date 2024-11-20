@@ -1,0 +1,77 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, hey kid.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Can I ask you for a quick favor?",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "My buddy there in the bank, it's his birthday tomorrow.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "And I wanted to come in and set up a little suprise party for him tomorrow.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Do you think you could tell me what time he gets in tomorrow?",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I want to make sure everything is set up before he gets there.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "choice",
+      "choices": [
+        "I gotchu fam",
+        "...sure?"
+      ],
+      "skips": [
+        0,
+        0
+      ],
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "Thanks kid.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, and don't bring up his birthday! I don't want him to get suspicious.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 4
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

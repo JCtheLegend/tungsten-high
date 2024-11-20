@@ -1,0 +1,119 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Help! Help!",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Help!",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Hello...?",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh thank goodness!",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You kids are back to help me out.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I'm stuck in the vault... I was putting away some money but ahhhh...",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I let the door close behind me.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "But you guys are pros at opening the vault!",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I'll just tell you the combination again!",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "It's... um...",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Well I think it might be... uh...",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Aw, rats. I forgot.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "But don't worry! I wrote down all the combinations for this week on a piece of paper...",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "And that piece of paper is at my house right now.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Could you guys go there and get it? It's the pink house in West Neighborhood. You can't miss it.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, that's close to where I live! I know where that is!",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, thank goodness. Hurry back once you have the combination!",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 1
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

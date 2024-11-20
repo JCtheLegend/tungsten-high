@@ -4,6 +4,26 @@
       "type": "disableMovement"
     },
     {
+      "type": "disable",
+      "name": "Grid Player"
+    },
+    {
+      "type": "enableChildren",
+      "name": "Punching Bag"
+    },
+    {
+      "type": "enableComponents",
+      "name": "Punching Bag"
+    },
+    {
+      "type": "enableCollider",
+      "name": "Punching Bag"
+    },
+    {
+      "type": "unhide",
+      "name": "Punching Bag"
+    },
+    {
       "type": "teleport",
       "name": "Player",
       "text": "42, 14.5"
@@ -151,7 +171,7 @@
     {
       "type": "teleport",
       "name": "Player",
-      "text": "53, 14"
+      "text": "53.5,17"
     },
     {
       "type": "teleport",
@@ -216,7 +236,7 @@
     {
       "type": "teleport",
       "name": "Puddle",
-      "text": "53.5,17"
+      "text": "53.5, 14"
     },
     {
       "type": "teleport",
@@ -228,7 +248,7 @@
       "name": "BlackFade"
     },
     {
-      "type": "enableChildren",
+      "type": "enableComponents",
       "name": "3"
     },
     {
@@ -240,7 +260,7 @@
       "name": "3"
     },
     {
-      "type": "enableChildren",
+      "type": "enableComponents",
       "name": "2"
     },
     {
@@ -252,7 +272,7 @@
       "name": "2"
     },
     {
-      "type": "enableChildren",
+      "type": "enableComponents",
       "name": "1"
     },
     {
@@ -264,23 +284,27 @@
       "name": "1"
     },
     {
-      "type": "enableChildren",
+      "type": "enableComponents",
       "name": "Go"
     },
     {
-      "type": "enableChildren",
+      "type": "enableComponents",
       "name": "RaceController"
     },
     {
       "type": "moveSet",
       "moveSet": [
         {
+          "type": "wait",
+          "text": 1
+        },
+        {
           "type": "move",
           "name": "Bloom",
           "direction": "down",
           "speed": 2.5,
           "isTyped": true,
-          "text": "51.45,8.11"
+          "text": "51.45,5"
         },
         {
           "type": "move",
@@ -288,7 +312,7 @@
           "direction": "right",
           "speed": 2.5,
           "isTyped": true,
-          "text": "76.19,8.11"
+          "text": "76.19,5"
         },
         {
           "type": "move",
@@ -359,11 +383,15 @@
       "type": "moveSet",
       "moveSet": [
         {
+          "type": "wait",
+          "text": 1
+        },
+        {
           "type": "move",
           "name": "Kitchenette",
           "direction": "down",
           "speed": 2.8,
-          "text": "53,6",
+          "text": "53,4",
           "isTyped": true
         },
         {
@@ -371,7 +399,7 @@
           "name": "Kitchenette",
           "direction": "right",
           "speed": 2.8,
-          "text": "78,6",
+          "text": "78,4",
           "isTyped": true
         },
         {
@@ -400,6 +428,10 @@
     {
       "type": "moveSet",
       "moveSet": [
+        {
+          "type": "wait",
+          "text": 1
+        },
         {
           "type": "move",
           "name": "Sticky",
@@ -522,6 +554,10 @@
     {
       "type": "moveSet",
       "moveSet": [
+        {
+          "type": "wait",
+          "text": 2
+        },
         {
           "type": "move",
           "name": "Laser Boy",

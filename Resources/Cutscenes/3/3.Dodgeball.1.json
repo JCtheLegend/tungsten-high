@@ -1,0 +1,29 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "So, here is your introduction to dodgeball.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Go pickup the dodgeball with 'Z'.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

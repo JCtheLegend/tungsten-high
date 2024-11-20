@@ -34,6 +34,8 @@ public class SceneLoader : MonoBehaviour
             }
             PickupManager.CreatePickup("Quarter");
         }
+        Debug.Log("Stage: " + GameManager.stageCounter);
+        Debug.Log("Scene: " + GameManager.sceneCounter);
         if(GameObject.Find("Music Manager") == null)
         {
             GameObject m = Instantiate(music);

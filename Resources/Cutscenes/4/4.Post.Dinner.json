@@ -1,0 +1,40 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Well son, your first week has been quite eventful!",
+      "name": "Dad",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Seems like the superhero thing comes naturally for ya, haha!",
+      "name": "Dad",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Honey, you've had a big day and I'm sure you're tired.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We'll let you get off to finishing any homework and getting to rest.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I'm proud of you son. Good luck at your dodgeball tryouts tomorrow.",
+      "name": "Dad",
+      "isTyped": "true"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

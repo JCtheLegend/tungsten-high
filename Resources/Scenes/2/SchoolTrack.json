@@ -15,6 +15,41 @@
     {
       "validScenes": [ 1, 1 ],
       "validStages": [ 2, 2 ],
+      "location": "55.3, 8.3",
+      "type": "Cone",
+      "name": "Cone"
+    },
+    {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 2, 2 ],
+      "location": "55.3, 14",
+      "type": "Cone",
+      "name": "Cone"
+    },
+    {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 2, 2 ],
+      "location": "61.7, 14",
+      "type": "Cone",
+      "name": "Cone"
+    },
+    {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 2, 2 ],
+      "location": "61.7, 8.3",
+      "type": "Cone",
+      "name": "Cone"
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 2, 2 ],
+      "location": "67, 14",
+      "type": "Gym Teacher",
+      "name": "Gym Teacher"
+    },
+    {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 2, 2 ],
       "location": "50, 14.5",
       "type": "Gym Teacher",
       "name": "Gym Teacher"

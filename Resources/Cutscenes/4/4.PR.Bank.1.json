@@ -1,0 +1,65 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, greetings gentlemen.",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey Mr Banker. Happy birthday, by the way!",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Sorry young sir, it is not my birthday today.",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "What perposterous notion, haha!",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Whatsoever put that perposterous notion in your head? Haha! You do make me chuckle.",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "That's weird, some guy to..",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "playSound",
+      "name": "thump"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, what was that?",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "It looks as if we have something to investigate. Come, young sirs!",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

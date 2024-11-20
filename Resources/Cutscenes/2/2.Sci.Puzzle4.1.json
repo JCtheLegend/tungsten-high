@@ -20,6 +20,12 @@
       "isTyped": "true"
     },
     {
+      "type": "dialog",
+      "text": "Black Lasers block off any other lasers, but you can still pass through it!",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
       "type": "closeDialog"
     },
     {

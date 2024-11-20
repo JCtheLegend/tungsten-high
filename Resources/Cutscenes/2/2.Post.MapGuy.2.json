@@ -1,0 +1,65 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "You did it! My cart is unstuck!",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, thank you both so much!",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Here, let me get you something from the cart.",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You got the map!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I usually sell these for $5 a pop to unsuspecting tourists!",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Well, I've got to get going.",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I sell various odds and ends, so keep an eye out for me around town.",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "See you all later!",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setStageCounter",
+      "text": "6"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "0"
+    }
+  ]
+}

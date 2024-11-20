@@ -1,0 +1,16 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Sirs, I'm going in to investigate.",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

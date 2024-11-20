@@ -1,0 +1,43 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey! Ow!",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Is that you looking at me?",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey, I'm talking to you, red eyes.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "They let a cat toy into this school?",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "See this? This is what a real power looks like.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

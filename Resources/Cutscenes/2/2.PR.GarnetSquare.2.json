@@ -32,6 +32,11 @@
       "name": "BlackFade"
     },
     {
+      "type": "removeFollow",
+      "name": "Player",
+      "text": "Micycle"
+    },
+    {
       "type": "dialog",
       "text": "Ah, <Name> and Mike you're back!",
       "name": "Ms Nice",

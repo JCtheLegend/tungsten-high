@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerCombatAnimationController : MonoBehaviour
 {
-    [SerializeField] PlayerCombatMasterController player;
-    [SerializeField] internal Animator animator;
+    PlayerCombatMasterController player;
+    Animator animator;
 
     [SerializeField] Sprite forwardSprite;
     [SerializeField] Sprite sideSprite;
@@ -30,13 +30,23 @@ public class PlayerCombatAnimationController : MonoBehaviour
     private void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+        player = GetComponent<PlayerCombatMasterController>();
     }
 
     // Update is called once per frame
     void Update()
     {
         sprite.sortingOrder = 32767 - (int)Mathf.Ceil((transform.position.y + 50) * 100);
-        switch (player.combat.action)
+        if (player.combat.shielding)
+        {
+            ChangeAnimationState(combatBlock, playerBaseLayer);
+        }
+        else if (player.combat.isMoving)
+        {
+            ChangeAnimationState(combatMoveUpDown, playerBaseLayer);
+        }
+        else switch (player.combat.action)
             {
                 case PlayerCombatController.combatAction.punch:
                     if (Random.Range(0, 2) == 1 && currentState != combatPunch)
@@ -47,19 +57,6 @@ public class PlayerCombatAnimationController : MonoBehaviour
                     {
                         ChangeAnimationState(combatPunch, playerBaseLayer);
                     }
-                    break;
-                case PlayerCombatController.combatAction.moveLeft:
-                    ChangeAnimationState(combatMoveRight, playerBaseLayer);
-                    break;
-                case PlayerCombatController.combatAction.moveRight:
-                    ChangeAnimationState(combatMoveLeft, playerBaseLayer);
-                    break;
-                case PlayerCombatController.combatAction.moveUp:
-                case PlayerCombatController.combatAction.moveDown:
-                    ChangeAnimationState(combatMoveUpDown, playerBaseLayer);
-                    break;
-                case PlayerCombatController.combatAction.block:
-                    ChangeAnimationState(combatBlock, playerBaseLayer);
                     break;
                 case PlayerCombatController.combatAction.hurt:
                     ChangeAnimationState(combatHurt, playerBaseLayer);

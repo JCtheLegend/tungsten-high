@@ -5,16 +5,14 @@
     },
     {
       "type": "move",
-      "name": "CombatPlayer",
+      "name": "Grid Player",
       "direction": "down",
       "speed": 3,
-      "text": "58.5, 11"
+      "text": "58.5, 11",
+      "isContinue": "false"
     },
     {
-      "type": "switchNormal"
-    },
-    {
-      "type": "enableCollider",
+      "type": "switchNormal",
       "name": "Player"
     },
     {
@@ -27,7 +25,7 @@
       "direction": "down",
       "speed": 3,
       "isTyped": "true",
-      "text": "58.5,8"
+      "text": "58.5,5.5"
     },
     {
       "type": "enableCollider",

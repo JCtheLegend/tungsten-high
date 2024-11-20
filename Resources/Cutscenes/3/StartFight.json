@@ -1,0 +1,14 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

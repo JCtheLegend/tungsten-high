@@ -36,6 +36,12 @@ public class FollowLeader : MonoBehaviour
         anim.enabled = true;
     }
 
+    public void RemoveFollower()
+    {
+        leader = null;
+        GameManager.followers.Remove(this.gameObject.name);
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {

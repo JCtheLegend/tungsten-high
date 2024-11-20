@@ -1,62 +1,62 @@
 {
   "Items": [
     {
-      "validScenes": [ 2, 2 ],
+      "validScenes": [ 3, 3 ],
       "validStages": [ 1, 1 ],
       "type": "Ms Nice",
       "name": "Ms Nice",
       "location": "6,-8"
     },
     {
-      "validScenes": [ 2, 2 ],
+      "validScenes": [ 3, 3 ],
       "validStages": [ 1, 1 ],
       "type": "Mirror",
       "name": "Mirror",
       "location": "5.5,-8"
     },
     {
-      "validScenes": [ 2, 2 ],
+      "validScenes": [ 3, 3 ],
       "validStages": [ 1, 1 ],
       "type": "Moe",
       "name": "Moe",
       "location": "6.5,-8"
     },
     {
-      "validScenes": [ 2, 2 ],
+      "validScenes": [ 3, 3 ],
       "validStages": [ 1, 1 ],
       "type": "Bloom",
       "name": "Bloom",
       "location": "6,-8"
     },
     {
-      "validScenes": [ 2, 2 ],
+      "validScenes": [ 3, 3 ],
       "validStages": [ 1, 1 ],
       "type": "Laser Boy",
       "name": "Laser Boy",
       "location": "6.5,-8"
     },
     {
-      "validScenes": [ 2, 2 ],
+      "validScenes": [ 3, 3 ],
       "validStages": [ 1, 1 ],
       "type": "Micycle",
       "name": "Micycle",
       "location": "5.5,-8"
     },
     {
-      "validScenes": [ 2, 2 ],
+      "validScenes": [ 3, 3 ],
       "validStages": [ 1, 1 ],
       "type": "Bubba",
       "name": "Bubba",
       "location": "5.5,-8"
     },
     {
-      "validScenes": [ 2, 2 ],
+      "validScenes": [ 3, 3 ],
       "validStages": [ 1, 1 ],
       "type": "cutscene",
       "name": "2.PR.GarnetSquare.1"
     },
     {
-      "validScenes": [ 2, 7 ],
+      "validScenes": [ 4, 6 ],
       "validStages": [ 1, 1 ],
       "type": "Ms Nice",
       "name": "Ms Nice",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "validScenes": [ 2, 7 ],
+      "validScenes": [ 4, 7 ],
       "validStages": [ 1, 1 ],
       "type": "Pickup",
       "name": "Quarter"

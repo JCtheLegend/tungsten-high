@@ -1,0 +1,40 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "What?",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Nobody is in here!",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "They must have gotten into the vault!",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Quick open it up, let me get today's code!",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "It's 287128, now open it quickly!",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

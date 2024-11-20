@@ -1,0 +1,10 @@
+{
+  "Items": [
+    {
+      "validStages": [ 0, 100 ],
+      "validScenes": [ 0, 100 ],
+      "type": "cutscene",
+      "name": "3.Dodgeball.1"
+    }
+  ]
+}

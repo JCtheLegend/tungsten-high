@@ -6,6 +6,12 @@ public class PlayerCombatMasterController : MonoBehaviour
 {
     [SerializeField] internal PlayerCombatController combat;
     [SerializeField] internal PlayerCombatAnimationController anim;
-    [SerializeField] internal CutsceneManager cutscene;
+    internal CutsceneManager cutscene;
     [SerializeField] internal PlayerCombatDialogController dialog;
+
+    private void Awake()
+    {
+        cutscene = GameObject.Find("Main Camera").GetComponentInChildren<CutsceneManager>();
+    }
 }
+

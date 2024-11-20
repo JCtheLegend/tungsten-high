@@ -1,0 +1,38 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Ah, "
+    },
+    {
+      "type": "dialog",
+      "text": "Ah, why can I talk?"
+    },
+    {
+      "type": "dialog",
+      "text": "This is the Cat Dream World."
+    },
+    {
+      "type": "dialog",
+      "text": "Us cats are special in that we all share the same dream space."
+    },
+    {
+      "type": "dialog",
+      "text": "Unlike humans, us cats have a single shared dream world."
+    },
+    {
+      "type": "dialog",
+      "text": "That's why us cats sleep "
+    },
+    {
+      "type": "dialog",
+      "text": "You're the first human I've seen here in a while."
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -5,7 +5,6 @@ using System.Linq;
 
 public class PunchingBag2Controller : EnemyController
 {
-    MoveableObject move;
     public Animator armsAnim;
     public BoxCollider2D armsCollider;
 
@@ -67,7 +66,7 @@ public class PunchingBag2Controller : EnemyController
         while (currentHealth > 0)
         {
             int asd = Random.Range(0, 2);
-            Vector2 newSpot = asd == 1 ? new Vector2(Mathf.Floor(Random.Range(minX, maxX)) + 0.5f, transform.position.y) : new Vector2(transform.position.x, Mathf.Floor(Random.Range(minY, maxY)));
+            Vector2 newSpot = asd == 1 ? new Vector2(Mathf.Floor(Random.Range(minX, maxX)) + 0.5f, transform.position.y) : new Vector2(transform.position.x, Mathf.Floor(Random.Range(minY, maxY)) + 0.5f);
             wheels.sprite = asd == 1 ? sideWheels : upWheels;
             Vector2 oldSpot = rb.position;
             StartCoroutine(move.Move(newSpot, moveSpeed));

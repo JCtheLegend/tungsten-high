@@ -79,6 +79,28 @@
       "name": "Bubba",
       "location": "22,5",
       "facing": "right"
+    },
+    {
+      "validScenes": [ 0, 1 ],
+      "validStages": [ 6, 6 ],
+      "type": "Cart",
+      "name": "Cart",
+      "location": "-2.75, -1"
+    },
+    {
+      "validScenes": [ 0, 1 ],
+      "validStages": [ 6, 6 ],
+      "type": "Cart Man",
+      "name": "Cart Man",
+      "location": "1, -2",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "2.Post.MapGuy.1",
+          "destroy": true,
+          "facePlayer": true
+        }
+      ]
     }
   ]
 }

@@ -100,6 +100,6 @@ public class PunchingBagController : EnemyController
         }
         moveCoroutine = move.Move(new Vector2(rb.position.x, rb.position.y + 20), moveSpeed);
         StartCoroutine(moveCoroutine);
-        base.Die();
+        StartCoroutine(base.Die());
     }
 }

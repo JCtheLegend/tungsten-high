@@ -2,50 +2,51 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCombatController : MonoBehaviour
+public class PlayerCombatController : GridMover
 {
     [SerializeField] PlayerCombatMasterController player;
     [SerializeField] AnimationClip punchAnimation;
-    [SerializeField] private float moveSpeed = 1;
+
     [SerializeField] GameObject playerAttackObject;
-    [SerializeField] internal GameObject playerHealthBar;
-    [SerializeField] internal SpriteRenderer playerCurrentHealthBar;
-    [SerializeField] GameObject enemyHealthBar;
-    [SerializeField] SpriteRenderer blackFade;
+    internal GameObject playerHealthBar;
+    internal SpriteRenderer playerCurrentHealthBar;
+    internal GameObject enemyHealthBar;
+    SpriteRenderer blackFade;
     [SerializeField] GameObject gameOver;
+    [SerializeField] GameObject shield;
     Sprite playerHealthBarFull;
 
     public bool lockMovement = true;
-
-    internal Vector2 moveVelocity;
-
     [SerializeField] Vector2 resetPos;
-
-    public float arenaMinWidth;
-    public float arenaMinHeight;
-    public float arenaMaxWidth;
-    public float arenaMaxHeight;
-
-    public bool inCombat = false;
+    //public bool inCombat = false;
+    public bool shielding = false;
     public combatAction action = combatAction.none;
-    private Rigidbody2D rb;
-
     public int attackDamage;
     public int currentHealth;
     public int maxHealth;
 
-    IEnumerator movingRoutine;
+
     IEnumerator punchingRoutine;
 
     SoundController sound;
     MusicController music;
 
-    public Planner p;
+    Planner p;
 
-    private void Awake()
+    bool regenEnergy = true;
+    int regenEnergyRate = 2;
+
+    float time = 0;
+
+    protected override void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
+        base.Awake();
+        playerHealthBar = GameObject.Find("Player Health Bar");
+        playerCurrentHealthBar = GameObject.Find("Player Current Health Bar").GetComponent<SpriteRenderer>();
+        blackFade = GameObject.Find("BlackFade").GetComponent<SpriteRenderer>();
+        enemyHealthBar = GameObject.Find("Enemy Health Bar");
         playerHealthBarFull = playerCurrentHealthBar.sprite;
+        p = GameObject.Find("Planner").GetComponent<Planner>();
     }
 
     private void Start()
@@ -57,7 +58,7 @@ public class PlayerCombatController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (inCombat && action != combatAction.dead)
+        if (moveEnabled && action != combatAction.dead)
         {
             CombatMove();
         }
@@ -79,43 +80,40 @@ public class PlayerCombatController : MonoBehaviour
                 }
             }
         }
+        if (regenEnergy)
+        {
+            time += Time.deltaTime;
+            if(time > 1)
+            {
+                RegenEnergy(regenEnergyRate);
+                time = 0;
+            }
+        }
+        if (shielding)
+        {
+
+        }
     }
 
     void CombatMove()
     {
-        ApplyMovement();
         ApplyBlock();
+        ApplyMovement();
         ApplyAttack();
     }
 
     internal void EndCombat()
     {
-        inCombat = false;
+        moveEnabled = false;
         EnableInput();
     }
 
     void ApplyMovement()
     {
-        if (action == combatAction.none)
+        if (action == combatAction.none && !isMoving)
         {
-            if (Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                Move(direction.up);
-            }
-            else if (Input.GetKeyDown(KeyCode.DownArrow))
-            {
-                Move(direction.down);
-            }
-            else if (Input.GetKeyDown(KeyCode.LeftArrow))
-            {
-                Move(direction.left);
-            }
-            else if (Input.GetKeyDown(KeyCode.RightArrow))
-            {
-                Move(direction.right);
-            }
+            GridMove();
         }
-        rb.velocity = moveVelocity;
     }
 
     public void StopMovement()
@@ -124,42 +122,19 @@ public class PlayerCombatController : MonoBehaviour
         {
             StopCoroutine(movingRoutine);
         }
+        isMoving = false;
         rb.velocity = Vector2.zero;
+        moveVelocity = Vector2.zero;
         action = combatAction.none;
-    }
-
-
-    private void Move(direction dir)
-    {
-        if (dir == direction.down && transform.position.y > arenaMinHeight)
-        {
-            movingRoutine = MoveDown();
-            StartCoroutine(movingRoutine);
-        }
-        else if (dir == direction.left && transform.position.x > arenaMinWidth)
-        {
-            movingRoutine = MoveLeft();
-            StartCoroutine(movingRoutine);
-        }
-        else if (dir == direction.up && transform.position.y < arenaMaxHeight)
-        {
-            movingRoutine = MoveUp();
-            StartCoroutine(movingRoutine);
-        }
-        else if (dir == direction.right && transform.position.x < arenaMaxWidth)
-        {
-            movingRoutine = MoveRight();
-            StartCoroutine(movingRoutine);
-        }
-
     }
 
     void ApplyAttack()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && action == combatAction.none)
+        if (Input.GetKeyDown(KeyCode.Z) && action == combatAction.none && energy > 10)
         {
             punchingRoutine = Punch();
             StartCoroutine(punchingRoutine);
+            UseEnergy(10);
         }
     }
 
@@ -182,80 +157,24 @@ public class PlayerCombatController : MonoBehaviour
 
     void ApplyBlock()
     {
-        if(action == combatAction.none && Input.GetKey(KeyCode.Space))
+        if(Input.GetKey(KeyCode.Space))
         {
-            StartCoroutine(Block());
+            shielding = true;
+            shield.SetActive(true);
+        }
+        else
+        {
+            shield.SetActive(false);
+            shielding = false;
         }
     }
 
-    IEnumerator Block()
-    {
-        action = combatAction.block;
-        while (Input.GetKey(KeyCode.Space))
-        {
-            yield return null;
-        }
-        action = combatAction.none;
-    }
 
-    IEnumerator MoveLeft()
-    {
-        float newPosition = Mathf.Ceil(transform.position.x - 0.5f) - 0.5f;
-        action = combatAction.moveLeft;
-        while (transform.position.x > newPosition && action == combatAction.moveLeft)
-        {
-            moveVelocity = new Vector2(-moveSpeed, 0);
-            yield return new WaitForSeconds(0.001f);
-        }
-        moveVelocity = Vector2.zero;
-        transform.position = new Vector2(newPosition, transform.position.y);
-        action = combatAction.none;
-    }
-    IEnumerator MoveRight()
-    {
-        float newPosition = Mathf.Floor(transform.position.x + 0.5f) + 0.5f;
-        action = combatAction.moveRight;
-        while (transform.position.x < newPosition && action == combatAction.moveRight)
-        {
-            moveVelocity = new Vector2(moveSpeed, 0);
-            yield return new WaitForSeconds(0.001f);
-        }
-        moveVelocity = Vector2.zero;
-        transform.position = new Vector2(newPosition, transform.position.y);
-        action = combatAction.none;
-    }
-    IEnumerator MoveUp()
-    {
-        float newPosition = Mathf.Floor(transform.position.y + 1);
-        action = combatAction.moveUp;
-        while (transform.position.y < newPosition && action == combatAction.moveUp)
-        {
-            moveVelocity = new Vector2(0, moveSpeed);
-            yield return new WaitForSeconds(0.001f);
-        }
-        moveVelocity = Vector2.zero;
-        transform.position = new Vector2(transform.position.x, newPosition);
-        action = combatAction.none;
-    }
-    IEnumerator MoveDown()
-    {
-        float newPosition = Mathf.Ceil(transform.position.y - 1);
-        action = combatAction.moveDown;
-        while (transform.position.y > newPosition && action == combatAction.moveDown)
-        {
-           
-            moveVelocity = new Vector2(0, -moveSpeed);
-            yield return new WaitForSeconds(0.001f);
-        }
-        moveVelocity = Vector2.zero;
-        transform.position = new Vector2(transform.position.x, newPosition);
-        action = combatAction.none;
-    }
+
 
     IEnumerator DamageMoveDown()
     {
         float newPosition = transform.position.y;
-        action = combatAction.hurt;
         if (transform.position.y > arenaMinHeight + 1)
         {
             newPosition = Mathf.Ceil(transform.position.y - 2);
@@ -267,17 +186,17 @@ public class PlayerCombatController : MonoBehaviour
         while (transform.position.y > newPosition)
         {
 
-            moveVelocity = new Vector2(0, -moveSpeed);
+            rb.velocity = new Vector2(0, -moveSpeed);
             yield return new WaitForEndOfFrame();
         }
-        moveVelocity = Vector2.zero;
+        rb.velocity = Vector2.zero;
         while (transform.position.y != newPosition && lockMovement)
         {
             transform.position = new Vector2(transform.position.x, newPosition);
             yield return new WaitForEndOfFrame();
         }
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.25f);
         action = combatAction.none;
     }
 
@@ -285,6 +204,7 @@ public class PlayerCombatController : MonoBehaviour
 
     public void Hurt(int damage)
     {
+        StopMovement();
         action = combatAction.hurt;
         TakeDamage(damage);
         StartCoroutine(GameManager.FlickerRed(player.anim.sprite));
@@ -346,15 +266,7 @@ public class PlayerCombatController : MonoBehaviour
         Destroy(gameObject);
     }
 
-    internal void DisableInput()
-    {
-        inCombat = false;
-    }
 
-    internal void EnableInput()
-    {
-        inCombat = true;
-    }
     private void CropPlayerHealthSprite(float percentage)
     {
         if(percentage < 0)
@@ -376,17 +288,22 @@ public class PlayerCombatController : MonoBehaviour
         HandleCollision(collision.gameObject);
     }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        HandleCollision(collision.gameObject);
+    }
+
     protected virtual void HandleCollision(GameObject collisionObject)
     {
         if (collisionObject.CompareTag("Enemy") && action != combatAction.hurt && action != combatAction.dead)
         {
             Hurt(collisionObject.GetComponent<EnemyController>().attackDamage);
         }
-        if (collisionObject.CompareTag("Enemy Attack") && action != combatAction.hurt && action != combatAction.dead)
+        if (collisionObject.CompareTag("Enemy Attack") && action != combatAction.hurt && action != combatAction.dead && !shielding)
         {
             Hurt(collisionObject.GetComponentInParent<EnemyController>().attackDamage);
         }
     }
 
-    public enum combatAction { none, punch, moveLeft, moveRight, moveUp, moveDown, block, hurt, dead };
+    public enum combatAction { none, punch, moving, hurt, dead };
 }

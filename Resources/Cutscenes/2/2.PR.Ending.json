@@ -183,11 +183,7 @@
     },
     {
       "type": "setStageCounter",
-      "text": 2
-    },
-    {
-      "type": "setSceneCounter",
-      "text": 0
+      "text": "Gym"
     },
     {
       "type": "enableMovement"

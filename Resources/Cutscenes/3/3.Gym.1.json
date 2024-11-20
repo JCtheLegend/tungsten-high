@@ -1,0 +1,35 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Alright class, no running today.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We'll be working on another important aspect of combat.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now, let's get you into the ring and lets get started!",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 1
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

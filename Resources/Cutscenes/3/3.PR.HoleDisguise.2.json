@@ -1,0 +1,28 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "You just gotta go in and ask the banker when he's coming in tomorrow,",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "then come back outside and tell me.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Thanks man, hehe.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

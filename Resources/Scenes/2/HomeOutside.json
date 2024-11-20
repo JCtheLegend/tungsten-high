@@ -1,10 +1,11 @@
 {
   "Items": [
     {
+      "valideStages": [ 0, 0 ],
       "validScenes": [ 2, 2 ],
       "type": "Car",
       "name": "Car",
-      "location": "36,12",
+      "location": "-96,2.5",
       "assets": [
         {
           "type": "CutsceneActTrigger",
@@ -19,7 +20,7 @@
       "validStages": [ 0, 0 ],
       "type": "MowerDad",
       "name": "Dad",
-      "location": "45,8.5",
+      "location": "-85,2",
       "assets": [
         {
           "type": "SimpleDialogTrigger",
@@ -37,7 +38,7 @@
       "validStages": [ 0, 0 ],
       "type": "Mom",
       "name": "Mom",
-      "location": "34,12",
+      "location": "-93.5,3.25",
       "assets": [
         {
           "type": "CutsceneActTrigger",

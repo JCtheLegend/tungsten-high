@@ -24,7 +24,7 @@
       "validStages": [ 1, 1 ],
       "validScenes": [ 0, 0 ],
       "type": "cutscene",
-      "name": "2.Hall.GetMap"
+      "name": "2.PR.Hall.GetMap"
     },
     {
       "validStages": [ 1, 1 ],

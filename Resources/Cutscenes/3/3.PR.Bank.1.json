@@ -1,0 +1,41 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Hello?",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Um, where's the guy?",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You remember his name? Me neither",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Should we look around for him?",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 1
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

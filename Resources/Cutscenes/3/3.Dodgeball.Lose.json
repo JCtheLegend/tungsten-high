@@ -1,0 +1,42 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey, that's alright. Playing against one of our veteran players was going to be a challenge.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "There's still a lot of learning that you'll do.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We'll have our next practice on Friday and I'll decide the team roster then.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Alright, we'll see you tomorrow.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "setStageCounter",
+      "text": 7
+    },
+    {
+      "type": "loadScene",
+      "name": "Gym"
+    },
+    {
+      "type": "closeDialog"
+    }
+  ]
+}

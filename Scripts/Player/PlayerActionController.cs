@@ -20,7 +20,7 @@ public class PlayerActionController : MonoBehaviour
                 StartCutscene(ray.collider.gameObject.GetComponent<CutsceneTrigger>().cutsceneFileName);
                 if (collider.GetComponent<CutsceneTrigger>().destroy)
                 {
-                    Destroy(collider.gameObject, 0.5f);
+                    Destroy(collider.gameObject.GetComponent<CutsceneTrigger>(), 0.5f);
                 }
             }
         }

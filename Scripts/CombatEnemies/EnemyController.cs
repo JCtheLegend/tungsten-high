@@ -8,16 +8,18 @@ public class EnemyController : MonoBehaviour
     protected string currentState;
     protected int currentLayer;
     protected SpriteRenderer sprite;
+    public Coroutine currentAction;
+    protected bool actionDone = false;
 
     [SerializeField] string hurtAnimation;
     [SerializeField] string deadAnimation;
     [SerializeField] string defaultAnimation;
 
-    [SerializeField] internal GameObject enemyHealthBar;
-    [SerializeField] internal SpriteRenderer enemyCurrentHealthBar;
-    [SerializeField] CutsceneManager cutscene;
-    [SerializeField] FightCard fightCard;
-    public PlayerCombatController player;
+    internal GameObject enemyHealthBar;
+    internal SpriteRenderer enemyCurrentHealthBar;
+    CutsceneManager cutscene;
+    FightCard fightCard;
+    internal PlayerCombatController player;
 
     [SerializeField] protected float moveSpeed = 1;
 
@@ -38,9 +40,12 @@ public class EnemyController : MonoBehaviour
     internal MusicController music;
     internal SoundController sound;
     internal MoveableObject move;
-
     protected virtual void Start()
     {
+        enemyHealthBar = GameObject.Find("Enemy Health Bar");
+        enemyCurrentHealthBar = GameObject.Find("Enemy Current Health Bar").GetComponent<SpriteRenderer>();
+        cutscene = GameObject.Find("Cutscene Manager").GetComponent<CutsceneManager>();
+
         enemyHealthBarFull = enemyCurrentHealthBar.sprite;
         music = GameObject.Find("Music Manager").GetComponent<MusicController>();
         sound = GetComponent<SoundController>();
@@ -52,6 +57,7 @@ public class EnemyController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
         move = GetComponent<MoveableObject>();
+        player = GameObject.Find("Grid Player").GetComponent<PlayerCombatController>();
     }
 
     // Update is called once per frame
@@ -71,12 +77,12 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         HandleCollision(collision.gameObject);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
         HandleCollision(collision.gameObject);
     }
@@ -88,7 +94,7 @@ public class EnemyController : MonoBehaviour
             StartCoroutine(Hurt(collisionObject.GetComponentInParent<PlayerCombatController>().attackDamage));
         }
     }
-    protected void ChangeAnimationState(string newState, int layer)
+    protected void ChangeAnimationState(string newState, int layer = 0)
     {
         if (newState == null || newState == "") return;
         if (currentState == newState && currentLayer == layer) return;

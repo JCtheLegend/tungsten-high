@@ -54,6 +54,14 @@
       "name": "BlackFade"
     },
     {
+      "type": "setSceneCounter",
+      "text": "0"
+    },
+    {
+      "type": "setStageCounter",
+      "text": "5"
+    },
+    {
       "type": "loadScene",
       "name": "Day2Puzzles"
     }

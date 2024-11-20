@@ -1,0 +1,37 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey kid, you got what I need?",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "He, awesome man.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    }
+    {
+      "type": "dialog",
+      "text": "Hey uh. If I were you I wouldn't swing by the bank tomorrow.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We'll be too busy with... birthday stuff.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

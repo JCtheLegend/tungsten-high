@@ -24,7 +24,7 @@
     },
     {
       "type": "move",
-      "name": "CombatPlayer",
+      "name": "Grid Player",
       "direction": "down",
       "speed": 2,
       "text": "18.5,0"

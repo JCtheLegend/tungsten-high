@@ -1,0 +1,33 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "3, -3.5"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "dialog",
+      "text": "Placeholder",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "setStageCounter",
+      "text": "Sci"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

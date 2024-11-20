@@ -1,0 +1,50 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Well class, that is all the work we have for today.",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Make sure to review your notes!",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You'll have a quiz at the end of the week on the material you've learned.",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "playSound",
+      "name": "school-bell"
+    },
+    {
+      "type": "dialog",
+      "text": "That's the bell! Have a good rest of your day!",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setStageCounter",
+      "text": "6"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "0"
+    }
+  ]
+}

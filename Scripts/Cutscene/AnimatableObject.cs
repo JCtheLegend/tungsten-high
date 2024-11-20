@@ -6,7 +6,6 @@ public class AnimatableObject : MonoBehaviour
 {
     protected Animator anim;
 
-
     public string upMoveAnim;
     public string downMoveAnim;
     public string rightMoveAnim;

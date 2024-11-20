@@ -13970,7 +13970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2030305490668762685, guid: 299ae8493e6b9cd48b3f0b60cd70d114, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.930001
+      value: 8.93
       objectReference: {fileID: 0}
     - target: {fileID: 2030305490668762685, guid: 299ae8493e6b9cd48b3f0b60cd70d114, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17635,7 +17635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1257354452, guid: 6476ca0d29151b7469d7b82355ca3c0b, type: 3}
       propertyPath: toEntranceNum
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 339675988143885920, guid: 6476ca0d29151b7469d7b82355ca3c0b, type: 3}
       propertyPath: m_RootOrder
@@ -17757,7 +17757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4005414671053097956, guid: 147f847edc74ef74e8dc119cd1105438, type: 3}
       propertyPath: toEntranceNum
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 147f847edc74ef74e8dc119cd1105438, type: 3}
@@ -18181,6 +18181,10 @@ PrefabInstance:
     - target: {fileID: 1257354452, guid: 6476ca0d29151b7469d7b82355ca3c0b, type: 3}
       propertyPath: roomName
       value: Gym
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257354452, guid: 6476ca0d29151b7469d7b82355ca3c0b, type: 3}
+      propertyPath: toEntranceNum
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 339675988143885920, guid: 6476ca0d29151b7469d7b82355ca3c0b, type: 3}
       propertyPath: m_RootOrder
@@ -19051,11 +19055,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2666116501411388522, guid: d3be9b940d4d4e04f96b7b55aa255b94, type: 3}
       propertyPath: debugSceneCounter
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2666116501411388522, guid: d3be9b940d4d4e04f96b7b55aa255b94, type: 3}
       propertyPath: debugStageCounter
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2666116501411388523, guid: d3be9b940d4d4e04f96b7b55aa255b94, type: 3}
       propertyPath: m_RootOrder

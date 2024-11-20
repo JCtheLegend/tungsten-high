@@ -21,37 +21,25 @@
     },
     {
       "type": "dialog",
-      "text": "As you can see this is not your standard classroom.",
+      "text": "I can sense you're excited to return to the Ephemeral Realm.",
       "name": "Maven",
       "isTyped": "true"
     },
     {
       "type": "dialog",
-      "text": "There are no desks, no pencils, and no paper.",
+      "text": "Don't worry, we'll get there soon.",
       "name": "Maven",
       "isTyped": "true"
     },
     {
       "type": "dialog",
-      "text": "There will, in fact, be almost no interaction with this physical world.",
+      "text": "I will warn you, today we will be meeting a couple of interesting little fellows.",
       "name": "Maven",
       "isTyped": "true"
     },
     {
       "type": "dialog",
-      "text": "Why? Because your powers don't relate to it.",
-      "name": "Maven",
-      "isTyped": "true"
-    },
-    {
-      "type": "dialog",
-      "text": "Your powers are related to what I would like to call the Ephemeral World.",
-      "name": "Maven",
-      "isTyped": "true"
-    },
-    {
-      "type": "dialog",
-      "text": "What is the Ephemeral World? Well, let me show you.",
+      "text": "Don't be scared, they're perfectly harmless",
       "name": "Maven",
       "isTyped": "true"
     },

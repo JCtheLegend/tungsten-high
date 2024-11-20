@@ -2477,11 +2477,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2030305490668762685, guid: 299ae8493e6b9cd48b3f0b60cd70d114, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.004081726
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2030305490668762685, guid: 299ae8493e6b9cd48b3f0b60cd70d114, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.3800001
+      value: -1.3799994
       objectReference: {fileID: 0}
     - target: {fileID: 2030305490668762685, guid: 299ae8493e6b9cd48b3f0b60cd70d114, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2864,17 +2864,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yOverride: 0
   yCoord: 0
---- !u!114 &750238992 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 915768383395418876, guid: 299ae8493e6b9cd48b3f0b60cd70d114, type: 3}
-  m_PrefabInstance: {fileID: 280814173}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02a8942f195030442868bf50de1adbb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &752608741
 GameObject:
   m_ObjectHideFlags: 0
@@ -3476,7 +3465,7 @@ PrefabInstance:
     - target: {fileID: 2936317968726198190, guid: 12ca4a76a0d154a4cb5b9d3c6d3d8ea0, type: 3}
       propertyPath: p
       value: 
-      objectReference: {fileID: 750238992}
+      objectReference: {fileID: 0}
     - target: {fileID: 2936317968726198190, guid: 12ca4a76a0d154a4cb5b9d3c6d3d8ea0, type: 3}
       propertyPath: old_p
       value: 
@@ -3969,6 +3958,10 @@ PrefabInstance:
     - target: {fileID: 2666116501411388522, guid: d3be9b940d4d4e04f96b7b55aa255b94, type: 3}
       propertyPath: debugGameCounter
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666116501411388522, guid: d3be9b940d4d4e04f96b7b55aa255b94, type: 3}
+      propertyPath: debugSceneCounter
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2666116501411388522, guid: d3be9b940d4d4e04f96b7b55aa255b94, type: 3}
       propertyPath: debugStageCounter

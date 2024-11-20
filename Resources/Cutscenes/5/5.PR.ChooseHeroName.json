@@ -1,0 +1,47 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "You've been able to use your powers and be a force for good in the community.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now, you're going to choose your superhero name.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "The public is going to want to know who is helping them!",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Make sure to choose something you like.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You won't be able to change it, at least this school year.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

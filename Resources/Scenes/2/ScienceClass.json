@@ -1,6 +1,8 @@
 {
   "Items": [
     {
+      "validScenes": [ 0, 1 ],
+      "validStages": [ 5, 5 ],
       "type": "Micycle",
       "name": "Micycle",
       "location": "2.66,-7.5",
@@ -21,6 +23,8 @@
       ]
     },
     {
+      "validScenes": [ 0, 1 ],
+      "validStages": [ 5, 5 ],
       "type": "Laser Boy",
       "name": "Laser Boy",
       "location": "-2.66,-3.5",
@@ -42,6 +46,8 @@
       ]
     },
     {
+      "validScenes": [ 0, 1 ],
+      "validStages": [ 5, 5 ],
       "type": "Bloom",
       "name": "Bloom",
       "location": "4.33,-7.5",
@@ -62,6 +68,8 @@
       ]
     },
     {
+      "validScenes": [ 0, 1 ],
+      "validStages": [ 5, 5 ],
       "type": "Bubba",
       "name": "Bubba",
       "location": "-4.33,-7.5",
@@ -83,6 +91,8 @@
       ]
     },
     {
+      "validScenes": [ 0, 1 ],
+      "validStages": [ 5, 5 ],
       "type": "Moe",
       "name": "Moe",
       "location": "-4.33,-3.5",
@@ -104,6 +114,8 @@
       ]
     },
     {
+      "validScenes": [ 0, 1 ],
+      "validStages": [ 5, 5 ],
       "type": "Mirror",
       "name": "Mirror",
       "location": "-2.66, -7.5",
@@ -125,12 +137,22 @@
       ]
     },
     {
+      "validScenes": [ 0, 1 ],
+      "validStages": [ 5, 5 ],
       "type": "Ms Sparks",
       "name": "Ms Sparks",
       "location": "0, 1.5",
       "facing": "down"
     },
     {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 5, 5 ],
+      "type": "cutscene",
+      "name": "2.Sci.End"
+    },
+    {
+      "validScenes": [ 0, 0 ],
+      "validStages": [ 5, 5 ],
       "location": "3.5,-4",
       "type": "CutsceneCollider",
       "size": "3,1",

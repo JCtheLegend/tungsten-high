@@ -1,12 +1,10 @@
 {
   "Items": [
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 0,
-      "maxGameCounter": 200,
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 0, 10 ],
       "type": "cutscene",
-      "name": "PunchingBagFight.1"
+      "name": "1.Gym.PunchingBagFight.1"
     }
   ]
 }

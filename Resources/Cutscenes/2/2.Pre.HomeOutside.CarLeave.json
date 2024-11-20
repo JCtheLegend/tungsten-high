@@ -37,15 +37,45 @@
       "name": "car"
     },
     {
+      "type": "wait",
+      "text": 2
+    },
+    {
       "type": "cameraFollow",
       "name": "Car"
+    },
+    {
+      "type": "disable",
+      "name": "Dad"
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "type": "Dad",
+          "name": "Dad",
+          "location": "-84,2"
+        }
+      ]
+    },
+    {
+      "type": "animate",
+      "name": "Dad",
+      "text": "DadWave"
     },
     {
       "type": "move",
       "name": "Car",
       "direction": "down",
       "speed": 3,
-      "text": "36,2"
+      "text": "-96,-5"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "right",
+      "speed": 3,
+      "text": "-74,-5"
     },
     {
       "type": "fadeIn",

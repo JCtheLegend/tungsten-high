@@ -1,0 +1,36 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Nice work! You had a good showing today!",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We'll have our next practice on Friday and I'll decide the team roster then.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Alright, we'll see you tomorrow.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "setStageCounter",
+      "text": 7
+    },
+    {
+      "type": "loadScene",
+      "name": "Gym"
+    },
+    {
+      "type": "closeDialog"
+    }
+  ]
+}

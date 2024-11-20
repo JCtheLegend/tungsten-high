@@ -1,0 +1,42 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Urggh! Mmmmmm!",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "*Pant* *Pant* I can't get this stupid cart unstuck.",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Seems like the wheels are stuck in the grass, and I can't get it to move.",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Say, you think you can help me try and move this?",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setStageCounter",
+      "text": "6"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "0"
+    }
+  ]
+}

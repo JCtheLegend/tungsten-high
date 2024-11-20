@@ -9,8 +9,8 @@ using Cinemachine;
 
 public class CutsceneManager : MonoBehaviour
 {
-    public PlayerMasterController player;
-    public PlayerCombatMasterController playerCombat;
+    PlayerMasterController player;
+    GridMover gridPlayer;
     private DialogPrinter printer;
     AudioSource audioSource;
     public PlayableDirector director;
@@ -31,11 +31,12 @@ public class CutsceneManager : MonoBehaviour
     GameObject dialogBox;
     [SerializeField]
     GameObject dreamEntrance;
-    public bool isCombat;
     public bool isPuzzle;
     IEnumerator currentCutscene;
     private void Awake()
     {
+        player = GameObject.Find("Player")?.GetComponent<PlayerMasterController>();
+        gridPlayer = GameObject.Find("Grid Player")?.GetComponent<GridMover>();
         printer = GetComponent<DialogPrinter>();
         audioSource = GetComponent<AudioSource>();
         dialogBox.SetActive(false);
@@ -47,6 +48,7 @@ public class CutsceneManager : MonoBehaviour
 
     public void BeginCutscene(string filename)
     {
+        Debug.Log("starting cutscene " + filename);
         CutsceneAction[] c = CreateCutsceneFromTextFile(filename);
         List<CutsceneAction> actions = c.ToList();
         StartCoroutine(HandleCutscene(actions));
@@ -81,21 +83,10 @@ public class CutsceneManager : MonoBehaviour
             actionDone = false;
             timelineDone = false;
             animateDone = false;
-            //Debug.Log(a.type);
+            Debug.Log(a.type);
             switch (a.type) {
                 case "disableMovement":
-                    if (isCombat)
-                    {
-                        playerCombat.combat.moveVelocity = Vector2.zero;
-                        playerCombat.combat.DisableInput();
-                        playerCombat.GetComponent<CutsceneMoveableObject>().enabled = true;
-                        playerCombat.combat.StopMovement();
-                    }
-                    else if (isPuzzle)
-                    {
-                        GameObject.Find("Hero Cell").GetComponent<HeroCell>().DisableMovement();
-                    }
-                    else
+                    if (player != null && player.isActiveAndEnabled)
                     {
                         player.movement.rb.velocity = Vector2.zero;
                         player.anim.inCutscene = true;
@@ -106,6 +97,17 @@ public class CutsceneManager : MonoBehaviour
                         player.GetComponent<PlayerMovementController>().enabled = false;
                         //player.GetComponent<BoxCollider2D>().enabled = false;
                     }
+                    else if (gridPlayer != null && gridPlayer.isActiveAndEnabled)
+                    {  
+                        gridPlayer.moveVelocity = Vector2.zero;
+                        gridPlayer.isMoving = false;
+                        gridPlayer.DisableInput();
+                        gridPlayer.GetComponent<CutsceneMoveableObject>().enabled = true;
+                    }
+                    else if (isPuzzle)
+                    {
+                        GameObject.Find("Hero Cell").GetComponent<HeroCell>().DisableMovement();
+                    }                 
                     actionDone = true;
                     break;
                 case "timeline":
@@ -169,16 +171,20 @@ public class CutsceneManager : MonoBehaviour
                     actionDone = true;
                     break;
                 case "switchCombat":
-                    isCombat = !isCombat;
                     player.gameObject.SetActive(false);
-                    playerCombat.gameObject.SetActive(true);
+                    gridPlayer.gameObject.SetActive(true);
                     actionDone = true;
                     break;
                 case "switchNormal":
-                    isCombat = !isCombat;
                     player.gameObject.SetActive(true);
-                    playerCombat.gameObject.SetActive(false);
+                    gridPlayer.gameObject.SetActive(false);
                     actionDone = true;
+                    break;
+                case "destroy":
+                    foreach (GameObject g in GameObject.Find(a.name).GetComponents<GameObject>())
+                    {
+                        Destroy(g);
+                    }
                     break;
                 case "color":
                     GameObject.Find(a.name).GetComponent<SpriteRenderer>().color = new Color(float.Parse(a.text.Split(',')[0]), float.Parse(a.text.Split(',')[1]), float.Parse(a.text.Split(',')[2]), float.Parse(a.text.Split(',')[3]));
@@ -198,13 +204,28 @@ public class CutsceneManager : MonoBehaviour
                     StartCoroutine(HandleAnimate(a));
                     break;
                 case "disable":
+                    Debug.Log(a.name);
                     GameObject.Find(a.name).SetActive(false);
                     actionDone = true;
                     break;
-                case "enableChildren":
-                    foreach(MonoBehaviour m in GameObject.Find(a.name).GetComponents<MonoBehaviour>())
+                case "enableComponents":
+                    foreach (MonoBehaviour child in GameObject.Find(a.name).GetComponents<MonoBehaviour>())
                     {
-                        m.enabled = true;
+                        child.enabled = true;
+                    }
+                    actionDone = true;
+                    break;
+                case "disableComponents":
+                    foreach (MonoBehaviour child in GameObject.Find(a.name).GetComponents<MonoBehaviour>())
+                    {
+                        child.enabled = false;
+                    }
+                    actionDone = true;
+                    break;
+                case "enableChildren":
+                    foreach(Transform child in GameObject.Find(a.name).transform)
+                    {
+                        child.gameObject.SetActive(true);
                     }
                     actionDone = true;
                     break;
@@ -229,7 +250,7 @@ public class CutsceneManager : MonoBehaviour
                     {
                         StartCoroutine(GameManager.FadeIn(s, 10));
                     }
-                    foreach (SpriteRenderer s in playerCombat.combat.playerHealthBar.GetComponentsInChildren<SpriteRenderer>())
+                    foreach (SpriteRenderer s in gridPlayer.GetComponent<PlayerCombatController>().playerHealthBar.GetComponentsInChildren<SpriteRenderer>())
                     {
                         StartCoroutine(GameManager.FadeIn(s, 10));
                     }
@@ -250,6 +271,10 @@ public class CutsceneManager : MonoBehaviour
                     break;
                 case "addFollow":
                     AddFollow(a);
+                    actionDone = true;
+                    break;
+                case "removeFollow":
+                    RemoveFollow(a);
                     actionDone = true;
                     break;
                 case "moveSet":
@@ -280,16 +305,7 @@ public class CutsceneManager : MonoBehaviour
                     actionDone = true;
                     break;
                 case "enableMovement":
-                    if (isCombat)
-                    {
-                        playerCombat.GetComponent<CutsceneMoveableObject>().enabled = false;
-                        playerCombat.combat.EnableInput();
-                    }
-                    else if (isPuzzle)
-                    {
-                        GameObject.Find("Hero Cell").GetComponent<HeroCell>().inputEnabled = true;
-                    }
-                    else
+                    if (player)
                     {
                         player.input.EnableInput();
                         player.anim.inCutscene = false;
@@ -297,13 +313,31 @@ public class CutsceneManager : MonoBehaviour
                         player.GetComponent<PlayerMovementController>().enabled = true;
                         player.GetComponent<BoxCollider2D>().enabled = true;
                     }
+                    else if (gridPlayer)
+                    {
+                        gridPlayer.GetComponent<CutsceneMoveableObject>().enabled = false;
+                        gridPlayer.EnableInput();
+                    }
+                    else if (isPuzzle)
+                    {
+                        GameObject.Find("Hero Cell").GetComponent<HeroCell>().inputEnabled = true;
+                    }
+                  
                     actionDone = true;
                     break;
                 case "fadeIn":
-                    StartCoroutine(FadeIn(GameObject.Find(a.name).GetComponent<SpriteRenderer>()));
+                    SpriteRenderer[] fadeInSprites = GameObject.Find(a.name).GetComponentsInChildren<SpriteRenderer>();
+                    foreach(SpriteRenderer spritey in fadeInSprites)
+                    {
+                        StartCoroutine(FadeIn(spritey));
+                    }
                     break;
                 case "fadeOut":
-                    StartCoroutine(FadeOut(GameObject.Find(a.name).GetComponent<SpriteRenderer>()));
+                    SpriteRenderer[] fadeOutSprites = GameObject.Find(a.name).GetComponentsInChildren<SpriteRenderer>();
+                    foreach (SpriteRenderer spritey in fadeOutSprites)
+                    {
+                        StartCoroutine(FadeOut(spritey));
+                    }
                     break;
                 case "wait":
                     yield return new WaitForSeconds(float.Parse(a.text));
@@ -311,11 +345,11 @@ public class CutsceneManager : MonoBehaviour
                     break;
                 case "setSceneCounter":
                     GameManager.sceneCounter = int.Parse(a.text);
-                    Debug.Log("Scene Counter: " + GameManager.sceneCounter);
+                    Debug.Log("Scene Counter: " + a.text);
                     actionDone = true;
                     break;
                 case "setStageCounter":
-                    GameManager.stageCounter = (stage)int.Parse(a.text);
+                    SetStageCounter(a.text);
                     Debug.Log("Stage Counter: " + GameManager.stageCounter);
                     actionDone = true;
                     break;
@@ -382,11 +416,11 @@ public class CutsceneManager : MonoBehaviour
                     actionDone = true;
                     break;
                 case "changeSong":
-                    GameObject.Find("Music Manager(Clone)").GetComponent<MusicController>().ChangeSong(a.name);
+                    GameObject.Find("Music Manager").GetComponent<MusicController>().ChangeSong(a.name);
                     actionDone = true;
                     break;
                 case "stopMusic":
-                    StartCoroutine(GameObject.Find("Music Manager(Clone)").GetComponent<MusicController>().FadeOut(1));
+                    StartCoroutine(GameObject.Find("Music Manager").GetComponent<MusicController>().FadeOut(1));
                     actionDone = true;
                     break;
                 case "playSound":
@@ -450,10 +484,49 @@ public class CutsceneManager : MonoBehaviour
         }
     }
 
+    void SetStageCounter(string s)
+    {
+        switch (s)
+        {
+            case "Pre":
+                GameManager.stageCounter = stage.pre;
+                break;
+            case "PR":
+                GameManager.stageCounter = stage.pr;
+                break;
+            case "Gym":
+                GameManager.stageCounter = stage.gym;
+                break;
+            case "Lunch":
+                GameManager.stageCounter = stage.lunch;
+                break;
+            case "Psych":
+                GameManager.stageCounter = stage.psych;
+                break;
+            case "Sci":
+                GameManager.stageCounter = stage.sci;
+                break;
+            case "Post":
+                GameManager.stageCounter = stage.post;
+                break;
+            case "Dream":
+                GameManager.stageCounter = stage.dream;
+                break;
+            default:
+                Debug.LogError("invalid stage");
+                break;
+        }
+        GameManager.sceneCounter = 0;
+    }
+
     public void Teleport(CutsceneAction a)
     {
         Vector2 coords = new Vector2(float.Parse(a.text.Split(',')[0]), float.Parse(a.text.Split(',')[1]));
         GameObject.Find(a.name).transform.position = coords;
+        if(a.name == "Hero Cell")
+        {
+            GameObject.Find(a.name).GetComponent<HeroCell>().spawnPoint = GameObject.Find(a.name).transform.position;
+        }
     }
 
     public CutsceneAction[] CreateCutsceneFromTextFile(string fileName)
@@ -496,6 +569,13 @@ public class CutsceneManager : MonoBehaviour
         FollowLeader f = GameObject.Find(a.text).GetComponent<FollowLeader>();
         f.SetLeader(a.name);
         f.NewFollower();
+    }
+
+    void RemoveFollow(CutsceneAction a)
+    {
+        FollowLeader f = GameObject.Find(a.text).GetComponent<FollowLeader>();
+        f.RemoveFollower();
+        GameObject.Find(a.text).GetComponent<FollowLeader>().enabled = false;
     }
 
     IEnumerator HandleAnimate(CutsceneAction a)

@@ -1,0 +1,116 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Sirs, I'm going in to investigate.",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "If I yell, then run outside for help!",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "move",
+      "name": "Banker"
+    },
+    {
+      "type": "dialog",
+      "text": "There's...",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "There's no one in there.",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "And all of the money is still in there as well.",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "He... he... he...",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "It is... for now.",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "move",
+      "name": "Robbers"
+    },
+    {
+      "type": "move",
+      "name": "Robbers"
+    },
+    {
+      "type": "dialog",
+      "text": "That's not a hole in the wall! It's...",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Not A Hole, I'm THE Hole!",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Supervillian of getting in even the most restricted spaces.",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I can make myself the hole in any wall!",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "... as long as it's not thicker than me, which this Vault is.",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "But, hehe, you have solved that for me by opening it just now!",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Thank you kids, I couldn't have done it without you.",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now, I'll let my grunts take care of you, and I'll be in the vault!",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "fadeIn",
+      "text": "blackFade"
+    },
+    {
+      "type": "wait",
+      "text": 3
+    }
+  ]
+}

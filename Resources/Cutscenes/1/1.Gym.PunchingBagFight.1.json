@@ -1,9 +1,6 @@
 {
   "Items": [
     {
-      "type": "startBlack"
-    },
-    {
       "type": "disableMovement"
     },
     {
@@ -37,7 +34,7 @@
     },
     {
       "type": "move",
-      "name": "CombatPlayer",
+      "name": "Grid Player",
       "direction": "down",
       "speed": 2,
       "text": "20.5,2"
@@ -66,7 +63,13 @@
     },
     {
       "type": "dialog",
-      "text": "Be careful not to run into the bag! It might hurt.",
+      "text": "You'll use energy with each punch, so be careful not to tire yourself out.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Also, be careful not to run into the bag! It might hurt.",
       "name": "Gym Teacher",
       "isTyped": "true"
     },

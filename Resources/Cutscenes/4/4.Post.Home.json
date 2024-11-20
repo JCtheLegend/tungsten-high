@@ -1,0 +1,22 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, honey I'm glad you're home safe and sound.",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Let's get you some dinner.",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -1,12 +1,14 @@
 {
   "Items": [
     {
-      "validScenes": [1, 1],
+      "valideStages": [ 0, 0 ],
+      "validScenes": [ 1, 1 ],
       "type": "Mom",
       "name": "Mom",
       "location": "0,-2.5"
     },
     {
+      "valideStages": [ 0, 0 ],
       "validScenes": [ 1, 1 ],
       "location": "1,-0.5",
       "type": "CutsceneCollider",

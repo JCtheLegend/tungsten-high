@@ -1,0 +1,101 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "Flying Target 3"
+    },
+    {
+      "type": "dialog",
+      "text": "Alright. It's time for your last exercise of todays practice.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You'll be matched up against one of our athletes from last year.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Jumper",
+      "text": "20, 6.5",
+      "direction": "right",
+      "speed": 3
+    },
+    {
+      "type": "moveFace",
+      "name": "Jumper",
+      "direction": "down"
+    },
+    {
+      "type": "teleport",
+      "name": "Jumper Dodgeball",
+      "text": "20, 6.5"
+    },
+    {
+      "type": "dialog",
+      "text": "You'll have to hit your opponent three times to win.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "One last piece of advice:",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "The longer that you hold on to a ball, the slower you'll throw it.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "And it is much easier to catch a slow ball, so throw fast!",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "disable",
+      "name": "Jumper"
+    },
+    {
+      "type": "enableChildren",
+      "name": "Grid Player"
+    },
+    {
+      "type": "enableScripts",
+      "name": "Jumper Dodgeball"
+    },
+    {
+      "type": "enableCollider",
+      "name": "Dodgeball Wall 1"
+    },
+    {
+      "type": "unhide",
+      "name": "Dodgeball Wall 1"
+    },
+    {
+      "type": "enableCollider",
+      "name": "Dodgeball Wall 2"
+    },
+    {
+      "type": "unhide",
+      "name": "Dodgeball Wall 2"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

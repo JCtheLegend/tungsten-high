@@ -27,8 +27,11 @@
     {
       "type": "dialog",
       "name": "Bank Guy",
-      "text": "Make sure to check in all the buisnesses around Garnet Square.",
+      "text": "Make sure to check in all the businesses around Garnet Square.",
       "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
     },
     {
       "type": "goto",

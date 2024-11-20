@@ -25,11 +25,11 @@ public class MoveableObject : MonoBehaviour
     public IEnumerator Move(Vector2 coords, float speed)
     {
         Vector2 initialPos = rb.position;
-        while(!ArrivedToPoint(initialPos, rb.position, coords))
-        {
-            Vector2 normVec = (coords - initialPos).normalized;
+        Vector2 normVec = (coords - initialPos).normalized;
+        while (!ArrivedToPoint(initialPos, rb.position, coords))
+        {         
             vel = 1.0f * speed * normVec;
-            yield return new WaitForSeconds(0.001f);
+            yield return new WaitForEndOfFrame();
         }
         rb.position = coords;
         vel = Vector2.zero;
@@ -40,7 +40,7 @@ public class MoveableObject : MonoBehaviour
         while (transform.rotation.z < deg)
         {
             spin = speed;
-            yield return new WaitForSeconds(0.001f);
+            yield return new WaitForEndOfFrame();
         }
         spin = 0;
     }
@@ -62,13 +62,14 @@ public class MoveableObject : MonoBehaviour
         while (ConvertSwingAngle(NormalAngle(), cutoff) > deg)
         {
             spinAroundSpeed = clockwise ? -speed : speed;
-            yield return new WaitForSeconds(0.001f);
+            yield return new WaitForEndOfFrame();
         }
         spinAroundSpeed = 0;
     }
 
     public static bool ArrivedToPoint(Vector2 initialPos, Vector2 currentPos, Vector2 newPos)
     {
+        if (Mathf.Abs(currentPos.x - newPos.x) < 0.1f && Mathf.Abs(currentPos.y - newPos.y) < 0.1f) return true;
         if (initialPos.x < newPos.x)
         {
             if (initialPos.y < newPos.y)

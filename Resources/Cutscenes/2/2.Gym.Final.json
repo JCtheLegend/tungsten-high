@@ -31,12 +31,8 @@
       "type": "closeDialog"
     },
     {
-      "type": "setSceneCounter",
-      "text": "0"
-    },
-    {
       "type": "setStageCounter",
-      "text": "3"
+      "text": "Lunch"
     },
     {
       "type": "enableMovement"
