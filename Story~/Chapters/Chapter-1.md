@@ -1,4 +1,4 @@
-# Chapter 1 — "[First Week Title]"
+# Chapter 1 — "Welcome to Tungsten High"
 
 > Code coordinate: `chapterCounter = 1` → `Resources/Cutscenes/Chapter1/`. Days are `dayCounter` 0–5:
 > **Day 0** = the pre-week intro dream, **Days 1–5** = the school week. Scene geometry JSON is under
@@ -84,7 +84,7 @@ the Assembly's bleacher choice are the reusable "pick a seat / who do you talk t
 
 ## Day 2 — The PR Assignment, Quarters Quest & Science Puzzles
 
-The biggest day of content. PR sends the player into **town** on an assignment tied to a **bank** and
+Public Relations sends the player into **town** on an assignment tied to a **bank** and
 **Garnet Square**, collecting **quarters** from civic locations; Gym has a race + fight; Science is a
 puzzle gauntlet; the night dream is **Catworld**. Files: `Resources/Cutscenes/Chapter1/2/`.
 
@@ -92,12 +92,12 @@ puzzle gauntlet; the night dream is **Catworld**. Files: `Resources/Cutscenes/Ch
 |---|---|---|---|---|
 | Pre | Home | Wake, downstairs, a **lawnmower** beat, car to school. | `2.Pre.PlayerRoom`, `2.Pre.Downstairs`, `2.Pre.Lawnmow`, `2.Pre.HomeOutside.CarLeave`, `2.Pre.SchoolOutside.1` | 🔨 |
 | PR | Class → town | Class intro & **assignment**; get a **map**; head to **Garnet Square**, the **Bank** (+ open vault), and collect **quarters** from City Hall, the Fountain, Library, Post Office/Mail, and the Nurse. | `2.PR.ClassIntro`, `2.PR.Assignment`, `2.PR.Test`, `2.PR.Hall.GetMap`, `2.PR.FrontSteps`, `2.PR.GarnetSquare.1/2`, `2.PR.Bank.1`…`5`, `2.PR.Bank.OpenVault`, `2.PR.BankVault.Guy`, `2.PR.CityHallQuarters`, `2.PR.FountainQuarters`, `2.PR.LibraryQuarters`, `2.PR.MailQuarter`, `2.PR.NurseQuarter`, `2.PR.PostOffice.1`, `2.PR.Ending` | 🔨 |
-| Gym | Track & arena | A **race** on the track, then an **enable/dummy fight**. | `2.Gym.First`, `2.Gym.Track.1`, `2.Gym.FinishRace`, `2.Gym.AfterRace`, `2.Gym.EnableFight`, `2.Gym.DummyFight`, `2.Gym.AfterFight`, `2.Gym.Final` | 🔨 |
+| Gym | Track & arena | A **race** on the track, then an **dummy fight**. Energy is introduced as a fight mechanic | `2.Gym.First`, `2.Gym.Track.1`, `2.Gym.FinishRace`, `2.Gym.AfterRace`, `2.Gym.EnableFight`, `2.Gym.DummyFight`, `2.Gym.AfterFight`, `2.Gym.Final` | 🔨 |
 | Lunch | Cafeteria | Get food and eat. | `2.Lunch.GetFood`, `2.Lunch.Eat` | 🔨 |
-| Psych | Psych class | `[TBD — currently a placeholder.]` | `2.Pysch.1`, `2.Pysch.Placeholder` | 🔨/☐ |
+| Psych | Psych class | Explore the Dream World, the school is represented as a prison that the  | `2.Pysch.1`, `2.Pysch.Placeholder` | 🔨/☐ |
 | Sci | Science puzzles | The **Science puzzle** minigame — puzzles 1–6 (uses `Science/` `HeroCell` scripts). | `2.Sci.1`, `2.Sci.Puzzle1.1/1.2/1.3`, `2.Sci.Puzzle2.1`, `2.Sci.Puzzle3.1`, `2.Sci.Puzzle4.1`, `2.Sci.Puzzle5.1`, `2.Sci.Puzzle6.1`, `2.Sci.PuzzleFinish`, `2.Sci.End` | 🔨 |
 | Post | Home & Map Guy | Leave school; home & dinner; talk to **Map Guy** (with fail/retry talk beats); **Bloom**; bed → **Catworld** dreamwalk. | `2.Post.SchoolOutside`, `2.Post.Home.Arrive`, `2.Post.Home.Dinner`, `2.Post.MapGuy.1/2/3`, `2.Post.FailTalk`, `2.Post.TryAgain`, `2.Post.Bloom`, `2.Post.Cat.Dreamwalk`, `2.Post.GoToBed` | 🔨 |
-| Dream | Catworld | A cat-themed dream world; a goblin at "Cat Central"; a walkway. | `2.Catworld.Welcome`, `2.Post.CatCentral.Goblin`, `2.Post.CatWalkway` | 🔨 |
+| Dream | Catworld | A cat-themed dream world; your pet cat Goblin at "Cat Central"; a walkway. | `2.Catworld.Welcome`, `2.Post.CatCentral.Goblin`, `2.Post.CatWalkway` | 🔨 |
 
 **Loose files (day 2 root):** `PickupQuarter` (the quarter collectible cutscene, shared across the
 quest), `holder` (`[TBD — placeholder/scratch file? confirm and remove if unused]`).
@@ -112,10 +112,10 @@ Files: `Resources/Cutscenes/Chapter1/3/`.
 |---|---|---|---|---|
 | Pre | Home | Wake, downstairs, car to school. | `3.Pre.PlayerRoom`, `3.Pre.Downstairs`, `3.Pre.HomeOutside.CarLeave`, `3.Pre.SchoolOutside.1` | 🔨 |
 | PR | Class → town | Class intro & assignment; the **Bank** thread continues; **Garnet Square**; a **disguise** at a "hole"; a **house**. | `3.PR.ClassIntro`, `3.PR.Assignment`, `3.PR.Bank.1/2/3`, `3.PR.GarnetSquare.1/2`, `3.PR.HoleDisguise.1/2/3`, `3.PR.House.1`, `3.PR.Ending` | 🔨 |
-| Gym | Gym class | `[TBD]` | `3.Gym.1`, `3.Gym.2` | 🔨 |
-| Lunch | Cafeteria conflict | A **conflict** with **Sandman**; a **Bubba fight**. | `3.Lunch.Conflict`, `3.Lunch.Conflict.Sandman`, `3.Lunch.BubbaFight` | 🔨 |
-| Psych | Psych class | `[TBD]` | `3.Pysch.1` | 🔨 |
-| Sci | Science class | Class ending only present. `[TBD]` | `3.Sci.End` | 🔨 |
+| Gym | Gym class | Learn blocking from the blocking dummy fight | `3.Gym.1`, `3.Gym.2` | 🔨 |
+| Lunch | Cafeteria conflict | A **conflict** with **Bubba** over Specs being teased; Sandman comes in to defuse the fight. | `3.Lunch.Conflict`, `3.Lunch.Conflict.Sandman`, `3.Lunch.BubbaFight` | 🔨 |
+| Psych | Psych class | Explore more of the Dream World around the school. Fight a few dream monsters [TBD] | `3.Pysch.1` | 🔨 |
+| Sci | Science class | More puzzles | `3.Sci.End` | 🔨 |
 | Post | Home | Mom pickup / picked up; home; bed. | `3.Post.MomPickUp`, `3.Post.PickedUp`, `3.Post.ArriveHome`, `3.Post.GoToBed` | 🔨 |
 | Dodgeball | The match | The Dodgeball **game**: rounds 1–4, with Win/Lose branches. | `3.Dodgeball.1/2/3/4`, `3.Dodgeball.Win`, `3.Dodgeball.Lose` | 🔨 |
 
@@ -136,7 +136,7 @@ Files: `Resources/Cutscenes/Chapter1/4/`.
 | Pre | Home | Wake, downstairs. | `4.Pre.PlayerRoom`, `4.Pre.Downstairs` | 🔨 |
 | PR | Class → bank | Class intro & assignment; **Garnet Square**; the **Bank** finale; the vault. | `4.PR.ClassIntro`, `4.PR.Assignment`, `4.PR.GarnetSquare.1`, `4.PR.Bank.1`, `4.PR.Bank.Final`, `4.PR.BankVault.3` | 🔨 |
 | — | Bank set-piece | The **bank hallway** and **vault** (combination puzzle) with a scripted **fight start**. | `4.BankHallway.1`, `4.BankVault.1/2/3`, `StartFight` | 🔨 |
-| Post | Home | Home, dinner, **homework**, Mom pickup, bed. | `4.Post.ArriveHome`, `4.Post.Home`, `4.Post.Dinner`, `4.Post.Homework`, `4.Post.MomPickUp`, `4.Post.GoToBed` | 🔨 |
+| Post | Home | Home, dinner, **homework** where the player plays the typing mini game, bed. | `4.Post.ArriveHome`, `4.Post.Home`, `4.Post.Dinner`, `4.Post.Homework`, `4.Post.MomPickUp`, `4.Post.GoToBed` | 🔨 |
 
 **Notes:** The Bank Vault standoff/battle takes up the whole school day, so the extra classes do not happen
 
@@ -144,17 +144,18 @@ Files: `Resources/Cutscenes/Chapter1/4/`.
 
 ## Day 5 — Week Finale: Choose Your Hero Name
 
-The week resolves: PR wraps its assignment (turn in the **essay**, **choose a hero name**), a final
+The week resolves: PR wraps its assignment (turn in the **essay**, **choose a hero name**), a sparring match during Gym,  a final
 Dodgeball beat, and a psych **dreamwalk**. Files: `Resources/Cutscenes/Chapter1/5/`.
 
 | Stage | Scene(s) | Plot / what happens | Cutscene JSON | Status |
 |---|---|---|---|---|
 | Pre | Home | Wake up. | `5.Pre.PlayerRoom` | 🔨 |
 | PR | Class finale | **Turn in the essay**; **choose your hero name**; class ending. | `5.PR.TurnInEssay`, `5.PR.ChooseHeroName`, `5.PR.Ending` | 🔨 |
-| Gym | Gym class | `[TBD]` | `5.Gym.1` | 🔨 |
-| Psych | Psych + Library | Class; a **Library** beat; a **dreamwalk** from psych. | `5.Pysch.1`, `5.Psych.Class.1`, `5.Psych.Library.1`, `5.Psych.Dreamwalk` | 🔨 |
-| Sci | Science class | Class ending. `[TBD]` | `5.Sci.End` | 🔨 |
-| Dodgeball | Final match | Dodgeball round + ending. | `5.Dodgeball.1`, `5.Dodgeball.End` | 🔨 |
+| Gym | Gym class | Spar with Sandman  | `5.Gym.1` | 🔨 |
+| Lunch | Lunchroom | Bubba steals Spec's books, gets a rejection letter from Platinum prep. The player enters his dream and battles him | `5.Gym.1` | 🔨 |
+| Psych | Psych + Library | Bubba's dream bursts, leaving him and the player in the middle of Psych class | `5.Pysch.1`, `5.Psych.Class.1`, `5.Psych.Library.1`, `5.Psych.Dreamwalk` | 🔨 |
+| Sci | Science class | A pop quiz on the week's lessons, testing the player on the way powers work. | `5.Sci.End` | 🔨 |
+| Dodgeball | Final match | Dodgeball round + ending. The player learns that he has made the team. | `5.Dodgeball.1`, `5.Dodgeball.End` | 🔨 |
 
 **Notes:** **ChooseHeroName** is a real player-identity payoff for the week — a good spot to reflect the
 choices made (clubs, lunch tables, fights). `[TBD: does the week end on a hook into Chapter 2?]`
@@ -175,7 +176,6 @@ choices made (clubs, lunch tables, fights). `[TBD: does the week end on a hook i
 
 ## Loose ends to resolve
 
-- [ ] Decide what the **Bank/vault** really is and how it ties to the plot against the school/town.
 - [ ] Define **Sandman**, **Bubba**, **Map Guy**, **Bloom**, the **Nurse**, the **Bank guy** — make profiles.
 - [ ] Confirm/replace placeholder files: `2.Pysch.Placeholder`, `holder.json`.
 - [ ] Fill in the many `[TBD]` class beats (Gym Day 3, Psych/Sci several days).
