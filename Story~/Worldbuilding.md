@@ -22,23 +22,21 @@ The player character is unusual even among the gifted:
    stage) he is transported there.
 2. **Walking into people's dreams** — he can enter *inside* other people's minds while they are asleep, gaining access to whatever occupies their mind
 
-Open design questions to pin down (they shape most plot beats):
-- Is dream-walking rare/unique to him, or a known (if uncommon) power class?
-- Who knows he can do it? Is it a secret he protects?
-- What is the *cost* or *danger*? (Narrative stakes need a downside.)
-
 ## The Dream World
 
 - A **parallel of the real-world map** — the same geography, altered. Explored during the `dream` stage.
-- Reached by going to bed (`Post` → `GoToBed` → `Dreamwalk` → `Dream`).
+- Buildings and places in the dream world reflect what people think, . School -> Prison
+- Reached by going to bed, or entering into peoples dreams, or through various gateways
 - Populated by its own entities and guardians, and by manifestations of real people's inner lives
-  (fears, etc.). Known dream entities *(from existing content, all Chapter 1)*:
-  - **Fear** — manifested fear the player fights (Day 1 `FearSwirl*`, a pre-fight + fight). `[TBD: whose fear?]`
-  - **Sandman** — surfaces in the *waking* world as a lunchroom rival (Day 3), but the name fits the dream
-    motif — `[TBD: is he a dream power? connected to Morpheus?]`
-- **Dream regions:** the intro-dream school (gym, floors 2F/3F, room 303), the central **Hub** (Day 1),
-  and **Catworld** — a cat-themed dream (Day 2). Different nights open different dream regions.
-- `[TBD: What is the Dream World FOR in the plot? Is the school-destruction plot connected to it?]`
+- **Dream regions:**
+  - **Main Area**
+  - **Dreams** People dreaming make large bubbles floating in the Main Area
+  - **Inner Mind** 
+    Sub Areas:
+      - Good Area [Name TBD]: Full of the players' good memories, idealistic goals, and optimistic dreams come true. An enticing place can trap the player in a self-fulfilling world.
+      - Bad Area [Name TBD]: Full of the players' bad memories, fears, regrets, and 
+      - The Mechanism:
+  - **Catworld** — A dream world that all cats share when they sleep. The reason why cats sleep all the time is so they can hang out together in Cat World
 
 ## The school: Tungsten High
 
