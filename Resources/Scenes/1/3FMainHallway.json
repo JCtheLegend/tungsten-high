@@ -1,10 +1,7 @@
 {
   "Items": [
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 6,
-      "maxGameCounter": 13,
+      "validStages": [ 2, 6 ],
       "location": "-17.5, 12",
       "type": "Songbird",
       "name": "Songbird",
@@ -27,10 +24,7 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 6,
-      "maxGameCounter": 13,
+      "validStages": [ 2, 6 ],
       "location": "22, 5",
       "type": "Freshy",
       "name": "Freshy",
@@ -52,10 +46,7 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 6,
-      "maxGameCounter": 13,
+      "validStages": [ 2, 6 ],
       "location": "0.5, 5",
       "type": "Dreamy",
       "name": "Dreamy",
@@ -77,10 +68,7 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 6,
-      "maxGameCounter": 13,
+      "validStages": [ 2, 6 ],
       "location": "-24.25, 28",
       "type": "Kitchenette",
       "name": "Kitchenette",
@@ -102,10 +90,7 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 6,
-      "maxGameCounter": 10,
+      "validStages": [ 2, 4 ],
       "location": "16, 45.4",
       "type": "Handstand",
       "name": "Handstand",
@@ -128,10 +113,7 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 10,
-      "maxGameCounter": 13,
+      "validStages": [ 5, 6 ],
       "location": "16, 45.4",
       "type": "Handstand",
       "name": "Handstand",

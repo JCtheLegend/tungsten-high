@@ -1,0 +1,29 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "moveCamera",
+      "text": "35,-27",
+      "speed": 10
+    },
+    {
+      "type": "teleport",
+      "name": "Hero Cell",
+      "text": "24,-21"
+    },
+    {
+      "type": "dialog",
+      "text": "You can also break boxes with Strength Exotron powered cells!",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

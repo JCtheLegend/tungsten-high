@@ -22,15 +22,15 @@ public class GridMover : MonoBehaviour
     protected int energy = 100;
     public int fullEnergy = 100;
 
-    protected SpriteRenderer energyBar;
-    protected SpriteRenderer energyLevel;
+    internal GameObject energyBar;
+    internal SpriteRenderer energyLevel;
     Sprite fullEnergySprite;
 
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        energyBar = GameObject.Find("Energy Bar").GetComponent<SpriteRenderer>();
+        energyBar = GameObject.Find("Energy Bar");
         energyLevel = GameObject.Find("Energy Level").GetComponent<SpriteRenderer>();
         fullEnergySprite = energyLevel.sprite;
     }

@@ -89,10 +89,6 @@ public class PlayerCombatController : GridMover
                 time = 0;
             }
         }
-        if (shielding)
-        {
-
-        }
     }
 
     void CombatMove()

@@ -1,0 +1,19 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 5
+    },
+    {
+      "type": "loadScene",
+      "name": "Upstairs Hallway"
+    }
+  ]
+}

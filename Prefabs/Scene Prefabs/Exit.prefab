@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1425927381329727995}
   - component: {fileID: 1425927381329727994}
   - component: {fileID: 4005414671053097956}
+  - component: {fileID: 8440795353762620319}
   m_Layer: 7
   m_Name: Exit
   m_TagString: Door
@@ -71,5 +72,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomName: 
+  toEntranceId: 
   toEntranceNum: 0
-  exitDir: 0
+  locked: 0
+--- !u!114 &8440795353762620319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425927381329727997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2462997d5c2914ea4303fb308b70ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 
+  facing: 3
+  sound: 

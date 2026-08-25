@@ -9,7 +9,6 @@
     },
     {
       "validStages": [ 6, 6 ],
-      "validDays": [ 1, 1 ],
       "type": "CutsceneActTrigger",
       "name": "1.GoToBed",
       "fileName": "1.Post.GoToBed",

@@ -1,0 +1,56 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Urggh! Mmmmmm!",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "*Pant* *Pant* I can't get this stupid cart unstuck.",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Seems like the wheels are stuck in the grass, and I can't get it to move.",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Say, you think you can help me try and move this?",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "1"
+    },
+    {
+      "type": "editObjects",
+      "loadObjs": [
+        {
+          "type": "Cart Man",
+          "name": "Cart Man",
+          "assets": [
+            {
+              "type": "CutsceneTrigger",
+              "fileName": "2.Post.MapGuy.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -20,6 +20,12 @@
       "name": "2.PR.Ending"
     },
     {
+      "validScenes": [ 0, 1 ],
+      "validStages": [ 6, 6 ],
+      "type": "cutscene",
+      "name": "2.Post.SchoolOutside"
+    },
+    {
       "validScenes": [ 2, 7 ],
       "validStages": [ 1, 1 ],
       "type": "Ms Nice",
@@ -81,23 +87,68 @@
       "facing": "right"
     },
     {
-      "validScenes": [ 0, 1 ],
+      "validScenes": [ 0, 3 ],
       "validStages": [ 6, 6 ],
       "type": "Cart",
       "name": "Cart",
-      "location": "-2.75, -1"
+      "location": "-2.75, -1.5"
     },
     {
-      "validScenes": [ 0, 1 ],
+      "validScenes": [ 0, 0 ],
       "validStages": [ 6, 6 ],
       "type": "Cart Man",
       "name": "Cart Man",
-      "location": "1, -2",
+      "location": "-0.25, -2.4",
       "assets": [
         {
           "type": "CutsceneActTrigger",
           "fileName": "2.Post.MapGuy.1",
-          "destroy": true,
+          "destroy": false,
+          "facePlayer": true
+        }
+      ]
+    },
+    {
+      "validScenes": [ 1, 1 ],
+      "validStages": [ 6, 6 ],
+      "type": "Cart Man",
+      "name": "Cart Man",
+      "location": "-0.25, -2.4",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "2.Post.MapGuy.2",
+          "destroy": false,
+          "facePlayer": true
+        }
+      ]
+    },
+    {
+      "validScenes": [ 2, 2 ],
+      "validStages": [ 6, 6 ],
+      "type": "Cart Man",
+      "name": "Cart Man",
+      "location": "-0.25, -2.4",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "2.Post.TryAgain",
+          "destroy": false,
+          "facePlayer": true
+        }
+      ]
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 6, 6 ],
+      "type": "Cart Man",
+      "name": "Cart Man",
+      "location": "-0.25, -2.4",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "2.Post.MapGuy.3",
+          "destroy": false,
           "facePlayer": true
         }
       ]

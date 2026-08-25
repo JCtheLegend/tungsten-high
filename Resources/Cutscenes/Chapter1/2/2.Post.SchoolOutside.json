@@ -1,0 +1,13 @@
+{
+  "Items": [
+    {
+      "type": "animate",
+      "name": "Cart Man",
+      "text": "CartManPull"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    }
+  ]
+}

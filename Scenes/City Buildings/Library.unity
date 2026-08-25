@@ -10277,6 +10277,10 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1425927381329727994, guid: 147f847edc74ef74e8dc119cd1105438, type: 3}
+      propertyPath: m_Offset.y
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 1425927381329727995, guid: 147f847edc74ef74e8dc119cd1105438, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -10287,7 +10291,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1425927381329727995, guid: 147f847edc74ef74e8dc119cd1105438, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.5
+      value: -9.5
       objectReference: {fileID: 0}
     - target: {fileID: 1425927381329727995, guid: 147f847edc74ef74e8dc119cd1105438, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10330,8 +10334,20 @@ PrefabInstance:
       value: Garnet Square
       objectReference: {fileID: 0}
     - target: {fileID: 4005414671053097956, guid: 147f847edc74ef74e8dc119cd1105438, type: 3}
+      propertyPath: toEntranceId
+      value: GarnetSquareLibraryEntrance
+      objectReference: {fileID: 0}
+    - target: {fileID: 4005414671053097956, guid: 147f847edc74ef74e8dc119cd1105438, type: 3}
       propertyPath: toEntranceNum
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8440795353762620319, guid: 147f847edc74ef74e8dc119cd1105438, type: 3}
+      propertyPath: id
+      value: LibraryEntrance
+      objectReference: {fileID: 0}
+    - target: {fileID: 8440795353762620319, guid: 147f847edc74ef74e8dc119cd1105438, type: 3}
+      propertyPath: facing
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 147f847edc74ef74e8dc119cd1105438, type: 3}

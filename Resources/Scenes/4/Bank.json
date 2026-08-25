@@ -1,0 +1,28 @@
+{
+  "Items": [
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 3, 3 ],
+      "type": "CutsceneCollider",
+      "name": "4.PR.Bank.1",
+      "fileName": "4.PR.Bank.1",
+      "destroy": true,
+      "location": "0, 0.5",
+      "size": "10, 1"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 3, 3 ],
+      "type": "Bank Guy",
+      "name": "Bank Guy",
+      "location": "0,0.5",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "name": "4.PR.Bank.Final",
+          "fileName": "4.PR.Bank.Final"
+        }
+      ]
+    }
+  ]
+}

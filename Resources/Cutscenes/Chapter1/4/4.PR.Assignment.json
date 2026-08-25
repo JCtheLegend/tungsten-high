@@ -1,0 +1,37 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Go to the bank",
+      "isTyped": "true"
+    },
+    {
+      "type": "moveFace",
+      "name": "Micycle",
+      "direction": "down"
+    },
+    {
+      "type": "dialog",
+      "text": "Mike is hanging out with you!",
+      "isTyped": "false"
+    },
+    {
+      "type": "addFollow",
+      "name": "Player",
+      "text": "Micycle"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 3
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

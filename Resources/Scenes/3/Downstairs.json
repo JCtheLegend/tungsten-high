@@ -1,0 +1,34 @@
+{
+  "Items": [
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 1, 1 ],
+      "type": "Mom",
+      "name": "Mom",
+      "location": "0,-2.5"
+    },
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 1, 1 ],
+      "location": "1,-0.5",
+      "type": "CutsceneCollider",
+      "size": "100,1",
+      "name": "3.Pre.Downstairs",
+      "fileName": "3.Pre.Downstairs",
+      "destroy": true
+    },
+    {
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 3, 3 ],
+      "type": "Mom",
+      "name": "Mom",
+      "location": "-1.75,-2.65"
+    },
+    {
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 3, 3 ],
+      "type": "cutscene",
+      "name": "3.Post.Home.Arrive"
+    }
+  ]
+}

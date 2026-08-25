@@ -1,0 +1,103 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Car"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "-98.5, 5"
+    },
+    {
+      "type": "hide",
+      "name": "Player"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Car"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "left",
+      "text": "-96,-5",
+      "speed": 3
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "up",
+      "text": "-96,3",
+      "speed": 3
+    },
+    {
+      "type": "moveFace",
+      "name": "Car",
+      "direction": "up"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "unhide",
+      "name": "Player"
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "location": "-94.5, 3",
+          "name": "Mom",
+          "type": "Mom",
+          "facing": "left"
+        }
+      ]
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "move",
+      "name": "Mom",
+      "direction": "right",
+      "text": "-90,2.5",
+      "speed": 3
+    },
+    {
+      "type": "move",
+      "name": "Mom",
+      "direction": "up",
+      "text": "-90,4.5",
+      "speed": 3
+    },
+    {
+      "type": "hide",
+      "name": "Mom"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Player"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 2
+    },
+    {
+      "type": "disable",
+      "name": "Mom"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

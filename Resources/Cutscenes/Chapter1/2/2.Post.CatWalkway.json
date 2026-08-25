@@ -1,0 +1,36 @@
+{
+  "Items": [
+    {
+      "type": "animate",
+      "name": "Goblin",
+      "text": "GoblinPeek"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "animate",
+      "name": "Goblin",
+      "text": "GoblinSurprise"
+    },
+    {
+      "type": "wait",
+      "text": 0.2
+    },
+    {
+      "type": "move",
+      "name": "Goblin",
+      "text": "8.5, 1.5",
+      "direction": "right",
+      "speed": 1
+    },
+    {
+      "type": "move",
+      "name": "Goblin",
+      "text": "32, 1.5",
+      "direction": "right",
+      "speed": 8
+    }
+  ]
+}

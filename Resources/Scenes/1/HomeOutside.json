@@ -1,54 +1,44 @@
 {
   "Items": [
     {
-      "minSceneCounter": 2,
-      "maxSceneCounter": 3,
-      "minGameCounter": 1,
-      "maxGameCounter": 2,
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 2, 2 ],
       "type": "Lawnmower",
       "name": "Lawnmower",
       "location": "44.5,10.5"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 13,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 1, 2 ],
       "type": "Lawnmower",
       "name": "Lawnmower",
       "location": "44.5,10.5"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 13,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 1, 2 ],
       "type": "Lawn stuff",
       "name": "Lawn stuff",
       "location": "46,9.5"
     },
     {
-      "minSceneCounter": 2,
-      "maxSceneCounter": 3,
-      "minGameCounter": 1,
-      "maxGameCounter": 2,
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 2, 2 ],
       "type": "Car",
       "name": "Car",
       "location": "36,12",
       "assets": [
         {
           "type": "CutsceneActTrigger",
-          "fileName": "1.1-HomeOutside.CarLeave",
+          "fileName": "1.Pre.HomeOutside.CarLeave",
           "destroy": true,
           "facePlayer": false
         }
       ]
     },
     {
-      "minSceneCounter": 2,
-      "maxSceneCounter": 3,
-      "minGameCounter": 1,
-      "maxGameCounter": 2,
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 2, 2 ],
       "type": "Dad",
       "name": "Dad",
       "location": "44.5,8.5",
@@ -62,44 +52,36 @@
       ]
     },
     {
-      "minSceneCounter": 2,
-      "maxSceneCounter": 3,
-      "minGameCounter": 1,
-      "maxGameCounter": 2,
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 2, 2 ],
       "type": "Mom",
       "name": "Mom",
       "location": "34,12",
       "assets": [
         {
           "type": "CutsceneActTrigger",
-          "fileName": "1.1-HomeOutside.CarLeave",
+          "fileName": "1.Pre.HomeOutside.CarLeave",
           "destroy": true,
           "facePlayer": true
         }
       ]
     },
     {
-      "minSceneCounter": 2,
-      "maxSceneCounter": 3,
-      "minGameCounter": 1,
-      "maxGameCounter": 2,
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 2, 2 ],
       "type": "Lawnmower",
       "name": "Lawnmower",
       "location": "44.5,10.5"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 13,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 1, 1 ],
       "type": "cutscene",
-      "name": "ArriveHome"
+      "name": "1.Post.ArriveHome"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 13,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 1, 2 ],
       "type": "Car",
       "name": "Car",
       "location": "36,2"

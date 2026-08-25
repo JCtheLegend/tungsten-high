@@ -1,0 +1,71 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "3, -3.5"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "dialog",
+      "text": "Good Afternoon, boys and girls.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I can sense you're excited to return to the Ephemeral Realm.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Don't worry, we'll get there soon.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I will warn you, today we will be meeting a couple of interesting little fellows.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Don't be scared, they're perfectly harmless",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "playSound",
+      "name": "teleport"
+    },
+    {
+      "type": "dreamExit"
+    },
+    {
+      "type": "startWhite"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "loadScene",
+      "name": "Ephemeral"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

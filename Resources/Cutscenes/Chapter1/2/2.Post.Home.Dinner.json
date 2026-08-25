@@ -1,0 +1,45 @@
+{
+  "Items": [
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Well son, glad to hear your second day of school went well.",
+      "name": "Mom",
+      "isTyped": true
+    },
+    {
+      "type": "dialog",
+      "text": "Goblin has been playing outside all day. I think he's pretty tired now.",
+      "name": "Mom",
+      "isTyped": true
+    },
+    {
+      "type": "dialog",
+      "text": "He's looking so cute when he sleeps. <3",
+      "name": "Mom",
+      "isTyped": true
+    },
+    {
+      "type": "dialog",
+      "text": "He'd probably like some pets from you if you're not too busy.",
+      "name": "Mom",
+      "isTyped": true
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 4
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

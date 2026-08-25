@@ -49,6 +49,8 @@ public class EnemyController : MonoBehaviour
         enemyHealthBarFull = enemyCurrentHealthBar.sprite;
         music = GameObject.Find("Music Manager").GetComponent<MusicController>();
         sound = GetComponent<SoundController>();
+        Debug.Log(enemyHealthBar);
+        Debug.Log(enemyCurrentHealthBar);
     }
 
     protected virtual void Awake()

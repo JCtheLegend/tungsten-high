@@ -30,6 +30,38 @@ public class Direction
                 return direction.up;
         }
     }
+
+    // Unit vector for a cardinal direction. Diagonals return their combined (unnormalized) vector.
+    public static Vector2 ToVector(direction d)
+    {
+        switch (d)
+        {
+            case direction.up: return Vector2.up;
+            case direction.down: return Vector2.down;
+            case direction.left: return Vector2.left;
+            case direction.right: return Vector2.right;
+            case direction.upLeft: return new Vector2(-1, 1);
+            case direction.upRight: return new Vector2(1, 1);
+            case direction.downLeft: return new Vector2(-1, -1);
+            case direction.downRight: return new Vector2(1, -1);
+            default: return Vector2.down;
+        }
+    }
+
+    // Nearest cardinal direction for a movement vector, used to pick a facing/animation for a
+    // heading that may be diagonal. A zero vector falls back to `down`, matching ToVector.
+    public static direction FromVector(Vector2 v)
+    {
+        if (Mathf.Abs(v.x) > Mathf.Abs(v.y))
+        {
+            return v.x > 0 ? direction.right : direction.left;
+        }
+        if (Mathf.Abs(v.y) > 0)
+        {
+            return v.y > 0 ? direction.up : direction.down;
+        }
+        return direction.down;
+    }
 }
 public enum direction { right, left, up, down, upRight, upLeft, downRight, downLeft };
 
@@ -42,6 +74,9 @@ public class Flags
 
 public static class GameManager
 {
+    // Which chapter (week) we're in. Cutscene JSON lives under Resources/Cutscenes/Chapter<chapterCounter>/.
+    // Only Chapter 1 has content today; when multi-chapter progression lands, persist this in GameData.
+    public static int chapterCounter = 1;
     public static int dayCounter = 0;
     public static stage stageCounter;
     public static int sceneCounter = 0;
@@ -63,6 +98,7 @@ public static class GameManager
         stageCounter = 0;
         sceneCounter = 0;
         RoomData.toEntranceNum = 0;
+        RoomData.toEntranceId = "";
     }
 
     public static void SaveGameData()
@@ -72,6 +108,7 @@ public static class GameManager
         gameData.sceneCounter = sceneCounter;
         gameData.room = SceneManager.GetActiveScene().name;
         gameData.entranceNum = RoomData.toEntranceNum;
+        gameData.entranceId = RoomData.toEntranceId;
         string data = JsonUtility.ToJson(gameData);
         File.WriteAllText(Application.persistentDataPath + "/gameData.json", data);
     }
@@ -86,10 +123,15 @@ public static class GameManager
         stageCounter = loadedGameData.stageCounter;
         sceneCounter = loadedGameData.sceneCounter;
         RoomData.toEntranceNum = loadedGameData.entranceNum;
+        RoomData.toEntranceId = loadedGameData.entranceId;
     }
 
     public static class RoomData
     {
+        // Which Entrance marker (by id) to spawn at in the next scene. Preferred over toEntranceNum;
+        // blank means "use the legacy numeric index". Set by the RoomExit door that was used.
+        public static string toEntranceId = "";
+
         public static int toEntranceNum = 0;
 
         public static direction entranceDirection = direction.left;
@@ -145,6 +187,7 @@ public class GameData
     public int dayCounter = 0;
     public stage stageCounter = 0;
     public int entranceNum = 0;
+    public string entranceId = "";
     public int sceneCounter= 0;
 
     public GameData(string room, int day, int stage, int entrance, int scene)

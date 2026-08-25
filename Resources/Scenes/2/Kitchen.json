@@ -1,0 +1,26 @@
+{
+  "Items": [
+    {
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 3, 3 ],
+      "type": "Mom",
+      "name": "Mom",
+      "location": "1.5,7",
+      "facing": "right"
+    },
+    {
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 3, 3 ],
+      "type": "Dad",
+      "name": "Dad",
+      "location": "-2.5,7.5",
+      "facing": "up"
+    },
+    {
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 3, 3 ],
+      "type": "cutscene",
+      "name": "2.Post.Home.Dinner"
+    }
+  ]
+}

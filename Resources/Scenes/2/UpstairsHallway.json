@@ -1,0 +1,37 @@
+{
+  "Items": [
+    {
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 4, 4 ],
+      "type": "Goblin",
+      "name": "Goblin",
+      "location": "0.5, -12",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "2.Post.Cat.Dreamwalk"
+        }
+      ]
+    },
+    {
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 4, 4 ],
+      "type": "cutscene",
+      "name": "GoblinSleeping"
+    },
+    {
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 4, 4 ],
+      "type": "Dream Bubble",
+      "name": "Dream Bubble",
+      "location": "1.5, -11"
+    },
+    {
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 4, 4 ],
+      "type": "DreamPad",
+      "name": "DreamPad",
+      "location": "0.4, -12.15"
+    }
+  ]
+}

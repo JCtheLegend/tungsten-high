@@ -1,0 +1,98 @@
+{
+  "Items": [
+    {
+      "type": "talkMeter",
+      "name": "Bloom",
+      "talkMeter": {
+        "speed": "3",
+        "range": "0.4"
+      },
+      "isContinue": true,
+      "text": 15
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, hey, <Name>! What's up?",
+      "name": "Bloom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "There's a man in front of the school with his cart stuck in the grass?",
+      "name": "Bloom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Well, what is he doing trampling on the lawn?!",
+      "name": "Bloom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I'm going to go give him a piece of my mind!",
+      "name": "Bloom",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 3
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "right",
+      "text": "-8.5, 4",
+      "speed": 3
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "right"
+    },
+    {
+      "type": "move",
+      "name": "Bloom",
+      "text": "-7, 1.7",
+      "direction": "down",
+      "isContinue": false,
+      "speed": 3
+    },
+    {
+      "type": "enableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Bloom",
+      "text": "9, 1.7",
+      "direction": "right",
+      "isContinue": false,
+      "speed": 3
+    },
+    {
+      "type": "move",
+      "name": "Bloom",
+      "text": "9, -10",
+      "direction": "down",
+      "isContinue": false,
+      "speed": 3
+    },
+    {
+      "type": "goto",
+      "text": 17
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 2
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

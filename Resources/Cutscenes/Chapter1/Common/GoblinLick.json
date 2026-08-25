@@ -1,0 +1,14 @@
+{
+  "Items": [
+    {
+      "type": "animate",
+      "name": "Goblin",
+      "text": "GoblinLick",
+      "isContinue": true
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    }
+  ]
+}

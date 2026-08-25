@@ -9,6 +9,7 @@ public class PlayerMasterController : MonoBehaviour
     [SerializeField] internal PlayerCombatController combat;
     [SerializeField] internal PlayerActionController action;
     [SerializeField] internal PlayerAnimationController anim;
+    [SerializeField] internal PlayerCollisionController col;
     [SerializeField] internal SoundController sound;
     [SerializeField] internal CutsceneManager cutscene;
 

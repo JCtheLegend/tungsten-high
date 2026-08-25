@@ -1,84 +1,68 @@
 {
   "Items": [
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 2,
-      "minGameCounter": 9,
-      "maxGameCounter": 10,
+      "validStages": [ 4, 4 ],
+      "validScenes": [ 0, 1 ],
       "type": "Seer",
       "name": "Seer",
       "location": "-2.25,-1.5",
       "facing": "down"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 2,
-      "minGameCounter": 9,
-      "maxGameCounter": 10,
+      "validStages": [ 4, 4 ],
+      "validScenes": [ 0, 1 ],
       "type": "Wally",
       "name": "Wally",
       "location": "0, -0.5",
       "facing": "down"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 2,
-      "minGameCounter": 9,
-      "maxGameCounter": 10,
+      "validStages": [ 4, 4 ],
+      "validScenes": [ 0, 1 ],
       "type": "Sandman",
       "name": "Sandman",
       "location": "-3, -3.5",
       "facing": "down"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 2,
-      "minGameCounter": 9,
-      "maxGameCounter": 10,
+      "validStages": [ 4, 4 ],
+      "validScenes": [ 0, 1 ],
       "type": "Songbird",
       "name": "Songbird",
       "location": "0, -6.5",
       "facing": "up"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 2,
-      "minGameCounter": 9,
-      "maxGameCounter": 10,
+      "validStages": [ 4, 4 ],
+      "validScenes": [ 0, 1 ],
       "type": "Dreamy",
       "name": "Dreamy",
       "location": "2.25, -5.5",
       "facing": "up"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 2,
-      "minGameCounter": 9,
-      "maxGameCounter": 10,
+      "validStages": [ 4, 4 ],
+      "validScenes": [ 0, 1 ],
       "type": "Maven",
       "name": "Maven",
       "location": "0, -3.5",
       "facing": "down"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 9,
-      "maxGameCounter": 10,
+      "validStages": [ 4, 4 ],
+      "validScenes": [ 0, 0 ],
       "location": "3,-4",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-PsychClass.1",
-      "fileName": "1.1-PsychClass.1",
+      "fileName": "1.Pysch.PsychClass.1",
       "destroy": true
     },
     {
-      "minSceneCounter": 1,
-      "maxSceneCounter": 2,
-      "minGameCounter": 9,
-      "maxGameCounter": 10,
+      "validStages": [ 4, 4 ],
+      "validScenes": [ 1, 1 ],
       "type": "cutscene",
-      "name": "1.1-PsychClass.4"
+      "name": "1.Psych.PsychClass.4"
     }
   ]
 }

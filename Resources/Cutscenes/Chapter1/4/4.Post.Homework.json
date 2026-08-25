@@ -1,0 +1,19 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Write your assignment?",
+      "isTyped": "true"
+    },
+    {
+      "type": "loadScene",
+      "name": "TypeMaster2000"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

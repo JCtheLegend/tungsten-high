@@ -1,0 +1,94 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "changeCostume",
+      "text": "lunch"
+    },
+    {
+      "type": "editObjects",
+      "loadObjs": [
+        {
+          "name": "1.1-Cafeteria.1",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table1"
+        },
+        {
+          "name": "1.1-Cafeteria.2",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table2"
+        },
+        {
+          "name": "1.1-Cafeteria.3",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table3"
+        },
+        {
+          "name": "1.1-Cafeteria.4",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table4"
+        },
+        {
+          "name": "1.1-Cafeteria.5",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table5"
+        },
+        {
+          "name": "1.1-Cafeteria.6",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table6"
+        },
+        {
+          "name": "1.1-Cafeteria.7",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table7"
+        },
+        {
+          "name": "1.1-Cafeteria.8",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table8"
+        },
+        {
+          "name": "1.1-Cafeteria.9",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table9"
+        },
+        {
+          "name": "1.1-Cafeteria.10",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table10"
+        },
+        {
+          "name": "1.1-Cafeteria.11",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table11"
+        },
+        {
+          "name": "1.1-Cafeteria.12",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table12"
+        },
+        {
+          "name": "1.1-Cafeteria.13",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table13"
+        },
+        {
+          "name": "1.1-Cafeteria.14",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table14"
+        },
+        {
+          "name": "1.1-Cafeteria.15",
+          "type": "CutsceneActTrigger",
+          "fileName": "1.Lunch.Eat.Table15"
+        }
+      ]
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -70,7 +70,7 @@ public class ObjectLoader : MonoBehaviour
             }
             if (obj.type == "CutsceneCollider" || obj.type == "CutsceneActTrigger")
             {
-                gameObject.GetComponent<CutsceneTrigger>().cutsceneFileName = obj.fileName;
+                gameObject.GetComponent<CutsceneTrigger>().cutsceneFileName = obj.fileName; 
                 gameObject.GetComponent<CutsceneTrigger>().destroy = obj.destroy;
                 gameObject.GetComponent<BoxCollider2D>().size = new Vector2(int.Parse(obj.size.Split(',')[0]), int.Parse(obj.size.Split(',')[1]));
             }
@@ -110,6 +110,11 @@ public class ObjectLoader : MonoBehaviour
                         ct.cutsceneFileName = asset.fileName;
                         gameObject.layer = 7;
                         gameObject.tag = "CutsceneTrigger";
+                    }
+                    else if (asset.type == "Animation")
+                    {
+                        AnimatableObject a = gameObject.GetComponent<AnimatableObject>();
+                        a.Animate(asset.fileName,  true);
                     }
                 }
             }

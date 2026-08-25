@@ -12,8 +12,8 @@ public class PlayerAnimationController : MonoBehaviour
     [SerializeField] Sprite backSprite;
     SpriteRenderer sprite;
 
-    private string currentState;
-    private int currentLayer;
+    private string currentState = "";
+    private int currentLayer = 0;
 
     public string costume = "";
     public bool inCutscene = false;
@@ -25,22 +25,28 @@ public class PlayerAnimationController : MonoBehaviour
     const string defaultForward = "default_forward";
     const string defaultSide = "default_side";
     const string defaultBack = "default_back";
-    const string pjWalkForward = "pj_walk_forward";
-    const string pjWalkBack = "pj_walk_back";
-    const string pjWalkSide = "pj_walk_side";
-    const string pjDefaultForward = "pj_default_forward";
-    const string pjDefaultBack = "pj_default_back";
-    const string pjDefaultSide = "pj_default_side";
-    const string lunchWalkForward = "lunch_walk_forward";
-    const string lunchWalkBack = "lunch_walk_back";
-    const string lunchWalkSide = "lunch_walk_side";
-    const string lunchDefaultForward = "lunch_default_forward";
-    const string lunchDefaultBack = "lunch_default_back";
-    const string lunchDefaultSide = "lunch_default_side";
+
+    // Costume is a prefix on the animation-state name: "" (default), "pjs" -> "pj_",
+    // "lunch" -> "lunch_". A costume not in this map plays nothing (preserves legacy behavior).
+    static readonly Dictionary<string, string> costumePrefixes = new Dictionary<string, string>
+    {
+        { "", "" },
+        { "pjs", "pj_" },
+        { "lunch", "lunch_" },
+    };
 
     private void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
+    }
+
+    // Plays baseState with the current costume's prefix. No-op for an unknown costume.
+    void ChangeCostumeState(string baseState, int layer)
+    {
+        if (costumePrefixes.TryGetValue(costume, out string prefix))
+        {
+            ChangeAnimationState(prefix + baseState, layer);
+        }
     }
 
     // Update is called once per frame
@@ -51,74 +57,30 @@ public class PlayerAnimationController : MonoBehaviour
         {
             return;
         }
-        if (player.input.dirInput.x > 0 && player.movement.rb.velocity.x != 0) {            
+        if (player.input.dirInput.x > 0 && player.movement.rb.velocity.x != 0) {
             if (player.input.facing != direction.up && player.input.facing != direction.down)
             {
-            transform.eulerAngles = new Vector3(0, 0, 0);
-                switch (costume)
-                {
-                    case "pjs":
-                        ChangeAnimationState(pjWalkSide, playerBaseLayer);
-                        break;
-                    case "lunch":
-                        ChangeAnimationState(lunchWalkSide, playerBaseLayer);
-                        break;
-                    case "":
-                        ChangeAnimationState(walkSide, playerBaseLayer);
-                        break;
-                }
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                ChangeCostumeState(walkSide, playerBaseLayer);
             }
         }
         else if (player.input.dirInput.x < 0 && player.movement.rb.velocity.x != 0)
-        {  
+        {
             if (player.input.facing != direction.up && player.input.facing != direction.down)
             {
-            transform.eulerAngles = new Vector3(0, 180, 0);
-                switch (costume)
-                {
-                    case "pjs":
-                        ChangeAnimationState(pjWalkSide, playerBaseLayer);
-                        break;
-                    case "lunch":
-                        ChangeAnimationState(lunchWalkSide, playerBaseLayer);
-                        break;
-                    case "":
-                        ChangeAnimationState(walkSide, playerBaseLayer);
-                        break;
-                }
+                transform.eulerAngles = new Vector3(0, 180, 0);
+                ChangeCostumeState(walkSide, playerBaseLayer);
             }
         }
         else if (player.input.dirInput.y < 0 && player.movement.rb.velocity.y != 0)
         {
-        transform.eulerAngles = new Vector3(0, 0, 0);
-            switch (costume)
-            {
-                case "pjs":
-                    ChangeAnimationState(pjWalkForward, playerBaseLayer);
-                    break;
-                case "lunch":
-                    ChangeAnimationState(lunchWalkForward, playerBaseLayer);
-                    break;
-                case "":
-                    ChangeAnimationState(walkForward, playerBaseLayer);
-                    break;
-            }
+            transform.eulerAngles = new Vector3(0, 0, 0);
+            ChangeCostumeState(walkForward, playerBaseLayer);
         }
         else if (player.input.dirInput.y > 0 && player.movement.rb.velocity.y != 0)
         {
-        transform.eulerAngles = new Vector3(0, 0, 0);
-            switch (costume)
-            {
-                case "pjs":
-                    ChangeAnimationState(pjWalkBack, playerBaseLayer);
-                    break;
-                case "lunch":
-                    ChangeAnimationState(lunchWalkBack, playerBaseLayer);
-                    break;
-                case "":
-                    ChangeAnimationState(walkBack, playerBaseLayer);
-                    break;
-            }
+            transform.eulerAngles = new Vector3(0, 0, 0);
+            ChangeCostumeState(walkBack, playerBaseLayer);
         }
         else
         {
@@ -131,48 +93,15 @@ public class PlayerAnimationController : MonoBehaviour
         switch (player.input.facing)
         {
             case direction.up:
-                switch (costume)
-                {
-                    case "pjs":
-                        ChangeAnimationState(pjDefaultBack, playerBaseLayer);
-                        break;
-                    case "lunch":
-                        ChangeAnimationState(lunchDefaultBack, playerBaseLayer);
-                        break;
-                    case "":
-                        ChangeAnimationState(defaultBack, playerBaseLayer);
-                        break;
-                }
+                ChangeCostumeState(defaultBack, playerBaseLayer);
                 break;
             case direction.left:
             case direction.right:
-                switch (costume)
-                {
-                    case "pjs":
-                        ChangeAnimationState(pjDefaultSide, playerBaseLayer);
-                        break;
-                    case "lunch":
-                        ChangeAnimationState(lunchDefaultSide, playerBaseLayer);
-                        break;
-                    case "":
-                        ChangeAnimationState(defaultSide, playerBaseLayer);
-                        break;
-                }
+                ChangeCostumeState(defaultSide, playerBaseLayer);
                 break;
             case direction.down:
             default:
-                switch (costume)
-                {
-                    case "pjs":
-                        ChangeAnimationState(pjDefaultForward, playerBaseLayer);
-                        break;
-                    case "lunch":
-                        ChangeAnimationState(lunchDefaultForward, playerBaseLayer);
-                        break;
-                    case "":
-                        ChangeAnimationState(defaultForward, playerBaseLayer);
-                        break;
-                }
+                ChangeCostumeState(defaultForward, playerBaseLayer);
                 break;
         }
     }
@@ -207,65 +136,17 @@ public class PlayerAnimationController : MonoBehaviour
             switch (dir)
             {
                 case direction.down:
-                    transform.eulerAngles = new Vector3(0, 0, 0);
-                    switch (costume)
-                    {
-                        case "pjs":
-                            ChangeAnimationState(pjWalkForward, playerBaseLayer);
-                            break;
-                        case "lunch":
-                            ChangeAnimationState(lunchWalkForward, playerBaseLayer);
-                            break;
-                        case "":
-                            ChangeAnimationState(walkForward, playerBaseLayer);
-                            break;
-                    }
-
+                    ChangeCostumeState(walkForward, playerBaseLayer);
                     break;
                 case direction.up:
-                    transform.eulerAngles = new Vector3(0, 0, 0);
-                    switch (costume)
-                    {
-                        case "pjs":
-                            ChangeAnimationState(pjWalkBack, playerBaseLayer);
-                            break;
-                        case "lunch":
-                            ChangeAnimationState(lunchWalkBack, playerBaseLayer);
-                            break;
-                        case "":
-                            ChangeAnimationState(walkBack, playerBaseLayer);
-                            break;
-                    }
+                    ChangeCostumeState(walkBack, playerBaseLayer);
                     break;
                 case direction.right:
-                    transform.eulerAngles = new Vector3(0, 0, 0);
-                    switch (costume)
-                    {
-                        case "pjs":
-                            ChangeAnimationState(pjWalkSide, playerBaseLayer);
-                            break;
-                        case "lunch":
-                            ChangeAnimationState(lunchWalkSide, playerBaseLayer);
-                            break;
-                        case "":
-                            ChangeAnimationState(walkSide, playerBaseLayer);
-                            break;
-                    }
+                    ChangeCostumeState(walkSide, playerBaseLayer);
                     break;
                 case direction.left:
                     transform.eulerAngles = new Vector3(0, 180, 0);
-                    switch (costume)
-                    {
-                        case "pjs":
-                            ChangeAnimationState(pjWalkSide, playerBaseLayer);
-                            break;
-                        case "lunch":
-                            ChangeAnimationState(lunchWalkSide, playerBaseLayer);
-                            break;
-                        case "":
-                            ChangeAnimationState(walkSide, playerBaseLayer);
-                            break;
-                    }
+                    ChangeCostumeState(walkSide, playerBaseLayer);
                     break;
             }
         }

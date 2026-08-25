@@ -1,0 +1,17 @@
+{
+  "Items": [
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 5, 5 ],
+      "type": "Character",
+      "name": "Friend",
+      "location": "37.5,41"
+    },
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 5, 5 ],
+      "type": "cutscene",
+      "name": "0.Dream.2F"
+    }
+  ]
+}

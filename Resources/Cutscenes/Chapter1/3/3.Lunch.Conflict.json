@@ -1,0 +1,117 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "-5.5, -0.5"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "down"
+    },
+    {
+      "type": "setWhite"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "wait",
+      "text": "0.2"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "changeCostume",
+      "text": ""
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Your health has been restored.",
+      "isTyped": "true"
+    },
+    {
+      "type": "editObjects",
+      "loadObjs": [
+        {
+          "type": "EnableExit",
+          "name": "Side 2F Exit"
+        },
+        {
+          "type": "EnableExit",
+          "name": "Lower 2F Exit"
+        }
+      ]
+    },
+    {
+      "type": "dialog",
+      "text": "Hey! Ow!",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Is that you looking at me?",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey, I'm talking to you, red eyes.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "They let a cat toy into this school?",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "See this? This is what a real power looks like.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "But we'll get to that later",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "-5.5, 0"
+    },
+    {
+      "type": "disable",
+      "name": "3.Lunch.NeedLeft"
+    },
+    {
+      "type": "disable",
+      "name": "3.Lunch.NeedBottom"
+    },
+    {
+      "type": "setStageCounter  `",
+      "text": "Psych"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

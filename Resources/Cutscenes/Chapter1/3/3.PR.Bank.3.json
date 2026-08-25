@@ -1,0 +1,27 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Thanks, go to the teacher.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 8
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

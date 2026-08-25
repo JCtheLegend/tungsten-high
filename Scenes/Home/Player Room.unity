@@ -5392,7 +5392,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e198e015c7ca8a542af80e930b4e3fc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
   upMoveAnim: 
   downMoveAnim: 
   rightMoveAnim: 
@@ -5676,7 +5675,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e198e015c7ca8a542af80e930b4e3fc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
   upMoveAnim: 
   downMoveAnim: 
   rightMoveAnim: 
@@ -6413,7 +6411,7 @@ PrefabInstance:
       objectReference: {fileID: 280814174}
     - target: {fileID: 2666116501411388522, guid: d3be9b940d4d4e04f96b7b55aa255b94, type: 3}
       propertyPath: debugDayCounter
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2666116501411388522, guid: d3be9b940d4d4e04f96b7b55aa255b94, type: 3}
       propertyPath: debugGameCounter

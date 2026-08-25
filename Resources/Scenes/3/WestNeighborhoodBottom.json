@@ -1,0 +1,10 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 6, 6 ],
+      "validStages": [ 1, 1 ],
+      "type": "UnlockDoor",
+      "name": "Blue Door"
+    }
+  ]
+}

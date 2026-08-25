@@ -1,0 +1,49 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Alright everyone. The last day of dodgeball tryouts is here.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We will be doing a little scrimmage today.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Doing throwing and dodging drills will only get you so far.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Putting you in the heat of a match will show me just what you're made of.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now, let's... get... INTO IT!",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 1
+    },
+    {
+      "type": "loadScene",
+      "name": "DodgeballScrimmage"
+    }
+  ]
+}

@@ -30,7 +30,7 @@
     },
     {
       "validScenes": [ 0, 10 ],
-      "validStages": [ 0, 10 ],
+      "validStages": [ 3, 3 ],
       "type": "Micycle",
       "name": "Micycle",
       "location": "-3.5,-3",
@@ -427,7 +427,6 @@
       "size": "1,1",
       "name": "1.1-Cafeteria.5",
       "fileName": "2.Lunch.NeedFood"
-
     },
     {
       "validScenes": [ 0, 10 ],
@@ -457,7 +456,6 @@
       "size": "1,1",
       "name": "1.1-Cafeteria.8",
       "fileName": "2.Lunch.NeedFood"
-
     },
     {
       "validScenes": [ 0, 10 ],
@@ -485,7 +483,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.11",
-      "fileName": "1.Lunch.NeedFood"
+      "fileName": "2.Lunch.NeedFood"
     },
     {
       "validScenes": [ 0, 10 ],
@@ -514,7 +512,6 @@
       "size": "1,1",
       "name": "1.1-Cafeteria.14",
       "fileName": "2.Lunch.NeedFood"
-
     },
     {
       "validScenes": [ 0, 10 ],
@@ -532,7 +529,7 @@
       "type": "CutsceneActTrigger",
       "size": "6,1",
       "name": "1.1-Cafeteria.GetFood",
-      "fileName": "2.Lunch.GetFood",
+      "fileName": "2.Lunch.NeedFood",
       "destroy": true
     },
     {

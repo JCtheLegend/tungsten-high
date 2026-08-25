@@ -1,0 +1,26 @@
+{
+  "Items": [
+    {
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 4, 4 ],
+      "type": "Goblin",
+      "name": "Goblin",
+      "location": "8, 1.5",
+      "assets": [
+        {
+          "type": "Animation",
+          "fileName": "GoblinLick"
+        }
+      ]
+    },
+    {
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 4, 4 ],
+      "type": "CutsceneCollider",
+      "name": "2.Post.CatWalkway",
+      "fileName": "2.Post.CatWalkway",
+      "location": "1, 1.5",
+      "size": "1, 5"
+    }
+  ]
+}

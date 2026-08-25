@@ -1,0 +1,74 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "up",
+      "text": "6,-9.5",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "down"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "right",
+      "text": "6,-7",
+      "speed": 5
+    },
+    {
+      "type": "dialog",
+      "text": "I'm glad you're ok.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "hide",
+      "name": "Player"
+    },
+    {
+      "type": "wait",
+      "text": 1
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Car"
+    },
+    {
+      "type": "playSound",
+      "name": "car"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "right",
+      "speed": 4,
+      "text": "-15,-7"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 1
+    },
+    {
+      "type": "loadScene",
+      "name": "Home Front"
+    }
+  ]
+}

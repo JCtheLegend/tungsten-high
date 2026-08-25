@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 339675988143885920}
   - component: {fileID: 1257354452}
   - component: {fileID: 1257354451}
+  - component: {fileID: 858141006791431333}
   m_Layer: 7
   m_Name: Door
   m_TagString: Door
@@ -45,8 +46,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomName: Outside
+  toEntranceId: 
   toEntranceNum: 1
-  exitDir: 3
+  locked: 0
 --- !u!61 &1257354451
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -73,3 +75,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &858141006791431333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339675988143885923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2462997d5c2914ea4303fb308b70ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 
+  facing: 3
+  sound: 

@@ -60,11 +60,11 @@
       "validScenes": [ 0, 4 ],
       "type": "CutsceneCollider",
       "name": "1.Dream.DoorLocked",
-      "fileName": "1.Dream.DoorLocked",
+      "fileName": "common.LockedDoor",
       "location": "1.5,11",
       "size": "5,1",
       "destroy": false
-    }
+    },
     {
       "validScenes": [ 5, 5 ],
       "type": "CutsceneCollider",

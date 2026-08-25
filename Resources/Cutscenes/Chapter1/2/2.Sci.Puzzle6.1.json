@@ -1,0 +1,23 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "moveCamera",
+      "text": "71,-27",
+      "speed": 10
+    },
+    {
+      "type": "teleport",
+      "name": "Hero Cell",
+      "text": "62,-21"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Nice work, now let try with some moving targets.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeOut",
+      "name": "Target 1"
+    },
+    {
+      "type": "fadeOut",
+      "name": "Target 2"
+    },
+    {
+      "type": "fadeOut",
+      "name": "Target 3"
+    },
+    {
+      "type": "move",
+      "name": "Flying Target 2",
+      "text": "15, 10.5",
+      "direction": "down",
+      "speed": 3,
+      "isContinue": true
+    },
+    {
+      "type": "move",
+      "name": "Flying Target 1",
+      "text": "25, 10.5",
+      "direction": "down",
+      "speed": 3
+    },
+    {
+      "type": "enableChildren",
+      "name": "Flying Target 1"
+    },
+    {
+      "type": "enableChildren",
+      "name": "Flying Target 2"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

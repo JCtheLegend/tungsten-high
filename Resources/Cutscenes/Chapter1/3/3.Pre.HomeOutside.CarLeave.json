@@ -1,0 +1,74 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "You've got dodgeball practice after work, right?",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I'll be there to pick you up afterwards.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Wow, dodgeball as a sport. That sounds like so much fun!",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "disable",
+      "name": "Player"
+    },
+    {
+      "type": "disable",
+      "name": "Mom"
+    },
+    {
+      "type": "playSound",
+      "name": "car"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Car"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "down",
+      "speed": 3,
+      "text": "-96,-5"
+    },
+    {
+      "type": "move",
+      "name": "Car",
+      "direction": "right",
+      "speed": 3,
+      "text": "-74,-5"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "3"
+    },
+    {
+      "type": "loadScene",
+      "name": "School Front"
+    }
+  ]
+}

@@ -1,12 +1,8 @@
 {
   "Items": [
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 0,
-      "maxGameCounter": 200,
       "type": "cutscene",
-      "name": "StartFight"
+      "name": "common.StartFight"
     }
   ]
 }

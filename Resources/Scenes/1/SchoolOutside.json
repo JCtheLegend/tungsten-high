@@ -1,65 +1,51 @@
 {
   "Items": [
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 3,
-      "maxGameCounter": 4,
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 3, 3 ],
       "type": "Car",
       "name": "Car",
       "location": "-14,-3.5"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 3,
-      "maxGameCounter": 4,
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 3, 3 ],
       "type": "Handstand",
       "name": "Handstand",
       "location": "26,2.5"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 3,
-      "maxGameCounter": 4,
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 3, 3 ],
       "type": "Bubba",
       "name": "Bubba",
       "location": "25,15"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 3,
-      "maxGameCounter": 4,
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 3, 3 ],
       "type": "Micycle",
       "name": "Micycle",
       "location": "-13,0.5"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 3,
-      "maxGameCounter": 4,
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 3, 3 ],
       "type": "cutscene",
-      "name": "1.1-SchoolOutside.1"
+      "name": "1.Pre.SchoolOutside.1"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 13,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 1, 1 ],
       "type": "Car",
       "name": "Car",
       "location": "35,-4"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 13,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 1, 1 ],
       "type": "cutscene",
-      "name": "MomPickUp"
+      "name": "1.Post.MomPickUp"
     }
   ]
 }

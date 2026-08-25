@@ -20,7 +20,10 @@ public class AnimatableObject : MonoBehaviour
     protected void Awake()
     {
         anim = GetComponent<Animator>();
-        anim.enabled = false;
+        if (!hasIdleAnims)
+        {
+            anim.enabled = false;
+        }
         UpdateFacing(initialFacing);
     }
 

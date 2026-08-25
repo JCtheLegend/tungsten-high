@@ -1,30 +1,24 @@
 {
   "Items": [
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 15,
-      "maxGameCounter": 16,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 4, 4 ],
       "type": "Mom",
       "name": "Mom",
       "location": "1.5,7",
       "facing": "right"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 15,
-      "maxGameCounter": 16,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 4, 4 ],
       "type": "Dad",
       "name": "Dad",
       "location": "-2.5,7.5",
       "facing": "up"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 15,
-      "maxGameCounter": 16,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 4, 4 ],
       "type": "cutscene",
       "name": "1.Post.AfterDinner"
     }

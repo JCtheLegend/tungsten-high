@@ -18,7 +18,6 @@ public class Parallax : MonoBehaviour
     {
         //float temp = cam.transform.position.x * (1 - parallaxEffect);
         float dist = (cam.transform.position.x * parallaxEffect);
-        Debug.Log(dist);
         transform.position = new Vector3(startPos + dist, transform.position.y, transform.position.z);
 
         //if (temp > startPos + length) startPos += length;

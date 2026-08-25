@@ -1,0 +1,60 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "Flying Target 1"
+    },
+    {
+      "type": "fadeOut",
+      "name": "Flying Target 2"
+    },
+    {
+      "type": "dialog",
+      "text": "Excellent.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now, it's time to put the 'dodge' in dodgeball.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I'm not going to throw you any balls. The target will be throwing them at you.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Your job is to dodge the ball, or catch it and throw it back at the target.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Flying Target 3",
+      "text": "20, 10.5",
+      "direction": "down",
+      "speed": 3
+    },
+    {
+      "type": "enableChildren",
+      "name": "Flying Target 3"
+    },
+    {
+      "type": "enableCollider",
+      "name": "Flying Target 3"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

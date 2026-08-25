@@ -54,8 +54,8 @@
       "location": "3,-4",
       "type": "CutsceneActTrigger",
       "size": "1,1",
-      "name": "2.Psych.1",
-      "fileName": "2.Pysch.1",
+      "name": "2.Psych.Placeholder",
+      "fileName": "2.Pysch.Placeholder",
       "destroy": true
     }
   ]

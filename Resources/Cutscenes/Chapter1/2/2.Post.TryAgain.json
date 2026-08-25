@@ -1,0 +1,37 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "What's that?",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You know a green student who can talk to plants?",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "And you didn't talk to her?",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "What are you waiting for? Go try again!",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

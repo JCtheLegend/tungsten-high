@@ -1,0 +1,20 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "What?",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "loadScene",
+      "name": "RobberHead"
+    }
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

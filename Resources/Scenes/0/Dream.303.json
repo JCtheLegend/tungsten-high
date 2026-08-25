@@ -1,0 +1,27 @@
+{
+  "Items": [
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 0, 0 ],
+      "type": "Character",
+      "name": "Friend",
+      "location": "5,1",
+      "facing":  "left"
+    },
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 0, 0 ],
+      "type": "cutscene",
+      "name": "0.Dream.303.1"
+    },
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 0, 0 ],
+      "location": "1.5,-2.5",
+      "type": "CutsceneCollider",
+      "size": "1,11",
+      "name": "0.Dream.303.2",
+      "fileName": "0.Dream.303.2"
+    }
+  ]
+}

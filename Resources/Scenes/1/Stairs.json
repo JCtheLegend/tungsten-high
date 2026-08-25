@@ -1,10 +1,7 @@
 {
   "Items": [
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 6,
-      "maxGameCounter": 10,
+      "validStages": [ 2, 4 ],
       "location": "1, 10",
       "type": "Wally",
       "name": "Wally",
@@ -27,10 +24,7 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 10,
-      "maxGameCounter": 13,
+      "validStages": [ 5, 6 ],
       "location": "2.5, -3.5",
       "type": "Wally",
       "name": "Wally",

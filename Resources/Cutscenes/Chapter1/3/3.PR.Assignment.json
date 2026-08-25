@@ -1,0 +1,54 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Go to the bank",
+      "isTyped": "true"
+    },
+    {
+      "type": "moveFace",
+      "name": "Micycle",
+      "direction": "down"
+    },
+    {
+      "type": "dialog",
+      "text": "Mike is hanging out with you!",
+      "isTyped": "false"
+    },
+    {
+      "type": "addFollow",
+      "name": "Player",
+      "text": "Micycle"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 3
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "name": "HoleDisguise",
+          "location": "17.5, -45",
+          "type": "HoleDisguise",
+          "assets": [
+            {
+              "type": "CutsceneActTrigger",
+              "fileName": "3.PR.HoleDisguise.1",
+              "size": "1, 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialogAndChoice",
+      "text": "Dreamwalk?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "skips": [
+        3,
+        0
+      ],
+      "isTyped": "false"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    },
+    {
+      "type": "endCutscene"
+    }
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "disable",
+      "name": "DreamPad"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "right",
+      "text": "1.5, -12.3",
+      "speed": 2
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "changeSortLayer",
+      "name": "Goblin",
+      "text": "Midground",
+      "speed": "-10.5"
+    },
+    {
+      "type": "animate",
+      "name": "Dream Bubble",
+      "text": "dream_bubble_grow"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "up",
+      "text": "1.5, -11",
+      "speed": 2
+    },
+    {
+      "type": "disable",
+      "name": "Player"
+    },
+    {
+      "type": "animate",
+      "name": "Dream Bubble",
+      "text": "dream_bubble_shrink"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "loadScene",
+      "name": "CatWalkway"
+    }
+  ]
+}

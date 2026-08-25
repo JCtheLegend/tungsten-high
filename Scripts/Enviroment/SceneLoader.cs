@@ -19,8 +19,21 @@ public class SceneLoader : MonoBehaviour
     string startCutscene = "";
     public GameObject music;
 
+    [Header("Scene fade-in")]
+    [Tooltip("Fade in from white instead of black. Tints the BlackFade sprite before the fade starts.")]
+    [SerializeField] bool fadeFromWhite = false;
+    [Tooltip("Speed of the automatic fade-in when the scene loads.")]
+    [SerializeField] float fadeSpeed = 1;
+
+    // The automatic fade-in coroutine. A cutscene that wants to hold the screen covered while it sets
+    // up (startBlack / startWhite / fillFade) cancels it via CancelAutoFade().
+    Coroutine autoFade;
+
     private void Awake()
     {
+        // Cover the screen before anything else runs, so the scene is always revealed by the fade-in
+        // below rather than popping in. Done in Awake so a start cutscene sees the correct state.
+        CoverScreen();
         // Debug.Log("Game Counter: " + GameManager.dayCounter);
         // Debug.Log("Scene Counter: " + GameManager.sceneCounter);
         if (GameManager.startedInClient)
@@ -74,14 +87,45 @@ public class SceneLoader : MonoBehaviour
 
     private void Start()
     {
+        // Every scene fades in automatically — cutscenes no longer need a leading fade step. The fade
+        // is started before the cutscene so a cutscene opening with startBlack/startWhite/fillFade can
+        // cancel it and keep the screen covered while it teleports the player, moves the camera, etc.
+        SpriteRenderer fade = GetFadeSprite();
+        if (fade != null)
+        {
+            autoFade = StartCoroutine(GameManager.FadeOut(fade, fadeSpeed));
+        }
         if (startCutscene != "")
         {
             cutsceneManager.BeginCutscene(startCutscene);
         }
-        else
+    }
+
+    static SpriteRenderer GetFadeSprite()
+    {
+        GameObject g = GameObject.Find("BlackFade");
+        return g != null ? g.GetComponent<SpriteRenderer>() : null;
+    }
+
+    // Tint the fade sprite (white or black) and make it fully opaque so the scene starts hidden.
+    void CoverScreen()
+    {
+        SpriteRenderer fade = GetFadeSprite();
+        if (fade == null)
         {
-            SpriteRenderer s = GameObject.Find("BlackFade").GetComponent<SpriteRenderer>();
-            StartCoroutine(GameManager.FadeOut(s, 1));
+            return;
+        }
+        float v = fadeFromWhite ? 1 : 0;
+        fade.color = new Color(v, v, v, 1);
+    }
+
+    // Stop the automatic fade-in. Called by cutscene actions that take over the fade themselves.
+    public void CancelAutoFade()
+    {
+        if (autoFade != null)
+        {
+            StopCoroutine(autoFade);
+            autoFade = null;
         }
     }
 
@@ -89,6 +133,7 @@ public class SceneLoader : MonoBehaviour
     {
         if(dataFile != null && dataFile != "")
         {
+            Debug.Log("Loading data file: " + "Scenes/" + GameManager.dayCounter + "/" + dataFile);
             TextAsset t = Resources.Load<TextAsset>("Scenes/" + GameManager.dayCounter + "/" + dataFile);
             if (t != null)
             {

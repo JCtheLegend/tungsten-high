@@ -1,0 +1,20 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "The End. Go back to the school.",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "setStageCounter",
+      "text": "Post"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

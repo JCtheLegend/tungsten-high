@@ -1,0 +1,28 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Huh?",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Is that a ...hole in the door?",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Somebody has gotten into the vault!",
+      "name": "Banker",
+      "isTyped": "true"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

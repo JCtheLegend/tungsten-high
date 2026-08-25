@@ -1,0 +1,43 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Huh?",
+      "name": "Bubba",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You? You want to stick up for this loser?",
+      "name": "Bubba",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "From what I heard, you don't even have a power.",
+      "name": "Bubba",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Unless I plan on taking a nap! Haha!",
+      "name": "Bubba",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Alright, let's see what you got. Time to face the Bubble!",
+      "name": "Bubba",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

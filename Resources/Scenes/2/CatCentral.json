@@ -1,0 +1,17 @@
+{
+  "Items": [
+    {
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 4, 4 ],
+      "type": "Goblin",
+      "name": "Goblin",
+      "location": "1, -23",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "2.Post.CatCentral.Goblin"
+        }
+      ]
+    }
+  ]
+}

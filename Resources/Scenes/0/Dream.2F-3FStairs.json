@@ -1,0 +1,35 @@
+{
+  "Items": [
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 3, 3 ],
+      "type": "Character",
+      "name": "Friend",
+      "location": "-8.5,5.5"
+    },
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 3, 3 ],
+      "type": "cutscene",
+      "name": "0.Dream.2F-3F.1"
+    },
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 4, 4 ],
+      "location": "-7,-3",
+      "type": "CutsceneCollider",
+      "name": "0.Dream.2F-3F.2",
+      "fileName": "0.Dream.2F-3F.2",
+      "size": "1,8",
+      "destroy": true
+    },
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 4, 4 ],
+      "type": "Character",
+      "name": "Friend",
+      "location": "-9.5,-3",
+      "facing": "right"
+    }
+  ]
+}

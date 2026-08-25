@@ -1,46 +1,32 @@
 {
   "Items": [
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 9,
-      "minGameCounter": 0,
-      "maxGameCounter": 12,
+      "validStages": [ 0, 5 ],
       "type": "Table",
       "name": "Table",
       "location": "-5,-2"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 9,
-      "minGameCounter": 0,
-      "maxGameCounter": 12,
+      "validStages": [ 0, 5 ],
       "type": "Table",
       "name": "Table",
       "location": "-5,-7"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 9,
-      "minGameCounter": 0,
-      "maxGameCounter": 12,
+      "validStages": [ 0, 5 ],
       "type": "Table",
       "name": "Table",
       "location": "5, -2"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 9,
-      "minGameCounter": 0,
-      "maxGameCounter": 12,
+      "validStages": [ 0, 5 ],
       "type": "Table",
       "name": "Table",
       "location": "5, -7"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Micycle",
       "name": "Micycle",
       "location": "-3.5,-3",
@@ -57,10 +43,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Laser Boy",
       "name": "Laser Boy",
       "location": "-5.5,-3",
@@ -77,10 +61,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Bloom",
       "name": "Bloom",
       "location": "3.5,-3",
@@ -97,10 +79,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Bubba",
       "name": "Bubba",
       "location": "-6.5,-0.5",
@@ -117,10 +97,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Moe",
       "name": "Moe",
       "location": "-3.5,-0.5",
@@ -137,10 +115,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Freshy",
       "name": "Freshy",
       "location": "3.5,-0.5",
@@ -157,10 +133,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Seer",
       "name": "Seer",
       "location": "6.5,-0.5",
@@ -177,10 +151,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Mirror",
       "name": "Mirror",
       "location": "-4.5, -8",
@@ -197,10 +169,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Sticky",
       "name": "Sticky",
       "location": "-6.5, -5.5",
@@ -217,10 +187,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Slicky",
       "name": "Slicky",
       "location": "-6.5, -8",
@@ -237,10 +205,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Nimbus",
       "name": "Nimbus",
       "location": "-3.5, -5.5",
@@ -257,10 +223,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Jumper",
       "name": "Jumper",
       "location": "-4.5, -5.5",
@@ -277,10 +241,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Puddle",
       "name": "Puddle",
       "location": "5.5, -3",
@@ -297,10 +259,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Wally",
       "name": "Wally",
       "location": "6.5, -3",
@@ -317,10 +277,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Kitchenette",
       "name": "Kitchenette",
       "location": "3.5, -8",
@@ -337,10 +295,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Seagull",
       "name": "Seagull",
       "location": "4.5, -5.5",
@@ -357,10 +313,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Songbird",
       "name": "Songbird",
       "location": "6.5, -5.5",
@@ -377,10 +331,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "Dreamy",
       "name": "Dreamy",
       "location": "5.5, -8",
@@ -397,422 +349,342 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "-5.5,-0.5",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.1",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "-12.5,-4",
       "type": "CutsceneCollider",
       "size": "1,6",
       "name": "1.1-NeedLunchLeft",
-      "fileName": "1.1-NeedLunchLeft"
+      "fileName": "1.Lunch.NeedLunchLeft"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "0,-12.5",
       "type": "CutsceneCollider",
       "size": "4,1",
       "name": "1.1-NeedLunchBottom",
-      "fileName": "1.1-NeedLunchBottom"
+      "fileName": "1.Lunch.NeedLunchBottom"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "DisableExit",
       "name": "Side 2F Exit"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "type": "DisableExit",
       "name": "Lower 2F Exit"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "-4.5,-0.5",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.2",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "4.5,-0.5",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.3",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "5.5,-0.5",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.4",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
 
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "-6.5,-3",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.5",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
 
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "-4.5,-3",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.6",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
 
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "4.5,-3",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.7",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
 
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "-5.5,-5.5",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.8",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
 
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "3.5,-5.5",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.9",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
 
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "5.5,-5.5",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.10",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "-5.5,-8",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.11",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "-3.5,-8",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.12",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
 
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "3.5,-8",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.13",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "4.5,-8",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.14",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
 
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "6.5,-8",
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.15",
-      "fileName": "1.1-Cafeteria.NeedFood"
+      "fileName": "1.Lunch.NeedFood"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "0,2.75",
       "type": "CutsceneActTrigger",
       "size": "6,1",
       "name": "1.1-Cafeteria.GetFood",
-      "fileName": "1.1-Cafeteria.GetFood",
+      "fileName": "1.Lunch.GetFood",
       "destroy": true
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "-6.5,-1.25",
       "type": "LunchTray",
       "name": "tray"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "-3.5,-1.25",
       "type": "LunchTray",
       "name": "tray"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "3.5,-1.25",
       "type": "LunchTray",
       "name": "tray"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "6.5,-1.25",
       "type": "LunchTray",
       "name": "tray"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "-6.5,-6.25",
       "type": "LunchTray",
       "name": "tray"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "-4.5,-6.25",
       "type": "LunchTray",
       "name": "tray"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "-3.5,-6.25",
       "type": "LunchTray",
       "name": "tray"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "4.5,-6.25",
       "type": "LunchTray",
       "name": "tray"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 8,
-      "maxGameCounter": 9,
+      "validStages": [ 3, 3 ],
+      "validScenes": [ 0, 0 ],
       "location": "6.5,-6.25",
       "type": "LunchTray",
       "name": "tray"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "location": "-6, 0.4",
       "type": "Dodgeball Board",
       "name": "Dodgeball Board"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "location": "0, 0.4",
       "type": "Hero Board",
       "name": "Hero Board"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "location": "6, 0.4",
       "type": "Costume Board",
       "name": "Costume Board"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "location": "-6, 0.5",
       "type": "Folding Table",
       "name": "Folding Table",
       "assets": [
         {
           "type": "CutsceneActTrigger",
-          "fileName": "1.1-ClubDodgeball"
+          "fileName": "1.Post.ClubDodgeball"
         }
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "location": "0, 0.5",
       "type": "Folding Table",
       "name": "Folding Table",
       "assets": [
         {
           "type": "CutsceneActTrigger",
-          "fileName": "1.1-ClubHero"
+          "fileName": "1.Post.ClubHero"
         }
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "location": "6, 0.5",
       "type": "Folding Table",
       "name": "Folding Table",
       "assets": [
         {
           "type": "CutsceneActTrigger",
-          "fileName": "1.1-ClubCostume"
+          "fileName": "1.Post.ClubCostume"
         }
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "location": "-9,-9",
       "type": "Table",
       "name": "Table"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "location": "-5,-9",
       "type": "Table",
       "name": "Table"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "location": "5,-9",
       "type": "Table",
       "name": "Table"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "location": "9,-9",
       "type": "Table",
       "name": "Table"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "type": "Jumper",
       "name": "Jumper",
       "location": "-9, -0",
@@ -820,33 +692,25 @@
       "assets": [
         {
           "type": "CutsceneActTrigger",
-          "fileName": "1.1-ClubDodgeball"
+          "fileName": "1.Post.ClubDodgeball"
         }
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 0,
-      "maxGameCounter": 8,
+      "validStages": [ 0, 2 ],
       "type": "Cafeteria Cover",
       "name": "Cafeteria Cover",
       "location": "0, 3.5"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 9,
-      "maxGameCounter": 100,
+      "validStages": [ 4, 7 ],
       "type": "Cafeteria Cover",
       "name": "Cafeteria Cover",
       "location": "0, 3.5"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "type": "Puddle",
       "name": "Puddle",
       "location": "9, -5",
@@ -867,10 +731,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "type": "Freshy",
       "name": "Freshy",
       "location": "2.5, -5",
@@ -893,10 +755,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "type": "Kitchenette",
       "name": "Kitchenette",
       "location": "-5, -6",
@@ -917,10 +777,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "type": "Micycle",
       "name": "Micycle",
       "location": "-8, -5.5",
@@ -942,10 +800,8 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "type": "Nimbus",
       "name": "Nimbus",
       "location": "2.6, -0.5",
@@ -953,15 +809,13 @@
       "assets": [
         {
           "type": "CutsceneActTrigger",
-          "fileName": "1.1-ClubHero"
+          "fileName": "1.Post.ClubHero"
         }
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 12,
-      "maxGameCounter": 14,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "type": "Seagull",
       "name": "Seagull",
       "location": "9, -0.5",
@@ -969,7 +823,7 @@
       "assets": [
         {
           "type": "CutsceneActTrigger",
-          "fileName": "1.1-ClubCostume"
+          "fileName": "1.Post.ClubCostume"
         }
       ]
     }

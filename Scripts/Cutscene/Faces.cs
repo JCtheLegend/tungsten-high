@@ -25,6 +25,10 @@ public class Faces : MonoBehaviour
 
     public void FacePlayer(direction playerFacing)
     {
+        if(GetComponent<AnimatableObject>() != null)
+        {
+            GetComponent<AnimatableObject>().StopAnimation();
+        }
         switch (playerFacing)
         {
             case direction.down:

@@ -1,0 +1,18 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Go back to the bank"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 7
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

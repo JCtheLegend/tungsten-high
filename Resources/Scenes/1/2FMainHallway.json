@@ -1,56 +1,44 @@
 {
   "Items": [
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 4,
-      "maxGameCounter": 5,
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 0, 0 ],
       "type": "Cafeteria Side Block",
       "name": "Cafeteria Side Block",
       "location": "-16.25,21"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 4,
-      "maxGameCounter": 5,
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 0, 0 ],
       "type": "Cafeteria Front Block",
       "name": "Cafeteria Front Block",
       "location": "9,10"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 4,
-      "maxGameCounter": 5,
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 0, 0 ],
       "type": "Folding Table",
       "name": "Folding Table",
       "location": "41,9"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 4,
-      "maxGameCounter": 5,
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 0, 0 ],
       "type": "Folding Table",
       "name": "Folding Table",
       "location": "37,9"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 4,
-      "maxGameCounter": 5,
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 0, 0 ],
       "type": "Handstand",
       "name": "Handstand",
       "location": "5,1",
       "assets": []
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 4,
-      "maxGameCounter": 5,
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 0, 0 ],
       "type": "Bubba",
       "name": "Bubba",
       "location": "7.5,0",
@@ -58,10 +46,8 @@
       "assets": []
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 4,
-      "maxGameCounter": 5,
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 0, 0 ],
       "type": "Micycle",
       "name": "Micycle",
       "location": "10.5,0",
@@ -69,47 +55,37 @@
       "assets": []
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 4,
-      "maxGameCounter": 5,
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 0, 0 ],
       "type": "cutscene",
-      "name": "1.1-2F.1"
+      "name": "1.PR.HallwayWelcome.1"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 4,
-      "maxGameCounter": 5,
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 0, 0 ],
       "location": "-16.5,1",
       "type": "CutsceneCollider",
       "size": "1,8",
       "name": "1.1-2F.2",
-      "fileName": "1.1-2F.2"
+      "fileName": "1.PR.HallwayWelcome.2"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 4,
-      "maxGameCounter": 5,
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 0, 0 ],
       "type": "Sandman",
       "name": "Sandman",
       "location": "-21,15",
       "facing": "down"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 6,
-      "maxGameCounter": 7,
+      "validStages": [ 2, 2 ],
+      "validScenes": [ 0, 0 ],
       "type": "cutscene",
-      "name": "1.1-2F.3"
+      "name": "1.Gym.PickupPlanner"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 6,
-      "maxGameCounter": 8,
+      "validStages": [ 2, 2 ],
+      "validScenes": [ 0, 1 ],
       "type": "Sandman",
       "name": "Sandman",
       "location": "-21.5,44",
@@ -126,37 +102,28 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 6,
-      "maxGameCounter": 8,
+      "validStages": [ 2, 2 ],
+      "validScenes": [ 0, 1 ],
       "type": "Folding Table",
       "name": "Folding Table",
       "location": "-21.5,43.5"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 6,
-      "maxGameCounter": 8,
+      "validStages": [ 2, 2 ],
+      "validScenes": [ 0, 1 ],
       "type": "Stack of Planners",
       "name": "Stack of Planners",
       "location": "-20.17,43.49"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 6,
-      "maxGameCounter": 8,
+      "validStages": [ 2, 2 ],
+      "validScenes": [ 0, 1 ],
       "type": "Box of Planners",
       "name": "Box of Planners",
       "location": "-22.78,43.49"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 6,
-      "maxGameCounter": 9,
+      "validStages": [ 2, 3 ],
       "location": "29, 5",
       "type": "Nimbus",
       "name": "Nimbus",
@@ -178,10 +145,7 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 9,
-      "maxGameCounter": 11,
+      "validStages": [ 4, 5 ],
       "location": "0, 5",
       "type": "Nimbus",
       "name": "Nimbus",
@@ -203,10 +167,7 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 6,
-      "maxGameCounter": 9,
+      "validStages": [ 2, 3 ],
       "location": "-17.5, 14",
       "type": "Micycle",
       "name": "Micycle",
@@ -229,10 +190,7 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 9,
-      "maxGameCounter": 11,
+      "validStages": [ 4, 5 ],
       "location": "6, 9",
       "type": "Micycle",
       "name": "Micycle",
@@ -255,10 +213,7 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 6,
-      "maxGameCounter": 9,
+      "validStages": [ 2, 3 ],
       "location": "-21, -2",
       "type": "Bloom",
       "name": "Bloom",
@@ -280,10 +235,7 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 9,
-      "maxGameCounter": 13,
+      "validStages": [ 4, 6 ],
       "location": "14.5, 45.4",
       "type": "Bloom",
       "name": "Bloom",
@@ -305,10 +257,7 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 9,
-      "maxGameCounter": 13,
+      "validStages": [ 4, 6 ],
       "location": "-16, 45.4",
       "type": "Sandman",
       "name": "Sandman",
@@ -329,34 +278,26 @@
       ]
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 0,
-      "maxGameCounter": 13,
+      "validStages": [ 0, 6 ],
       "type": "DisableExit",
       "name": "Front Exit"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 0,
-      "maxGameCounter": 12,
+      "validStages": [ 0, 5 ],
       "location": "9,-4.5",
       "type": "CutsceneCollider",
       "size": "6,1",
       "name": "1.1-InSchool",
-      "fileName": "1.1-InSchool"
+      "fileName": "1.InSchool"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 100,
-      "minGameCounter": 12,
-      "maxGameCounter": 13,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 0, 0 ],
       "location": "9,-4.5",
       "type": "CutsceneCollider",
       "size": "6,1",
       "name": "1.1-SignUp",
-      "fileName": "1.1-SignUp"
+      "fileName": "1.Post.SignUp"
     }
   ]
 }

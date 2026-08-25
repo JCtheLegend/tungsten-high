@@ -1,0 +1,17 @@
+{
+  "Items": [
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 6, 6 ],
+      "type": "Character",
+      "name": "Friend",
+      "location": "20,14"
+    },
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 6, 6 ],
+      "type": "cutscene",
+      "name": "0.Dream.Gym.1"
+    }
+  ]
+}

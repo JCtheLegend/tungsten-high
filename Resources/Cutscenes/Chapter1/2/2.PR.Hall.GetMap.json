@@ -1,0 +1,98 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey name! Come over here we got something for you.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "up",
+      "speed": 3,
+      "text": "2.5,2"
+    },
+    {
+      "type": "animate",
+      "name": "Player",
+      "text": "default_back",
+      "isContinue": "true"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "2.5,2"
+    },
+    {
+      "type": "dialog",
+      "text": "We forgot to hand out maps of the school yesterday, but we have some today!",
+      "isTyped": "true"
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "location": "2.5, 3.5",
+          "type": "School Map Icon",
+          "name": "School Map Icon"
+        }
+      ]
+    },
+    {
+      "type": "animate",
+      "name": "Player",
+      "text": "get_item",
+      "isContinue": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You recieved the School Map!",
+      "isTyped": "true"
+    },
+    {
+      "type": "hide",
+      "name": "School Map Icon"
+    },
+    {
+      "type": "animate",
+      "name": "Player",
+      "text": "default_back",
+      "isContinue": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "This way, you should be able to easily find the classroom you need to go to.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You should be able to see your map by opening your planner.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Hope this helps, have fun in class!",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 1
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

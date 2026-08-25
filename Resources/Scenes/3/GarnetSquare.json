@@ -1,0 +1,134 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 1, 1 ],
+      "type": "Ms Nice",
+      "name": "Ms Nice",
+      "location": "6,-8"
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 1, 1 ],
+      "type": "Mirror",
+      "name": "Mirror",
+      "location": "5.5,-8"
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 1, 1 ],
+      "type": "Moe",
+      "name": "Moe",
+      "location": "6.5,-8"
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 1, 1 ],
+      "type": "Bloom",
+      "name": "Bloom",
+      "location": "6,-8"
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 1, 1 ],
+      "type": "Laser Boy",
+      "name": "Laser Boy",
+      "location": "6.5,-8"
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 1, 1 ],
+      "type": "Micycle",
+      "name": "Micycle",
+      "location": "5.5,-8"
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 1, 1 ],
+      "type": "Bubba",
+      "name": "Bubba",
+      "location": "5.5,-8"
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 1, 1 ],
+      "type": "cutscene",
+      "name": "3.PR.GarnetSquare.1"
+    },
+    {
+      "validScenes": [ 4, 6 ],
+      "validStages": [ 1, 1 ],
+      "type": "Ms Nice",
+      "name": "Ms Nice",
+      "location": "35,-36",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "We still have a bit more time before we need to head back to the school.",
+            "See if you can help out the bank a bit more."
+          ],
+          "isTyped": [ true, true ],
+          "facePlayer": true
+        }
+      ]
+    },
+    {
+      "validScenes": [ 8, 8 ],
+      "validStages": [ 1, 1 ],
+      "type": "Mirror",
+      "name": "Mirror",
+      "location": "35.75,-34.25",
+      "facing": "down"
+    },
+    {
+      "validScenes": [ 8, 8 ],
+      "validStages": [ 1, 1 ],
+      "type": "Moe",
+      "name": "Moe",
+      "location": "38,-35",
+      "facing": "left"
+    },
+    {
+      "validScenes": [ 8, 8 ],
+      "validStages": [ 1, 1 ],
+      "type": "Bloom",
+      "name": "Bloom",
+      "location": "38.67,-36.23",
+      "facing": "left"
+    },
+    {
+      "validScenes": [ 8, 8 ],
+      "validStages": [ 1, 1 ],
+      "type": "Laser Boy",
+      "name": "Laser Boy",
+      "location": "34.75,-33",
+      "facing": "down"
+    },
+    {
+      "validScenes": [ 8, 8 ],
+      "validStages": [ 1, 1 ],
+      "type": "Bubba",
+      "name": "Bubba",
+      "location": "34,-34.25",
+      "facing": "down"
+    },
+    {
+      "validScenes": [ 8, 8 ],
+      "validStages": [ 1, 1 ],
+      "type": "Micycle",
+      "name": "Micycle",
+      "location": "340,-340.25",
+      "facing": "down"
+    },
+    {
+      "validScenes": [ 8, 8 ],
+      "validStages": [ 1, 1 ],
+      "type": "CutsceneActTrigger",
+      "name": "3.PR.GarnetSquare.2",
+      "fileName": "3.PR.GarnetSquare.2",
+      "size": "1,1",
+      "location": "35, -36"
+    }
+  ]
+}

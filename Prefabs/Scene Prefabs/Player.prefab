@@ -161,6 +161,7 @@ MonoBehaviour:
   combat: {fileID: 0}
   action: {fileID: 1589973164}
   anim: {fileID: 2936317968726198189}
+  col: {fileID: -7166822210702034784}
   sound: {fileID: 0}
   cutscene: {fileID: 0}
 --- !u!50 &2936317968726198177
@@ -255,6 +256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2936317968726198176}
+  col: {fileID: 0}
 --- !u!114 &7997095983596269812
 MonoBehaviour:
   m_ObjectHideFlags: 0

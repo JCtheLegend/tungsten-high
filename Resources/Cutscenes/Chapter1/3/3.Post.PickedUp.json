@@ -1,0 +1,36 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "Hi Honey! How was school today?",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, and dodgeball club, how was that?",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Well, I'm glad it went well.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "setStageCounter",
+      "text": 7
+    },
+    {
+      "type": "loadScene",
+      "name": "Gym"
+    },
+    {
+      "type": "closeDialog"
+    }
+  ]
+}

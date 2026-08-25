@@ -28,14 +28,16 @@ public class PlayerActionController : MonoBehaviour
         {
             if (collider.GetComponent<RoomExit>().locked)
             {
-                StartCutscene("LockedDoor");
+                StartCutscene("common.LockedDoor");
             }
             else
             {
-                GameManager.RoomData.toEntranceNum = collider.GetComponent<RoomExit>().toEntranceNum;
+                RoomExit exit = collider.GetComponent<RoomExit>();
+                GameManager.RoomData.toEntranceNum = exit.toEntranceNum;
+                GameManager.RoomData.toEntranceId = exit.toEntranceId;
                 // player.sound.PlayAudio("door-open");
                 player.input.DisableInput();
-                StartCoroutine(player.TransitionRoom(collider.GetComponent<RoomExit>().roomName));
+                StartCoroutine(player.TransitionRoom(exit.roomName));
             }
         }
         else if (collider.CompareTag("OutfitChanger"))

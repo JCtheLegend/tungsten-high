@@ -1,0 +1,10 @@
+{
+  "Items": [
+    {
+      "validScenes": [ 0, 10 ],
+      "validStages": [ 0, 10 ],
+      "type": "cutscene",
+      "name": "1.Gym.PunchingBagFight.1"
+    }
+  ]
+}

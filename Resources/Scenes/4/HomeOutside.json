@@ -1,0 +1,24 @@
+{
+  "Items": [
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 2, 2 ],
+      "type": "Car",
+      "name": "Car",
+      "location": "-96,2.5"
+    },
+    {
+      "validScenes": [ 2, 2 ],
+      "validStages": [ 6, 6 ],
+      "type": "cutscene",
+      "name": "4.Post.ArriveHome"
+    },
+    {
+      "validScenes": [ 2, 2 ],
+      "valideStages": [ 6, 6 ],
+      "type": "Car",
+      "name": "Car",
+      "location": "-75,-5"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "Items": [
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 2, 2 ],
+      "type": "Car",
+      "name": "Car",
+      "location": "-96,2.5",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "3.Pre.HomeOutside.CarLeave",
+          "destroy": true,
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 2, 2 ],
+      "type": "Mom",
+      "name": "Mom",
+      "location": "-93.5,3.25",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "3.Pre.HomeOutside.CarLeave",
+          "destroy": true,
+          "facePlayer": true
+        }
+      ]
+    },
+    {
+      "validScenes": [ 2, 2 ],
+      "validStages": [ 6, 6 ],
+      "type": "cutscene",
+      "name": "3.Post.ArriveHome"
+    },
+    {
+      "validScenes": [ 2, 2 ],
+      "valideStages": [ 6, 6 ],
+      "type": "Car",
+      "name": "Car",
+      "location": "-75,-5"
+    }
+  ]
+}

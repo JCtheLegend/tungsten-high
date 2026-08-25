@@ -1,19 +1,15 @@
 {
   "Items": [
     {
-      "minSceneCounter": 1,
-      "maxSceneCounter": 2,
-      "minGameCounter": 1,
-      "maxGameCounter": 2,
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 1, 1 ],
       "type": "Mom",
       "name": "Mom",
       "location": "9,0"
     },
     {
-      "minSceneCounter": 1,
-      "maxSceneCounter": 2,
-      "minGameCounter": 1,
-      "maxGameCounter": 2,
+      "validStages": [ 0, 0 ],
+      "validScenes": [ 1, 1 ],
       "location": "7,2.5",
       "type": "CutsceneCollider",
       "size": "2,1",
@@ -22,73 +18,57 @@
       "destroy": true
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 14,
-      "maxGameCounter": 15,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 2, 3 ],
       "type": "Mom",
       "name": "Mom",
       "location": "2,-7.5"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 2,
-      "minGameCounter": 14,
-      "maxGameCounter": 15,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 2, 3 ],
       "type": "Dreampad",
       "name": "Dreampad",
       "location": "0,-4"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 15,
-      "maxGameCounter": 16,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 4, 4 ],
       "type": "Mom",
       "name": "Mom",
       "location": "9,-7.5"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 2,
-      "minGameCounter": 14,
-      "maxGameCounter": 16,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 2, 4 ],
       "type": "Dad",
       "name": "Dad",
       "location": "0,-2.5"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 14,
-      "maxGameCounter": 15,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 2, 2 ],
       "type": "cutscene",
-      "name": "InHome"
+      "name": "1.Post.InHome"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 15,
-      "maxGameCounter": 16,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 4, 4 ],
       "type": "cutscene",
       "name": "1.Post.AfterLawnmower"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 2,
-      "minGameCounter": 14,
-      "maxGameCounter": 15,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 2, 3 ],
       "location": "0.5,-2.5",
       "type": "CutsceneActTrigger",
       "size": "2,1",
       "name": "Dreamwalk",
-      "fileName": "Dreamwalk"
+      "fileName": "1.Post.Dreamwalk"
     },
     {
-      "minSceneCounter": 0,
-      "maxSceneCounter": 1,
-      "minGameCounter": 16,
-      "maxGameCounter": 17,
+      "validStages": [ 6, 6 ],
+      "validScenes": [ 5, 5 ],
       "type": "Goblin",
       "name": "Goblin",
       "location": "-6, 2.5",

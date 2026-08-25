@@ -1,0 +1,127 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "move",
+      "name": "Cart",
+      "speed": 3,
+      "text": "-2.75, 0",
+      "isContinue": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You did it! My cart is unstuck!",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, thank you both so much!",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Here, let me get you something from the cart.",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Cart Man",
+      "text": "-2, -1.5",
+      "direction": "left",
+      "speed": 4,
+      "isContinue": false
+    },
+    {
+      "type": "moveFace",
+      "name": "Cart Man",
+      "direction": "up"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "move",
+      "name": "Cart Man",
+      "text": "0, -1.5",
+      "direction": "right",
+      "speed": 4,
+      "isContinue": false
+    },
+    {
+      "type": "dialog",
+      "text": "You got the map!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I usually sell these for $5 a pop to unsuspecting tourists!",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Well, I've got to get going.",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I sell various odds and ends, so keep an eye out for me around town.",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "See you all later!",
+      "name": "Cart Man",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Cart Man",
+      "text": "-0.25, -0.75",
+      "speed": 4,
+      "isContinue": false
+    },
+    {
+      "type": "animate",
+      "name": "Cart Man",
+      "text": "CartManWalkHold",
+      "isContinue": "true"
+    },
+    {
+      "type": "move",
+      "name": "Cart Man",
+      "text": "60, -0.75",
+      "speed": 4,
+      "isContinue": "true",
+      "animateOverride": true
+    },
+    {
+      "type": "move",
+      "name": "Cart",
+      "speed": 4,
+      "text": "60, 0",
+      "isContinue": "true"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "3"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

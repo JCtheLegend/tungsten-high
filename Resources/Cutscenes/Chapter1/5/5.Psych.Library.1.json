@@ -1,0 +1,79 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "It looks like Bubba is sleeping. Bobby's notebook is underneath him.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "There's an opened envelope laying on his face. It looks a little wet.",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialogAndChoice",
+      "text": "Take the envelope?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "skips": [
+        3,
+        0
+      ],
+      "isTyped": "false"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "\"Your application to Platinum Prepartory School for the Talented has been denied.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We encourage you to apply again next year, or pursue your education at another establishment.\"",
+      "name": "Gym Teacher",
+      "isTyped": "true"
+    },
+    {
+      "type": "loadObjects",
+      "loadObjs": [
+        {
+          "name": "DreamBubble",
+          "location": "17.5, -45",
+          "type": "DreamBubble"
+        }
+      ]
+    },
+    {
+      "type": "editObjects",
+      "loadObjs": [
+        {
+          "name": "Bubba",
+          "assets": [
+            {
+              "type": "CutsceneActTrigger",
+              "fileName": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

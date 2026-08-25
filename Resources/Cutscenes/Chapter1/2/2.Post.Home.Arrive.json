@@ -1,0 +1,54 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "<Name>! Welcome Home!",
+      "name": "Mom",
+      "isTyped": true
+    },
+    {
+      "type": "dialog",
+      "text": "Hope you're hungry! Your father is just finishing up dinner in the kitchen.",
+      "name": "Mom",
+      "isTyped": true
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "text": "-1.75, -7",
+      "name": "Mom",
+      "direction": "down",
+      "speed": 2
+    },
+    {
+      "type": "move",
+      "text": "9, -7",
+      "name": "Mom",
+      "direction": "right",
+      "speed": 2
+    },
+    {
+      "type": "move",
+      "text": "0, -7",
+      "name": "Player",
+      "direction": "up",
+      "speed": 3
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "text": "9, -7",
+      "direction": "right",
+      "speed": 3
+    }
+  ]
+}

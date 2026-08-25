@@ -1,0 +1,82 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "left"
+    },
+    {
+      "type": "dialogAndChoice",
+      "text": "Go to Bed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "skips": [
+        2,
+        0
+      ],
+      "isTyped": "false"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement",
+      "skip": 3
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "disableCollider",
+      "name": "Dream Bed"
+    },
+    {
+      "type": "animate",
+      "name": "Bed",
+      "text": "bed_sleep",
+      "isContinue": "true"
+    },
+    {
+      "type": "hide",
+      "name": "Player"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "-3.625,2.808"
+    },
+    {
+      "type": "wait",
+      "text": 5
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "wait",
+      "text": 2
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 0
+    },
+    {
+      "type": "setDayCounter",
+      "text": 4
+    },
+    {
+      "type": "setStageCounter",
+      "text": "Pre"
+    },
+    {
+      "type": "loadScene",
+      "name": "Player Room"
+    }
+  ]
+}

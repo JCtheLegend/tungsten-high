@@ -1,0 +1,48 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "The cell is now affected by 'Integrity Exotrons'.",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "This type of exotron gives cells super strength or durability.",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Superheroes that have been affected by these exotrons have bodies that can exhibit superhuman levels of strength or toughness.",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "The cell now has the strength to defeat the villain cell.",
+      "name": "Ms Sparks",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Although, you must do it quickly. The effects from the exotron beam wear off over time.",
+      "name": "Ms Sparks",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "Press Z to punch with an Integrity Powered Cell",
+      "isTyped": "false"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

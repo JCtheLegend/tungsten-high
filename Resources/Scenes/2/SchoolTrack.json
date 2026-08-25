@@ -55,19 +55,12 @@
       "name": "Gym Teacher"
     },
     {
-      "validScenes": [ 3, 3 ],
-      "validStages": [ 2, 2 ],
-      "location": "67, 14",
-      "type": "Gym Teacher",
-      "name": "Gym Teacher"
-    },
-    {
       "validScenes": [ 1, 1 ],
       "validStages": [ 2, 2 ],
       "location": "48, 17",
       "type": "Bloom",
       "name": "Bloom",
-      "facing": "down",
+      "facing": "right",
       "assets": [
         {
           "type": "SimpleDialogTrigger",
@@ -90,7 +83,7 @@
       "location": "46, 17",
       "type": "Kitchenette",
       "name": "Kitchenette",
-      "facing": "down",
+      "facing": "right",
       "assets": [
         {
           "type": "SimpleDialogTrigger",
@@ -181,7 +174,7 @@
       "location": "48, 12",
       "type": "Laser Boy",
       "name": "Laser Boy",
-      "facing": "up",
+      "facing": "left",
       "assets": [
         {
           "type": "SimpleDialogTrigger",
@@ -201,7 +194,7 @@
     {
       "validScenes": [ 1, 1 ],
       "validStages": [ 2, 2 ],
-      "location": "41, 15.5",
+      "location": "41, 14.5",
       "type": "Sticky",
       "name": "Sticky",
       "facing": "up",
@@ -318,7 +311,7 @@
       "location": "70.5, 15",
       "type": "Laser Boy",
       "name": "Laser Boy",
-      "facing": "left",
+      "facing": "right",
       "assets": [
         {
           "type": "SimpleDialogTrigger",
