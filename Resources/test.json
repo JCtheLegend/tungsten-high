@@ -5,7 +5,7 @@
         },
         {
             "type": "timeline",
-            "text": "CarArrive"
+            "text": "Timelines/CarArrive"
         },
         {
             "type": "dialog",
@@ -18,7 +18,7 @@
         },
         {
             "type": "timeline",
-            "text": "CarLeave"
+            "text": "Timelines/CarLeave"
         }
     ]
 }
