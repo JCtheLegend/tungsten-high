@@ -8,8 +8,10 @@
 
 ## Chapter summary
 
-`[TBD]` — what is this week about, and what does it advance in the
-[central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-destroy-the-school--town)?
+A **computer virus** plot: it's obvious that someone is attacking the school. A **detention subplot** features the
+**living Venus flytrap**, the [Janitor](../Characters/Janitor.md)'s science-fair project from 20 years ago, back from the
+sewers. `[TBD: the rest]` (See the
+[central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-kidnap-the-school).)
 
 ## Threads advanced this chapter
 

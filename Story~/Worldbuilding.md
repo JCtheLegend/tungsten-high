@@ -9,7 +9,9 @@ becomes concrete in-game, note the scene it appears in. Undeclared canon is mark
 
 - **Superheroes live openly among ordinary people.** Powers are a known, accepted part of society.
 - **Gifted students attend schools that train their powers.** Tungsten High is one such school.
-- **A school for the lesser gifted** Like all school systems, 
+- **A school for the lesser gifted** Like all school systems, `[TBD: finish this line]` Tungsten High's students, Slim among them in his day, have **weak powers**. This is the grievance that drives [Slim](Characters/Slim.md).
+- **Powers are disclosed.** Applying to a power academy means **disclosing your power**, so staff and
+  students know what everyone can do.
 - **Public image matters.** The existence of a *Public Relations* class implies heroes are managed,
   branded, and held to a public standard — powers are as much a social/political matter as a physical one.
 - **The town** Around the school, the town of Garnet is the other half of the setting and is the place where the heroes and their families live, and contains the people they protect
@@ -22,6 +24,25 @@ The player character is unusual even among the gifted:
    stage) he is transported there.
 2. **Walking into people's dreams** — he can enter *inside* other people's minds while they are asleep, gaining access to whatever occupies their mind
 
+**Rules of entering someone's dream:**
+- The person being entered **must be asleep**.
+- **Entering while awake:** by **coming into contact with a dreaming person**, the player enters directly
+  into *their* specific dreamspace.
+- **Entering while asleep:** from the Dream World in general, the player may have to **travel to reach the
+  dreaming person**, shown in-game as a **floating head** of that person in the Dream World.
+- While he's in the Dream World, the player's **physical body enters a meditative state**.
+- **Inside someone's dream** he can **read their memories** (e.g. the goon's vault code, Ch.1 Day 4),
+  **talk to them** as they act out their dream, or **wake them up**. `[TBD: do they remember him afterward?]`
+- **Who knows:** applicants to power academies must **disclose their power**, so the staff and students
+  know about his dream-walking.
+- **Cost / danger:** `[TBD — parked]`
+- **Other dream-walkers:** the school's [Janitor](Characters/Janitor.md) is one too; he can also **sleepwalk at will**. The player sees a
+  **dream-walking indicator** next to him.
+- **Waking yourself up** from a dream is a **skill dream-walkers learn**; the player learns it in **Chapter 3** (pays off in Ch.6 Day 4).
+- **Mystic Punch:** a technique that knocks the target out for a **split second**, letting a dream-walker **enter
+  their mind mid-strike**. Taught by the Gym/combat teacher in a special training session in **Chapter 4**.
+- **Dream potions:** a Tungsten High student can **make dreams for people in the form of potions** `[TBD: who]`.
+
 ## The Dream World
 
 - A **parallel of the real-world map** — the same geography, altered. Explored during the `dream` stage.
@@ -30,13 +51,22 @@ The player character is unusual even among the gifted:
 - Populated by its own entities and guardians, and by manifestations of real people's inner lives
 - **Dream regions:**
   - **Main Area**
-  - **Dreams** People dreaming make large bubbles floating in the Main Area
-  - **Inner Mind** 
+  - **Dreams** People dreaming make large bubbles floating in the Main Area. A dreaming person appears as a **floating head** the player can travel to. `[TBD: are the head and the bubble the same thing?]`
+  - **Inner Mind** — relates to **the player only** (his own mind).
+    **How dreams are made:** think of the subconscious as a **machine**. It takes **positive emotions** (joy, love,
+    peace) and **negative emotions** (fear, anger, jealousy), plus the **memories** tied to them (often recent
+    ones), and combines them into the contents of people's dreams. `[TBD: is this machine "The Mechanism" below?]`
     Sub Areas:
       - Good Area [Name TBD]: Full of the players' good memories, idealistic goals, and optimistic dreams come true. An enticing place can trap the player in a self-fulfilling world.
-      - Bad Area [Name TBD]: Full of the players' bad memories, fears, regrets, and 
+      - Bad Area [Name TBD]: Full of the players' bad memories, fears, regrets, and `[TBD]`. **Fear** is one of its
+        primary negative feelings. It shows up in the Day 1 dream as a **Crab** (from a childhood memory of the
+        player getting pinched on the beach) and as the **Dream Stranger** (his fear of talking to strangers).
       - The Mechanism:
   - **Catworld** — A dream world that all cats share when they sleep. The reason why cats sleep all the time is so they can hang out together in Cat World
+
+## History
+
+- **~20 years before the game:** Tungsten High students [Slim](Characters/Slim.md), [Marcy](Characters/Marcy.md), and [Sparks](Characters/Sparks.md) build a power-upgrade machine for the science fair. Slim tests it on Marcy; she becomes a giant werewolf creature, rampages through the school, and is killed by the local hero [Anchorman](Characters/Anchorman.md). Her body is found in its original form, so everyone believes she was a **victim** of the attack. Slim uses the machine on himself and disappears into the 1st dimension. Sparks stops developing the machine and never sees Slim or Marcy again; she knows Marcy was the monster but keeps it secret. Anchorman is now retired and lives in town. Told to the player in **flashbacks**, which come through the school's [Janitor](Characters/Janitor.md), a dream-walker perpetually remembering that day.
 
 ## The school: Tungsten High
 
@@ -56,7 +86,8 @@ Day 2), science **puzzle labs** (Day 2), and a **library** (Day 5).
 
 ### The town *(from existing content — the PR "Bank" assignment sends you here)*
 
-The Public Relations class runs a multi-day town assignment, which is how the wider town gets mapped:
+The Public Relations class runs a multi-day town assignment: students **help out at a building in town on Days 2–4**
+of the week (the player's, in Chapter 1, is the Bank). It's how the wider town gets mapped:
 
 - **Garnet Square** — the central town plaza / hub for the assignment.
 - **The Bank** (and its **vault**) — focus of the week's escalating thread; a combination-lock vault
@@ -64,6 +95,7 @@ The Public Relations class runs a multi-day town assignment, which is how the wi
 - Civic buildings that each hold a **quarter** in the collectible quest: **City Hall**, a **Fountain**,
   the **Library**, the **Post Office / Mail**, the **Nurse's office**.
 - Player's **home** and neighborhood (`ArriveHome`, `Downstairs`, `PlayerRoom`, `HomeOutside`).
+- The **town jail**, where captured villains go. Prisoners wear **power-cancelling handcuffs** (invented by [Anti Hero](Characters/Anti%20Hero.md)).
 - `[TBD: town name? how big? relationship of the town to the school?]`
 
 ### After-school life (`post`)
@@ -76,17 +108,20 @@ The Public Relations class runs a multi-day town assignment, which is how the wi
 
 Track the sides of the central conflict here as they're decided:
 
-- **The conspiracy** — whoever is plotting to destroy the school/town. `[TBD: who, why, how]`
+- **The conspiracy** — the plot to **kidnap the school**, led by [Slim](Characters/Slim.md), a former Tungsten High student who wants to take control of the school and use it to produce genetically altered hero students. He recruits with the **promise of upgraded powers** and the fame and fortune that come with them. He upgrades [Bubba](Characters/Bubba.md) and [Sandman](Characters/Sandman.md) to **kidnap the school** (see [PlotThreads §A](PlotThreads.md#a-the-central-mystery--the-plot-to-kidnap-the-school)). He funds the plan with the stolen bank money (Ch.1), including **hiring goons**. [The Hole](Characters/The%20Hole.md) works for him without knowing who he is. `[TBD: other members]`
 - **Allies** — friends and mentors who help the player.
 - **The school establishment** — faculty/administration; ally, obstacle, or compromised?
 - **Dream World powers** — do the dream entities have a stake in the real-world plot?
 
 ## The powers system
 
+- **Upgrading powers is possible, and dangerous.** [Slim](Characters/Slim.md)'s machine can genetically alter and upgrade a hero's power. Upgrades can go catastrophically wrong: the machine turned Marcy, a dog shapeshifter, into a raging giant werewolf creature, and sent Slim (originally able to turn 2-dimensional) into the 1st dimension, able to go into lower and lower dimensions. [Sandman](Characters/Sandman.md)'s "unstable upgrade" comes from Slim's machine. `[TBD: how powers arise normally; power classes]`
+
 
 ## Tone & themes
 
 - **Tone:** `[TBD — e.g. earnest coming-of-age with a creeping mystery underneath?]`
+- **The moral (where the ending lands):** Heroes are not made by how strong their powers are, but by the moral character and willpower of those who are blessed with any level of strength.
 - **Themes to keep pulling on:** Superpowers as a gift. The birth, death, and preservation of hopes and dreams. Escaping Reality
 
 ## Glossary / naming *(fill as canon solidifies)*
@@ -94,6 +129,13 @@ Track the sides of the central conflict here as they're decided:
 - **Tungsten High** — the school; the game's title.
 - **The Dream World** — the parallel dream map.
 - **Dream-walking** — the protagonist's power to enter/leave the Dream World.
-- **Morpheus / Dream Stranger / Stair Guardian / Fear** — dream entities (see above).
+- **Fear** — a primary negative feeling of the Inner Mind's Bad Area. In Ch.1 Day 1 it manifests as the **Crab** and the **Dream Stranger**.
+- **Dream Stranger** — a manifestation of Fear: the player's fear of talking to strangers.
+- **Stair Guardian** — a dream entity `[TBD]`.
+- **Paperboy** — Slim's nickname in school.
+- **The upgrade machine** — a machine that genetically alters and upgrades powers, built for the school science fair ~20 years ago by [Slim](Characters/Slim.md), [Marcy](Characters/Marcy.md), and [Sparks](Characters/Sparks.md). [TBD: in-world name]
+- **Power-cancelling handcuffs** — cancel the wearer's powers; used on The Hole (Ch.1 Day 4). Invented by [Anti Hero](Characters/Anti%20Hero.md), a powerless tech genius who hates people with powers; law enforcement uses them against supervillains.
+- **Exotrons** — the Janitor's science-fair project exposed a Venus flytrap to exotrons, which made it come alive. `[TBD: what exotrons are]`
+- **Anchorman** — a local hero ~20 years ago; see [Anchorman](Characters/Anchorman.md).
 - **The Planner** — the in-game menu/journal item, picked up in Ch.1 Gym. (Also a real UI system:
   `Planner`/`PlannerPage` in code.)

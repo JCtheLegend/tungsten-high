@@ -15,7 +15,7 @@ What does this chapter advance in the central mystery?]
 
 ## Threads advanced this chapter
 
-- [A. Central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-destroy-the-school--town): [what moves]
+- [A. Central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-kidnap-the-school): [what moves]
 - [Other threads…]
 
 ## New this chapter

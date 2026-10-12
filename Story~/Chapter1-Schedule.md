@@ -22,13 +22,13 @@ as opposed to polish of existing scenes:
 
 1. **Bubba Day 5 battle** — the summary says his transfer is denied and the player witnesses "the death
    of his dream" after a battle on Day 5. Only `3.Lunch.BubbaFight` exists; **no Day 5 Bubba fight files**.
-2. **Slim on Day 0** — roster says Slim first appears Week 1 Day 0, but no Day 0 cutscene features him.
-   (Open question: is the **Dream Stranger** — or the removed Morpheus figure — actually Slim?)
+2. **Slim on Day 0** — canon: Day 0 has a **flashback** of Slim talking with Marcy about their prototype
+   upgrade machine. No Day 0 cutscene has it yet. (The **Dream Stranger** is a manifestation of the player's Fear — decided.)
 3. **Sparks' letter** — "a letter appears out of thin air in Sparks' classroom" (the Ch.2 hook). No scene yet;
    natural home is Day 5 `Sci` (currently just `5.Sci.End`).
 4. **The Hole reveal** — the vault money "mysteriously disappears, and The Hole wasn't working alone."
    Confirm the Day 4 vault scenes actually land this beat.
-5. **Placeholder files** — `2.Pysch.Placeholder.json`, `holder.json`, and the empty `[TBD]` class beats
+5. **Placeholder files** — `2.Psych.Placeholder.json`, `holder.json`, and the empty `[TBD]` class beats
    (Day 3 Gym/Psych/Sci, Day 5 Gym/Sci).
 
 ---
@@ -40,7 +40,7 @@ Small week (3 days). Goal: know exactly what you have.
 - [ ] **Full playthrough of Days 0–5** as they exist (use `SceneLoader`'s debug counters to jump).
       In Chapter-1.md, mark every scene ✅ (works), 🔨 (broken/rough), or ☐ (missing).
 - [ ] List every bug you hit in a `Bugs` section at the bottom of Chapter-1.md.
-- [ ] Decide the week's **one big open question**: what is the Bank *really*, and how do The Hole,
+- [x] Decide the week's **one big open question**: what is the Bank *really*, and how do The Hole,
       Slim, and the letter connect? Write the answer into [PlotThreads §A](PlotThreads.md).
 
 ## Week 1 · Aug 3 – 9 — Story lock: villains & the mystery spine
@@ -49,7 +49,7 @@ Writing week. Lock the canon that every remaining scene depends on.
 
 - [ ] Character profiles (from `_TEMPLATE.md`): **Slim**, **The Hole**, **Bubba** — the three the plot
       hangs on. Bubba's needs his full arc: bully → transfer denied → Day 5 battle → "death of his dream."
-- [ ] Resolve in PlotThreads: is the **Dream Stranger** Slim? Sandman? Someone else? (This decides how
+- [x] Resolve in PlotThreads: is the **Dream Stranger** Slim? Sandman? Someone else? (This decides how
       Day 0/Day 1 dream scenes get revised.)
 - [ ] Fill PlotThreads **Setup → Payoff ledger** for Chapter 1: quarters, vault, letter, Bubba's transfer,
       hero name.
@@ -65,7 +65,7 @@ Writing week. Lock the canon that every remaining scene depends on.
       its cost), and name the **town**. Clear the 11 `[TBD]`s or mark them post-launch.
 - [ ] Protagonist.md: clear its 14 `[TBD]`s — name (or confirm nameless), what his power costs, who knows.
 - [ ] Write scripts (dialog on paper) for every `[TBD]` class beat you're keeping: Day 3 Gym/Psych/Sci,
-      Day 5 Gym/Sci, Day 2 Psych (replaces `2.Pysch.Placeholder`). **Cut anything you won't build.**
+      Day 5 Gym/Sci, Day 2 Psych (replaces `2.Psych.Placeholder`). **Cut anything you won't build.**
 
 ## Week 3 · Aug 17 – 23 — Build: Days 0 & 1
 
@@ -79,7 +79,7 @@ Writing week. Lock the canon that every remaining scene depends on.
 
 Biggest existing day — polish, don't rebuild.
 
-- [ ] Replace `2.Pysch.Placeholder` with the written Psych scene; delete `holder.json` if confirmed unused.
+- [ ] Replace `2.Psych.Placeholder` with the written Psych scene; delete `holder.json` if confirmed unused.
 - [ ] Play the **quarters quest** and all 6 **science puzzles**; fix what's broken.
 - [ ] Verify the Day 2 **Bank scenes** foreshadow The Hole correctly under locked canon (revise dialog if needed).
 - [ ] Playtest Day 2 end-to-end; update Chapter-1.md.

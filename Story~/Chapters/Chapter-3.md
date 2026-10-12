@@ -8,8 +8,11 @@
 
 ## Chapter summary
 
-`[TBD]` — what is this week about, and what does it advance in the
-[central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-destroy-the-school--town)?
+The **school dance**, and an **attempted kidnapping of the principal**. [Principal Phoenix](../Characters/Phoenix.md) has a
+phoenix's life cycle (reborn at midnight, aging through the day); the dance, at night, is the chance to disrupt the
+cycle and steal her as she's reborn at midnight. **[Slim](../Characters/Slim.md) is revealed** here. It's another sign that someone is attacking the
+school. [Sparks](../Characters/Sparks.md) **tells the principal** what the Day 5 envelope means. The player learns to **wake
+himself up** from a dream (pays off in Ch.6 Day 4). `[TBD: the rest]` (See the [central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-kidnap-the-school).)
 
 ## Threads advanced this chapter
 
