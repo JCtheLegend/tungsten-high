@@ -9,7 +9,7 @@
 ## Chapter summary
 
 `[TBD]` — what is this week about, and what does it advance in the
-[central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-destroy-the-school--town)?
+[central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-kidnap-the-school)?
 
 ## Threads advanced this chapter
 

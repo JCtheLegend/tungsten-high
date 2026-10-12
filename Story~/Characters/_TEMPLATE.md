@@ -38,7 +38,7 @@
 
 ## Role in the plot
 
-- **Threads they touch:** [link to PlotThreads.md sections, e.g. [A. Central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-destroy-the-school--town)]
+- **Threads they touch:** [link to PlotThreads.md sections, e.g. [A. Central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-kidnap-the-school)]
 - **Arc across the 6 chapters:** [where they start → where they end]
 
 ## Appearances by chapter

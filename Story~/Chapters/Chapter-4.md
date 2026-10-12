@@ -8,8 +8,10 @@
 
 ## Chapter summary
 
-`[TBD]` — what is this week about, and what does it advance in the
-[central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-destroy-the-school--town)?
+The **science-fair chapter**. [Anti Hero](../Characters/Anti%20Hero.md) is the week's villain: a powerless tech genius
+working on a **ray that permanently removes powers** from people. The [Janitor](../Characters/Janitor.md) is **revealed**: who he really is and what the flashbacks are. The Gym teacher
+gives the player a **special training session** in the **Mystic Punch** (pays off in Ch.6 Day 4). `[TBD: the rest]`
+(See the [central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-kidnap-the-school).)
 
 ## Threads advanced this chapter
 
