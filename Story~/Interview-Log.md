@@ -19,7 +19,6 @@ don't care about, or add your own.
 - [ ] **Sparks tells the principal (Ch.3):** what pushes her, how Principal Phoenix reacts. Which chapter (5 or 6) has the final Marcy revelation, and does it change how the player sees Slim?
 - [ ] **Dream-potion student:** name, power details, when they're introduced, and how Sandman gets the potion (willingly?).
 - [ ] **Anti Hero in Ch.4:** how the power-removing ray plot plays out at the science fair, how the player stops him, and what happens to him; does he cross paths with Slim?
-- [ ] **Slim in the Dream World:** from which chapter does the player see him moving around? Lock or drop the tentative idea (scouting susceptible students; recruiting Sandman and Bubba there).
 - [ ] **Ch.3 dance:** who carries out the principal kidnapping attempt, how Slim is revealed on screen, and how it's foiled.
 
 ### Tier 2 — Chapter 1 characters
@@ -77,6 +76,7 @@ don't care about, or add your own.
 
 - **2026-09-22** — **The cost of dream-walking** (PlotThreads §B, Protagonist limits). Writer's answer: "The inner mind is something relating to the player only, let's ignore that for now."
 - **2026-09-22** — **The Inner Mind** (Good/Bad Area names, "The Mechanism"). Relates to the player only. *Partly reopened by the writer the same day:* the subconscious-as-machine model, Fear in the Bad Area (Crab, Dream Stranger). Still open: the Area names, whether the machine is "The Mechanism".
+- **2026-10-13** — **Slim in the Dream World** (from which chapter the player sees him; scouting susceptible students; recruiting Sandman/Bubba there; his look in dreams). Writer: not sure about these plot points yet.
 
 ---
 
