@@ -32,7 +32,8 @@ player's slow-burn romance across the year.
 ## Relationships
 
 - **To the player:** Friend and **love interest**. The romance **develops slowly over the whole game**, including
-  the player **giving her flowers** and the two **dancing together at the school dance** (Ch.3). One of the
+  the player **giving her flowers** and the two **dancing together at the Snow Ball** (Ch.3, the winter dance; Mark first has to move on from his ex-girlfriend
+  before he can ask her). One of the
   **core group** (the player, [Micycle](Micycle.md), [Laser Boy](Laser%20Boy.md), Bloom).
 - **To others:** [TBD]
 
@@ -41,7 +42,7 @@ player's slow-burn romance across the year.
 - **Threads they touch:** [D. Friendships & the social sim](../PlotThreads.md#d-friendships--the-social-sim)
 - **Arc across the 6 chapters:** Met in Ch.1 → **Ch.2:** she and the player get **detention** and have to go into
   the **sewers**, where they fight a **giant Venus flytrap** (the Janitor's science project, a callback to the Day 0
-  dream) → **Ch.3:** they dance together at the school dance → [TBD]
+  dream) → **Ch.3:** he asks her to the **Snow Ball** after moving on from his ex; they dance together → [TBD]
 
 ## Appearances by chapter
 
@@ -49,7 +50,7 @@ player's slow-burn romance across the year.
 |---|---|---|
 | 1 | **Day 2 · Post:** meets the player (`2.Post.Bloom`). [TBD] | 🔨 |
 | 2 | Detention with the player; into the sewers; fight the giant Venus flytrap. | ☐ |
-| 3 | Dances with the player at the school dance. | ☐ |
+| 3 | Mark asks her to the **Snow Ball** (after moving on from his ex); they dance together. | ☐ |
 | 4–6 | Part of the core group all year; the romance keeps developing (flowers). [TBD] | ☐ |
 
 ## Notes / open questions

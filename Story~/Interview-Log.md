@@ -23,7 +23,7 @@ don't care about, or add your own.
 
 ### Tier 2 — Chapter 1 characters
 
-- [ ] **Mark follow-ups:** his age (old friends are in college — does Tungsten High come after high school?); do the old friends / ex-girlfriend appear (dreams, the Good Area)? Their names; his look.
+- [ ] **Mark follow-ups:** names of the old friends and ex-girlfriend; how the Ch.3 Christmas reunion and moving on play out; when he finds the **sword** (Bad Area) and **shield** (Good Area); his look.
 - [ ] **The Hole** (profile started): his identity, motive, look, voice.
 - [ ] **Bubba follow-ups:** his brother (name, does he appear?); **Glowstick** (Ch.1 role, personality, Ch.6 fate); how Slim recruits Bubba after his dream dies; his look and voice.
 - [ ] **Sandman follow-ups:** when/how Slim approaches him; his look; his Ch.2–5 beats as mentor.
@@ -55,6 +55,7 @@ don't care about, or add your own.
 
 - [ ] **Powers system:** how powers arise, the power classes (e.g. "Psychological"), what an "unstable upgrade" is (Sandman has one).
 - [ ] **The lesser-gifted school:** the Worldbuilding line "A school for the lesser gifted — Like all school systems," is unfinished. Is Tungsten High the lesser school and Platinum Prep the elite one?
+- [ ] **School / game name:** the writer is considering renaming Tungsten High (it's a post-high-school academy, so "High" confuses); needs something catchy since it's the game title. Brainstorm only if asked.
 - [ ] **Dream World:** is a dreamer's floating head the same as the "dream bubble" in the Main Area? Do people remember the player visiting their dream? The other dream gateways.
 - [ ] **Town of Garnet:** size, character, relationship to the school.
 - [ ] **Factions:** the conspiracy's members, the school establishment's stance, whether dream entities have a stake.
@@ -73,7 +74,7 @@ don't care about, or add your own.
 *(Questions skipped or deferred — date, question, any partial answer.)*
 
 - **2026-09-22** — **The cost of dream-walking** (PlotThreads §B, Protagonist limits). Writer's answer: "The inner mind is something relating to the player only, let's ignore that for now."
-- **2026-09-22** — **The Inner Mind** (Good/Bad Area names, "The Mechanism"). Relates to the player only. *Partly reopened by the writer the same day:* the subconscious-as-machine model, Fear in the Bad Area (Crab, Dream Stranger). Still open: the Area names, whether the machine is "The Mechanism".
+- **2026-09-22** — **The Inner Mind** (Good/Bad Area names, "The Mechanism"). Relates to the player only. *Partly reopened by the writer the same day:* the subconscious-as-machine model, Fear in the Bad Area (Crab, Dream Stranger). Still open: the Area names, whether the machine is "The Mechanism". *Reopened 2026-10-13:* the **sword** (Bad Area) and **shield** (Good Area) for Dream World combat; the Good Area comes into play in Ch.3.
 - **2026-10-13** — **Slim in the Dream World** (from which chapter the player sees him; scouting susceptible students; recruiting Sandman/Bubba there; his look in dreams). Writer: not sure about these plot points yet.
 
 ---

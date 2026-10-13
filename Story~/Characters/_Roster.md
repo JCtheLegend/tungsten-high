@@ -5,7 +5,7 @@ fastest way (for a human or Claude) to see the whole cast at a glance.
 
 | Character                           | Role                 | Powers / deal                                   | First appears    |
 |-------------------------------------|----------------------|-------------------------------------------------|------------------|
-| [Mark (Protagonist)](Protagonist.md) | PC                 | Largely silent. Dream-walking; can walk into people. Only one in his family with powers (revealed in high school, a couple years before the game); wants to be a hero, struggles with how his powers changed his life plans | Day 0 · Dream    |
+| [Mark (Protagonist)](Protagonist.md) | PC                 | Largely silent; 19–20. Dream-walking; can walk into people. Only one in his family with powers (revealed in high school, a couple years before the game); wants to be a hero, struggles with how his powers changed his life plans | Day 0 · Dream    |
 | [Sandman](Sandman.md)               | Friend/Villain       | Nickname "Sandy". 2nd-year Psych student; sleepy powder; commanding mentor to the protagonist (gives him the Planner); wants to lead and inspire; twist villain (upgraded by Slim) | Day 1 · Gym (Planner) |
 | [Bubba](Bubba.md)                   | Bully/Villain        | Makes small, easily popped bubbles that float people; bullies player and friends; jealous of his brother at Platinum Prep; works with Slim; upgraded, bubbles the school into the sky; turns and is forgiven (Ch.6) | Day 3 · Lunch    |
 | Glowstick                           | Student / Bully's ally | Bubba's ally; glows in the dark when they crack their knuckles, back, neck, etc. | [TBD] |

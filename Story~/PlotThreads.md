@@ -132,6 +132,9 @@ The dream-walking / walk-into-people gift is both a tool and a source of danger.
 - **Everyone knows:** powers are disclosed when applying to a power academy.
 - **The cost/danger:** the downside that raises stakes. `[TBD — parked]`
 - Explored in the **Psychological Powers** class and the Dream World.
+- **Growing stronger in dreams:** experienced dream-walkers can manipulate themselves and their environment. Mark finds
+  a **sword** (Bad Area: courage against fear) and a **shield** (Good Area: restraint against selfish fantasies) in his
+  Inner Mind for Dream World combat. `[TBD: when]`
 
 ## C. Recurring dream figures
 
@@ -155,7 +158,8 @@ The player "makes friends." The cafeteria (15 tables), clubs, and Dodgeball are 
   - **Mike** and the player bond after the events of **Week 1** (PR partners; hostages together at the bank).
   - **Laser Boy** and the player bond after the player **returns the books Bubba stole** (Ch.1 Day 5).
   - **Bloom:** a **slow-burn romance** across the whole game: the player **gives her flowers**; they **dance together at
-    the school dance** (Ch.3). In **Ch.2** they get **detention** together and have to go into the **sewers**, where they
+    the Snow Ball**, the winter dance (Ch.3, around Christmas); first Mark has to **move on from his ex-girlfriend**, home
+    from college with his old friends. In **Ch.2** they get **detention** together and have to go into the **sewers**, where they
     fight a **giant Venus flytrap** (the Janitor's science project; callback to the Day 0 dream). `[TBD: why detention]`
 - **Dodgeball team** as a bonding throughline across chapters. `[TBD]`
 - **Clubs** (Hero, Dodgeball) as opt-in relationship/plot hooks. `[TBD]`

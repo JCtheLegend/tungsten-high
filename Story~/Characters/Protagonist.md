@@ -20,6 +20,10 @@
     them up**. (Full rules: [Worldbuilding](../Worldbuilding.md#the-protagonists-gift-dream-walking).)
 - **In combat:** grid-based movement with a **punch** (costs energy) and a **block/shield**; energy
   regenerates over time. (See `PlayerCombat/` — the `Grid Player` root.)
+- **Dream World gear:** a **sword** (hidden in his Inner Mind's Bad Area: courage and willpower against fear) and a
+  **shield** (hidden in the Good Area: restraint, self-control, and prudence against selfish desires, hedonism, and
+  fantasies). Finding them makes him stronger in Dream World combat. Experienced dream-walkers can manipulate
+  themselves and their environment in the Dream World.
 - **Skills learned during the year:** **waking himself up** from a dream (**Ch.3**); the
   **Mystic Punch**, from a special training session with the Gym/combat teacher, Mr. Brock, (**Ch.4**).
   Both pay off in the Ch.6 Day 4 final battle.
@@ -29,7 +33,8 @@
 
 - Has multiple **costumes** that change his look and animations: default, **pajamas** (`pjs`, worn at
   home/dream transitions), and **lunch** outfit. (Costume = animation-name prefix in code.)
-- `[TBD: age, design notes, colors.]`
+- **Age:** 19 or 20 (hero academies are two-year programs after high school).
+- `[TBD: design notes, colors.]`
 
 ## Personality
 
@@ -55,7 +60,9 @@
 
 - **Mom** — drives him, dinners at home. `[TBD]`
 - **Dad** — mows the lawn. `[TBD]`
-- **Old friends & former girlfriend** — gone to college; rarely seen, but their memories haunt him. `[TBD: names]`
+- **Old friends & former girlfriend** — gone to college; rarely seen, but their memories haunt him. They **come home for
+  Christmas in Ch.3**; he has to **move on from his ex** before he can ask [Bloom](Bloom.md) to the Snow Ball, and his
+  Inner Mind's Good Area comes into play. `[TBD: names]`
 - **Friends** — made through Lunch, clubs, and Dodgeball across chapters. `[TBD]`
 - **Dream figures** — the **Dream Stranger** (a manifestation of his own Fear), the Stair Guardian `[TBD]`.
 
@@ -83,6 +90,5 @@ Present throughout. In **Chapter 1** (the built chapter), day by day:
 
 ## Notes / open questions
 
-- His **age**: his old classmates are in college, so is he around 20? Does Tungsten High come after high school?
-- Do the old friends / ex-girlfriend show up in dreams (his Inner Mind's Good Area, "a life that could have been")?
+- When does he find the **sword** (Bad Area) and the **shield** (Good Area)? The shield fits Ch.3.
 - Pin down the **rules and cost** of walking into people — most of his arc hangs on it.

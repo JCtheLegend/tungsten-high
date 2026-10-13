@@ -10,6 +10,9 @@ becomes concrete in-game, note the scene it appears in. Undeclared canon is mark
 - **Superheroes live openly among ordinary people.** Powers are a known, accepted part of society.
 - **Gifted students attend schools that train their powers.** Tungsten High is one such school.
 - **A school for the lesser gifted** Like all school systems, `[TBD: finish this line]` Tungsten High's students, Slim among them in his day, have **weak powers**. This is the grievance that drives [Slim](Characters/Slim.md).
+- **Hero academies are two-year programs after high school.** Tungsten High and Platinum Prep alike; students are
+  **19 or 20**. (Despite the "High" in the name, it isn't a high school. The writer is considering **renaming the
+  school**, and so the game, to avoid confusion `[TBD: new name — needs to be catchy]`.)
 - **Tungsten High is a two-year program.** First years are new; **second years** are older, more experienced,
   and help **lead clubs and events** (e.g. **Handstand** welcomes the new students on Day 1).
 - **Powers are disclosed.** Applying to a power academy means **disclosing your power**, so staff and
@@ -38,6 +41,7 @@ The player character is unusual even among the gifted:
 - **Who knows:** applicants to power academies must **disclose their power**, so the staff and students
   know about his dream-walking.
 - **Cost / danger:** `[TBD — parked]`
+- **Experienced dream-walkers can manipulate themselves and their environment** in the Dream World.
 - **Other dream-walkers:** [Mr. Brock](Characters/Brock.md), the Gym teacher, **was** one until [Anti Hero](Characters/Anti%20Hero.md) erased his powers. The school's [Janitor](Characters/Janitor.md) is one too; he can also **sleepwalk at will**. The player sees a
   **dream-walking indicator** next to him.
 - **Waking yourself up** from a dream is a **skill dream-walkers learn**; the player learns it in **Chapter 3** (pays off in Ch.6 Day 4).
@@ -55,6 +59,12 @@ The player character is unusual even among the gifted:
   - **Main Area**
   - **Dreams** People dreaming make large bubbles floating in the Main Area. A dreaming person appears as a **floating head** the player can travel to. `[TBD: are the head and the bubble the same thing?]`
   - **Inner Mind** — relates to **the player only** (his own mind).
+    **Sword & shield:** two items hidden in his Inner Mind that he must find to become more powerful in **Dream World
+    combat**:
+      - The **sword**, hidden in the **Bad Area**, symbolizes the **great courage and willpower** needed to fight against fear.
+      - The **shield**, hidden in the **Good Area**, symbolizes **restraint, self-control, and prudence** against selfish
+        desires, hedonism, and fantasies.
+    `[TBD: when he finds each]`
     **How dreams are made:** think of the subconscious as a **machine**. It takes **positive emotions** (joy, love,
     peace) and **negative emotions** (fear, anger, jealousy), plus the **memories** tied to them (often recent
     ones), and combines them into the contents of people's dreams. `[TBD: is this machine "The Mechanism" below?]`
@@ -139,6 +149,8 @@ Track the sides of the central conflict here as they're decided:
 - **Norbert** — a dream creature living in the player's mind who sorts the day's thoughts, memories, and feelings into his subconscious. One of a species `[TBD: name]` living in areas of the Dream World.
 - **Ephemeral World / Ephemeral Realm** — [Maven](Characters/Maven.md)'s word for the Dream World, perhaps the more scientific term for it.
 - **Maven's magic rug** — transports people into the Dream World.
+- **The sword & shield** — the player's Dream World weapons, hidden in his Inner Mind (sword: Bad Area, courage and willpower against fear; shield: Good Area, restraint and prudence against selfish desires and fantasies).
+- **The Snow Ball** — the winter dance (Ch.3, around Christmas).
 - **Dream Stranger** — a manifestation of Fear: the player's fear of talking to strangers.
 - **Stair Guardian** — a dream entity `[TBD]`.
 - **Paperboy** — Slim's nickname in school.
