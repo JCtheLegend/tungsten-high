@@ -61,17 +61,17 @@ The player character is unusual even among the gifted:
   - **Inner Mind** — relates to **the player only** (his own mind).
     **Sword & shield:** two items hidden in his Inner Mind that he must find to become more powerful in **Dream World
     combat**:
-      - The **sword**, hidden in the **Bad Area**, symbolizes the **great courage and willpower** needed to fight against fear.
-      - The **shield**, hidden in the **Good Area**, symbolizes **restraint, self-control, and prudence** against selfish
+      - The **sword**, hidden in the **Hollow**, symbolizes the **great courage and willpower** needed to fight against fear.
+      - The **shield**, hidden in the **Halcyon**, symbolizes **restraint, self-control, and prudence** against selfish
         desires, hedonism, and fantasies.
     Both are **late-game items**, found in **Chapters 4–5** `[TBD: which is which]`. The shield comes **after** Ch.3: Mark
-    escapes the Good Area in Ch.3 but must **return** in a later chapter to claim it.
+    escapes the Halcyon in Ch.3 but must **return** in a later chapter to claim it.
     **How dreams are made:** think of the subconscious as a **machine**. It takes **positive emotions** (joy, love,
     peace) and **negative emotions** (fear, anger, jealousy), plus the **memories** tied to them (often recent
     ones), and combines them into the contents of people's dreams. `[TBD: is this machine "The Mechanism" below?]`
     Sub Areas:
-      - Good Area [Name TBD]: Full of the players' good memories, idealistic goals, and optimistic dreams come true. An enticing place can trap the player in a self-fulfilling world.
-      - Bad Area [Name TBD]: Full of the players' bad memories, fears, regrets, and `[TBD]`. **Fear** is one of its
+      - **The Halcyon** (the Halcyon): Full of the players' good memories, idealistic goals, and optimistic dreams come true. An enticing place can trap the player in a self-fulfilling world.
+      - **The Hollow** (the Hollow): Full of the players' bad memories, fears, regrets, and `[TBD]`. **Fear** is one of its
         primary negative feelings. It shows up in the Day 1 dream as a **Crab** (from a childhood memory of the
         player getting pinched on the beach) and as the **Dream Stranger** (his fear of talking to strangers).
       - The Mechanism:
@@ -146,7 +146,8 @@ Track the sides of the central conflict here as they're decided:
 - **Tungsten High** — the school; the game's title.
 - **The Dream World** — the parallel dream map.
 - **Dream-walking** — the protagonist's power to enter/leave the Dream World.
-- **Fear** — a primary negative feeling of the Inner Mind's Bad Area. In Ch.1 Day 1 it manifests as the **Crab** and the **Dream Stranger**.
+- **The Halcyon / The Hollow** — the Good and Bad Areas of Mark's Inner Mind.
+- **Fear** — a primary negative feeling of the Inner Mind's Hollow (Bad Area). In Ch.1 Day 1 it manifests as the **Crab** and the **Dream Stranger**.
 - **Norbert** — a dream creature living in the player's mind who sorts the day's thoughts, memories, and feelings into his subconscious. One of a species `[TBD: name]` living in areas of the Dream World.
 - **Ephemeral World / Ephemeral Realm** — [Maven](Characters/Maven.md)'s word for the Dream World, perhaps the more scientific term for it.
 - **Maven's magic rug** — transports people into the Dream World.

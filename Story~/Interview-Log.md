@@ -74,7 +74,7 @@ don't care about, or add your own.
 *(Questions skipped or deferred — date, question, any partial answer.)*
 
 - **2026-09-22** — **The cost of dream-walking** (PlotThreads §B, Protagonist limits). Writer's answer: "The inner mind is something relating to the player only, let's ignore that for now."
-- **2026-09-22** — **The Inner Mind** (Good/Bad Area names, "The Mechanism"). Relates to the player only. *Partly reopened by the writer the same day:* the subconscious-as-machine model, Fear in the Bad Area (Crab, Dream Stranger). Still open: the Area names, whether the machine is "The Mechanism". *Reopened 2026-10-13:* the **sword** (Bad Area) and **shield** (Good Area) for Dream World combat; the Good Area comes into play in Ch.3.
+- **2026-09-22** — **The Inner Mind** (Good/Bad Area names, "The Mechanism"). Relates to the player only. *Partly reopened by the writer the same day:* the subconscious-as-machine model, Fear in the Bad Area (Crab, Dream Stranger). Area names decided 2026-10-13: **the Halcyon** (Good) / **the Hollow** (Bad). Still open: the machine is "The Mechanism". *Reopened 2026-10-13:* the **sword** (Bad Area) and **shield** (Good Area) for Dream World combat; the Good Area comes into play in Ch.3.
 - **2026-10-13** — **Slim in the Dream World** (from which chapter the player sees him; scouting susceptible students; recruiting Sandman/Bubba there; his look in dreams). Writer: not sure about these plot points yet.
 
 ---

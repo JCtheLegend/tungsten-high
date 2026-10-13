@@ -16,15 +16,15 @@ himself up** from a dream (pays off in Ch.6 Day 4).
 
 **Mark's old life comes back:** it's Christmas, so his **old friends and former girlfriend** come home from college.
 Before he can ask [Bloom](../Characters/Bloom.md) to the Snow Ball, he has to **move on from his ex-girlfriend**. His
-Inner Mind's **Good Area** (the enticing, self-fulfilling world of dreams come true) comes into play here: the life that
-could have been. Mark has an arc of **escaping the Good Area** this week (he returns in a later chapter to claim the
+Inner Mind's **Halcyon** (the enticing, self-fulfilling world of dreams come true) comes into play here: the life that
+could have been. Mark has an arc of **escaping the Halcyon** this week (he returns in a later chapter to claim the
 **shield**). His ex (no name) saw their relationship as a high school fling; he wanted it to last but deep down knows
 their paths must diverge. `[TBD: the rest]` (See the [central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-kidnap-the-school).)
 
 ## Threads advanced this chapter
 
 - [D. Friendships](../PlotThreads.md#d-friendships--the-social-sim): the player and [Bloom](../Characters/Bloom.md) **dance together** at the Snow Ball; first he has to move on from his ex-girlfriend before he can ask Bloom.
-- Mark's backstory: his old friends and ex-girlfriend come home for Christmas; the Inner Mind's Good Area.
+- Mark's backstory: his old friends and ex-girlfriend come home for Christmas; the Inner Mind's Halcyon (Good Area).
 - `[TBD]`
 
 ## The days

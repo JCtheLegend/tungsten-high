@@ -85,7 +85,7 @@ the Dream World. Files: `Resources/Cutscenes/Chapter1/1/`.
 | Psych | Psych class | Psychological Powers class + sign-in. | `1.Psych.PsychClassSign`, `1.Psych.PsychClass.1`, `1.Psych.PsychClass.2/3/4` | 🔨 |
 | Sci | Science / Assembly | Science of Superpowers class; an **Assembly** (choose a bleacher seat). | `1.Sci.ScienceClass`, `1.Sci.Assembly`, `1.Sci.Assembly.Bleacher2`…`Bleacher7` | 🔨 |
 | Post | Home & clubs | Mom pickup → home; **club signup** (Hero / Dodgeball / Costume); **lawnmower fight**; pet goblin; dinner; bed → dreamwalk. | `1.Post.MomPickUp`, `1.Post.ArriveHome`, `1.Post.InHome`, `1.Post.SignUp`, `1.Post.ClubHero`, `1.Post.ClubDodgeball`, `1.Post.ClubCostume`, `1.Post.PreLawnmowerFight`, `1.Post.PostLawnmowerFight`, `1.Post.AfterLawnmower`, `1.Post.PetGoblin`, `1.Post.AfterDinner`, `1.Post.GoToBed`, `1.Post.Dreamwalk` | 🔨 |
-| Dream | Dream Hub | Key-gated hub; **crab fight**; **fear** encounter; the **Dream Stranger**. The player faces his own **fear of talking to strangers**, fitting a day spent meeting new people. **Fear** (from his Inner Mind's Bad Area) manifests as the **Crab**, from a childhood memory of being pinched on the beach, and as the **Dream Stranger**. | `1.Dream.HubCenter`, `1.Dream.HubLeft`, `1.Dream.NeedKey`, `1.Dream.KeyGet`, `1.Dream.UnlockDoor`, `1.Dream.DisableDoorBox`, `1.Dream.FearSwirlPreFight`, `1.Dream.FearSwirlMove1/2`, `1.Dream.CrabFightFinish`, `1.Dream.PostCrabFight`, `1.Dream.DreamStrangerUp1/2`, `1.Dream.DreamStrangerEnd` | 🔨 |
+| Dream | Dream Hub | Key-gated hub; **crab fight**; **fear** encounter; the **Dream Stranger**. The player faces his own **fear of talking to strangers**, fitting a day spent meeting new people. **Fear** (from his Inner Mind's Hollow (the Hollow)) manifests as the **Crab**, from a childhood memory of being pinched on the beach, and as the **Dream Stranger**. | `1.Dream.HubCenter`, `1.Dream.HubLeft`, `1.Dream.NeedKey`, `1.Dream.KeyGet`, `1.Dream.UnlockDoor`, `1.Dream.DisableDoorBox`, `1.Dream.FearSwirlPreFight`, `1.Dream.FearSwirlMove1/2`, `1.Dream.CrabFightFinish`, `1.Dream.PostCrabFight`, `1.Dream.DreamStrangerUp1/2`, `1.Dream.DreamStrangerEnd` | 🔨 |
 
 **Notes:** The **Planner** pickup and **punching-bag fight** are tutorials. Lunch's 15-table choice and
 the Assembly's bleacher choice are the reusable "pick a seat / who do you talk to" social pattern.
@@ -179,7 +179,7 @@ choices made (clubs, lunch tables, fights). `[TBD: does the week end on a hook i
 | Punching-bag fight | 1 · Gym | Punching bag | Combat tutorial | `PunchingBag*Controller` | 🔨 |
 | Lawnmower fight | 1 · Post | Lawnmower | `[TBD]` | `LawnmowerController` | 🔨 |
 | Crab fight | 1 · Dream | Crab (Fear, from a childhood beach-pinch memory) | The player's fear of talking to strangers, in battle form | `CrabEnemy` | 🔨 |
-| Fear encounter | 1 · Dream | "Fear" swirl | The player's own manifested fear (Bad Area of his Inner Mind) | — | 🔨 |
+| Fear encounter | 1 · Dream | "Fear" swirl | The player's own manifested fear (the Hollow, his Inner Mind's Bad Area) | — | 🔨 |
 | Race + dummy fight | 2 · Gym | Dummy | `[TBD]` | — | 🔨 |
 | Bubba fight | 3 · Lunch | Bubba | Rival | — | 🔨 |
 | Goon's mind (dream-walk) | 4 · Bank | The goon (in his own dream; guards the last number) | Retrieve the vault code from the sleeping goon's mind: collect the numbers around his luxury-lifestyle dream, then win the last one in a fight | — | ✍️ |

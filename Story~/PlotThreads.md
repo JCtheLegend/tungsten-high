@@ -133,8 +133,8 @@ The dream-walking / walk-into-people gift is both a tool and a source of danger.
 - **The cost/danger:** the downside that raises stakes. `[TBD — parked]`
 - Explored in the **Psychological Powers** class and the Dream World.
 - **Growing stronger in dreams:** experienced dream-walkers can manipulate themselves and their environment. Mark finds
-  a **sword** (Bad Area: courage against fear) and a **shield** (Good Area: restraint against selfish fantasies) in his
-  Inner Mind for Dream World combat: **late-game items, Chs.4–5**. In Ch.3 he escapes the Good Area; he returns later for the shield.
+  a **sword** (Hollow: courage against fear) and a **shield** (Halcyon: restraint against selfish fantasies) in his
+  Inner Mind for Dream World combat: **late-game items, Chs.4–5**. In Ch.3 he escapes the Halcyon; he returns later for the shield.
 
 ## C. Recurring dream figures
 

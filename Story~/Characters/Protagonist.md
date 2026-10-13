@@ -20,10 +20,10 @@
     them up**. (Full rules: [Worldbuilding](../Worldbuilding.md#the-protagonists-gift-dream-walking).)
 - **In combat:** grid-based movement with a **punch** (costs energy) and a **block/shield**; energy
   regenerates over time. (See `PlayerCombat/` — the `Grid Player` root.)
-- **Dream World gear:** a **sword** (hidden in his Inner Mind's Bad Area: courage and willpower against fear) and a
-  **shield** (hidden in the Good Area: restraint, self-control, and prudence against selfish desires, hedonism, and
+- **Dream World gear:** a **sword** (hidden in his Inner Mind's Hollow (Bad Area): courage and willpower against fear) and a
+  **shield** (hidden in the Halcyon: restraint, self-control, and prudence against selfish desires, hedonism, and
   fantasies). Finding them makes him stronger in Dream World combat. Both are **late-game** (Chs.4–5); the shield comes after
-  he escapes the Good Area in Ch.3, when he returns there in a later chapter. Experienced dream-walkers can manipulate
+  he escapes the Halcyon in Ch.3, when he returns there in a later chapter. Experienced dream-walkers can manipulate
   themselves and their environment in the Dream World.
 - **Skills learned during the year:** **waking himself up** from a dream (**Ch.3**); the
   **Mystic Punch**, from a special training session with the Gym/combat teacher, Mr. Brock, (**Ch.4**).
@@ -63,7 +63,7 @@
 - **Dad** — mows the lawn. `[TBD]`
 - **Old friends & former girlfriend** — gone to college; rarely seen, but their memories haunt him. They **come home for
   Christmas in Ch.3**; he has to **move on from his ex** before he can ask [Bloom](Bloom.md) to the Snow Ball, and his
-  Inner Mind's Good Area comes into play: in Ch.3 he has an arc of **escaping the Good Area**. `[TBD: names]`
+  Inner Mind's Halcyon (Good Area) comes into play: in Ch.3 he has an arc of **escaping the Halcyon**. `[TBD: names]`
   - **The ex-girlfriend** (no name): he wanted the relationship to last, but deep down knows their paths in life must
     diverge. She saw it as more of a **high school fling**.
 - **Friends** — made through Lunch, clubs, and Dodgeball across chapters. `[TBD]`
