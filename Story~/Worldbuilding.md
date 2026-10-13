@@ -38,11 +38,11 @@ The player character is unusual even among the gifted:
 - **Who knows:** applicants to power academies must **disclose their power**, so the staff and students
   know about his dream-walking.
 - **Cost / danger:** `[TBD — parked]`
-- **Other dream-walkers:** the school's [Janitor](Characters/Janitor.md) is one too; he can also **sleepwalk at will**. The player sees a
+- **Other dream-walkers:** [Mr. Brock](Characters/Brock.md), the Gym teacher, **was** one until [Anti Hero](Characters/Anti%20Hero.md) erased his powers. The school's [Janitor](Characters/Janitor.md) is one too; he can also **sleepwalk at will**. The player sees a
   **dream-walking indicator** next to him.
 - **Waking yourself up** from a dream is a **skill dream-walkers learn**; the player learns it in **Chapter 3** (pays off in Ch.6 Day 4).
 - **Mystic Punch:** a technique that knocks the target out for a **split second**, letting a dream-walker **enter
-  their mind mid-strike**. Taught by the Gym/combat teacher, **Mr. Brock**, in a special training session in **Chapter 4**.
+  their mind mid-strike**. Taught by the Gym/combat teacher, [Mr. Brock](Characters/Brock.md) (a former dream-walker), in a special training session in **Chapter 4**.
 - **Dream potions:** a Tungsten High student can **make dreams for people in the form of potions** `[TBD: who]`.
 
 ## The Dream World
@@ -79,12 +79,12 @@ how it feeds powers/plot:
 
 | Class (stage) | Subject | Teacher | Notes                                                                          |
 |---|---|---|--------------------------------------------------------------------------------|
-| **Public Relations** (`pr`) | Managing a hero's public image | Ms Nice | Implies heroism is a watched, branded profession.                              |
-| **Gym** (`gym`) | Physical/combat training | Mr. Brock (no powers) | Site of the Ch.1 punching-bag fight; where the **Planner** is first picked up. |
-| **Psychological Powers** (`psych`) | Mind/perception powers | Maven (former magician) | Thematically closest to the protagonist's dream/possession gift.               |
+| **Public Relations** (`pr`) | Managing a hero's public image | Ms Nice (young, energetic, a former singer) | Implies heroism is a watched, branded profession.                              |
+| **Gym** (`gym`) | Physical/combat training | [Mr. Brock](Characters/Brock.md) (powers erased by Anti Hero; a former dream-walker) | Site of the Ch.1 punching-bag fight; where the **Planner** is first picked up. |
+| **Psychological Powers** (`psych`) | Mind/perception powers | [Maven](Characters/Maven.md) (former magician, no powers; his **magic rug** transports people into the Dream World) | Thematically closest to the protagonist's dream/possession gift.               |
 | **Science of Superpowers** (`sci`) | The science behind powers | [Ms Sparks](Characters/Sparks.md) | Mainly taught through the `Science/` puzzle minigames.                         |
 
-Other faculty: **Mr Wood**, the shapeshifting teacher `[TBD: which class]`. The principal is [Fiona Nix](Characters/Phoenix.md) ("Principal Fi").
+Other faculty: **Mr Wood** teaches shapeshifting (the player can't shapeshift, so he never has class with him). The principal is [Fiona Nix](Characters/Phoenix.md) ("Principal Fi").
 
 Other school locations *(from existing content)*: hallways (`HallwayWelcome`), the cafeteria with
 numbered tables (`Lunch.Eat.Table1`–`Table15`), an assembly hall with bleachers, a **track** (Gym race,
@@ -137,6 +137,8 @@ Track the sides of the central conflict here as they're decided:
 - **Dream-walking** — the protagonist's power to enter/leave the Dream World.
 - **Fear** — a primary negative feeling of the Inner Mind's Bad Area. In Ch.1 Day 1 it manifests as the **Crab** and the **Dream Stranger**.
 - **Norbert** — a dream creature living in the player's mind who sorts the day's thoughts, memories, and feelings into his subconscious. One of a species `[TBD: name]` living in areas of the Dream World.
+- **Ephemeral World / Ephemeral Realm** — what [Maven](Characters/Maven.md) calls the Dream World in Psych class.
+- **Maven's magic rug** — transports people into the Dream World.
 - **Dream Stranger** — a manifestation of Fear: the player's fear of talking to strangers.
 - **Stair Guardian** — a dream entity `[TBD]`.
 - **Paperboy** — Slim's nickname in school.

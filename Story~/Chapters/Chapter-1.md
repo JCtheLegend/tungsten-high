@@ -193,7 +193,7 @@ choices made (clubs, lunch tables, fights). `[TBD: does the week end on a hook i
 - [ ] Fill in the many `[TBD]` class beats (Gym Day 3, Psych/Sci several days).
 - [x] Fix the misspelled `*.Pysch.*` filenames — all five renamed to `Psych` (`.json` + `.meta` moved together).
 - [ ] End Day 5 on a clear hook into Chapter 2.
-- [ ] **Build:** in `3.Lunch.Conflict` and `5.Psych.Library.1`, Bubba's lines and the narration are labelled **"Gym Teacher"** (wrong speaker name/portrait). The bullied student was called "Specs" in older notes; canon is now [Laser Boy](../Characters/Laser%20Boy.md) (the game text already says "red eyes"/"cat toy"). `5.Psych.Library.1` says **"Bobby's notebook"**: check the name.
+- [ ] **Build:** in `3.Lunch.Conflict` and `5.Psych.Library.1`, Bubba's lines and the narration are labelled **"Gym Teacher"** (wrong speaker name/portrait). "Specs" in older notes is [Laser Boy](../Characters/Laser%20Boy.md), real name Bobby Morrison ("B-mo"); "Bobby's notebook" in `5.Psych.Library.1` is his.
 - [ ] **Build:** new optional beat: the **town jail** is an enterable building in town, open most times the player is walking around town (after Day 4). The arrested goon (no name, just "the goon") laments being in jail and his **ruined dream of getting rich**, and gives the clue that whoever hired him communicated **only via envelope** (no JSON yet).
 - [ ] **Build:** add the Day 0 **Slim & Marcy flashback**, with Sparks present as a student (new cutscene; no JSON yet).
 - [ ] **Build:** Morpheus is an unused placeholder and is cut from the story. Remove or repurpose the `Morpheus` object in `Scenes/Dream/Day1Dream/80s School 2F.unity` and `Cutscenes/Chapter1/0/0.Dream.Morpheus.json` (it plays "He did not come this way").

@@ -35,7 +35,7 @@ powers in everyone. The villain of Chapter 4, the science-fair chapter.
 ## Relationships
 
 - **To the player:** [TBD]
-- **To others:** [TBD]
+- **To others:** **Erased the powers** of [Mr. Brock](Brock.md), then a dream-walker, in the past `[TBD: when, how]`.
 
 ## Role in the plot
 
@@ -53,3 +53,4 @@ powers in everyone. The villain of Chapter 4, the science-fair chapter.
 ## Notes / open questions
 
 - How does his Ch.4 plan play out, and what happens to him?
+- How did he erase Mr. Brock's powers if the power-removing ray is still in development in Ch.4?

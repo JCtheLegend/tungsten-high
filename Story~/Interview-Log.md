@@ -27,11 +27,11 @@ don't care about, or add your own.
 - [ ] **The Hole** (profile started): his identity, motive, look, voice.
 - [ ] **Bubba** (profile started): base power before the upgrade? Why Platinum Prep? Who is **Bubba's ally**? How does Slim recruit him after his dream dies, and what becomes of him after the kidnapping?
 - [ ] **Sandman:** roster says first appears **Day 3 Lunch**, profile says **Day 1** — which? Why does he take Slim's offer (profile now has the upgrade + kidnapping role)? Fill wants/fears/voice/look.
-- [ ] **Micycle / Laser Boy / Bloom follow-ups:** how Mike and the player meet on Day 1 Pre; Laser Boy's Day 1 PR intro, and is "Bobby" (`5.Psych.Library.1`) his real name; confirm **Specs** is gone (the bullied kid is Laser Boy); why the player and Bloom get **detention in Ch.2**; where the flower-giving beats go; each friend's 6-chapter arc.
+- [ ] **Micycle / Laser Boy / Bloom follow-ups:** how Mike and the player meet on Day 1 Pre; Laser Boy's Day 1 PR intro, and is "Laser Boy" his hero name; why the player and Bloom get **detention in Ch.2**; where the flower-giving beats go; each friend's 6-chapter arc.
 - [ ] **Sparks** (profile started, backstory done): her power, personality, voice; why the envelope appears in her classroom and how she reacts.
 - [ ] **Principal Fiona Nix** ("Principal Fi"; profile started; power decided): ally, obstacle, or compromised?
-- [ ] **Maven** (Psych Teacher; no profile yet): former magician — why the career change; what she/he knows about dream-walking.
-- [ ] Quick profiles (short form): **Map Guy** ("Cart Man" in game?), **Nurse**, **Mom**, **Dad**, **Goblin**, **Ms Nice** (PR), **Mr. Brock** (Gym), **Mr Wood** (shapeshifting — which class?), **Handstand** (2nd year), **Slow Moe**, **Sticky & Slicky** (twins).
+- [ ] **Faculty follow-ups:** **Maven** — why he left magic, where the rug came from, is "Ephemeral Realm" his name for the Dream World. **Mr. Brock** — when/how Anti Hero erased his powers (the ray is still being built in Ch.4), when the player learns he was a dream-walker. Does Brock's history tie into the Ch.4 Anti Hero plot?
+- [ ] Quick profiles (short form): **Map Guy** ("Cart Man" in game?), **Nurse**, **Mom**, **Dad**, **Goblin**, **Handstand** (2nd year), **Slow Moe**, **Sticky & Slicky** (twins).
 - [ ] **Norbert's species:** name for the creatures that live in areas of the Dream World; do others appear (in other people's dreams, Catworld)?
 
 ### Tier 3 — Chapter 1 scenes & beats

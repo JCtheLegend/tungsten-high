@@ -4,7 +4,8 @@
 **Status in story:** ✍️ drafting
 **First appears:** Ch.1 · Day 1 · PR
 
-*Formerly "Beamo" in the story docs; "Laser Boy" in game. Bubba teases him as **"Cat Toy"**.*
+**Real name:** **Bobby Morrison**, nicknamed **"B-mo"** (Beamo). "Laser Boy" in game. Also the student older notes
+called **"Specs"** (same character). Bubba teases him as **"Cat Toy"**.
 
 ## One-liner
 
@@ -52,4 +53,4 @@ player's core group of friends.
 
 ## Notes / open questions
 
-- Is "Bobby" (`5.Psych.Library.1`: "Bobby's notebook") his real name?
+- Is "Laser Boy" his hero name, or what other students call him? Why "Specs" (glasses)?

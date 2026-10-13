@@ -167,7 +167,7 @@ Fights already exist as set-pieces (all Chapter 1) — decide who's behind them 
 - **Punching bag** (Day 1 Gym, tutorial) · **Lawnmower** (Day 1 Post) · **Crab** (Day 1 Dream) ·
   **Fear swirl** (Day 1 Dream) · **Dummy** (Day 2 Gym, after a race) · **Bubba** (Day 3 Lunch, a rival) ·
   **Bank-vault fight** (Day 4). `[TBD: which are training/tutorial vs. real antagonists?]`
-- **[Anti Hero](Characters/Anti%20Hero.md)** — hates people with powers; invented the power-cancelling handcuffs. A powerless tech genius, jealous of people with powers since the power academies (Tungsten High included) turned him away for having none, and the **villain of Chapter 4** (the science fair): he's working on a **ray that permanently removes powers** so he can get rid of powers in everyone.
+- **[Anti Hero](Characters/Anti%20Hero.md)** — hates people with powers; invented the power-cancelling handcuffs. A powerless tech genius, jealous of people with powers since the power academies (Tungsten High included) turned him away for having none, and the **villain of Chapter 4** (the science fair): he's working on a **ray that permanently removes powers** so he can get rid of powers in everyone. He already **erased the powers** of [Mr. Brock](Characters/Brock.md), the Gym teacher (a former dream-walker), in the past.
 - **Bubba** and **Sandman** are the week's named rivals (Day 3). Both are **recurring**: Slim upgrades them and they kidnap the school (see §A).
 
 ---
