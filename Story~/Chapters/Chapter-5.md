@@ -13,6 +13,7 @@
 
 ## Threads advanced this chapter
 
+- [B. The protagonist's power](../PlotThreads.md#b-the-protagonists-power--its-cost): the **sword** and **shield** (Mark's late-game Dream World gear) are found in Chs.4–5 `[TBD: which here]`; the shield means returning to his Inner Mind's Good Area.
 - `[TBD]`
 
 ## The days

@@ -64,7 +64,8 @@ The player character is unusual even among the gifted:
       - The **sword**, hidden in the **Bad Area**, symbolizes the **great courage and willpower** needed to fight against fear.
       - The **shield**, hidden in the **Good Area**, symbolizes **restraint, self-control, and prudence** against selfish
         desires, hedonism, and fantasies.
-    `[TBD: when he finds each]`
+    Both are **late-game items**, found in **Chapters 4–5** `[TBD: which is which]`. The shield comes **after** Ch.3: Mark
+    escapes the Good Area in Ch.3 but must **return** in a later chapter to claim it.
     **How dreams are made:** think of the subconscious as a **machine**. It takes **positive emotions** (joy, love,
     peace) and **negative emotions** (fear, anger, jealousy), plus the **memories** tied to them (often recent
     ones), and combines them into the contents of people's dreams. `[TBD: is this machine "The Mechanism" below?]`

@@ -23,7 +23,7 @@ don't care about, or add your own.
 
 ### Tier 2 — Chapter 1 characters
 
-- [ ] **Mark follow-ups:** names of the old friends and ex-girlfriend; how the Ch.3 Christmas reunion and moving on play out; when he finds the **sword** (Bad Area) and **shield** (Good Area); his look.
+- [ ] **Mark follow-ups:** names of the old friends; how the Ch.3 Christmas reunion and the Good Area escape play out; which of Chs.4–5 holds the sword vs. the shield; his look.
 - [ ] **The Hole** (profile started): his identity, motive, look, voice.
 - [ ] **Bubba follow-ups:** his brother (name, does he appear?); **Glowstick** (Ch.1 role, personality, Ch.6 fate); how Slim recruits Bubba after his dream dies; his look and voice.
 - [ ] **Sandman follow-ups:** when/how Slim approaches him; his look; his Ch.2–5 beats as mentor.
