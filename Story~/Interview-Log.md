@@ -23,7 +23,7 @@ don't care about, or add your own.
 
 ### Tier 2 — Chapter 1 characters
 
-- [ ] **Protagonist:** name (the cutscene docs call him "Mark" — confirm?), age, want, fear/flaw, voice; how long he's had his power (who knows: everyone, via power disclosure); the Dad question (roster has Dad mowing the lawn, profile says "father? TBD"); siblings?
+- [ ] **Mark follow-ups:** his age (old friends are in college — does Tungsten High come after high school?); do the old friends / ex-girlfriend appear (dreams, the Good Area)? Their names; his look.
 - [ ] **The Hole** (profile started): his identity, motive, look, voice.
 - [ ] **Bubba follow-ups:** his brother (name, does he appear?); **Glowstick** (Ch.1 role, personality, Ch.6 fate); how Slim recruits Bubba after his dream dies; his look and voice.
 - [ ] **Sandman follow-ups:** when/how Slim approaches him; his look; his Ch.2–5 beats as mentor.
