@@ -70,8 +70,8 @@ The player character is unusual even among the gifted:
     peace) and **negative emotions** (fear, anger, jealousy), plus the **memories** tied to them (often recent
     ones), and combines them into the contents of people's dreams. `[TBD: is this machine "The Mechanism" below?]`
     Sub Areas:
-      - **The Halcyon** (the Halcyon): Full of the players' good memories, idealistic goals, and optimistic dreams come true. An enticing place can trap the player in a self-fulfilling world.
-      - **The Hollow** (the Hollow): Full of the players' bad memories, fears, regrets, and `[TBD]`. **Fear** is one of its
+      - **The Halcyon** (the Good Area): Full of the players' good memories, idealistic goals, and optimistic dreams come true. An enticing place can trap the player in a self-fulfilling world.
+      - **The Hollow** (the Bad Area): Full of the players' bad memories, fears, regrets, and `[TBD]`. **Fear** is one of its
         primary negative feelings. It shows up in the Day 1 dream as a **Crab** (from a childhood memory of the
         player getting pinched on the beach) and as the **Dream Stranger** (his fear of talking to strangers).
       - The Mechanism:
@@ -151,7 +151,7 @@ Track the sides of the central conflict here as they're decided:
 - **Norbert** — a dream creature living in the player's mind who sorts the day's thoughts, memories, and feelings into his subconscious. One of a species `[TBD: name]` living in areas of the Dream World.
 - **Ephemeral World / Ephemeral Realm** — [Maven](Characters/Maven.md)'s word for the Dream World, perhaps the more scientific term for it.
 - **Maven's magic rug** — transports people into the Dream World.
-- **The sword & shield** — the player's Dream World weapons, hidden in his Inner Mind (sword: Bad Area, courage and willpower against fear; shield: Good Area, restraint and prudence against selfish desires and fantasies).
+- **The sword & shield** — the player's Dream World weapons, hidden in his Inner Mind (sword: the Hollow, courage and willpower against fear; shield: the Halcyon, restraint and prudence against selfish desires and fantasies).
 - **The Snow Ball** — the winter dance (Ch.3, around Christmas).
 - **Dream Stranger** — a manifestation of Fear: the player's fear of talking to strangers.
 - **Stair Guardian** — a dream entity `[TBD]`.

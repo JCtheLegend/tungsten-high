@@ -140,7 +140,7 @@ The dream-walking / walk-into-people gift is both a tool and a source of danger.
 
 
 - **Fear** (and other manifested emotions) — the **player's own**. Fear is a primary negative feeling of his Inner
-  Mind's Bad Area. On Day 1, the day he meets new people and learns to talk to strangers, he faces a **fear of
+  Mind's Hollow (Bad Area). On Day 1, the day he meets new people and learns to talk to strangers, he faces a **fear of
   talking to strangers** (not paralyzing, just one most people have). It manifests as the **Crab** (a childhood
   memory of getting pinched on the beach) and the **Dream Stranger**.
 - **Slim in the Dream World** — the player can **see Slim moving around the Dream World** `[TBD: from which chapter]`.
