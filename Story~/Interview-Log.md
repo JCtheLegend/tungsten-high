@@ -28,17 +28,18 @@ don't care about, or add your own.
 - [ ] **Bubba** (profile started): base power before the upgrade? Why Platinum Prep? Who is **Bubba's ally**? How does Slim recruit him after his dream dies, and what becomes of him after the kidnapping?
 - [ ] **Sandman:** roster says first appears **Day 3 Lunch**, profile says **Day 1** — which? Why does he take Slim's offer (profile now has the upgrade + kidnapping role)? Fill wants/fears/voice/look.
 - [ ] **Micycle** (profile started; PR partner in Week 1): personality, voice, how they meet on Day 1 Pre, arc.
-- [ ] **Beamo** (no profile yet): same — personality, Day 1 PR introduction, arc.
+- [ ] **Laser Boy** (formerly "Beamo"; no profile yet; Bubba teases him as "Cat Toy"): what exactly he can shoot, personality, Day 1 PR introduction, arc.
 - [ ] **Sparks** (profile started, backstory done): her power, personality, voice; why the envelope appears in her classroom and how she reacts.
-- [ ] **Principal Phoenix** (profile started; power decided): ally, obstacle, or compromised?
-- [ ] **Psych Teacher** (no profile yet): name; former magician — why the career change; what they know about dream-walking.
+- [ ] **Principal Fiona Nix** ("Principal Fi"; profile started; power decided): ally, obstacle, or compromised?
+- [ ] **Maven** (Psych Teacher; no profile yet): former magician — why the career change; what she/he knows about dream-walking.
 - [ ] **Bloom:** every field is still template text — one-liner, power limits (photosynthesis, talking to plants), look, want/fear/voice, how the romance develops across the chapters.
 - [ ] **Specs:** bullied by Bubba on Day 3 and Day 5 but not on the roster — who is he/she?
-- [ ] Quick profiles (short form): **Map Guy**, **Nurse**, **Mom**, **Dad**, **Goblin**, **PR Teacher**, **Gym Teacher**.
+- [ ] Quick profiles (short form): **Map Guy** ("Cart Man" in game?), **Nurse**, **Mom**, **Dad**, **Goblin**, **Ms Nice** (PR), **Mr. Brock** (Gym), **Mr Wood** (shapeshifting — which class?), **Handstand** (2nd year), **Slow Moe**, **Sticky & Slicky** (twins).
+- [ ] **Norbert's species:** name for the creatures that live in areas of the Dream World; do others appear (in other people's dreams, Catworld)?
 
 ### Tier 3 — Chapter 1 scenes & beats
 
-- [ ] **Names found in the game files, confirm vs. canon:** the principal is **"Principal Fi"** in game (portraits/prefabs Kid Fi / Principal Fi / Old Fi, which fit her phoenix cycle), "Principal Phoenix" in the docs. The Psych teacher is **Maven**. The PR teacher is **Ms Nice**. Young Sparks calls Paperboy **"Ant…"** in `0.Dream.Gym.Caught` (Slim's real name?). In `0.Dream.3F.1` a friend says **"Joe's bringing the plant"** (Joe = the Janitor? the Venus flytrap).
+- [ ] **Names in the game files, still to confirm:** Young Sparks calls Paperboy **"Ant…"** in `0.Dream.Gym.Caught` (Slim's real name?). In `0.Dream.3F.1` a friend says **"Joe's bringing the plant"** (Joe = the Janitor? the Venus flytrap). Is the Day 2 **"Cart Man"** the Map Guy? *(Faculty names confirmed 2026-10-13.)*
 - [ ] **Day 0 flashback already exists** (`0.Dream.303.1` → `0.Dream.Gym.Caught`: Paperboy, Young Sparks, Marcy at the science fair). Update the Day 0 notes and the build task.
 
 - [ ] **Day 0 framing:** is the intro dream a recurring nightmare, a summons, or the inciting incident? What is the **Stair Guardian** guarding? Why is **room 303** significant? Is the Dream Gym "Caught" stealth beat staying?

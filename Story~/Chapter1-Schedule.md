@@ -58,9 +58,9 @@ Writing week. Lock the canon that every remaining scene depends on.
 
 ## Week 2 · Aug 10 – 16 — Story lock: friends, faculty & world rules
 
-- [ ] Character profiles: **Micycle**, **Beamo**, **Sandman** (finish its 1 TBD), **Sparks** (incl. the
-      Slim friendship backstory), **Principal Phoenix**, **Psych Teacher**.
-- [ ] Quick profiles (short form is fine): Bubba's ally, Map Guy, Nurse, Mom, Dad, Goblin, PR & Gym teachers.
+- [ ] Character profiles: **Micycle**, **Laser Boy**, **Sandman** (finish its 1 TBD), **Sparks** (incl. the
+      Slim friendship backstory), **Principal Fiona Nix**, **Maven** (Psych).
+- [ ] Quick profiles (short form is fine): Bubba's ally, Map Guy, Nurse, Mom, Dad, Goblin, Ms Nice (PR) & Mr. Brock (Gym).
 - [ ] Worldbuilding: write the **powers system** rules, the **Dream World rules** (how dream-walking works,
       its cost), and name the **town**. Clear the 11 `[TBD]`s or mark them post-launch.
 - [ ] Protagonist.md: clear its 14 `[TBD]`s — name (or confirm nameless), what his power costs, who knows.

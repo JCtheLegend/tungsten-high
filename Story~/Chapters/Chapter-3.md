@@ -8,7 +8,7 @@
 
 ## Chapter summary
 
-The **school dance**, and an **attempted kidnapping of the principal**. [Principal Phoenix](../Characters/Phoenix.md) has a
+The **school dance**, and an **attempted kidnapping of the principal**. [Principal Fiona Nix](../Characters/Phoenix.md) has a
 phoenix's life cycle (reborn at midnight, aging through the day); the dance, at night, is the chance to disrupt the
 cycle and steal her as she's reborn at midnight. **[Slim](../Characters/Slim.md) is revealed** here. It's another sign that someone is attacking the
 school. [Sparks](../Characters/Sparks.md) **tells the principal** what the Day 5 envelope means. The player learns to **wake

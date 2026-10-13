@@ -35,7 +35,7 @@ Slim upgrade him to help kidnap Tungsten High.
 ## Relationships
 
 - **To the player:** Bully / rival.
-- **To others:** Bullies Specs · works with [Slim](Slim.md) · [TBD: Bubba's ally]
+- **To others:** Bullies Specs · teases [Laser Boy](Laser%20Boy.md) as "Cat Toy" · works with [Slim](Slim.md) · [TBD: Bubba's ally]
 
 ## Role in the plot
 

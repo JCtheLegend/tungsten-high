@@ -76,7 +76,7 @@ school and produce genetically altered hero students.
 |---|---|---|
 | 1 | **Day 0:** a flashback dream shows him talking to Marcy about their prototype upgrade machine. **Days 2–4:** he's secretly behind the bank heist, guiding The Hole through letters and taking the money to fund the machine, goons, and his plan; the vault money vanishes by being turned into another dimension. **Day 5:** an empty envelope appears in Sparks' classroom, a **taunt**, and his message to Sparks that **he has returned**. No reveal this chapter. | ✍️ |
 | 2 | [TBD] | ☐ |
-| 3 | **Revealed** during the attempted kidnapping of Principal Phoenix at the school dance (at her midnight rebirth). | ☐ |
+| 3 | **Revealed** during the attempted kidnapping of Principal Fiona Nix at the school dance (at her midnight rebirth). | ☐ |
 | 4–5 | [TBD] | ☐ |
 | 6 | **Day 4:** kidnaps the school (the climax). His goons fight the player and the students he wakes. After Sandman falls, the player fights Slim on the **school roof**, where the **Mystic Punch** is key: it's how the player enters Slim's mind for the Dream World half. Defeated in the real world and the Dream World; disappears into another dimension for good. | ☐ |
 

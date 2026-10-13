@@ -30,7 +30,7 @@ appear out of thin air**.
 
 - [A. Central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-kidnap-the-school): the **Bank** arc (Days 2→3→4) The money in the bank vault mysteriously disappears (turned into another dimension by Slim, unrevealed), and The Hole wasn't working alone. A letter/envelope appears out of thin air in Sparks' classroom, a sign someone is watching the school. It's **empty**: Slim's taunt, and his message that **he has returned**. [Sparks](../Characters/Sparks.md) knows what it means, because Slim was called **"Paperboy"** in school. She's visibly **shocked and frightened**, but doesn't tell the class or the player why. The letters are slipped in from a lower dimension, and the player may notice that The Hole's letters and Sparks' envelope look the same. The Day 0 flashback introduces [Slim](../Characters/Slim.md) and the upgrade machine (see [Flashbacks](../PlotThreads.md#flashbacks)).
 - [B. The protagonist's power](../PlotThreads.md#b-the-protagonists-power--its-cost): dream-walking established Day 0;
-- [D. Friendships & social sim](../PlotThreads.md#d-friendships--the-social-sim): Makes friends with [Micycle](../Characters/Micycle.md) (his PR partner for the week) and Beamo, meets mentors in the teachers of the school.
+- [D. Friendships & social sim](../PlotThreads.md#d-friendships--the-social-sim): Makes friends with [Micycle](../Characters/Micycle.md) (his PR partner for the week) and [Laser Boy](../Characters/Laser%20Boy.md), meets mentors in the teachers of the school.
 - [F. Rivals & enemies](../PlotThreads.md#f-rivals--enemies): **Bubba** as the bully of the school, **The Hole** as the bank robber
 
 ## New this chapter *(from existing content)*

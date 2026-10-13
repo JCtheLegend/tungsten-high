@@ -10,6 +10,8 @@ becomes concrete in-game, note the scene it appears in. Undeclared canon is mark
 - **Superheroes live openly among ordinary people.** Powers are a known, accepted part of society.
 - **Gifted students attend schools that train their powers.** Tungsten High is one such school.
 - **A school for the lesser gifted** Like all school systems, `[TBD: finish this line]` Tungsten High's students, Slim among them in his day, have **weak powers**. This is the grievance that drives [Slim](Characters/Slim.md).
+- **Tungsten High is a two-year program.** First years are new; **second years** are older, more experienced,
+  and help **lead clubs and events** (e.g. **Handstand** welcomes the new students on Day 1).
 - **Powers are disclosed.** Applying to a power academy means **disclosing your power**, so staff and
   students know what everyone can do.
 - **Public image matters.** The existence of a *Public Relations* class implies heroes are managed,
@@ -40,7 +42,7 @@ The player character is unusual even among the gifted:
   **dream-walking indicator** next to him.
 - **Waking yourself up** from a dream is a **skill dream-walkers learn**; the player learns it in **Chapter 3** (pays off in Ch.6 Day 4).
 - **Mystic Punch:** a technique that knocks the target out for a **split second**, letting a dream-walker **enter
-  their mind mid-strike**. Taught by the Gym/combat teacher in a special training session in **Chapter 4**.
+  their mind mid-strike**. Taught by the Gym/combat teacher, **Mr. Brock**, in a special training session in **Chapter 4**.
 - **Dream potions:** a Tungsten High student can **make dreams for people in the form of potions** `[TBD: who]`.
 
 ## The Dream World
@@ -48,7 +50,7 @@ The player character is unusual even among the gifted:
 - A **parallel of the real-world map** — the same geography, altered. Explored during the `dream` stage.
 - Buildings and places in the dream world reflect what people think, . School -> Prison
 - Reached by going to bed, or entering into peoples dreams, or through various gateways
-- Populated by its own entities and guardians, and by manifestations of real people's inner lives
+- Populated by its own entities and guardians, including a **species of creatures that live inside different areas of the Dream World** `[TBD: species name]` (**Norbert**, in the player's mind, is one), and by manifestations of real people's inner lives
 - **Dream regions:**
   - **Main Area**
   - **Dreams** People dreaming make large bubbles floating in the Main Area. A dreaming person appears as a **floating head** the player can travel to. `[TBD: are the head and the bubble the same thing?]`
@@ -62,6 +64,8 @@ The player character is unusual even among the gifted:
         primary negative feelings. It shows up in the Day 1 dream as a **Crab** (from a childhood memory of the
         player getting pinched on the beach) and as the **Dream Stranger** (his fear of talking to strangers).
       - The Mechanism:
+    **Norbert** lives in the player's mind: he **organizes the player's thoughts, memories, and feelings from the
+    previous day into his subconscious** (in the Day 1 dream he's lost the key to the subconscious).
   - **Catworld** — A dream world that all cats share when they sleep. The reason why cats sleep all the time is so they can hang out together in Cat World
 
 ## History
@@ -75,10 +79,12 @@ how it feeds powers/plot:
 
 | Class (stage) | Subject | Teacher | Notes                                                                          |
 |---|---|---|--------------------------------------------------------------------------------|
-| **Public Relations** (`pr`) | Managing a hero's public image | `[TBD]` | Implies heroism is a watched, branded profession.                              |
-| **Gym** (`gym`) | Physical/combat training | `[TBD]` | Site of the Ch.1 punching-bag fight; where the **Planner** is first picked up. |
-| **Psychological Powers** (`psych`) | Mind/perception powers | `[TBD]` | Thematically closest to the protagonist's dream/possession gift.               |
-| **Science of Superpowers** (`sci`) | The science behind powers | `[TBD]` | Mainly taught through the `Science/` puzzle minigames.                         |
+| **Public Relations** (`pr`) | Managing a hero's public image | Ms Nice | Implies heroism is a watched, branded profession.                              |
+| **Gym** (`gym`) | Physical/combat training | Mr. Brock (no powers) | Site of the Ch.1 punching-bag fight; where the **Planner** is first picked up. |
+| **Psychological Powers** (`psych`) | Mind/perception powers | Maven (former magician) | Thematically closest to the protagonist's dream/possession gift.               |
+| **Science of Superpowers** (`sci`) | The science behind powers | [Ms Sparks](Characters/Sparks.md) | Mainly taught through the `Science/` puzzle minigames.                         |
+
+Other faculty: **Mr Wood**, the shapeshifting teacher `[TBD: which class]`. The principal is [Fiona Nix](Characters/Phoenix.md) ("Principal Fi").
 
 Other school locations *(from existing content)*: hallways (`HallwayWelcome`), the cafeteria with
 numbered tables (`Lunch.Eat.Table1`–`Table15`), an assembly hall with bleachers, a **track** (Gym race,
@@ -130,6 +136,7 @@ Track the sides of the central conflict here as they're decided:
 - **The Dream World** — the parallel dream map.
 - **Dream-walking** — the protagonist's power to enter/leave the Dream World.
 - **Fear** — a primary negative feeling of the Inner Mind's Bad Area. In Ch.1 Day 1 it manifests as the **Crab** and the **Dream Stranger**.
+- **Norbert** — a dream creature living in the player's mind who sorts the day's thoughts, memories, and feelings into his subconscious. One of a species `[TBD: name]` living in areas of the Dream World.
 - **Dream Stranger** — a manifestation of Fear: the player's fear of talking to strangers.
 - **Stair Guardian** — a dream entity `[TBD]`.
 - **Paperboy** — Slim's nickname in school.

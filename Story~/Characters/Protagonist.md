@@ -21,7 +21,7 @@ and who ends up pulling at the thread of a plot to kidnap his school.
 - **In combat:** grid-based movement with a **punch** (costs energy) and a **block/shield**; energy
   regenerates over time. (See `PlayerCombat/` — the `Grid Player` root.)
 - **Skills learned during the year:** **waking himself up** from a dream (**Ch.3**); the
-  **Mystic Punch**, from a special training session with the Gym/combat teacher (**Ch.4**).
+  **Mystic Punch**, from a special training session with the Gym/combat teacher, Mr. Brock, (**Ch.4**).
   Both pay off in the Ch.6 Day 4 final battle.
 - **Limits / weaknesses:** `[TBD — the cost/danger of his power is a key stakes lever, see PlotThreads B]`
 

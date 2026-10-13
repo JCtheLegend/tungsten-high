@@ -40,7 +40,7 @@ happens on **Day 4**, the same day as the kidnapping. Days 1–3: nothing planne
 3. **Boss stage 1: Sandman.** The former mentor stands in the way of the player stopping Slim. The player
    defeats him.
 4. **Boss stage 2: Slim on the school roof.** Key to the fight is the **Mystic Punch**, a technique the
-   Gym/combat teacher taught the player in a special training session in **Chapter 4**. The punch knocks the target out for a split second, letting the dream-walker **enter their
+   Gym/combat teacher, **Mr. Brock**, taught the player in a special training session in **Chapter 4**. The punch knocks the target out for a split second, letting the dream-walker **enter their
    mind mid-strike**: this is how the player enters **Slim's mind** for the Dream World half of the fight,
    where Slim's dream collapses.
    - Meanwhile [Bubba](../Characters/Bubba.md) is **in a trance**, straining hard to keep the school afloat

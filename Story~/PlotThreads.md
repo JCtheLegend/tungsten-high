@@ -181,7 +181,7 @@ Keep every promise. When you plant something, add a row; when it pays off, mark 
 | 5 | Flashbacks — Marcy's body was found in its original form; everyone thinks she was a victim | The player learns the truth through the Janitor's flashbacks; final revelation in **Ch.5 or 6** `[TBD: which]`. Sparks knew all along. | ☐ |
 | 6 | Ch.1 — Sandman as the player's mentor; Bubba as the bully whose dream dies | Both are upgraded by Slim and kidnap the school (Ch.6 Day 4); Sandman is the first stage of the final battle; Bubba, watching from his trance, turns and helps bring the school down | ☐ |
 | 9 | **Ch.3** — the player learns to **wake himself up** from a dream (a dream-walker skill) | Ch.6 Day 4 — he wakes himself from Sandman's dust | ☐ |
-| 10 | **Ch.4** — a special training session with the Gym/combat teacher teaches the **Mystic Punch** | Ch.6 Day 4 — key to the rooftop fight with Slim | ☐ |
+| 10 | **Ch.4** — a special training session with the Gym/combat teacher (Mr. Brock) teaches the **Mystic Punch** | Ch.6 Day 4 — key to the rooftop fight with Slim | ☐ |
 | 12 | Flashback — the Janitor's science-fair project, a **Venus flytrap exposed to exotrons** that came alive, was thrown in the sewers | Ch.2 — returns in the **detention subplot** | ☐ |
 | 13 | Ch.1 · Day 0 — the intro dream is secretly a flashback, played as the Janitor; later, a dream-walking indicator by the Janitor, who walks away | **Ch.4** — the reveal of who the Janitor is and what the flashbacks are | ☐ |
 | 11 | `[TBD: which chapter]` — a student who makes **dream potions** is introduced | Ch.6 Day 4 — Sandman uses a dream potion to give the students a taste of upgraded powers | ☐ |

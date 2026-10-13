@@ -10,17 +10,17 @@ fastest way (for a human or Claude) to see the whole cast at a glance.
 | [Bubba](Bubba.md)                   | Bully/Villain        | Bullies player and friends, works with Slim; upgraded, bubbles the school into the sky | Day 3 · Lunch    |
 | Map Guy                             | Shopkeeper           | Sells/Gives the player items                    | Day 2 · Post     |
 | [Bloom](Bloom.md)                   | Friend/Love Interest | Photosynthesizes, Talks to Plants               | Day 2 · Post     |
-| [Beamo](Beamo.md)                   | Friend               | Has Laser Point Eyes                            | Day 1 PR         |
+| [Laser Boy](Laser%20Boy.md)         | Friend               | First year. Has Laser Point Eyes; Bubba teases him as "Cat Toy". (Formerly "Beamo" in the docs; "Laser Boy" in game.) | Day 1 PR         |
 | [Micycle](Micycle.md)               | Friend               | Turns into a bicycle; nickname "Mike"; player's PR partner in Week 1 | Day 1 Pre        |
-| [Principal Phoenix](Phoenix.md)     | Faculty              | Rebirth/Aging: a phoenix's life cycle, reborn at midnight; target of the Ch.3 dance kidnapping attempt | Week 1 Day 1     | 
+| [Principal Fiona Nix](Phoenix.md) ("Principal Fi" in game) | Faculty | Name is a play on "phoenix". Rebirth/Aging: a phoenix's life cycle, reborn at midnight; target of the Ch.3 dance kidnapping attempt | Week 1 Day 1     | 
 | Nurse                               | Minor                | Runs the hospital                               | Day 2 · PR       |
 | Bank Guy                            | Minor                | Innocent bank employee; forgets the vault code, so the player & Micycle fetch it from his house (Day 3); taken hostage (Day 4) | Day 2 · PR       |
 | Mom                                 | Family               | Drives the player to/from school                | Day 1 · Pre/Post |
 | Dad                                 | Family               | Mows the lawn                                   | Day 1 Pre/Post   |
 | Goblin                              | Family / Cat         | The household cat                               | Day 1 · Post     |
-| PR Teacher                          | Faculty              | Teaches Public Relations, Manifests Music Notes | Day 1 · PR       |
-| Gym Teacher                         | Faculty              | Teaches Gym/Combat, No Powers; teaches the player the Mystic Punch (special training, Ch.4)                   | Day 1 · Gym      |
-| [Psych Teacher](Psych Teacher.md)   | Faculty              | Teaches Psychological, Former Magician          | Day 1 · Psych    |
+| Ms Nice                             | Faculty              | PR Teacher. Teaches Public Relations, Manifests Music Notes | Day 1 · PR       |
+| Mr. Brock                           | Faculty              | Gym Teacher. Teaches Gym/Combat, No Powers; teaches the player the Mystic Punch (special training, Ch.4)                   | Day 1 · Gym      |
+| [Maven](Maven.md)                   | Faculty              | Psych Teacher. Teaches Psychological, Former Magician | Day 1 · Psych    |
 | [Sparks](Sparks.md)                 | Faculty              | Teaches Science; former friend of Slim & teammate on the upgrade machine | Day 0 · Dream (as a student, unrecognized); Day 1 · Sci |
 | [Slim](Slim.md)                     | Main Villain         | Called "Paperboy" in school. Originally 2-dimensional; now slips into lower dimensions (incl. the Dream World) after upgrading himself | Week 1 Day 0 · Dream (flashback) |
 | [Marcy](Marcy.md)                   | Flashback (deceased) | Dog shapeshifter; Slim's friend & science-fair partner, turned werewolf by the machine 20 yrs ago | Week 1 Day 0 · Dream (flashback) |
@@ -30,6 +30,12 @@ fastest way (for a human or Claude) to see the whole cast at a glance.
 | [Sheriff](Sheriff.md) | Minor | Garnet's town sheriff; arrests The Hole and the goon (power-cancelling cuffs) | Day 4 · Bank Vault |
 | [Nimbus](Nimbus.md) | Student (2nd year) | Shapeshifter who can turn into a cloud; introduced over the year; with Bubba, brings the school back down (Ch.6 Day 4) | [TBD] (introduced through the year) |
 | Dream-potion student `[TBD: name]` | Student | Makes dreams for people in the form of potions; Sandman uses one in Ch.6 Day 4 | [TBD] |
+| Mr Wood                             | Faculty              | The shapeshifting teacher                       | Day 1 · Sci (assembly) |
+| Handstand                           | Student (2nd year)   | Perfect balance on her hands; an upperclassman who greets the new students and leads them to their first class | Day 1 · Pre |
+| Slow Moe ("Moe")                    | Student (1st year)   | Can move himself in slow motion                 | Day 3 · PR       |
+| Sticky                              | Student (1st year)   | Twin of Slicky. Sticks to any object; struggles to control it and gets stuck to things | Day 2 · Gym |
+| Slicky                              | Student (1st year)   | Twin of Sticky. Becomes frictionless; struggles to control it and slides into things | Day 2 · Gym |
+| Norbert                             | Dream creature       | Lives in the player's mind; organizes his thoughts, memories, and feelings from the previous day into his subconscious. One of a species of creatures living in areas of the Dream World `[TBD: species name]` | Day 1 · Dream |
 | [The Hole](The Hole.md)             | Week 1 Villain       | Becomes a hole in objects (things pass through; he can exit either side); robs the bank, guided by Slim's letters | Week 1 Day 2     |
 
 ## To add a character

@@ -1,4 +1,6 @@
-# Principal Phoenix
+# Principal Fiona Nix
+
+*In game: "Principal Fi" (portraits Kid Fi / Principal Fi / Old Fi). Her name is a play on "phoenix".*
 
 **Role:** Faculty (principal)
 **Status in story:** ✍️ drafting
