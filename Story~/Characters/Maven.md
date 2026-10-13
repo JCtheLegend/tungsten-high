@@ -23,7 +23,7 @@ people into the Dream World.
 
 - **Wants:** [TBD]
 - **Fears / flaws:** [TBD]
-- **Voice:** **Old and wise.** In game he calls the Dream World the **"Ephemeral World" / "Ephemeral Realm"**, and admits
+- **Voice:** **Old and wise.** His word for the Dream World is the **"Ephemeral World" / "Ephemeral Realm"** (perhaps the more scientific term), and admits
   "there is much I do not know about the Ephemeral Realm."
 
 ## Backstory
@@ -50,4 +50,3 @@ A **former magician**. [TBD: why he left magic for teaching; where the rug came 
 ## Notes / open questions
 
 - Is the rug how Psych class reaches the Dream World every time?
-- Is "Ephemeral Realm" just his name for the Dream World?

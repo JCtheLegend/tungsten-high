@@ -137,7 +137,7 @@ Track the sides of the central conflict here as they're decided:
 - **Dream-walking** — the protagonist's power to enter/leave the Dream World.
 - **Fear** — a primary negative feeling of the Inner Mind's Bad Area. In Ch.1 Day 1 it manifests as the **Crab** and the **Dream Stranger**.
 - **Norbert** — a dream creature living in the player's mind who sorts the day's thoughts, memories, and feelings into his subconscious. One of a species `[TBD: name]` living in areas of the Dream World.
-- **Ephemeral World / Ephemeral Realm** — what [Maven](Characters/Maven.md) calls the Dream World in Psych class.
+- **Ephemeral World / Ephemeral Realm** — [Maven](Characters/Maven.md)'s word for the Dream World, perhaps the more scientific term for it.
 - **Maven's magic rug** — transports people into the Dream World.
 - **Dream Stranger** — a manifestation of Fear: the player's fear of talking to strangers.
 - **Stair Guardian** — a dream entity `[TBD]`.

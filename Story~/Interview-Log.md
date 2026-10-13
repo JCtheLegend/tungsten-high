@@ -18,7 +18,7 @@ don't care about, or add your own.
 - [ ] **Janitor follow-ups:** did he and Marcy date; what are exotrons; the Ch.2 detention subplot with the Venus flytrap; how the Ch.4 reveal plays out.
 - [ ] **Sparks tells the principal (Ch.3):** what pushes her, how Principal Phoenix reacts. Which chapter (5 or 6) has the final Marcy revelation, and does it change how the player sees Slim?
 - [ ] **Dream-potion student:** name, power details, when they're introduced, and how Sandman gets the potion (willingly?).
-- [ ] **Anti Hero in Ch.4:** how the power-removing ray plot plays out at the science fair, how the player stops him, and what happens to him; does he cross paths with Slim?
+- [ ] **Anti Hero in Ch.4:** the ray is long finished (he used it on Brock years ago) — what's his plan at the science fair this time, how does the player stop him, what happens to him; does he cross paths with Slim?
 - [ ] **Ch.3 dance:** who carries out the principal kidnapping attempt, how Slim is revealed on screen, and how it's foiled.
 
 ### Tier 2 — Chapter 1 characters
@@ -30,7 +30,7 @@ don't care about, or add your own.
 - [ ] **Micycle / Laser Boy / Bloom follow-ups:** how Mike and the player meet on Day 1 Pre; Laser Boy's Day 1 PR intro, and is "Laser Boy" his hero name; why the player and Bloom get **detention in Ch.2**; where the flower-giving beats go; each friend's 6-chapter arc.
 - [ ] **Sparks** (profile started, backstory done): her power, personality, voice; why the envelope appears in her classroom and how she reacts.
 - [ ] **Principal Fiona Nix** ("Principal Fi"; profile started; power decided): ally, obstacle, or compromised?
-- [ ] **Faculty follow-ups:** **Maven** — why he left magic, where the rug came from, is "Ephemeral Realm" his name for the Dream World. **Mr. Brock** — when/how Anti Hero erased his powers (the ray is still being built in Ch.4), when the player learns he was a dream-walker. Does Brock's history tie into the Ch.4 Anti Hero plot?
+- [ ] **Faculty follow-ups:** **Maven** — why he left magic, where the rug came from. **Mr. Brock** — does he face Anti Hero again in Ch.4?
 - [ ] Quick profiles (short form): **Map Guy** ("Cart Man" in game?), **Nurse**, **Mom**, **Dad**, **Goblin**, **Handstand** (2nd year), **Slow Moe**, **Sticky & Slicky** (twins).
 - [ ] **Norbert's species:** name for the creatures that live in areas of the Dream World; do others appear (in other people's dreams, Catworld)?
 

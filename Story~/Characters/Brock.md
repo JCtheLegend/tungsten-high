@@ -22,14 +22,16 @@ teaches the player the Mystic Punch.
 
 ## Personality
 
-- **Wants:** [TBD]
+- **Wants:** Students who can **fight even when their powers won't work**.
 - **Fears / flaws:** [TBD]
 - **Voice:** [TBD]
 
 ## Backstory
 
-He was once a dream-walker. Anti Hero erased his powers `[TBD: when and how]`. **What his powers were stays a mystery
-to the player for a while** `[TBD: when the player learns it]`.
+He was once a dream-walker. **Many years ago**, [Anti Hero](Anti%20Hero.md) tried to **get into the school and erase
+people's powers** with his power-removing ray; Brock **stopped him**, and lost his own powers to the ray. That's why
+he **trains students to fight even if their powers won't work**. **What his powers were stays a mystery to the player**
+until Ch.4, when he teaches the player the Mystic Punch.
 
 ## Relationships
 
@@ -41,8 +43,8 @@ to the player for a while** `[TBD: when the player learns it]`.
 
 - **Threads they touch:** [B. The protagonist's power](../PlotThreads.md#b-the-protagonists-power--its-cost) ·
   [F. Rivals & enemies](../PlotThreads.md#f-rivals--enemies)
-- **Arc across the 6 chapters:** Gym teacher with "no powers" → his past as a dream-walker is revealed `[TBD: when]` →
-  **Ch.4:** teaches the player the Mystic Punch (the science-fair chapter, Anti Hero's chapter) → **Ch.6 Day 4:** the
+- **Arc across the 6 chapters:** Gym teacher with "no powers" → **Ch.4** (Anti Hero is the week's villain): teaches the player
+  the Mystic Punch, revealing he was a dream-walker → **Ch.6 Day 4:** the
   punch is key to the rooftop fight with Slim.
 
 ## Appearances by chapter
@@ -50,10 +52,8 @@ to the player for a while** `[TBD: when the player learns it]`.
 | Chapter | Where / what they do | Status |
 |---|---|---|
 | 1 | Teaches Gym (punching-bag tutorial, race + dummy, Dodgeball, the Day 5 spar). | 🔨 |
-| 4 | Special training session: the **Mystic Punch**. | ☐ |
+| 4 | Special training session: the **Mystic Punch**; the player learns he was a dream-walker. Anti Hero, who took his powers, is the week's villain. | ☐ |
 
 ## Notes / open questions
 
-- When did Anti Hero erase his powers? Anti Hero is still *building* the power-removing ray in Ch.4: did an earlier
-  version exist, or did he do it another way?
-- When and how does the player learn Brock was a dream-walker?
+- Does Brock face Anti Hero again in Ch.4?
