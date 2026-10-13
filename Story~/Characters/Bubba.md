@@ -35,7 +35,7 @@ Slim upgrade him to help kidnap Tungsten High.
 ## Relationships
 
 - **To the player:** Bully / rival.
-- **To others:** Bullies Specs · teases [Laser Boy](Laser%20Boy.md) as "Cat Toy" · works with [Slim](Slim.md) · [TBD: Bubba's ally]
+- **To others:** Bullies [Laser Boy](Laser%20Boy.md) (teases him as "Cat Toy") · works with [Slim](Slim.md) · [TBD: Bubba's ally]
 
 ## Role in the plot
 
@@ -54,7 +54,7 @@ Slim upgrade him to help kidnap Tungsten High.
 
 | Chapter | Where / what they do | Status |
 |---|---|---|
-| 1 | **Day 1:** introduced as a bully. **Day 3 · Lunch:** conflict over Specs being teased, then a fight; Sandman defuses it. **Day 5 · Lunch:** steals Specs' books, gets his rejection letter from Platinum Prep; the player enters his dream and battles him. **Day 5 · Psych:** his dream bursts, leaving him and the player in the middle of Psych class. | 🔨 |
+| 1 | **Day 1:** introduced as a bully. **Day 3 · Lunch:** conflict over Laser Boy being teased, then a fight; Sandman defuses it. **Day 5 · Lunch:** steals Laser Boy's books, gets his rejection letter from Platinum Prep; the player enters his dream and battles him. **Day 5 · Psych:** his dream bursts, leaving him and the player in the middle of Psych class. | 🔨 |
 | 2–5 | [TBD] | ☐ |
 | 6 | **Day 4:** upgraded by Slim, envelops the school in a bubble and carries it into the sky (the climax). Spends the final battle **in a trance**, straining to keep the school afloat, but watching: seeing ordinary students be heroes turns him. Afterward he and [Nimbus](Nimbus.md) bring the school back down to the ground. | ☐ |
 

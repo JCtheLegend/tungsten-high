@@ -123,7 +123,7 @@ Files: `Resources/Cutscenes/Chapter1/3/`.
 | Pre | Home | Wake, downstairs, car to school. | `3.Pre.PlayerRoom`, `3.Pre.Downstairs`, `3.Pre.HomeOutside.CarLeave`, `3.Pre.SchoolOutside.1` | 🔨 |
 | PR | Class → town | Class intro & assignment; the **Bank** thread continues; **Garnet Square**. [The Hole](../Characters/The%20Hole.md) scouts the bank **in disguise** so he isn't recognized; he wants to know when the bank will be empty so he can pull the heist. The **Bank Guy** (an innocent employee) has **forgotten the vault code** and needs it to get money out of the bank, so the player and [Micycle](../Characters/Micycle.md) (his PR partner for the week) go to **his house** to get it. | `3.PR.ClassIntro`, `3.PR.Assignment`, `3.PR.Bank.1/2/3`, `3.PR.GarnetSquare.1/2`, `3.PR.HoleDisguise.1/2/3`, `3.PR.House.1`, `3.PR.Ending` | 🔨 |
 | Gym | Gym class | Learn blocking from the blocking dummy fight | `3.Gym.1`, `3.Gym.2` | 🔨 |
-| Lunch | Cafeteria conflict | A **conflict** with **Bubba** over Specs being teased; Sandman comes in to defuse the fight. | `3.Lunch.Conflict`, `3.Lunch.Conflict.Sandman`, `3.Lunch.BubbaFight` | 🔨 |
+| Lunch | Cafeteria conflict | A **conflict** with **Bubba** over [Laser Boy](../Characters/Laser%20Boy.md) being teased ("red eyes", "cat toy"); Sandman comes in to defuse the fight. | `3.Lunch.Conflict`, `3.Lunch.Conflict.Sandman`, `3.Lunch.BubbaFight` | 🔨 |
 | Psych | Psych class | Explore more of the Dream World around the school. Fight a few dream monsters [TBD] | `3.Psych.1` | 🔨 |
 | Sci | Science class | More puzzles | `3.Sci.End` | 🔨 |
 | Post | Home | Mom pickup / picked up; home; bed. | `3.Post.MomPickUp`, `3.Post.PickedUp`, `3.Post.ArriveHome`, `3.Post.GoToBed` | 🔨 |
@@ -162,7 +162,7 @@ Dodgeball beat, and a psych **dreamwalk**. Files: `Resources/Cutscenes/Chapter1/
 | Pre | Home | Wake up. | `5.Pre.PlayerRoom` | 🔨 |
 | PR | Class finale | **Turn in the essay**; **choose your hero name**; class ending. | `5.PR.TurnInEssay`, `5.PR.ChooseHeroName`, `5.PR.Ending` | 🔨 |
 | Gym | Gym class | Spar with Sandman  | `5.Gym.1` | 🔨 |
-| Lunch | Lunchroom | Bubba steals Spec's books, gets a rejection letter from Platinum prep. The player enters his dream and battles him | `5.Gym.1` | 🔨 |
+| Lunch | Lunchroom | Bubba steals [Laser Boy](../Characters/Laser%20Boy.md)'s books, gets a rejection letter from Platinum prep. The player enters his dream and battles him. Returning the books afterward is what bonds the player and Laser Boy | `5.Gym.1` | 🔨 |
 | Psych | Psych + Library | Bubba's dream bursts, leaving him and the player in the middle of Psych class | `5.Psych.1`, `5.Psych.Class.1`, `5.Psych.Library.1`, `5.Psych.Dreamwalk` | 🔨 |
 | Sci | Science class | A pop quiz on the week's lessons, testing the player on the way powers work. Runs the shared **quiz minigame** — questions in `Quizzes/Chapter1/5.Sci.json`, which exits to `5.Sci.End`. | `5.Sci.End` | 🔨 |
 | Dodgeball | Final match | Dodgeball round + ending. The player learns that he has made the team. | `5.Dodgeball.1`, `5.Dodgeball.End` | 🔨 |
@@ -193,6 +193,7 @@ choices made (clubs, lunch tables, fights). `[TBD: does the week end on a hook i
 - [ ] Fill in the many `[TBD]` class beats (Gym Day 3, Psych/Sci several days).
 - [x] Fix the misspelled `*.Pysch.*` filenames — all five renamed to `Psych` (`.json` + `.meta` moved together).
 - [ ] End Day 5 on a clear hook into Chapter 2.
+- [ ] **Build:** in `3.Lunch.Conflict` and `5.Psych.Library.1`, Bubba's lines and the narration are labelled **"Gym Teacher"** (wrong speaker name/portrait). The bullied student was called "Specs" in older notes; canon is now [Laser Boy](../Characters/Laser%20Boy.md) (the game text already says "red eyes"/"cat toy"). `5.Psych.Library.1` says **"Bobby's notebook"**: check the name.
 - [ ] **Build:** new optional beat: the **town jail** is an enterable building in town, open most times the player is walking around town (after Day 4). The arrested goon (no name, just "the goon") laments being in jail and his **ruined dream of getting rich**, and gives the clue that whoever hired him communicated **only via envelope** (no JSON yet).
 - [ ] **Build:** add the Day 0 **Slim & Marcy flashback**, with Sparks present as a student (new cutscene; no JSON yet).
 - [ ] **Build:** Morpheus is an unused placeholder and is cut from the story. Remove or repurpose the `Morpheus` object in `Scenes/Dream/Day1Dream/80s School 2F.unity` and `Cutscenes/Chapter1/0/0.Dream.Morpheus.json` (it plays "He did not come this way").

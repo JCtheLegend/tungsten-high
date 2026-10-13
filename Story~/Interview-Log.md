@@ -27,13 +27,10 @@ don't care about, or add your own.
 - [ ] **The Hole** (profile started): his identity, motive, look, voice.
 - [ ] **Bubba** (profile started): base power before the upgrade? Why Platinum Prep? Who is **Bubba's ally**? How does Slim recruit him after his dream dies, and what becomes of him after the kidnapping?
 - [ ] **Sandman:** roster says first appears **Day 3 Lunch**, profile says **Day 1** — which? Why does he take Slim's offer (profile now has the upgrade + kidnapping role)? Fill wants/fears/voice/look.
-- [ ] **Micycle** (profile started; PR partner in Week 1): personality, voice, how they meet on Day 1 Pre, arc.
-- [ ] **Laser Boy** (formerly "Beamo"; no profile yet; Bubba teases him as "Cat Toy"): what exactly he can shoot, personality, Day 1 PR introduction, arc.
+- [ ] **Micycle / Laser Boy / Bloom follow-ups:** how Mike and the player meet on Day 1 Pre; Laser Boy's Day 1 PR intro, and is "Bobby" (`5.Psych.Library.1`) his real name; confirm **Specs** is gone (the bullied kid is Laser Boy); why the player and Bloom get **detention in Ch.2**; where the flower-giving beats go; each friend's 6-chapter arc.
 - [ ] **Sparks** (profile started, backstory done): her power, personality, voice; why the envelope appears in her classroom and how she reacts.
 - [ ] **Principal Fiona Nix** ("Principal Fi"; profile started; power decided): ally, obstacle, or compromised?
 - [ ] **Maven** (Psych Teacher; no profile yet): former magician — why the career change; what she/he knows about dream-walking.
-- [ ] **Bloom:** every field is still template text — one-liner, power limits (photosynthesis, talking to plants), look, want/fear/voice, how the romance develops across the chapters.
-- [ ] **Specs:** bullied by Bubba on Day 3 and Day 5 but not on the roster — who is he/she?
 - [ ] Quick profiles (short form): **Map Guy** ("Cart Man" in game?), **Nurse**, **Mom**, **Dad**, **Goblin**, **Ms Nice** (PR), **Mr. Brock** (Gym), **Mr Wood** (shapeshifting — which class?), **Handstand** (2nd year), **Slow Moe**, **Sticky & Slicky** (twins).
 - [ ] **Norbert's species:** name for the creatures that live in areas of the Dream World; do others appear (in other people's dreams, Catworld)?
 

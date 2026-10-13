@@ -8,13 +8,15 @@
 
 ## Chapter summary
 
-A **computer virus** plot: it's obvious that someone is attacking the school. A **detention subplot** features the
-**living Venus flytrap**, the [Janitor](../Characters/Janitor.md)'s science-fair project from 20 years ago, back from the
-sewers. `[TBD: the rest]` (See the
+A **computer virus** plot: it's obvious that someone is attacking the school. A **detention subplot**: the player and
+[Bloom](../Characters/Bloom.md) get **detention** `[TBD: why]` and have to go into the **sewers**, where they fight a **giant
+Venus flytrap**, the [Janitor](../Characters/Janitor.md)'s living science-fair project from 20 years ago (a callback to the
+Day 0 dream). `[TBD: the rest]` (See the
 [central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-kidnap-the-school).)
 
 ## Threads advanced this chapter
 
+- [D. Friendships](../PlotThreads.md#d-friendships--the-social-sim): the detention and sewer fight with Bloom (the romance).
 - `[TBD]`
 
 ## The days

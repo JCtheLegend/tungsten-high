@@ -9,9 +9,9 @@ fastest way (for a human or Claude) to see the whole cast at a glance.
 | [Sandman](Sandman.md)               | Friend/Villain       | Nickname "Sandy". Sleepy powder; mentor to the protagonist, twist villain (upgraded by Slim) | Day 3 · Lunch    |
 | [Bubba](Bubba.md)                   | Bully/Villain        | Bullies player and friends, works with Slim; upgraded, bubbles the school into the sky | Day 3 · Lunch    |
 | Map Guy                             | Shopkeeper           | Sells/Gives the player items                    | Day 2 · Post     |
-| [Bloom](Bloom.md)                   | Friend/Love Interest | Photosynthesizes, Talks to Plants               | Day 2 · Post     |
-| [Laser Boy](Laser%20Boy.md)         | Friend               | First year. Has Laser Point Eyes; Bubba teases him as "Cat Toy". (Formerly "Beamo" in the docs; "Laser Boy" in game.) | Day 1 PR         |
-| [Micycle](Micycle.md)               | Friend               | Turns into a bicycle; nickname "Mike"; player's PR partner in Week 1 | Day 1 Pre        |
+| [Bloom](Bloom.md)                   | Friend/Love Interest | Photosynthesizes, Talks to Plants; nature-loving, peaceful; slow-burn romance; core group | Day 2 · Post     |
+| [Laser Boy](Laser%20Boy.md)         | Friend               | First year; core group. Shy, can't look people in the eye. Has Laser Point Eyes (weak, like a laser pointer); Bubba teases him as "Cat Toy". (Formerly "Beamo" in the docs; "Laser Boy" in game.) | Day 1 PR         |
+| [Micycle](Micycle.md)               | Friend               | Turns into a bicycle; nickname "Mike"; reckless, lighthearted thrill seeker; core group; player's PR partner in Week 1 | Day 1 Pre        |
 | [Principal Fiona Nix](Phoenix.md) ("Principal Fi" in game) | Faculty | Name is a play on "phoenix". Rebirth/Aging: a phoenix's life cycle, reborn at midnight; target of the Ch.3 dance kidnapping attempt | Week 1 Day 1     | 
 | Nurse                               | Minor                | Runs the hospital                               | Day 2 · PR       |
 | Bank Guy                            | Minor                | Innocent bank employee; forgets the vault code, so the player & Micycle fetch it from his house (Day 3); taken hostage (Day 4) | Day 2 · PR       |

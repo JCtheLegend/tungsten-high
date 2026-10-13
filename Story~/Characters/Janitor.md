@@ -53,7 +53,7 @@ him, the player sees the flashbacks of 20 years ago.
 | Chapter | Where / what they do | Status |
 |---|---|---|
 | 1 | **Day 0:** the intro-dream flashback is his memory, set in the school 20 years ago; the player plays as him (unrevealed). | ✍️ |
-| 2 | His old science project, the living Venus flytrap, returns from the sewers in the **detention subplot**. [TBD: does he appear?] | ☐ |
+| 2 | His old science project, the living Venus flytrap, returns from the sewers in the **detention subplot**: the player and Bloom fight it as a giant Venus flytrap in the sewers. [TBD: does he appear?] | ☐ |
 | Before 4 | Seen with a dream-walking indicator; walks away when the player tries to dream-walk into him. [TBD: which chapters] | ☐ |
 | 4 | Revealed: who he really is and what the flashbacks are. | ☐ |
 

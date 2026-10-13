@@ -6,7 +6,8 @@
 
 ## One-liner
 
-One of the player's first friends at Tungsten High, and his PR partner for Week 1. [TBD]
+A lighthearted, slightly reckless thrill seeker who loves going fast as a bike: one of the player's first friends
+at Tungsten High, and his PR partner for Week 1.
 
 ## Powers / abilities
 
@@ -14,6 +15,7 @@ One of the player's first friends at Tungsten High, and his PR partner for Week 
 - **What they can do:** **Turns into a bicycle.**
 - **Nickname:** **"Mike"**, a play on words ("bike" is short for "bicycle").
 - **Limits / weaknesses:** [TBD]
+- **Loves to go fast** when transformed into a bike.
 
 ## Appearance
 
@@ -21,8 +23,8 @@ One of the player's first friends at Tungsten High, and his PR partner for Week 
 
 ## Personality
 
-- **Wants:** [TBD]
-- **Fears / flaws:** [TBD]
+- **Wants:** Thrills; speed. [TBD]
+- **Fears / flaws:** **A bit reckless.** Generally **lighthearted**.
 - **Voice:** [TBD]
 
 ## Backstory
@@ -31,7 +33,8 @@ One of the player's first friends at Tungsten High, and his PR partner for Week 
 
 ## Relationships
 
-- **To the player:** Friend; the player's **PR partner for Week 1**.
+- **To the player:** Friend; the player's **PR partner for Week 1**. They **bond after the events of Week 1**. One of the
+  **core group** (the player, Micycle, [Laser Boy](Laser%20Boy.md), [Bloom](Bloom.md)) all year.
 - **To others:** [TBD]
 
 ## Role in the plot
@@ -44,7 +47,7 @@ One of the player's first friends at Tungsten High, and his PR partner for Week 
 | Chapter | Where / what they do | Status |
 |---|---|---|
 | 1 | **Day 1 · Pre:** meets the player. **Day 3 · PR:** goes with the player to the Bank Guy's house to get the vault code. **Day 4:** taken hostage at the bank with the player. [TBD: the rest of the week] | 🔨 |
-| 2–6 | [TBD] | ☐ |
+| 2–6 | Part of the core group all year. [TBD] | ☐ |
 
 ## Notes / open questions
 

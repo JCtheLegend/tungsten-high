@@ -16,6 +16,7 @@ himself up** from a dream (pays off in Ch.6 Day 4). `[TBD: the rest]` (See the [
 
 ## Threads advanced this chapter
 
+- [D. Friendships](../PlotThreads.md#d-friendships--the-social-sim): the player and [Bloom](../Characters/Bloom.md) **dance together** at the school dance.
 - `[TBD]`
 
 ## The days

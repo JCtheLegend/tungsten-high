@@ -76,7 +76,7 @@ doesn't want Marcy remembered as one. She **tells the principal** what the envel
 | Chapter (week) | Beat in the central mystery                                                        | Status |
 |---|------------------------------------------------------------------------------------|---|
 | **1** (built) | Intro to school classes, foil The Hole's Bank Heist, confront Bubba in Dream World. **No reveal of Slim**, only clues: the Day 0 flashback, someone pulling the strings of the heist (the vault money is turned into another dimension), and someone watching the school (the envelope in Sparks' classroom). | 🔨 |
-| 2 | A **computer virus** plot: someone is clearly attacking the school. Detention subplot: the Janitor's living Venus flytrap returns from the sewers. `[TBD]` | ☐ |
+| 2 | A **computer virus** plot: someone is clearly attacking the school. Detention subplot: the player and Bloom get detention, go into the sewers, and fight the Janitor's living Venus flytrap, now giant. `[TBD]` | ☐ |
 | 3 | The **school dance**: an attempted **kidnapping of the principal** at her midnight rebirth. **Slim is revealed.** Sparks tells the principal what the envelope means. The player learns to wake himself from a dream. `[TBD]` | ☐ |
 | 4 | The **science fair**. [Anti Hero](Characters/Anti%20Hero.md) is the week's villain (a power-removing ray). The **Janitor** is revealed as the source of the flashbacks. **Mystic Punch** training with the Gym teacher. `[TBD]` | ☐ |
 | 5 | `[TBD]`                                                                            | ☐ |
@@ -150,7 +150,13 @@ The dream-walking / walk-into-people gift is both a tool and a source of danger.
 
 The player "makes friends." The cafeteria (15 tables), clubs, and Dodgeball are the social surface.
 
-- **Key friendships:** `[TBD — see Characters/]`
+- **The core group** (all game): the player, [Micycle](Characters/Micycle.md) ("Mike"), [Laser Boy](Characters/Laser%20Boy.md),
+  and [Bloom](Characters/Bloom.md).
+  - **Mike** and the player bond after the events of **Week 1** (PR partners; hostages together at the bank).
+  - **Laser Boy** and the player bond after the player **returns the books Bubba stole** (Ch.1 Day 5).
+  - **Bloom:** a **slow-burn romance** across the whole game: the player **gives her flowers**; they **dance together at
+    the school dance** (Ch.3). In **Ch.2** they get **detention** together and have to go into the **sewers**, where they
+    fight a **giant Venus flytrap** (the Janitor's science project; callback to the Day 0 dream). `[TBD: why detention]`
 - **Dodgeball team** as a bonding throughline across chapters. `[TBD]`
 - **Clubs** (Hero, Dodgeball) as opt-in relationship/plot hooks. `[TBD]`
 
@@ -182,7 +188,7 @@ Keep every promise. When you plant something, add a row; when it pays off, mark 
 | 6 | Ch.1 — Sandman as the player's mentor; Bubba as the bully whose dream dies | Both are upgraded by Slim and kidnap the school (Ch.6 Day 4); Sandman is the first stage of the final battle; Bubba, watching from his trance, turns and helps bring the school down | ☐ |
 | 9 | **Ch.3** — the player learns to **wake himself up** from a dream (a dream-walker skill) | Ch.6 Day 4 — he wakes himself from Sandman's dust | ☐ |
 | 10 | **Ch.4** — a special training session with the Gym/combat teacher (Mr. Brock) teaches the **Mystic Punch** | Ch.6 Day 4 — key to the rooftop fight with Slim | ☐ |
-| 12 | Flashback — the Janitor's science-fair project, a **Venus flytrap exposed to exotrons** that came alive, was thrown in the sewers | Ch.2 — returns in the **detention subplot** | ☐ |
+| 12 | Ch.1 · Day 0 dream + flashbacks — the Janitor's science-fair project, a **Venus flytrap exposed to exotrons** that came alive, was thrown in the sewers | Ch.2 — **detention subplot**: the player and Bloom go into the sewers and fight it as a **giant Venus flytrap** | ☐ |
 | 13 | Ch.1 · Day 0 — the intro dream is secretly a flashback, played as the Janitor; later, a dream-walking indicator by the Janitor, who walks away | **Ch.4** — the reveal of who the Janitor is and what the flashbacks are | ☐ |
 | 11 | `[TBD: which chapter]` — a student who makes **dream potions** is introduced | Ch.6 Day 4 — Sandman uses a dream potion to give the students a taste of upgraded powers | ☐ |
 

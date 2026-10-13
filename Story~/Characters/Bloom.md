@@ -1,50 +1,58 @@
 # Bloom
 
-**Role:** Ally / Romantic Interest \
+**Role:** Ally / Romantic Interest
 **Status in story:** ✅ appears in game
+**First appears:** Ch.1 · Day 2 · Post
 
 ## One-liner
 
-[Who they are in a single sentence — the hook.]
+A nature-loving first year who photosynthesizes and talks to plants, seeks to be a peaceful person, and is the
+player's slow-burn romance across the year.
 
 ## Powers / abilities
 
 - **Power class:** [TBD]
-- **What they can do:** [TBD]
+- **What she can do:** **Photosynthesizes; talks to plants.**
 - **Limits / weaknesses:** [TBD]
 
 ## Appearance
 
-[Design notes, sprite/costume references, colors. Link art if it exists.]
+[TBD]
 
 ## Personality
 
-- **Wants:** [their goal]
-- **Fears / flaws:** [what holds them back]
-- **Voice:** [how they talk — verbal tics, tone]
+- **Wants:** To be a **peaceful person**. **Enjoys nature.**
+- **Fears / flaws:** [TBD]
+- **Voice:** [TBD]
 
 ## Backstory
 
-[Only what's needed. What matters is what pays off on screen.]
+[TBD]
 
 ## Relationships
 
-- **To the player:** [ally? rival? crush? suspicious?]
-- **To others:** [key ties — link with [Name](Name.md)]
+- **To the player:** Friend and **love interest**. The romance **develops slowly over the whole game**, including
+  the player **giving her flowers** and the two **dancing together at the school dance** (Ch.3). One of the
+  **core group** (the player, [Micycle](Micycle.md), [Laser Boy](Laser%20Boy.md), Bloom).
+- **To others:** [TBD]
 
 ## Role in the plot
 
-- **Threads they touch:** [link to PlotThreads.md sections, e.g. [A. Central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-kidnap-the-school)]
-- **Arc across the 6 chapters:** [where they start → where they end]
+- **Threads they touch:** [D. Friendships & the social sim](../PlotThreads.md#d-friendships--the-social-sim)
+- **Arc across the 6 chapters:** Met in Ch.1 → **Ch.2:** she and the player get **detention** and have to go into
+  the **sewers**, where they fight a **giant Venus flytrap** (the Janitor's science project, a callback to the Day 0
+  dream) → **Ch.3:** they dance together at the school dance → [TBD]
 
 ## Appearances by chapter
 
 | Chapter | Where / what they do | Status |
 |---|---|---|
-| 0 | | ☐ |
-| 1 | | ☐ |
-| … | | ☐ |
+| 1 | **Day 2 · Post:** meets the player (`2.Post.Bloom`). [TBD] | 🔨 |
+| 2 | Detention with the player; into the sewers; fight the giant Venus flytrap. | ☐ |
+| 3 | Dances with the player at the school dance. | ☐ |
+| 4–6 | Part of the core group all year; the romance keeps developing (flowers). [TBD] | ☐ |
 
 ## Notes / open questions
 
-- [TBD]
+- Why do she and the player get detention in Ch.2?
+- Which chapters hold the flower-giving beat(s)? Does the romance get a resolution by Ch.6?
