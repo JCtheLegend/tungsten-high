@@ -6,7 +6,7 @@ fastest way (for a human or Claude) to see the whole cast at a glance.
 | Character                           | Role                 | Powers / deal                                   | First appears    |
 |-------------------------------------|----------------------|-------------------------------------------------|------------------|
 | [Protagonist](Protagonist.md)       | PC                   | Dream-walking; can walk into people             | Day 0 · Dream    |
-| [Sandman](Sandman.md)               | Friend/Villain       | Nickname "Sandy". Sleepy powder; mentor to the protagonist, twist villain (upgraded by Slim) | Day 3 · Lunch    |
+| [Sandman](Sandman.md)               | Friend/Villain       | Nickname "Sandy". 2nd-year Psych student; sleepy powder; commanding mentor to the protagonist (gives him the Planner); wants to lead and inspire; twist villain (upgraded by Slim) | Day 1 · Gym (Planner) |
 | [Bubba](Bubba.md)                   | Bully/Villain        | Bullies player and friends, works with Slim; upgraded, bubbles the school into the sky | Day 3 · Lunch    |
 | Map Guy                             | Shopkeeper           | Sells/Gives the player items                    | Day 2 · Post     |
 | [Bloom](Bloom.md)                   | Friend/Love Interest | Photosynthesizes, Talks to Plants; nature-loving, peaceful; slow-burn romance; core group | Day 2 · Post     |

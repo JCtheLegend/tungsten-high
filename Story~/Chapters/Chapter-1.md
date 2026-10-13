@@ -80,7 +80,7 @@ the Dream World. Files: `Resources/Cutscenes/Chapter1/1/`.
 | Pre | Home | Wake up, head downstairs, Mom drives to school. | `1.Pre.PlayerRoom`, `1.Pre.Downstairs`, `1.Pre.HomeOutside.CarLeave` | 🔨 |
 | Pre | School exterior | Arrive; approach the school. | `1.Pre.SchoolOutside.1/2/3` | 🔨 |
 | PR | Hallway → PR class | Enter school, hallway welcome, first Public Relations class. | `1.InSchool`, `1.PR.HallwayWelcome.1/2`, `1.PR.InClass`, `1.PR.PRClass.1/2` | 🔨 |
-| Gym | Gym class | Pick up the **Planner**; **punching-bag fight** (pre → fight ×3 → post). | `1.Gym.PickupPlanner`, `1.Gym.GymClass.PreFight`, `1.Gym.PunchingBagFight.1/2/3`, `1.Gym.GymClass.PostFight` | 🔨 |
+| Gym | Gym class | [Sandman](../Characters/Sandman.md) ("Sandy") walks the player to class and gives him the **Planner**; **punching-bag fight** (pre → fight ×3 → post). | `1.Gym.PickupPlanner`, `1.Gym.GymClass.PreFight`, `1.Gym.PunchingBagFight.1/2/3`, `1.Gym.GymClass.PostFight` | 🔨 |
 | Lunch | Cafeteria | Get food (gated by `NeedFood`/`HasLunch…`), then choose a **table** (1–15) to sit and talk. | `1.Lunch.GetFood`, `1.Lunch.NeedFood`, `1.Lunch.HasLunchBottom/Left`, `1.Lunch.NeedLunchBottom/Left`, `1.Lunch.Eat.Table1`…`Table15` | 🔨 |
 | Psych | Psych class | Psychological Powers class + sign-in. | `1.Psych.PsychClassSign`, `1.Psych.PsychClass.1`, `1.Psych.PsychClass.2/3/4` | 🔨 |
 | Sci | Science / Assembly | Science of Superpowers class; an **Assembly** (choose a bleacher seat). | `1.Sci.ScienceClass`, `1.Sci.Assembly`, `1.Sci.Assembly.Bleacher2`…`Bleacher7` | 🔨 |

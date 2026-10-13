@@ -26,7 +26,7 @@ don't care about, or add your own.
 - [ ] **Protagonist:** name (the cutscene docs call him "Mark" — confirm?), age, want, fear/flaw, voice; how long he's had his power (who knows: everyone, via power disclosure); the Dad question (roster has Dad mowing the lawn, profile says "father? TBD"); siblings?
 - [ ] **The Hole** (profile started): his identity, motive, look, voice.
 - [ ] **Bubba** (profile started): base power before the upgrade? Why Platinum Prep? Who is **Bubba's ally**? How does Slim recruit him after his dream dies, and what becomes of him after the kidnapping?
-- [ ] **Sandman:** roster says first appears **Day 3 Lunch**, profile says **Day 1** — which? Why does he take Slim's offer (profile now has the upgrade + kidnapping role)? Fill wants/fears/voice/look.
+- [ ] **Sandman follow-ups:** when/how Slim approaches him; his look; his Ch.2–5 beats as mentor.
 - [ ] **Micycle / Laser Boy / Bloom follow-ups:** how Mike and the player meet on Day 1 Pre; Laser Boy's Day 1 PR intro, and is "Laser Boy" his hero name; why the player and Bloom get **detention in Ch.2**; where the flower-giving beats go; each friend's 6-chapter arc.
 - [ ] **Sparks** (profile started, backstory done): her power, personality, voice; why the envelope appears in her classroom and how she reacts.
 - [ ] **Principal Fiona Nix** ("Principal Fi"; profile started; power decided): ally, obstacle, or compromised?

@@ -146,5 +146,5 @@ Track the sides of the central conflict here as they're decided:
 - **Power-cancelling handcuffs** — cancel the wearer's powers; used on The Hole (Ch.1 Day 4). Invented by [Anti Hero](Characters/Anti%20Hero.md), a powerless tech genius who hates people with powers; law enforcement uses them against supervillains.
 - **Exotrons** — the Janitor's science-fair project exposed a Venus flytrap to exotrons, which made it come alive. `[TBD: what exotrons are]`
 - **Anchorman** — a local hero ~20 years ago; see [Anchorman](Characters/Anchorman.md).
-- **The Planner** — the in-game menu/journal item, picked up in Ch.1 Gym. (Also a real UI system:
+- **The Planner** — the in-game menu/journal item, given to the player by Sandman on the way to Ch.1 Day 1 Gym. (Also a real UI system:
   `Planner`/`PlannerPage` in code.)
