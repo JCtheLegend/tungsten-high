@@ -14,7 +14,7 @@ don't care about, or add your own.
 
 ### Tier 1 — Chapter 1 keystones
 
-- [ ] **Ch.6 follow-ups (remaining):** what becomes of Bubba after he turns (arrested, forgiven, Platinum Prep?). **Nimbus:** where they're first introduced and how they recur in Chs.1–5 (a natural Ch.2–5 question). Ch.6 Days 1–3 (exam week): nothing planned yet — ask again once Chs.2–5 take shape.
+- [ ] **Ch.6 follow-ups (remaining):** **Nimbus:** where they're first introduced and how they recur in Chs.1–5 (a natural Ch.2–5 question). Ch.6 Days 1–3 (exam week): nothing planned yet — ask again once Chs.2–5 take shape.
 - [ ] **Janitor follow-ups:** did he and Marcy date; what are exotrons; the Ch.2 detention subplot with the Venus flytrap; how the Ch.4 reveal plays out.
 - [ ] **Sparks tells the principal (Ch.3):** what pushes her, how Principal Phoenix reacts. Which chapter (5 or 6) has the final Marcy revelation, and does it change how the player sees Slim?
 - [ ] **Dream-potion student:** name, power details, when they're introduced, and how Sandman gets the potion (willingly?).
@@ -25,7 +25,7 @@ don't care about, or add your own.
 
 - [ ] **Protagonist:** name (the cutscene docs call him "Mark" — confirm?), age, want, fear/flaw, voice; how long he's had his power (who knows: everyone, via power disclosure); the Dad question (roster has Dad mowing the lawn, profile says "father? TBD"); siblings?
 - [ ] **The Hole** (profile started): his identity, motive, look, voice.
-- [ ] **Bubba** (profile started): base power before the upgrade? Why Platinum Prep? Who is **Bubba's ally**? How does Slim recruit him after his dream dies, and what becomes of him after the kidnapping?
+- [ ] **Bubba follow-ups:** his brother (name, does he appear?); **Glowstick** (Ch.1 role, personality, Ch.6 fate); how Slim recruits Bubba after his dream dies; his look and voice.
 - [ ] **Sandman follow-ups:** when/how Slim approaches him; his look; his Ch.2–5 beats as mentor.
 - [ ] **Micycle / Laser Boy / Bloom follow-ups:** how Mike and the player meet on Day 1 Pre; Laser Boy's Day 1 PR intro, and is "Laser Boy" his hero name; why the player and Bloom get **detention in Ch.2**; where the flower-giving beats go; each friend's 6-chapter arc.
 - [ ] **Sparks** (profile started, backstory done): her power, personality, voice; why the envelope appears in her classroom and how she reacts.

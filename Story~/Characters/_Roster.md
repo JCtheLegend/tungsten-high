@@ -7,7 +7,8 @@ fastest way (for a human or Claude) to see the whole cast at a glance.
 |-------------------------------------|----------------------|-------------------------------------------------|------------------|
 | [Protagonist](Protagonist.md)       | PC                   | Dream-walking; can walk into people             | Day 0 · Dream    |
 | [Sandman](Sandman.md)               | Friend/Villain       | Nickname "Sandy". 2nd-year Psych student; sleepy powder; commanding mentor to the protagonist (gives him the Planner); wants to lead and inspire; twist villain (upgraded by Slim) | Day 1 · Gym (Planner) |
-| [Bubba](Bubba.md)                   | Bully/Villain        | Bullies player and friends, works with Slim; upgraded, bubbles the school into the sky | Day 3 · Lunch    |
+| [Bubba](Bubba.md)                   | Bully/Villain        | Makes small, easily popped bubbles that float people; bullies player and friends; jealous of his brother at Platinum Prep; works with Slim; upgraded, bubbles the school into the sky; turns and is forgiven (Ch.6) | Day 3 · Lunch    |
+| Glowstick                           | Student / Bully's ally | Bubba's ally; glows in the dark when they crack their knuckles, back, neck, etc. | [TBD] |
 | Map Guy                             | Shopkeeper           | Sells/Gives the player items                    | Day 2 · Post     |
 | [Bloom](Bloom.md)                   | Friend/Love Interest | Photosynthesizes, Talks to Plants; nature-loving, peaceful; slow-burn romance; core group | Day 2 · Post     |
 | [Laser Boy](Laser%20Boy.md)         | Friend               | First year; core group. Shy, can't look people in the eye. Has Laser Point Eyes (weak, like a laser pointer); Bubba teases him as "Cat Toy". Real name **Bobby Morrison** ("B-mo"); "Laser Boy" in game; the "Specs" of older notes. | Day 1 PR         |

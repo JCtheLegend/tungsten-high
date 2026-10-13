@@ -50,7 +50,7 @@ happens on **Day 4**, the same day as the kidnapping. Days 1–3: nothing planne
 5. **Aftermath.** Sandman is **arrested**. Whether he changes his ways is left open, but he's **proud of the
    player for becoming the hero**. The school is brought **back down to the ground** by the turned Bubba and
    [Nimbus](../Characters/Nimbus.md), a second-year student who can turn into a cloud (introduced over the
-   course of the year). `[TBD: what becomes of Bubba after]`
+   course of the year). Bubba is **forgiven**.
 
 ### Day 5 — falling action and resolution
 
