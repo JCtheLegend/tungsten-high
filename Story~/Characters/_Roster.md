@@ -36,7 +36,7 @@ fastest way (for a human or Claude) to see the whole cast at a glance.
 | Slow Moe ("Moe")                    | Student (1st year)   | Can move himself in slow motion                 | Day 3 · PR       |
 | Sticky                              | Student (1st year)   | Twin of Slicky. Sticks to any object; struggles to control it and gets stuck to things | Day 2 · Gym |
 | Slicky                              | Student (1st year)   | Twin of Sticky. Becomes frictionless; struggles to control it and slides into things | Day 2 · Gym |
-| Norbert                             | Dream creature       | Lives in the player's mind; organizes his thoughts, memories, and feelings from the previous day into his subconscious. One of a species of creatures living in areas of the Dream World `[TBD: species name]` | Day 1 · Dream |
+| Norbert                             | Dream creature (somnus) | Lives in the player's mind; organizes his thoughts, memories, and feelings from the previous day into his subconscious. A **somnus** (plural **somni**), a species of creatures living in areas of the Dream World | Day 1 · Dream |
 | [The Hole](The Hole.md)             | Week 1 Villain       | Becomes a hole in objects (things pass through; he can exit either side); robs the bank, guided by Slim's letters | Week 1 Day 2     |
 
 ## To add a character

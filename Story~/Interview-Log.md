@@ -32,7 +32,7 @@ don't care about, or add your own.
 - [ ] **Principal Fiona Nix** ("Principal Fi"; profile started; power decided): ally, obstacle, or compromised?
 - [ ] **Faculty follow-ups:** **Maven** — why he left magic, where the rug came from. **Mr. Brock** — does he face Anti Hero again in Ch.4?
 - [ ] Quick profiles (short form): **Map Guy** ("Cart Man" in game?), **Nurse**, **Mom**, **Dad**, **Goblin**, **Handstand** (2nd year), **Slow Moe**, **Sticky & Slicky** (twins).
-- [ ] **Norbert's species:** name for the creatures that live in areas of the Dream World; do others appear (in other people's dreams, Catworld)?
+- [ ] **Somni follow-ups:** do other somni appear (in other people's dreams, Catworld)? Does each mind have its own? What do they look like?
 
 ### Tier 3 — Chapter 1 scenes & beats
 

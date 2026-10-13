@@ -54,7 +54,7 @@ The player character is unusual even among the gifted:
 - A **parallel of the real-world map** — the same geography, altered. Explored during the `dream` stage.
 - Buildings and places in the dream world reflect what people think, . School -> Prison
 - Reached by going to bed, or entering into peoples dreams, or through various gateways
-- Populated by its own entities and guardians, including a **species of creatures that live inside different areas of the Dream World** `[TBD: species name]` (**Norbert**, in the player's mind, is one), and by manifestations of real people's inner lives
+- Populated by its own entities and guardians, including the **somni** (singular **somnus**), a species of creatures that live inside different areas of the Dream World (**Norbert**, in the player's mind, is one), and by manifestations of real people's inner lives
 - **Dream regions:**
   - **Main Area**
   - **Dreams** People dreaming make large bubbles floating in the Main Area. A dreaming person appears as a **floating head** the player can travel to. `[TBD: are the head and the bubble the same thing?]`
@@ -148,7 +148,8 @@ Track the sides of the central conflict here as they're decided:
 - **Dream-walking** — the protagonist's power to enter/leave the Dream World.
 - **The Halcyon / The Hollow** — the Good and Bad Areas of Mark's Inner Mind.
 - **Fear** — a primary negative feeling of the Inner Mind's Hollow (Bad Area). In Ch.1 Day 1 it manifests as the **Crab** and the **Dream Stranger**.
-- **Norbert** — a dream creature living in the player's mind who sorts the day's thoughts, memories, and feelings into his subconscious. One of a species `[TBD: name]` living in areas of the Dream World.
+- **Somnus / somni** — the species of creatures that live in different areas of the Dream World (from Latin *somnus*, "sleep"). **Norbert** is one.
+- **Norbert** — a dream creature living in the player's mind who sorts the day's thoughts, memories, and feelings into his subconscious. A **somnus**, one of the species living in areas of the Dream World.
 - **Ephemeral World / Ephemeral Realm** — [Maven](Characters/Maven.md)'s word for the Dream World, perhaps the more scientific term for it.
 - **Maven's magic rug** — transports people into the Dream World.
 - **The sword & shield** — the player's Dream World weapons, hidden in his Inner Mind (sword: the Hollow, courage and willpower against fear; shield: the Halcyon, restraint and prudence against selfish desires and fantasies).
