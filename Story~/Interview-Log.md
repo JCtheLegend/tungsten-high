@@ -14,7 +14,7 @@ don't care about, or add your own.
 
 ### Tier 1 — Chapter 1 keystones
 
-- [ ] **Ch.6 follow-ups:** Ch.6 Days 1–3 (exam week). Bubba helps bring the school down — does that mean he turns against Slim, and what happens to him after? **Nimbus:** who is he/she, first appearance, connection to the school (Anchorman-era hero? faculty? parent?).
+- [ ] **Ch.6 follow-ups (remaining):** what becomes of Bubba after he turns (arrested, forgiven, Platinum Prep?). **Nimbus:** where they're first introduced and how they recur in Chs.1–5 (a natural Ch.2–5 question). Ch.6 Days 1–3 (exam week): nothing planned yet — ask again once Chs.2–5 take shape.
 - [ ] **Janitor follow-ups:** did he and Marcy date; what are exotrons; the Ch.2 detention subplot with the Venus flytrap; how the Ch.4 reveal plays out.
 - [ ] **Sparks tells the principal (Ch.3):** what pushes her, how Principal Phoenix reacts. Which chapter (5 or 6) has the final Marcy revelation, and does it change how the player sees Slim?
 - [ ] **Dream-potion student:** name, power details, when they're introduced, and how Sandman gets the potion (willingly?).

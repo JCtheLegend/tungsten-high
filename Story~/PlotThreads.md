@@ -34,8 +34,10 @@ Per-day, scene-by-scene beats live in the `Chapters/` files. **This file is the 
   **Sandman**, the former mentor standing in his way, then **Slim on the school roof**, where the **Mystic Punch**
   (knocks the target out for a split second so the dream-walker can enter their mind mid-strike) is key: it's how
   the player enters **Slim's mind** for the Dream World half of the fight. Bubba spends the battle in a trance,
-  straining to keep the bubble afloat. Afterward Sandman is arrested (proud of the player, reform left open), and
-  Bubba and **Nimbus**, a cloud-shapeshifting superhero, bring the school back down.
+  straining to keep the bubble afloat; still aware of his surroundings, he watches ordinary students be heroes,
+  realizes a true hero is defined by what they do with the gifts they're given, and turns. Afterward Sandman is
+  arrested (proud of the player, reform left open), and Bubba and [Nimbus](Characters/Nimbus.md), a second-year
+  student who can turn into a cloud, bring the school back down.
   **Day 5** is the resolution: the heroes are commended, Day 4 stands in for the students' finals, and the
   player and his friends watch fireworks before summer break.
 - **The moral:** Heroes aren't made by how strong their powers are, but by the **moral character and
@@ -175,7 +177,7 @@ Keep every promise. When you plant something, add a row; when it pays off, mark 
 | 3 | Ch.1 · Day 5 · Sci — an **empty** envelope appears in Sparks' classroom (Slim's taunt: he's back); Sparks is shocked and frightened but won't say why | Sparks tells the **principal** in **Ch.3** | ☐ |
 | 4 | Ch.1 · Day 0 · Dream — Sparks appears as a student in the flashback, unrecognized | The player realizes it was Sparks `[TBD: when]` | ☐ |
 | 5 | Flashbacks — Marcy's body was found in its original form; everyone thinks she was a victim | The player learns the truth through the Janitor's flashbacks; final revelation in **Ch.5 or 6** `[TBD: which]`. Sparks knew all along. | ☐ |
-| 6 | Ch.1 — Sandman as the player's mentor; Bubba as the bully whose dream dies | Both are upgraded by Slim and kidnap the school (Ch.6 Day 4); Sandman is the first stage of the final battle | ☐ |
+| 6 | Ch.1 — Sandman as the player's mentor; Bubba as the bully whose dream dies | Both are upgraded by Slim and kidnap the school (Ch.6 Day 4); Sandman is the first stage of the final battle; Bubba, watching from his trance, turns and helps bring the school down | ☐ |
 | 9 | **Ch.3** — the player learns to **wake himself up** from a dream (a dream-walker skill) | Ch.6 Day 4 — he wakes himself from Sandman's dust | ☐ |
 | 10 | **Ch.4** — a special training session with the Gym/combat teacher teaches the **Mystic Punch** | Ch.6 Day 4 — key to the rooftop fight with Slim | ☐ |
 | 12 | Flashback — the Janitor's science-fair project, a **Venus flytrap exposed to exotrons** that came alive, was thrown in the sewers | Ch.2 — returns in the **detention subplot** | ☐ |

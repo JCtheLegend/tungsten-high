@@ -16,7 +16,7 @@ collapses as he realizes the students won't follow him and he's been bested by s
 powers, and he slips into another dimension, gone for good.
 
 "Finals" means **both**: it's the school's exam week, and it ends in the final battle. The final boss fight
-happens on **Day 4**, the same day as the kidnapping. `[TBD: Days 1–3]`
+happens on **Day 4**, the same day as the kidnapping. Days 1–3: nothing planned yet `[TBD]`.
 (See the [central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-kidnap-the-school).)
 
 ## Threads advanced this chapter
@@ -44,10 +44,13 @@ happens on **Day 4**, the same day as the kidnapping. `[TBD: Days 1–3]`
    mind mid-strike**: this is how the player enters **Slim's mind** for the Dream World half of the fight,
    where Slim's dream collapses.
    - Meanwhile [Bubba](../Characters/Bubba.md) is **in a trance**, straining hard to keep the school afloat
-     inside the bubble.
+     inside the bubble. Even in the trance he can **observe what's happening around him**: he watches his
+     fellow students being heroes despite not having the flashiest powers, and starts to realize that what
+     makes a true hero is **what you do with the gifts you're given**. This is his turn against Slim.
 5. **Aftermath.** Sandman is **arrested**. Whether he changes his ways is left open, but he's **proud of the
-   player for becoming the hero**. The school is brought **back down to the ground** by Bubba and
-   **Nimbus**, a cloud-shapeshifting superhero.
+   player for becoming the hero**. The school is brought **back down to the ground** by the turned Bubba and
+   [Nimbus](../Characters/Nimbus.md), a second-year student who can turn into a cloud (introduced over the
+   course of the year). `[TBD: what becomes of Bubba after]`
 
 ### Day 5 — falling action and resolution
 

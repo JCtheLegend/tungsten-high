@@ -28,7 +28,7 @@ fastest way (for a human or Claude) to see the whole cast at a glance.
 | [Anchorman](Anchorman.md)           | Flashback / Minor    | Local hero 20 yrs ago; killed the werewolf (Marcy); now retired in town | [TBD]            |
 | [Janitor](Janitor.md) | Staff | Dream-walker who can sleepwalk at will; stuck remembering the day Marcy (his crush) died; the source of the flashbacks (player plays as him) | Day 0 · Dream (as himself 20 yrs ago, unrevealed) |
 | [Sheriff](Sheriff.md) | Minor | Garnet's town sheriff; arrests The Hole and the goon (power-cancelling cuffs) | Day 4 · Bank Vault |
-| Nimbus | Hero | Cloud-shapeshifting superhero; with Bubba, brings the school back down (Ch.6 Day 4) | [TBD] |
+| [Nimbus](Nimbus.md) | Student (2nd year) | Shapeshifter who can turn into a cloud; introduced over the year; with Bubba, brings the school back down (Ch.6 Day 4) | [TBD] (introduced through the year) |
 | Dream-potion student `[TBD: name]` | Student | Makes dreams for people in the form of potions; Sandman uses one in Ch.6 Day 4 | [TBD] |
 | [The Hole](The Hole.md)             | Week 1 Villain       | Becomes a hole in objects (things pass through; he can exit either side); robs the bank, guided by Slim's letters | Week 1 Day 2     |
 

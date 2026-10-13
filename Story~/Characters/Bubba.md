@@ -44,7 +44,11 @@ Slim upgrade him to help kidnap Tungsten High.
 - **Arc across the 6 chapters:** Bully in Chapter 1 → his transfer is denied and his dream dies (Day 5) →
   [Slim](Slim.md) persuades him with the promise of upgraded powers, fame, and fortune, and upgrades him
   with the machine → with [Sandman](Sandman.md), he **kidnaps the school**: Sandman puts it to sleep and
-  Bubba bubbles it up into the sky. This is the climax, **Chapter 6, Day 4**. [TBD: what becomes of him after]
+  Bubba bubbles it up into the sky. This is the climax, **Chapter 6, Day 4**. Held in a trance keeping the
+  school afloat, he can still observe what's happening around him; watching his fellow students be heroes
+  despite not having the flashiest powers, he realizes **what makes a true hero is what you do with the gifts
+  you're given**, turns against Slim, and helps [Nimbus](Nimbus.md) bring the school back down. [TBD: what
+  becomes of him after]
 
 ## Appearances by chapter
 
@@ -52,9 +56,10 @@ Slim upgrade him to help kidnap Tungsten High.
 |---|---|---|
 | 1 | **Day 1:** introduced as a bully. **Day 3 · Lunch:** conflict over Specs being teased, then a fight; Sandman defuses it. **Day 5 · Lunch:** steals Specs' books, gets his rejection letter from Platinum Prep; the player enters his dream and battles him. **Day 5 · Psych:** his dream bursts, leaving him and the player in the middle of Psych class. | 🔨 |
 | 2–5 | [TBD] | ☐ |
-| 6 | **Day 4:** upgraded by Slim, envelops the school in a bubble and carries it into the sky (the climax). Spends the final battle **in a trance**, straining to keep the school afloat. Afterward he and **Nimbus** bring the school back down to the ground. | ☐ |
+| 6 | **Day 4:** upgraded by Slim, envelops the school in a bubble and carries it into the sky (the climax). Spends the final battle **in a trance**, straining to keep the school afloat, but watching: seeing ordinary students be heroes turns him. Afterward he and [Nimbus](Nimbus.md) bring the school back down to the ground. | ☐ |
 
 ## Notes / open questions
 
 - What's his base power (before the upgrade)?
 - Who is **Bubba's ally**?
+- What becomes of him after Ch.6 (arrested like Sandman, forgiven, Platinum Prep)?
