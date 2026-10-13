@@ -102,7 +102,8 @@ A throughline already built into Chapter 1 and the strongest candidate for the m
   A **police megaphone** announces the building is surrounded. Hours later, [Sandman](Characters/Sandman.md) ("**Sandy**") takes the megaphone and tells
   everyone inside to **relax** while he deliberately throws his drowsing powder through the **air vents**, everyone gets sleepy, and the player
   dream-walks into the **goon's mind** to retrieve the **vault code** (the goon had reset the vault to a code only he
-  knows), then opens the vault and finds The Hole there.
+  knows): a luxury-lifestyle dream of what he'll spend his cut on, where the player collects the numbers and fights
+  the dream goon for the last one. Then he opens the vault and finds The Hole there.
   The player fights **The Hole**. Inside the vault he wonders where the money went and when he'll get his cut, not realizing
   **Slim has disappeared the money and the other goons into a smaller dimension, leaving The Hole to be framed** for the heist.
   The vault money disappears,
@@ -116,7 +117,8 @@ A throughline already built into Chapter 1 and the strongest candidate for the m
   Sparks' envelope look the same.
 - **Aftermath** — The Hole is arrested, put in **power-cancelling handcuffs**, and sent to the **town jail**. The outside
   **goon** is arrested and jailed too. The player can **go talk to him** in jail, which gives clues about who's behind the
-  heist: whoever hired him communicated **only via envelope**. `[TBD: when the player can visit]`
+  heist: whoever hired him communicated **only via envelope**. He laments being in jail and his ruined dream of getting
+  rich. The jail is a building in town the player can enter most times he's walking around town.
 - The **Bank Guy** is an innocent employee. He **forgets the vault code** and needs it to get money out, so on Day 3
   the player and [Micycle](Characters/Micycle.md) (his PR partner for the week) go to **his house** to get it.
 

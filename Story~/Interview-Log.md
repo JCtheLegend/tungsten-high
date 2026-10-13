@@ -19,7 +19,6 @@ don't care about, or add your own.
 - [ ] **Sparks tells the principal (Ch.3):** what pushes her, how Principal Phoenix reacts. Which chapter (5 or 6) has the final Marcy revelation, and does it change how the player sees Slim?
 - [ ] **Dream-potion student:** name, power details, when they're introduced, and how Sandman gets the potion (willingly?).
 - [ ] **Anti Hero in Ch.4:** how the power-removing ray plot plays out at the science fair, how the player stops him, and what happens to him; does he cross paths with Slim?
-- [ ] **Jailed goon visit:** which day(s) can the player visit, and what exactly does he say?
 - [ ] **Slim in the Dream World:** from which chapter does the player see him moving around? Lock or drop the tentative idea (scouting susceptible students; recruiting Sandman and Bubba there).
 - [ ] **Ch.3 dance:** who carries out the principal kidnapping attempt, how Slim is revealed on screen, and how it's foiled.
 
@@ -40,7 +39,6 @@ don't care about, or add your own.
 
 ### Tier 3 — Chapter 1 scenes & beats
 
-- [ ] **The goon's mind (Ch.1 Day 4):** design his dream. He's a simple character, motivated by money and willing to help criminals to get it. What does his dream look like, and how does the player find the code (287128 for now) in it: a memory, a challenge, a fight? (`DreamHubRight` stands in.)
 - [ ] **Names found in the game files, confirm vs. canon:** the principal is **"Principal Fi"** in game (portraits/prefabs Kid Fi / Principal Fi / Old Fi, which fit her phoenix cycle), "Principal Phoenix" in the docs. The Psych teacher is **Maven**. The PR teacher is **Ms Nice**. Young Sparks calls Paperboy **"Ant…"** in `0.Dream.Gym.Caught` (Slim's real name?). In `0.Dream.3F.1` a friend says **"Joe's bringing the plant"** (Joe = the Janitor? the Venus flytrap).
 - [ ] **Day 0 flashback already exists** (`0.Dream.303.1` → `0.Dream.Gym.Caught`: Paperboy, Young Sparks, Marcy at the science fair). Update the Day 0 notes and the build task.
 

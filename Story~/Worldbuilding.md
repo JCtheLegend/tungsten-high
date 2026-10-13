@@ -95,7 +95,7 @@ of the week (the player's, in Chapter 1, is the Bank). It's how the wider town g
 - Civic buildings that each hold a **quarter** in the collectible quest: **City Hall**, a **Fountain**,
   the **Library**, the **Post Office / Mail**, the **Nurse's office**.
 - Player's **home** and neighborhood (`ArriveHome`, `Downstairs`, `PlayerRoom`, `HomeOutside`).
-- The **town jail**, where captured villains go. Prisoners wear **power-cancelling handcuffs** (invented by [Anti Hero](Characters/Anti%20Hero.md)).
+- The **town jail**, where captured villains go: a building in town the player can enter most times he's walking around town. Prisoners wear **power-cancelling handcuffs** (invented by [Anti Hero](Characters/Anti%20Hero.md)).
 - `[TBD: town name? how big? relationship of the town to the school?]`
 
 ### After-school life (`post`)
