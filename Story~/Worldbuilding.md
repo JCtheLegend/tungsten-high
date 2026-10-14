@@ -155,9 +155,9 @@ Track the sides of the central conflict here as they're decided:
 - **The sword & shield** — the player's Dream World weapons, hidden in his Inner Mind (sword: the Hollow, courage and willpower against fear; shield: the Halcyon, restraint and prudence against selfish desires and fantasies).
 - **The Snow Ball** — the winter dance (Ch.3, around Christmas).
 - **Dream Stranger** — a manifestation of Fear: the player's fear of talking to strangers.
-- **Stair Guardian** — a dream entity `[TBD]`.
+- **Stair Guardian** — **Cubert**, "the only cubic super in the school" 20 years ago, guarding the staircase in Rip's Day 0 memory. A cameo; may return as a townsperson.
 - **Paperboy** — Slim's nickname in school.
-- **The upgrade machine** — a machine that genetically alters and upgrades powers, built for the school science fair ~20 years ago by [Slim](Characters/Slim.md), [Marcy](Characters/Marcy.md), and [Sparks](Characters/Sparks.md). [TBD: in-world name]
+- **The amplifier** (the upgrade machine) — a machine that genetically alters and upgrades powers, built for the school science fair ~20 years ago by [Slim](Characters/Slim.md), [Marcy](Characters/Marcy.md), and [Sparks](Characters/Sparks.md). Called **the amplifier**.
 - **Power-cancelling handcuffs** — cancel the wearer's powers; used on The Hole (Ch.1 Day 4). Invented by [Anti Hero](Characters/Anti%20Hero.md), a powerless tech genius who hates people with powers; law enforcement uses them against supervillains.
 - **Exotrons** — the Janitor's science-fair project exposed a Venus flytrap to exotrons, which made it come alive. `[TBD: what exotrons are]`
 - **Anchorman** — a local hero ~20 years ago; see [Anchorman](Characters/Anchorman.md).

@@ -53,20 +53,24 @@ school starts. Files: `Resources/Cutscenes/Chapter1/0/`.
 
 | Scene | Cutscene JSON | What it (appears to) do | Status |
 |---|---|---|---|
-| Stair Guardian | `0.DreamStairGuardian` | A guardian gating passage up. `[TBD]` | 🔨 |
-| Dream Gym | `0.Dream.Gym.1`, `0.Dream.Gym.2`, `0.Dream.Gym.Caught` | Dream version of the gym; a **"Caught"** fail/stealth state. `[TBD: stealth section?]` | 🔨 |
+| Stair Guardian | `0.DreamStairGuardian` | **Cubert**, "the only cubic super in the school," nominated guardian of the staircase; won't let Rip through yet. A fun cameo (may return as a townsperson). | 🔨 |
+| Dream Gym | `0.Dream.Gym.1`, `0.Dream.Gym.2`, `0.Dream.Gym.Caught` | The science fair in the gym. Fred: they forgot to put their names on the poster, go find a marker. **Caught:** Rip stumbles on Paperboy (Slim), Young Sparks, and Marcy arguing about **the amplifier** ("Where is the showmanship?!"; "Slim... we promised not to..."). Marcy: "You're not supposed to be here." Mark wakes in his room. | 🔨 |
 | Floor 2F | `0.Dream.2F` | Explore the 2nd floor. | 🔨 |
 | 2F → 3F | `0.Dream.2F-3F.1`, `0.Dream.2F-3F.2` | Stairs/transition between floors. | 🔨 |
-| Floor 3F | `0.Dream.3F.1`, `0.Dream.3F.2` | Explore the 3rd floor. | 🔨 |
-| Room 303 | `0.Dream.303.1`, `0.Dream.303.2` | A specific room. `[TBD: why is 303 significant?]` | 🔨 |
+| Floor 3F | `0.Dream.3F.1`, `0.Dream.3F.2` | Fred: "Joe's bringing the plant" (their group's living Venus flytrap); rumor that Paperboy's team has something big this year. | 🔨 |
+| Room 303 | `0.Dream.303.1`, `0.Dream.303.2` | Where Rip dozed off; Fred wakes him: "It's time for the science fair!" (No deeper significance.) | 🔨 |
 
 **Notes:** The intro dream includes the game's first **flashback**: [Slim](../Characters/Slim.md) talking with
 [Marcy](../Characters/Marcy.md), his friend and project partner, about their prototype machine that genetically
 alters and upgrades powers, for the school science fair ~20 years ago. [Sparks](../Characters/Sparks.md) is present as a
 student; the player doesn't realize it's her until later. The flashback takes place **in the school 20 years ago**, and
 the player plays it **as the [Janitor](../Characters/Janitor.md)** (then a student), which isn't revealed until later in
-the game. `[TBD: no cutscene JSON for it exists yet]`
-`[TBD: framing: is the dream a recurring nightmare, a summons, or the inciting incident?]`
+the game. It's the built Day 0 sequence (`0.Dream.303.1` → … → `0.Dream.Gym.Caught`).
+
+**Framing:** on his first night, Mark **drifts into the dream of the Janitor, Ripley "Rip" Winkle**, which is Rip's
+memory of the day of the science fair, when he **stumbled across Slim and his group**. Marcy's "You're not supposed to
+be here" works both ways: Rip, the student, wasn't supposed to overhear them, and Mark isn't supposed to be in Rip's
+memory. In the memory, Rip's project group is **Joe** (bringing the plant) and **Fred** (who wakes him in room 303).
 
 ---
 
@@ -195,7 +199,7 @@ choices made (clubs, lunch tables, fights). `[TBD: does the week end on a hook i
 - [ ] End Day 5 on a clear hook into Chapter 2.
 - [ ] **Build:** in `3.Lunch.Conflict` and `5.Psych.Library.1`, Bubba's lines and the narration are labelled **"Gym Teacher"** (wrong speaker name/portrait). "Specs" in older notes is [Laser Boy](../Characters/Laser%20Boy.md), real name Bobby Morrison ("B-mo"); "Bobby's notebook" in `5.Psych.Library.1` is his.
 - [ ] **Build:** new optional beat: the **town jail** is an enterable building in town, open most times the player is walking around town (after Day 4). The arrested goon (no name, just "the goon") laments being in jail and his **ruined dream of getting rich**, and gives the clue that whoever hired him communicated **only via envelope** (no JSON yet).
-- [ ] **Build:** add the Day 0 **Slim & Marcy flashback**, with Sparks present as a student (new cutscene; no JSON yet).
+- [ ] **Build (Day 0):** the flashback exists (`0.Dream.303.1` → `0.Dream.Gym.Caught`). Rename the speaker "Friend" to **Fred** in `0.Dream.Gym.2`, `0.Dream.3F.1/2`, `0.Dream.303.1` (check portraits). `0.Dream.Gym.Caught` fails validation: `setStageCounter` at step [21] has an invalid value (pre-existing). "Ant..." was changed to "Slim..." in `0.Dream.Gym.Caught` (2026-10-14).
 - [ ] **Build:** Morpheus is an unused placeholder and is cut from the story. Remove or repurpose the `Morpheus` object in `Scenes/Dream/Day1Dream/80s School 2F.unity` and `Cutscenes/Chapter1/0/0.Dream.Morpheus.json` (it plays "He did not come this way").
 - [ ] **Build:** make sure the Day 4 vault scene shows the money (and the goons) **vanishing into another dimension**.
 - [ ] **Build:** new Day 4 content: the **hostage standoff** with the goon outside the vault, the police/school surrounding the building, **Sandman's powder through the air vents**, and a **Dream World sequence inside the goon's mind** to retrieve the vault code (no JSON yet).

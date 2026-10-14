@@ -15,7 +15,7 @@ don't care about, or add your own.
 ### Tier 1 — Chapter 1 keystones
 
 - [ ] **Ch.6 follow-ups (remaining):** **Nimbus:** where they're first introduced and how they recur in Chs.1–5 (a natural Ch.2–5 question). Ch.6 Days 1–3 (exam week): nothing planned yet — ask again once Chs.2–5 take shape.
-- [ ] **Janitor follow-ups:** did he and Marcy date; what are exotrons; the Ch.2 detention subplot with the Venus flytrap; how the Ch.4 reveal plays out.
+- [ ] **Janitor (Rip Winkle) follow-ups:** did he and Marcy date; what are exotrons; the Ch.2 detention subplot with the Venus flytrap; how the Ch.4 reveal plays out.
 - [ ] **Sparks tells the principal (Ch.3):** what pushes her, how Principal Phoenix reacts. Which chapter (5 or 6) has the final Marcy revelation, and does it change how the player sees Slim?
 - [ ] **Dream-potion student:** name, power details, when they're introduced, and how Sandman gets the potion (willingly?).
 - [ ] **Anti Hero in Ch.4:** the ray is long finished (he used it on Brock years ago) — what's his plan at the science fair this time, how does the player stop him, what happens to him; does he cross paths with Slim?
@@ -36,10 +36,8 @@ don't care about, or add your own.
 
 ### Tier 3 — Chapter 1 scenes & beats
 
-- [ ] **Names in the game files, still to confirm:** Young Sparks calls Paperboy **"Ant…"** in `0.Dream.Gym.Caught` (Slim's real name?). In `0.Dream.3F.1` a friend says **"Joe's bringing the plant"** (Joe = the Janitor? the Venus flytrap). Is the Day 2 **"Cart Man"** the Map Guy? *(Faculty names confirmed 2026-10-13.)*
-- [ ] **Day 0 flashback already exists** (`0.Dream.303.1` → `0.Dream.Gym.Caught`: Paperboy, Young Sparks, Marcy at the science fair). Update the Day 0 notes and the build task.
 
-- [ ] **Day 0 framing:** is the intro dream a recurring nightmare, a summons, or the inciting incident? What is the **Stair Guardian** guarding? Why is **room 303** significant? Is the Dream Gym "Caught" stealth beat staying?
+- [ ] **Day 0 follow-up:** how does Mark drift into Rip's dream on night one (does Rip pull him in, or chance)? Is the Dream Gym "Caught" beat a stealth section? Is the Day 2 **"Cart Man"** the Map Guy?
 - [ ] **Day 1:** where exactly does Bubba get introduced (canon says Day 1, current content starts Day 3)? What's the story purpose of the **lawnmower fight** and the **crab fight**? Whose fear is the **Fear swirl**? What does the **Dream Stranger** say/want?
 - [ ] **Day 2:** Psych class — the school appears as a prison in the Dream World; finish that sentence and write the scene that replaces `2.Psych.Placeholder`. Purpose of the race + dummy fight? (The Day 2 bank visit is an ordinary tour — decided.)
 - [ ] **Day 3:** the HoleDisguise sequence — whose disguise, and what's the "house"? Which dream monsters appear in Psych? What puzzles in Sci? What exactly happens between Bubba, Specs, and Sandman at lunch?

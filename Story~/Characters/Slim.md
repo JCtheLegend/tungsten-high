@@ -74,7 +74,7 @@ school and produce genetically altered hero students.
 
 | Chapter | Where / what they do | Status |
 |---|---|---|
-| 1 | **Day 0:** a flashback dream shows him talking to Marcy about their prototype upgrade machine. **Days 2–4:** he's secretly behind the bank heist, guiding The Hole through letters and taking the money to fund the machine, goons, and his plan; the vault money vanishes by being turned into another dimension. **Day 5:** an empty envelope appears in Sparks' classroom, a **taunt**, and his message to Sparks that **he has returned**. No reveal this chapter. | ✍️ |
+| 1 | **Day 0:** a flashback dream shows him talking to Marcy and Sparks about their prototype upgrade machine, **the amplifier** (inside the Janitor Rip's memory). **Days 2–4:** he's secretly behind the bank heist, guiding The Hole through letters and taking the money to fund the machine, goons, and his plan; the vault money vanishes by being turned into another dimension. **Day 5:** an empty envelope appears in Sparks' classroom, a **taunt**, and his message to Sparks that **he has returned**. No reveal this chapter. | ✍️ |
 | 2 | [TBD] | ☐ |
 | 3 | **Revealed** during the attempted kidnapping of Principal Fiona Nix at the school dance (at her midnight rebirth). | ☐ |
 | 4–5 | [TBD] | ☐ |

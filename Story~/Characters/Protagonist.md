@@ -67,7 +67,7 @@
   - **The ex-girlfriend** (no name): he wanted the relationship to last, but deep down knows their paths in life must
     diverge. She saw it as more of a **high school fling**.
 - **Friends** — made through Lunch, clubs, and Dodgeball across chapters. `[TBD]`
-- **Dream figures** — the **Dream Stranger** (a manifestation of his own Fear), the Stair Guardian `[TBD]`.
+- **Dream figures** — the **Dream Stranger** (a manifestation of his own Fear), the Stair Guardian (**Cubert**, a cameo in Rip's memory).
 
 ## Role in the plot
 
@@ -83,7 +83,7 @@ Present throughout. In **Chapter 1** (the built chapter), day by day:
 
 | Day | Where / what they do | Status |
 |---|---|---|
-| 0 | Intro dream — introduced to the Dream World (the Stair Guardian); sees a flashback of [Slim](Slim.md) and [Marcy](Marcy.md) discussing their upgrade machine. | 🔨 |
+| 0 | Intro dream — drifts into the Janitor Rip's memory of the science fair 20 years ago (Cubert the Stair Guardian); sees a flashback of [Slim](Slim.md) and [Marcy](Marcy.md) discussing their upgrade machine. | 🔨 |
 | 1 | First school day; Planner pickup; Gym punching-bag fight; picks a lunch table; Dream hub, facing his fear of talking to strangers (Crab, Fear swirl, the Dream Stranger); club signup. | 🔨 |
 | 2 | PR town assignment (bank, quarters quest); Gym race + dummy fight; Science puzzles; Catworld dream. | 🔨 |
 | 3 | PR bank thread + disguise; lunchroom conflict (Sandman, Bubba fight); the Dodgeball game. | 🔨 |

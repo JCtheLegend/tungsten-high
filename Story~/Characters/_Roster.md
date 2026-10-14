@@ -8,6 +8,8 @@ fastest way (for a human or Claude) to see the whole cast at a glance.
 | [Mark (Protagonist)](Protagonist.md) | PC                 | Largely silent; 19–20. Dream-walking; can walk into people. Only one in his family with powers (revealed in high school, a couple years before the game); wants to be a hero, struggles with how his powers changed his life plans | Day 0 · Dream    |
 | [Sandman](Sandman.md)               | Friend/Villain       | Nickname "Sandy". 2nd-year Psych student; sleepy powder; commanding mentor to the protagonist (gives him the Planner); wants to lead and inspire; twist villain (upgraded by Slim) | Day 1 · Gym (Planner) |
 | [Bubba](Bubba.md)                   | Bully/Villain        | Makes small, easily popped bubbles that float people; bullies player and friends; jealous of his brother at Platinum Prep; works with Slim; upgraded, bubbles the school into the sky; turns and is forgiven (Ch.6) | Day 3 · Lunch    |
+| Cubert                              | Cameo (flashback)    | "The only cubic super in the school" 20 years ago; guards the staircase in the Day 0 dream. Might turn up later as a townsperson | Day 0 · Dream |
+| Joe & Fred                          | Flashback            | In Rip's science-fair project group 20 years ago (Joe brings the plant; Fred talks to Rip in the Day 0 dream) | Day 0 · Dream |
 | Glowstick                           | Student / Bully's ally | Bubba's ally; glows in the dark when they crack their knuckles, back, neck, etc. | [TBD] |
 | Map Guy                             | Shopkeeper           | Sells/Gives the player items                    | Day 2 · Post     |
 | [Bloom](Bloom.md)                   | Friend/Love Interest | Photosynthesizes, Talks to Plants; nature-loving, peaceful; slow-burn romance; core group | Day 2 · Post     |
@@ -27,7 +29,7 @@ fastest way (for a human or Claude) to see the whole cast at a glance.
 | [Marcy](Marcy.md)                   | Flashback (deceased) | Dog shapeshifter; Slim's friend & science-fair partner, turned werewolf by the machine 20 yrs ago | Week 1 Day 0 · Dream (flashback) |
 | [Anti Hero](Anti%20Hero.md)         | Ch.4 Villain         | No powers, tech genius; jealous of people with powers (rejected by the power academies, Tungsten High included); invented the power-cancelling handcuffs; completed a power-removing ray many years ago (erased Mr. Brock's powers) | [TBD] (his cuffs: Day 4) |
 | [Anchorman](Anchorman.md)           | Flashback / Minor    | Local hero 20 yrs ago; killed the werewolf (Marcy); now retired in town | [TBD]            |
-| [Janitor](Janitor.md) | Staff | Dream-walker who can sleepwalk at will; stuck remembering the day Marcy (his crush) died; the source of the flashbacks (player plays as him) | Day 0 · Dream (as himself 20 yrs ago, unrevealed) |
+| [Janitor](Janitor.md) (Ripley "Rip" Winkle) | Staff | Dream-walker who can sleepwalk at will; stuck remembering the day Marcy (his crush) died; the source of the flashbacks (player plays as him) | Day 0 · Dream (as himself 20 yrs ago, unrevealed) |
 | [Sheriff](Sheriff.md) | Minor | Garnet's town sheriff; arrests The Hole and the goon (power-cancelling cuffs) | Day 4 · Bank Vault |
 | [Nimbus](Nimbus.md) | Student (2nd year) | Shapeshifter who can turn into a cloud; introduced over the year; with Bubba, brings the school back down (Ch.6 Day 4) | [TBD] (introduced through the year) |
 | Dream-potion student `[TBD: name]` | Student | Makes dreams for people in the form of potions; Sandman uses one in Ch.6 Day 4 | [TBD] |

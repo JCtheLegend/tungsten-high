@@ -1,4 +1,4 @@
-# The Janitor
+# The Janitor (Ripley "Rip" Winkle)
 
 **Role:** Ally (faculty/staff)
 **Status in story:** ✍️ drafting
@@ -6,7 +6,7 @@
 
 ## One-liner
 
-The school's janitor, a dream-walker perpetually in a state of remembering the day Marcy died. Through
+**Ripley "Rip" Winkle**, the school's janitor, a dream-walker perpetually in a state of remembering the day Marcy died. Through
 him, the player sees the flashbacks of 20 years ago.
 
 ## Powers / abilities
@@ -29,7 +29,7 @@ him, the player sees the flashbacks of 20 years ago.
 ## Backstory
 
 - A **Tungsten High student** 20 years ago, with a **crush on [Marcy](Marcy.md)** [TBD: did they date?].
-- His **science-fair project** was a **Venus flytrap exposed to exotrons**, which made it **come alive**. It was
+- His **science-fair project group** included **Joe** and **Fred** (fellow students). The project was a **Venus flytrap exposed to exotrons**, which made it **come alive**. It was
   later thrown in the **sewers**, and comes back in the **Chapter 2 detention subplot**.
 - He's stuck remembering the day Marcy died out of **trauma**.
 
@@ -37,7 +37,7 @@ him, the player sees the flashbacks of 20 years ago.
 
 - **To the player:** The source of the **flashbacks**. The player sees them through his interactions with
   the Janitor, and **acts in the flashbacks as the Janitor** (from Day 0 on, though that isn't revealed until later).
-- **To others:** [Marcy](Marcy.md) (his crush) · [Slim](Slim.md), [Sparks](Sparks.md) (fellow students 20 years ago) [TBD: how close]
+- **To others:** [Marcy](Marcy.md) (his crush) · **Joe** and **Fred** (his science-fair project group) · [Slim](Slim.md), [Sparks](Sparks.md) (fellow students 20 years ago) [TBD: how close]
 
 ## Role in the plot
 
