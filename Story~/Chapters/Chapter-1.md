@@ -129,13 +129,14 @@ Files: `Resources/Cutscenes/Chapter1/3/`.
 | Gym | Gym class | Learn blocking from the blocking dummy fight | `3.Gym.1`, `3.Gym.2` | 🔨 |
 | Lunch | Cafeteria conflict | A **conflict** with **Bubba** over [Laser Boy](../Characters/Laser%20Boy.md) being teased ("red eyes", "cat toy"); Sandman comes in to defuse the fight. | `3.Lunch.Conflict`, `3.Lunch.Conflict.Sandman`, `3.Lunch.BubbaFight` | 🔨 |
 | Psych | Psych class | Explore more of the Dream World around the school. Fight a few dream monsters [TBD] | `3.Psych.1` | 🔨 |
-| Sci | Science class | More puzzles | `3.Sci.End` | 🔨 |
+| Sci | Science class | More puzzles. Sparks announces **a quiz at the end of the week** (Day 5). | `3.Sci.End` | 🔨 |
 | Post | Home | Mom pickup / picked up; home; bed. | `3.Post.MomPickUp`, `3.Post.PickedUp`, `3.Post.ArriveHome`, `3.Post.GoToBed` | 🔨 |
 | Dodgeball | The match | The Dodgeball **game**: rounds 1–4, with Win/Lose branches. | `3.Dodgeball.1/2/3/4`, `3.Dodgeball.Win`, `3.Dodgeball.Lose` | 🔨 |
+| Dream | `[TBD]` | **New: there should be a dream this night.** Undecided; the writer's tentative idea is **confronting the fear of strangers** (on Day 1 Mark only escaped the Dream Stranger). | — | ☐ |
 
 **Notes:** **Sandman** (name fits the dream motif) and **Bubba** debut here as rivals — decide whether
-Sandman connects to the Dream World thread. No `Dream` stage this night (the Dodgeball game is the
-day's set-piece instead).
+Sandman connects to the Dream World thread. There should be a `Dream` stage this night too (see the
+table; not built yet).
 
 ---
 
@@ -168,7 +169,7 @@ Dodgeball beat, and a psych **dreamwalk**. Files: `Resources/Cutscenes/Chapter1/
 | Gym | Gym class | Spar with Sandman  | `5.Gym.1` | 🔨 |
 | Lunch | Lunchroom | Bubba steals [Laser Boy](../Characters/Laser%20Boy.md)'s books, gets a rejection letter from Platinum prep. The player enters his dream and battles him. Returning the books afterward is what bonds the player and Laser Boy | `5.Gym.1` | 🔨 |
 | Psych | Psych + Library | Bubba's dream bursts, leaving him and the player in the middle of Psych class | `5.Psych.1`, `5.Psych.Class.1`, `5.Psych.Library.1`, `5.Psych.Dreamwalk` | 🔨 |
-| Sci | Science class | A pop quiz on the week's lessons, testing the player on the way powers work. Runs the shared **quiz minigame** — questions in `Quizzes/Chapter1/5.Sci.json`, which exits to `5.Sci.End`. | `5.Sci.End` | 🔨 |
+| Sci | Science class | The end-of-week quiz Sparks announced on Day 3, on the week's lessons, testing the player on the way powers work. Runs the shared **quiz minigame** — questions in `Quizzes/Chapter1/5.Sci.json`, which exits to `5.Sci.End`. | `5.Sci.End` | 🔨 |
 | Dodgeball | Final match | Dodgeball round + ending. The player learns that he has made the team. | `5.Dodgeball.1`, `5.Dodgeball.End` | 🔨 |
 
 **Notes:** **ChooseHeroName** is a real player-identity payoff for the week — a good spot to reflect the
@@ -197,6 +198,7 @@ choices made (clubs, lunch tables, fights). `[TBD: does the week end on a hook i
 - [ ] Fill in the many `[TBD]` class beats (Gym Day 3, Psych/Sci several days).
 - [x] Fix the misspelled `*.Pysch.*` filenames — all five renamed to `Psych` (`.json` + `.meta` moved together).
 - [ ] End Day 5 on a clear hook into Chapter 2.
+- [ ] **Build (Day 3):** in `3.PR.HoleDisguise.1/2/3` the disguised **The Hole** is labelled **"Ms Nice"**; in `3.Pysch.1` Maven is labelled **"Gym Teacher"** and the class is a placeholder ("go into someone's dream… will get programmed later"). Add a **Day 3 Dream** stage (content TBD).
 - [ ] **Build (Day 1 Psych):** rework Psych class (`1.Psych.PsychClass.*`, currently an "under construction" area) so Maven talks about **walking into other people's dreams** (setting up the lawnmower dream-walk into Dad's nightmare that evening) and **hints that now Mark has learned to dream-walk, his sleep routine will get much more interesting**.
 - [ ] **Build (Day 1 Dream):** rewrite Norbert's greeting in `1.Dream.HubCenter` as a **first meeting** (currently "Oh, uh, hey boss!" as if they know each other). In `1.Dream.PostCrabFight`, replace "**<THE PLACE>**" with **the Hub**. The Dream Stranger encounter should end in an **escape**, not a win.
 - [ ] **Build (Day 2 Psych):** replace `2.Psych.Placeholder` with the somni scene: the class meets the somni, learns what they do, and finds them constructing the school-as-prison.

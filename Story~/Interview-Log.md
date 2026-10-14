@@ -40,7 +40,7 @@ don't care about, or add your own.
 - [ ] **Day 0 follow-up:** how does Mark drift into Rip's dream on night one (does Rip pull him in, or chance)? Is the Dream Gym "Caught" beat a stealth section? Is the Day 2 **"Cart Man"** the Map Guy?
 - [ ] **Day 1 (remaining):** is the **Fear swirl** Fear itself (ruler of the Hollow)? **Fear & Fantasy:** how they look/speak, when Mark confronts each (Fear: the sword, Chs.4–5; Fantasy: Ch.3 escape, shield later). What's in **the Theater**?
 - [ ] **Purrgatory** (the cats' dream world, named 2026-10-14): does Goblin recur? What's there besides Cat Central?
-- [ ] **Day 3:** the HoleDisguise sequence — whose disguise, and what's the "house"? Which dream monsters appear in Psych? What puzzles in Sci? What exactly happens between Bubba, Specs, and Sandman at lunch?
+- [ ] **Day 3 dream (new):** design it; tentative idea: confronting the fear of strangers (Mark only escaped the Stranger on Day 1). What does he gain?
 - [ ] **Day 4:** who does the player fight in the vault? How does the "money gone / The Hole wasn't alone" reveal play out on screen?
 - [ ] **Day 5:** Gym spar with Sandman — what's it for? Bubba's dream battle: what does his dream look like, and what is "the death of his dream" on screen? The **letter in Sparks' classroom** — what does it say, who sent it? What's the final image/hook into Chapter 2?
 - [ ] **Hero name:** what does choosing a hero name mean in-world, and should it reflect the week's choices (clubs, tables, fights)?
@@ -75,6 +75,7 @@ don't care about, or add your own.
 - **2026-09-22** — **The Inner Mind** (Good/Bad Area names, "The Mechanism"). Relates to the player only. *Partly reopened by the writer the same day:* the subconscious-as-machine model, Fear in the Bad Area (Crab, Dream Stranger). Area names decided 2026-10-13: **the Halcyon** (Good) / **the Hollow** (Bad). Machine named **the Mill** (2026-10-14); Fear rules the Hollow, Fantasy the Halcyon. *Reopened 2026-10-13:* the **sword** (Bad Area) and **shield** (Good Area) for Dream World combat; the Good Area comes into play in Ch.3.
 - **2026-10-13** — **Slim in the Dream World** (from which chapter the player sees him; scouting susceptible students; recruiting Sandman/Bubba there; his look in dreams). Writer: not sure about these plot points yet.
 
+- **2026-10-14** — **Day 3 PR disguise & Psych** (what The Hole looks like in disguise; does Mark realize he gave him the banker's timing; whose dream Psych class enters on Day 3, and its dream monsters). Writer skipped; no ideas yet.
 ---
 
 ## Session log

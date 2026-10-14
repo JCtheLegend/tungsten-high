@@ -143,7 +143,7 @@ The dream-walking / walk-into-people gift is both a tool and a source of danger.
   Mind's Hollow (Bad Area). On Day 1, the day he meets new people and learns to talk to strangers, he faces a **fear of
   talking to strangers** (not paralyzing, just one most people have). It manifests as the **Crab** (a childhood
   memory of getting pinched on the beach) and the **Dream Stranger** (just one form of Fear). On Day 1 he only
-  **escapes** the Stranger. **Fantasy**, ruler of the Halcyon, is the pull of the life that could have been (Ch.3).
+  **escapes** the Stranger; *tentatively*, he confronts that fear in a new Day 3 dream. **Fantasy**, ruler of the Halcyon, is the pull of the life that could have been (Ch.3).
 - **Slim in the Dream World** — the player can **see Slim moving around the Dream World** `[TBD: from which chapter]`.
   *Tentative, not locked:* he uses it to find out which students are most susceptible to coming over to his side,
   and perhaps recruits Sandman and Bubba there. The final boss fight has a Dream World part (inside his mind).
