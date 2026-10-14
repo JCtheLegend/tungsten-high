@@ -34,8 +34,10 @@ Per-day, scene-by-scene beats live in the `Chapters/` files. **This file is the 
   **Sandman**, the former mentor standing in his way, then **Slim on the school roof**, where the **Mystic Punch**
   (knocks the target out for a split second so the dream-walker can enter their mind mid-strike) is key: it's how
   the player enters **Slim's mind** for the Dream World half of the fight. Bubba spends the battle in a trance,
-  straining to keep the bubble afloat. Afterward Sandman is arrested (proud of the player, reform left open), and
-  Bubba and **Nimbus**, a cloud-shapeshifting superhero, bring the school back down.
+  straining to keep the bubble afloat; still aware of his surroundings, he watches ordinary students be heroes,
+  realizes a true hero is defined by what they do with the gifts they're given, and turns. Afterward Sandman is
+  arrested (proud of the player, reform left open), and Bubba and [Nimbus](Characters/Nimbus.md), a second-year
+  student who can turn into a cloud, bring the school back down.
   **Day 5** is the resolution: the heroes are commended, Day 4 stands in for the students' finals, and the
   player and his friends watch fireworks before summer break.
 - **The moral:** Heroes aren't made by how strong their powers are, but by the **moral character and
@@ -74,9 +76,9 @@ doesn't want Marcy remembered as one. She **tells the principal** what the envel
 | Chapter (week) | Beat in the central mystery                                                        | Status |
 |---|------------------------------------------------------------------------------------|---|
 | **1** (built) | Intro to school classes, foil The Hole's Bank Heist, confront Bubba in Dream World. **No reveal of Slim**, only clues: the Day 0 flashback, someone pulling the strings of the heist (the vault money is turned into another dimension), and someone watching the school (the envelope in Sparks' classroom). | 🔨 |
-| 2 | A **computer virus** plot: someone is clearly attacking the school. Detention subplot: the Janitor's living Venus flytrap returns from the sewers. `[TBD]` | ☐ |
+| 2 | A **computer virus** plot: someone is clearly attacking the school. Detention subplot: the player and Bloom get detention, go into the sewers, and fight the Janitor's living Venus flytrap, now giant. `[TBD]` | ☐ |
 | 3 | The **school dance**: an attempted **kidnapping of the principal** at her midnight rebirth. **Slim is revealed.** Sparks tells the principal what the envelope means. The player learns to wake himself from a dream. `[TBD]` | ☐ |
-| 4 | The **science fair**. [Anti Hero](Characters/Anti%20Hero.md) is the week's villain (a power-removing ray). The **Janitor** is revealed as the source of the flashbacks. **Mystic Punch** training with the Gym teacher. `[TBD]` | ☐ |
+| 4 | The **science fair**. [Anti Hero](Characters/Anti%20Hero.md) is the week's villain (a power-removing ray). The **Janitor** is revealed as the source of the flashbacks. **Mystic Punch** training with the Gym teacher, Mr. Brock, which reveals he was a dream-walker (his powers were erased by Anti Hero's ray years ago). `[TBD]` | ☐ |
 | 5 | `[TBD]`                                                                            | ☐ |
 | 6 | Finals: exam week *and* the final battle. **Day 4: the climax.** Slim kidnaps the school (Sandman's dust in the sprinklers, Bubba's bubble into the sky). Final boss fight vs. Slim in the real world and the Dream World; Slim is defeated and disappears into another dimension for good. | ☐ |
 
@@ -100,21 +102,24 @@ A throughline already built into Chapter 1 and the strongest candidate for the m
   A **police megaphone** announces the building is surrounded. Hours later, [Sandman](Characters/Sandman.md) ("**Sandy**") takes the megaphone and tells
   everyone inside to **relax** while he deliberately throws his drowsing powder through the **air vents**, everyone gets sleepy, and the player
   dream-walks into the **goon's mind** to retrieve the **vault code** (the goon had reset the vault to a code only he
-  knows), then opens the vault and finds The Hole there.
+  knows): a luxury-lifestyle dream of what he'll spend his cut on, where the player collects the numbers and fights
+  the dream goon for the last one. Then he opens the vault and finds The Hole there.
   The player fights **The Hole**. Inside the vault he wonders where the money went and when he'll get his cut, not realizing
   **Slim has disappeared the money and the other goons into a smaller dimension, leaving The Hole to be framed** for the heist.
   The vault money disappears,
   **turned into another dimension**: a clue that someone (Slim, unrevealed) is pulling the strings of the heist.
   The Hole works only for Slim but **doesn't know who he is**; he's guided by **letters that appear out of thin air**.
   Slim needs the money to **work on the machine, hire goons, and finance his plan**.
-- **Day 5** — a mysterious, **empty envelope** appears in Sparks' classroom, a clue that someone is watching the school.
+- **Day 5** — a mysterious, **empty envelope** appears in Sparks' classroom (she finds it cleaning up after class, the week's
+  final hook), a clue that someone is watching the school.
   It's Slim's **taunt**, and his message that **he has returned**. Slim was called **"Paperboy"** in school,
   so Sparks recognizes it: she's shocked and frightened, but doesn't tell the class or the player why.
 - **The letters** are slipped in from a **lower dimension**. The player may notice that The Hole's letters and
   Sparks' envelope look the same.
 - **Aftermath** — The Hole is arrested, put in **power-cancelling handcuffs**, and sent to the **town jail**. The outside
   **goon** is arrested and jailed too. The player can **go talk to him** in jail, which gives clues about who's behind the
-  heist: whoever hired him communicated **only via envelope**. `[TBD: when the player can visit]`
+  heist: whoever hired him communicated **only via envelope**. He laments being in jail and his ruined dream of getting
+  rich. The jail is a building in town the player can enter most times he's walking around town.
 - The **Bank Guy** is an innocent employee. He **forgets the vault code** and needs it to get money out, so on Day 3
   the player and [Micycle](Characters/Micycle.md) (his PR partner for the week) go to **his house** to get it.
 
@@ -128,25 +133,36 @@ The dream-walking / walk-into-people gift is both a tool and a source of danger.
 - **Everyone knows:** powers are disclosed when applying to a power academy.
 - **The cost/danger:** the downside that raises stakes. `[TBD — parked]`
 - Explored in the **Psychological Powers** class and the Dream World.
+- **Growing stronger in dreams:** experienced dream-walkers can manipulate themselves and their environment. Mark finds
+  a **sword** (Hollow: courage against fear) and a **shield** (Halcyon: restraint against selfish fantasies) in his
+  Inner Mind for Dream World combat: **late-game items, Chs.4–5**. In Ch.3 he escapes the Halcyon; he returns later for the shield.
 
 ## C. Recurring dream figures
 
 
-- **Fear** (and other manifested emotions) — the **player's own**. Fear is a primary negative feeling of his Inner
-  Mind's Bad Area. On Day 1, the day he meets new people and learns to talk to strangers, he faces a **fear of
+- **Fear** and **Fantasy** — the entities that **rule the Hollow and the Halcyon** of Mark's Inner Mind. **Fear** (and other manifested emotions) is the **player's own**. Fear is a primary negative feeling of his Inner
+  Mind's Hollow (Bad Area). On Day 1, the day he meets new people and learns to talk to strangers, he faces a **fear of
   talking to strangers** (not paralyzing, just one most people have). It manifests as the **Crab** (a childhood
-  memory of getting pinched on the beach) and the **Dream Stranger**.
+  memory of getting pinched on the beach) and the **Dream Stranger** (just one form of Fear). On Day 1 he only
+  **escapes** the Stranger; *tentatively*, he confronts that fear in a new Day 3 dream. **Fantasy**, ruler of the Halcyon, is the pull of the life that could have been (Ch.3).
 - **Slim in the Dream World** — the player can **see Slim moving around the Dream World** `[TBD: from which chapter]`.
   *Tentative, not locked:* he uses it to find out which students are most susceptible to coming over to his side,
   and perhaps recruits Sandman and Bubba there. The final boss fight has a Dream World part (inside his mind).
 - **Sandman** — appears in the waking world (Day 3 lunch conflict) but the name begs a dream connection.
-- **Catworld** — a whole cat-themed dream world (Day 2)
+- **Purrgatory** — a whole cat-themed dream world (Day 2)
 
 ## D. Friendships & the social sim
 
 The player "makes friends." The cafeteria (15 tables), clubs, and Dodgeball are the social surface.
 
-- **Key friendships:** `[TBD — see Characters/]`
+- **The core group** (all game): the player, [Micycle](Characters/Micycle.md) ("Mike"), [Laser Boy](Characters/Laser%20Boy.md),
+  and [Bloom](Characters/Bloom.md).
+  - **Mike** and the player bond after the events of **Week 1** (PR partners; hostages together at the bank).
+  - **Laser Boy** and the player bond after the player **returns the books Bubba stole** (Ch.1 Day 5).
+  - **Bloom:** a **slow-burn romance** across the whole game: the player **gives her flowers**; they **dance together at
+    the Snow Ball**, the winter dance (Ch.3, around Christmas); first Mark has to **move on from his ex-girlfriend**, home
+    from college with his old friends. In **Ch.2** they get **detention** together and have to go into the **sewers**, where they
+    fight a **giant Venus flytrap** (the Janitor's science project; callback to the Day 0 dream). `[TBD: why detention]`
 - **Dodgeball team** as a bonding throughline across chapters. `[TBD]`
 - **Clubs** (Hero, Dodgeball) as opt-in relationship/plot hooks. `[TBD]`
 
@@ -154,10 +170,10 @@ The player "makes friends." The cafeteria (15 tables), clubs, and Dodgeball are 
 
 Fights already exist as set-pieces (all Chapter 1) — decide who's behind them and why they matter:
 
-- **Punching bag** (Day 1 Gym, tutorial) · **Lawnmower** (Day 1 Post) · **Crab** (Day 1 Dream) ·
-  **Fear swirl** (Day 1 Dream) · **Dummy** (Day 2 Gym, after a race) · **Bubba** (Day 3 Lunch, a rival) ·
+- **Punching bag** (Day 1 Gym, tutorial) · **Lawnmower** (Day 1 Post; Dad's nightmare, Mark's first dream-walk into someone else outside school) · **Crab** (Day 1 Dream) ·
+  **Fear swirl** (Day 1 Dream) · **Dummy** (Day 2 Gym, after a race: energy management when tired) · **Bubba** (Day 3 Lunch, a rival) ·
   **Bank-vault fight** (Day 4). `[TBD: which are training/tutorial vs. real antagonists?]`
-- **[Anti Hero](Characters/Anti%20Hero.md)** — hates people with powers; invented the power-cancelling handcuffs. A powerless tech genius, jealous of people with powers since the power academies (Tungsten High included) turned him away for having none, and the **villain of Chapter 4** (the science fair): he's working on a **ray that permanently removes powers** so he can get rid of powers in everyone.
+- **[Anti Hero](Characters/Anti%20Hero.md)** — hates people with powers; invented the power-cancelling handcuffs. A powerless tech genius, jealous of people with powers since the power academies (Tungsten High included) turned him away for having none, and the **villain of Chapter 4** (the science fair): he has a **ray that permanently removes powers**, completed **many years ago**, so he can get rid of powers in everyone. Back then he tried to get into the school to erase people's powers; [Mr. Brock](Characters/Brock.md), the Gym teacher (then a dream-walker), stopped him and lost his powers to the ray. That's why Brock trains students to fight even when their powers won't work.
 - **Bubba** and **Sandman** are the week's named rivals (Day 3). Both are **recurring**: Slim upgrades them and they kidnap the school (see §A).
 
 ---
@@ -172,13 +188,13 @@ Keep every promise. When you plant something, add a row; when it pays off, mark 
 | 2 | Ch.1 · Day 4 · Bank — the vault money vanishes, turned into another dimension | Funds Slim's work on the machine, the goons he hires, and his plan in later chapters `[TBD: where it shows on screen]` | ☐ |
 | 7 | Ch.1 — The Hole is guided by letters slipped in from a lower dimension; the player may notice they match Sparks' envelope. The jailed goon tells the player his boss only ever communicated by envelope. | `[TBD]` (Slim revealed Ch.3) | ☐ |
 | 8 | Ch.1 · Day 4 — The Hole is put in **power-cancelling handcuffs**, invented by [Anti Hero](Characters/Anti%20Hero.md) | Anti Hero is the villain of **Ch.4** (the science fair), with a ray that permanently removes powers | ☐ |
-| 3 | Ch.1 · Day 5 · Sci — an **empty** envelope appears in Sparks' classroom (Slim's taunt: he's back); Sparks is shocked and frightened but won't say why | Sparks tells the **principal** in **Ch.3** | ☐ |
+| 3 | Ch.1 · Day 5 · after Dodgeball tryouts — Sparks, cleaning her room after class, finds an **empty** envelope (Slim's taunt: he's back); Sparks is shocked and frightened but won't say why | Sparks tells the **principal** in **Ch.3** | ☐ |
 | 4 | Ch.1 · Day 0 · Dream — Sparks appears as a student in the flashback, unrecognized | The player realizes it was Sparks `[TBD: when]` | ☐ |
 | 5 | Flashbacks — Marcy's body was found in its original form; everyone thinks she was a victim | The player learns the truth through the Janitor's flashbacks; final revelation in **Ch.5 or 6** `[TBD: which]`. Sparks knew all along. | ☐ |
-| 6 | Ch.1 — Sandman as the player's mentor; Bubba as the bully whose dream dies | Both are upgraded by Slim and kidnap the school (Ch.6 Day 4); Sandman is the first stage of the final battle | ☐ |
+| 6 | Ch.1 — Sandman as the player's mentor; Bubba as the bully whose dream dies | Both are upgraded by Slim and kidnap the school (Ch.6 Day 4); Sandman is the first stage of the final battle; Bubba, watching from his trance, turns, helps bring the school down, and is forgiven | ☐ |
 | 9 | **Ch.3** — the player learns to **wake himself up** from a dream (a dream-walker skill) | Ch.6 Day 4 — he wakes himself from Sandman's dust | ☐ |
-| 10 | **Ch.4** — a special training session with the Gym/combat teacher teaches the **Mystic Punch** | Ch.6 Day 4 — key to the rooftop fight with Slim | ☐ |
-| 12 | Flashback — the Janitor's science-fair project, a **Venus flytrap exposed to exotrons** that came alive, was thrown in the sewers | Ch.2 — returns in the **detention subplot** | ☐ |
+| 10 | **Ch.4** — a special training session with the Gym/combat teacher (Mr. Brock) teaches the **Mystic Punch** | Ch.6 Day 4 — key to the rooftop fight with Slim | ☐ |
+| 12 | Ch.1 · Day 0 dream + flashbacks — the Janitor's science-fair project, a **Venus flytrap exposed to exotrons** that came alive, was thrown in the sewers | Ch.2 — **detention subplot**: the player and Bloom go into the sewers and fight it as a **giant Venus flytrap** | ☐ |
 | 13 | Ch.1 · Day 0 — the intro dream is secretly a flashback, played as the Janitor; later, a dream-walking indicator by the Janitor, who walks away | **Ch.4** — the reveal of who the Janitor is and what the flashbacks are | ☐ |
 | 11 | `[TBD: which chapter]` — a student who makes **dream potions** is introduced | Ch.6 Day 4 — Sandman uses a dream potion to give the students a taste of upgraded powers | ☐ |
 
