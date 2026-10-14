@@ -139,10 +139,11 @@ The dream-walking / walk-into-people gift is both a tool and a source of danger.
 ## C. Recurring dream figures
 
 
-- **Fear** (and other manifested emotions) — the **player's own**. Fear is a primary negative feeling of his Inner
+- **Fear** and **Fantasy** — the entities that **rule the Hollow and the Halcyon** of Mark's Inner Mind. **Fear** (and other manifested emotions) is the **player's own**. Fear is a primary negative feeling of his Inner
   Mind's Hollow (Bad Area). On Day 1, the day he meets new people and learns to talk to strangers, he faces a **fear of
   talking to strangers** (not paralyzing, just one most people have). It manifests as the **Crab** (a childhood
-  memory of getting pinched on the beach) and the **Dream Stranger**.
+  memory of getting pinched on the beach) and the **Dream Stranger** (just one form of Fear). On Day 1 he only
+  **escapes** the Stranger. **Fantasy**, ruler of the Halcyon, is the pull of the life that could have been (Ch.3).
 - **Slim in the Dream World** — the player can **see Slim moving around the Dream World** `[TBD: from which chapter]`.
   *Tentative, not locked:* he uses it to find out which students are most susceptible to coming over to his side,
   and perhaps recruits Sandman and Bubba there. The final boss fight has a Dream World part (inside his mind).
@@ -168,7 +169,7 @@ The player "makes friends." The cafeteria (15 tables), clubs, and Dodgeball are 
 
 Fights already exist as set-pieces (all Chapter 1) — decide who's behind them and why they matter:
 
-- **Punching bag** (Day 1 Gym, tutorial) · **Lawnmower** (Day 1 Post) · **Crab** (Day 1 Dream) ·
+- **Punching bag** (Day 1 Gym, tutorial) · **Lawnmower** (Day 1 Post; Dad's nightmare, Mark's first dream-walk into someone else outside school) · **Crab** (Day 1 Dream) ·
   **Fear swirl** (Day 1 Dream) · **Dummy** (Day 2 Gym, after a race) · **Bubba** (Day 3 Lunch, a rival) ·
   **Bank-vault fight** (Day 4). `[TBD: which are training/tutorial vs. real antagonists?]`
 - **[Anti Hero](Characters/Anti%20Hero.md)** — hates people with powers; invented the power-cancelling handcuffs. A powerless tech genius, jealous of people with powers since the power academies (Tungsten High included) turned him away for having none, and the **villain of Chapter 4** (the science fair): he has a **ray that permanently removes powers**, completed **many years ago**, so he can get rid of powers in everyone. Back then he tried to get into the school to erase people's powers; [Mr. Brock](Characters/Brock.md), the Gym teacher (then a dream-walker), stopped him and lost his powers to the ray. That's why Brock trains students to fight even when their powers won't work.

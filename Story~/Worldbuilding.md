@@ -70,8 +70,8 @@ The player character is unusual even among the gifted:
     peace) and **negative emotions** (fear, anger, jealousy), plus the **memories** tied to them (often recent
     ones), and combines them into the contents of people's dreams. `[TBD: is this machine "The Mechanism" below?]`
     Sub Areas:
-      - **The Halcyon** (the Good Area): Full of the players' good memories, idealistic goals, and optimistic dreams come true. An enticing place can trap the player in a self-fulfilling world.
-      - **The Hollow** (the Bad Area): Full of the players' bad memories, fears, regrets, and `[TBD]`. **Fear** is one of its
+      - **The Halcyon** (the Good Area), ruled by the entity **Fantasy**: Full of the players' good memories, idealistic goals, and optimistic dreams come true. An enticing place can trap the player in a self-fulfilling world.
+      - **The Hollow** (the Bad Area), ruled by the entity **Fear**: Full of the players' bad memories, fears, regrets, and `[TBD]`. **Fear** is one of its
         primary negative feelings. It shows up in the Day 1 dream as a **Crab** (from a childhood memory of the
         player getting pinched on the beach) and as the **Dream Stranger** (his fear of talking to strangers).
       - The Mechanism:
@@ -146,7 +146,8 @@ Track the sides of the central conflict here as they're decided:
 - **Tungsten High** — the school; the game's title.
 - **The Dream World** — the parallel dream map.
 - **Dream-walking** — the protagonist's power to enter/leave the Dream World.
-- **The Halcyon / The Hollow** — the Good and Bad Areas of Mark's Inner Mind.
+- **The Halcyon / The Hollow** — the Good and Bad Areas of Mark's Inner Mind, ruled by **Fantasy** and **Fear**.
+- **Fear / Fantasy** — the entities that rule the Hollow and the Halcyon. Fear takes many forms; the **Dream Stranger** and the **Crab** are two of them.
 - **Fear** — a primary negative feeling of the Inner Mind's Hollow (Bad Area). In Ch.1 Day 1 it manifests as the **Crab** and the **Dream Stranger**.
 - **Somnus / somni** — the species of creatures that live in different areas of the Dream World (from Latin *somnus*, "sleep"). **Norbert** is one.
 - **Norbert** — a dream creature living in the player's mind who sorts the day's thoughts, memories, and feelings into his subconscious. A **somnus**, one of the species living in areas of the Dream World.
@@ -154,7 +155,7 @@ Track the sides of the central conflict here as they're decided:
 - **Maven's magic rug** — transports people into the Dream World.
 - **The sword & shield** — the player's Dream World weapons, hidden in his Inner Mind (sword: the Hollow, courage and willpower against fear; shield: the Halcyon, restraint and prudence against selfish desires and fantasies).
 - **The Snow Ball** — the winter dance (Ch.3, around Christmas).
-- **Dream Stranger** — a manifestation of Fear: the player's fear of talking to strangers.
+- **Dream Stranger** — one form of **Fear**: the player's fear of talking to strangers. On Day 1 Mark only escapes it.
 - **Stair Guardian** — **Cubert**, "the only cubic super in the school" 20 years ago, guarding the staircase in Rip's Day 0 memory. A cameo; may return as a townsperson.
 - **Paperboy** — Slim's nickname in school.
 - **The amplifier** (the upgrade machine) — a machine that genetically alters and upgrades powers, built for the school science fair ~20 years ago by [Slim](Characters/Slim.md), [Marcy](Characters/Marcy.md), and [Sparks](Characters/Sparks.md). Called **the amplifier**.
