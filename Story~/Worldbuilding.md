@@ -66,15 +66,16 @@ The player character is unusual even among the gifted:
         desires, hedonism, and fantasies.
     Both are **late-game items**, found in **Chapters 4–5** `[TBD: which is which]`. The shield comes **after** Ch.3: Mark
     escapes the Halcyon in Ch.3 but must **return** in a later chapter to claim it.
-    **How dreams are made:** think of the subconscious as a **machine**. It takes **positive emotions** (joy, love,
+    **How dreams are made:** think of the subconscious as a **machine**, called **the Mill**. It takes **positive emotions** (joy, love,
     peace) and **negative emotions** (fear, anger, jealousy), plus the **memories** tied to them (often recent
-    ones), and combines them into the contents of people's dreams. `[TBD: is this machine "The Mechanism" below?]`
+    ones), and combines them into the contents of people's dreams.
     Sub Areas:
       - **The Halcyon** (the Good Area), ruled by the entity **Fantasy**: Full of the players' good memories, idealistic goals, and optimistic dreams come true. An enticing place can trap the player in a self-fulfilling world.
       - **The Hollow** (the Bad Area), ruled by the entity **Fear**: Full of the players' bad memories, fears, regrets, and `[TBD]`. **Fear** is one of its
         primary negative feelings. It shows up in the Day 1 dream as a **Crab** (from a childhood memory of the
         player getting pinched on the beach) and as the **Dream Stranger** (his fear of talking to strangers).
-      - The Mechanism:
+      - **The Mill**: the machine that brings together thoughts from the Halcyon and the Hollow and **binds them to the
+        subconscious**, grinding the day's thoughts into dreams.
     **Norbert** lives in the player's mind: he **organizes the player's thoughts, memories, and feelings from the
     previous day into his subconscious** (in the Day 1 dream he's lost the key to the subconscious).
   - **Catworld** — A dream world that all cats share when they sleep. The reason why cats sleep all the time is so they can hang out together in Cat World
@@ -147,6 +148,7 @@ Track the sides of the central conflict here as they're decided:
 - **The Dream World** — the parallel dream map.
 - **Dream-walking** — the protagonist's power to enter/leave the Dream World.
 - **The Halcyon / The Hollow** — the Good and Bad Areas of Mark's Inner Mind, ruled by **Fantasy** and **Fear**.
+- **The Mill** — the machine in the Inner Mind that brings together thoughts from the Halcyon and the Hollow and binds them to the subconscious.
 - **Fear / Fantasy** — the entities that rule the Hollow and the Halcyon. Fear takes many forms; the **Dream Stranger** and the **Crab** are two of them.
 - **Fear** — a primary negative feeling of the Inner Mind's Hollow (Bad Area). In Ch.1 Day 1 it manifests as the **Crab** and the **Dream Stranger**.
 - **Somnus / somni** — the species of creatures that live in different areas of the Dream World (from Latin *somnus*, "sleep"). **Norbert** is one.
