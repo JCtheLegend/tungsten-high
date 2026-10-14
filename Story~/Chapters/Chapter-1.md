@@ -39,7 +39,7 @@ appear out of thin air**.
   pet goblin, a **Nurse**, a **Bank guy**, class teachers.
 - **Town locations:** **Garnet Square**, the **Bank** (+ vault), **City Hall**, a **Fountain**, the
   **Library**, the **Post Office**, a **nurse's office**.
-- **Dream locations:** the intro-dream school (gym, floors 2F/3F, room 303), the Dream **Hub**, **Catworld**.
+- **Dream locations:** the intro-dream school (gym, floors 2F/3F, room 303), the Dream **Hub**, **Purrgatory**.
 - **Mechanics:** the **Planner** menu (Day 1 Gym pickup); melee combat; a **race** + **dummy fight**
   (Day 2 Gym); the **Science puzzle** minigame (Day 2 Sci, puzzles 1–6); **Dodgeball** matches; the
   **quarters** collectible quest; lunch/assembly seat-choice social beats; **disguise** (Day 3).
@@ -100,7 +100,7 @@ the Assembly's bleacher choice are the reusable "pick a seat / who do you talk t
 
 Public Relations sends the player into **town** on an assignment tied to a **bank** and
 **Garnet Square**, collecting **quarters** from civic locations; Gym has a race + fight; Science is a
-puzzle gauntlet; the night dream is **Catworld**. Files: `Resources/Cutscenes/Chapter1/2/`.
+puzzle gauntlet; the night dream is **Purrgatory**. Files: `Resources/Cutscenes/Chapter1/2/`.
 
 | Stage | Scene(s) | Plot / what happens | Cutscene JSON | Status |
 |---|---|---|---|---|
@@ -110,8 +110,8 @@ puzzle gauntlet; the night dream is **Catworld**. Files: `Resources/Cutscenes/Ch
 | Lunch | Cafeteria | Get food and eat. | `2.Lunch.GetFood`, `2.Lunch.Eat` | 🔨 |
 | Psych | Psych class | Maven takes the class into the Ephemeral Realm to meet "a couple of interesting little fellows": the **somni**, and the class learns what they do in the Dream World. Places there represent the thoughts and feelings of whoever comes, and school often feels like a prison to students (and teachers), so the somni are **constructing a prison** when the class arrives. | `2.Psych.1`, `2.Psych.Placeholder` | 🔨/☐ |
 | Sci | Science puzzles | The **Science puzzle** minigame — puzzles 1–6 (uses `Science/` `HeroCell` scripts). | `2.Sci.1`, `2.Sci.Puzzle1.1/1.2/1.3`, `2.Sci.Puzzle2.1`, `2.Sci.Puzzle3.1`, `2.Sci.Puzzle4.1`, `2.Sci.Puzzle5.1`, `2.Sci.Puzzle6.1`, `2.Sci.PuzzleFinish`, `2.Sci.End` | 🔨 |
-| Post | Home & Map Guy | Leave school; home & dinner; talk to **Map Guy** (with fail/retry talk beats); **Bloom**; bed → **Catworld** dreamwalk. | `2.Post.SchoolOutside`, `2.Post.Home.Arrive`, `2.Post.Home.Dinner`, `2.Post.MapGuy.1/2/3`, `2.Post.FailTalk`, `2.Post.TryAgain`, `2.Post.Bloom`, `2.Post.Cat.Dreamwalk`, `2.Post.GoToBed` | 🔨 |
-| Dream | Catworld `[TBD: name]` | Mark's cat **Goblin** brings him into the cats' dream world (all cats are dream-walkers; they sleep so much so they can explore it together); "Cat Central"; a walkway. | `2.Catworld.Welcome`, `2.Post.CatCentral.Goblin`, `2.Post.CatWalkway` | 🔨 |
+| Post | Home & Map Guy | Leave school; home & dinner; talk to **Map Guy** (with fail/retry talk beats); **Bloom**; bed → **Purrgatory** dreamwalk. | `2.Post.SchoolOutside`, `2.Post.Home.Arrive`, `2.Post.Home.Dinner`, `2.Post.MapGuy.1/2/3`, `2.Post.FailTalk`, `2.Post.TryAgain`, `2.Post.Bloom`, `2.Post.Cat.Dreamwalk`, `2.Post.GoToBed` | 🔨 |
+| Dream | Purrgatory | Mark's cat **Goblin** brings him into the cats' dream world (all cats are dream-walkers; they sleep so much so they can explore it together); "Cat Central"; a walkway. | `2.Catworld.Welcome`, `2.Post.CatCentral.Goblin`, `2.Post.CatWalkway` | 🔨 |
 
 **Loose files (day 2 root):** `PickupQuarter` (the quarter collectible cutscene, shared across the
 quest), `holder` (`[TBD — placeholder/scratch file? confirm and remove if unused]`).

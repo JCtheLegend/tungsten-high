@@ -82,7 +82,7 @@ The player character is unusual even among the gifted:
         subconscious**, grinding the day's thoughts into dreams.
     **Norbert** lives in the player's mind: he **organizes the player's thoughts, memories, and feelings from the
     previous day into his subconscious** (in the Day 1 dream he's lost the key to the subconscious).
-  - **Catworld** `[TBD: name]` — the **cat version of the Ephemeral World**. **All cats are dream-walkers**; they sleep so much
+  - **Purrgatory** (code/scene name: Catworld) — the **cat version of the Ephemeral World**. **All cats are dream-walkers**; they sleep so much
     in the real world so they can all hang out and explore the dream world together. Mark's cat **Goblin** brings him into
     it on Ch.1 Day 2.
 
@@ -154,6 +154,7 @@ Track the sides of the central conflict here as they're decided:
 - **The Dream World** — the parallel dream map.
 - **Dream-walking** — the protagonist's power to enter/leave the Dream World.
 - **The Halcyon / The Hollow** — the Good and Bad Areas of Mark's Inner Mind, ruled by **Fantasy** and **Fear**.
+- **Purrgatory** — the cats' dream world, the cat version of the Ephemeral World (all cats are dream-walkers). "Catworld" in scene/file names.
 - **The Hub** — the lobby of Mark's Inner Mind where he lands each night; doors to the Hollow, the Halcyon, the Mill, and the Theater.
 - **The Theater** — the room in the Inner Mind where dreams are viewed.
 - **The Mill** — the machine in the Inner Mind that brings together thoughts from the Halcyon and the Hollow and binds them to the subconscious.

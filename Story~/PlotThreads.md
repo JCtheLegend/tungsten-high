@@ -148,7 +148,7 @@ The dream-walking / walk-into-people gift is both a tool and a source of danger.
   *Tentative, not locked:* he uses it to find out which students are most susceptible to coming over to his side,
   and perhaps recruits Sandman and Bubba there. The final boss fight has a Dream World part (inside his mind).
 - **Sandman** — appears in the waking world (Day 3 lunch conflict) but the name begs a dream connection.
-- **Catworld** — a whole cat-themed dream world (Day 2)
+- **Purrgatory** — a whole cat-themed dream world (Day 2)
 
 ## D. Friendships & the social sim
 

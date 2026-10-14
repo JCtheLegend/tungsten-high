@@ -85,7 +85,7 @@ Present throughout. In **Chapter 1** (the built chapter), day by day:
 |---|---|---|
 | 0 | Intro dream — drifts into the Janitor Rip's memory of the science fair 20 years ago (Cubert the Stair Guardian); sees a flashback of [Slim](Slim.md) and [Marcy](Marcy.md) discussing their upgrade machine. | 🔨 |
 | 1 | First school day; Planner pickup; Gym punching-bag fight; picks a lunch table; Dream hub, facing his fear of talking to strangers (Crab, Fear swirl, the Dream Stranger); club signup. | 🔨 |
-| 2 | PR town assignment (bank, quarters quest); Gym race + dummy fight; Science puzzles; Catworld dream. | 🔨 |
+| 2 | PR town assignment (bank, quarters quest); Gym race + dummy fight; Science puzzles; Purrgatory dream (Goblin's cat dream world). | 🔨 |
 | 3 | PR bank thread + disguise; lunchroom conflict (Sandman, Bubba fight); the Dodgeball game. | 🔨 |
 | 4 | The bank-vault heist set-piece. | 🔨 |
 | 5 | Turns in the essay and **chooses his hero name** (the player picks it); final Dodgeball; psych dreamwalk. | 🔨 |
