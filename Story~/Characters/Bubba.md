@@ -42,7 +42,8 @@ His **brother was accepted into Platinum Prep**; Bubba is jealous and resentful,
 
 - **Threads they touch:** [A. Central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-kidnap-the-school) ·
   [F. Rivals & enemies](../PlotThreads.md#f-rivals--enemies)
-- **Arc across the 6 chapters:** Bully in Chapter 1 → his transfer is denied and his dream dies (Day 5) →
+- **Arc across the 6 chapters:** Bully in Chapter 1 → his transfer is denied and his dream dies (Day 5: his dream of getting into Platinum Prep and making his family proud
+  crumbles in an earthquake; Mark fights him and the dream breaks) →
   [Slim](Slim.md) persuades him with the promise of upgraded powers, fame, and fortune, and upgrades him
   with the machine → with [Sandman](Sandman.md), he **kidnaps the school**: Sandman puts it to sleep and
   Bubba bubbles it up into the sky. This is the climax, **Chapter 6, Day 4**. Held in a trance keeping the

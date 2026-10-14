@@ -124,7 +124,7 @@ of the week (the player's, in Chapter 1, is the Bank). It's how the wider town g
 
 ### After-school life (`post`)
 
-- **Dodgeball** — the player signs up Day 1 and plays actual **matches on Day 3 and Day 5** (with
+- **Dodgeball** — the player signs up Day 1 and plays a **match on Day 3** and **tryouts on Day 5** (makes the team) (with
   Win/Lose branches). Backed by the `Dodgeball/` scene scripts (`DodgeballMatchController`, etc.).
 - **Home life** — the player has a home he returns to, a Mom, Dad, and a **pet cat** (`Goblin`).
 

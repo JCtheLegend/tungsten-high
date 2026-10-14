@@ -165,15 +165,19 @@ Dodgeball beat, and a psych **dreamwalk**. Files: `Resources/Cutscenes/Chapter1/
 | Stage | Scene(s) | Plot / what happens | Cutscene JSON | Status |
 |---|---|---|---|---|
 | Pre | Home | Wake up. | `5.Pre.PlayerRoom` | 🔨 |
-| PR | Class finale | **Turn in the essay**; **choose your hero name**; class ending. | `5.PR.TurnInEssay`, `5.PR.ChooseHeroName`, `5.PR.Ending` | 🔨 |
-| Gym | Gym class | Spar with Sandman  | `5.Gym.1` | 🔨 |
-| Lunch | Lunchroom | Bubba steals [Laser Boy](../Characters/Laser%20Boy.md)'s books, gets a rejection letter from Platinum prep. The player enters his dream and battles him. Returning the books afterward is what bonds the player and Laser Boy | `5.Gym.1` | 🔨 |
-| Psych | Psych + Library | Bubba's dream bursts, leaving him and the player in the middle of Psych class | `5.Psych.1`, `5.Psych.Class.1`, `5.Psych.Library.1`, `5.Psych.Dreamwalk` | 🔨 |
+| PR | Class finale | **Turn in the essay**; **choose your hero name** (customization for the human player; it also renames the save file from "Mark"); class ending. | `5.PR.TurnInEssay`, `5.PR.ChooseHeroName`, `5.PR.Ending` | 🔨 |
+| Gym | Gym class | Mr. Brock sets up **sparring matches with upperclassmen**; Mark's partner is **Sandy**, who uses his powder to **sap Mark's energy** during the fight. | `5.Gym.1` | 🔨 |
+| Lunch | Lunchroom | Bubba steals [Laser Boy](../Characters/Laser%20Boy.md)'s books, gets a rejection letter from Platinum prep. The player enters his dream and battles him. **Bubba's dream** is being accepted into **Platinum Prep** and making his family proud; with the rejection it's **crumbling**, so the setting is Platinum Prep in an **earthquake**, falling apart. After the fight with Bubba the dream breaks completely. Returning the books afterward is what bonds the player and Laser Boy | `5.Gym.1` | 🔨 |
+| Psych | Psych + Library | Bubba's dream breaks and Mark **falls out into the Dream World**, where the rest of his Psych class is. | `5.Psych.1`, `5.Psych.Class.1`, `5.Psych.Library.1`, `5.Psych.Dreamwalk` | 🔨 |
 | Sci | Science class | The end-of-week quiz Sparks announced on Day 3, on the week's lessons, testing the player on the way powers work. Runs the shared **quiz minigame** — questions in `Quizzes/Chapter1/5.Sci.json`, which exits to `5.Sci.End`. | `5.Sci.End` | 🔨 |
-| Dodgeball | Final match | Dodgeball round + ending. The player learns that he has made the team. | `5.Dodgeball.1`, `5.Dodgeball.End` | 🔨 |
+| Principal | Principal's office | **New:** a visit to [Principal Fiona Nix](../Characters/Phoenix.md)'s office to introduce her character, in the **middle of the day**, when Fi is an **adult** (her phoenix cycle). | — | ☐ |
+| Dodgeball | Tryouts | Dodgeball tryouts + ending. The player learns that he has made the team. | `5.Dodgeball.1`, `5.Dodgeball.End` | 🔨 |
 
-**Notes:** **ChooseHeroName** is a real player-identity payoff for the week — a good spot to reflect the
-choices made (clubs, lunch tables, fights). `[TBD: does the week end on a hook into Chapter 2?]`
+| Sci (after class) | Sparks' classroom | **New cutscene** after Dodgeball tryouts: Sparks cleans up her room after class and **finds the empty envelope** (Slim's taunt). | — | ☐ |
+| Post / Night | Home → bed | **New:** at bedtime, instead of going to the Hub, the screen **fades to black**: *"You have a good and peaceful night's sleep, without any dreams."* The chapter ends. | — | ☐ |
+
+**Notes:** **ChooseHeroName** gives the human player some customization (and renames the save file from "Mark").
+The week ends on the **envelope** (the hook into Chapter 2), then a quiet, dreamless night.
 
 ---
 
@@ -193,11 +197,12 @@ choices made (clubs, lunch tables, fights). `[TBD: does the week end on a hook i
 ## Loose ends to resolve
 
 - [ ] Define **Sandman**, **Bubba**, **Map Guy**, **Bloom**, the **Nurse**, the **Bank guy** — make profiles. *(Bubba started; the Bank Guy is an innocent employee.)*
-- [ ] **Build:** the Day 5 **empty envelope** scene in Sparks' classroom should look the same as The Hole's letters, and show Sparks shocked and frightened without explaining why.
+- [ ] **Build:** the Day 5 **empty envelope** scene (new: after Dodgeball tryouts, Sparks cleaning her room after class) should look the same as The Hole's letters, and show Sparks shocked and frightened without explaining why.
+- [ ] **Build (Day 5):** new **principal's office** visit (midday, adult Fi); new **dreamless night** ending (fade to black + "You have a good and peaceful night's sleep, without any dreams."); Bubba's dream as a **crumbling Platinum Prep** with an earthquake; Mark falls out into the Dream World with the Psych class. `5.Psych.Dreamwalk.json` is **invalid JSON** (missing comma near line 28). `5.Psych.Class.1` labels Maven "Gym Teacher". `5.PR.Ending` says "see you all tomorrow" on a Friday. The Lunch row reuses `5.Gym.1`: check.
 - [ ] Confirm/replace placeholder files: `2.Psych.Placeholder`, `holder.json`.
 - [ ] Fill in the many `[TBD]` class beats (Gym Day 3, Psych/Sci several days).
 - [x] Fix the misspelled `*.Pysch.*` filenames — all five renamed to `Psych` (`.json` + `.meta` moved together).
-- [ ] End Day 5 on a clear hook into Chapter 2.
+- [x] End Day 5 on a clear hook into Chapter 2. *(Sparks finds the envelope; then a dreamless night.)*
 - [ ] **Build (Day 3):** in `3.PR.HoleDisguise.1/2/3` the disguised **The Hole** is labelled **"Ms Nice"**; in `3.Pysch.1` Maven is labelled **"Gym Teacher"** and the class is a placeholder ("go into someone's dream… will get programmed later"). Add a **Day 3 Dream** stage (content TBD).
 - [ ] **Build (Day 1 Psych):** rework Psych class (`1.Psych.PsychClass.*`, currently an "under construction" area) so Maven talks about **walking into other people's dreams** (setting up the lawnmower dream-walk into Dad's nightmare that evening) and **hints that now Mark has learned to dream-walk, his sleep routine will get much more interesting**.
 - [ ] **Build (Day 1 Dream):** rewrite Norbert's greeting in `1.Dream.HubCenter` as a **first meeting** (currently "Oh, uh, hey boss!" as if they know each other). In `1.Dream.PostCrabFight`, replace "**<THE PLACE>**" with **the Hub**. The Dream Stranger encounter should end in an **escape**, not a win.

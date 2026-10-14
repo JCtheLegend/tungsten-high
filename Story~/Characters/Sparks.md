@@ -51,7 +51,7 @@ for the science fair, and stopped the day she saw what it could do.
 
 | Chapter | Where / what they do | Status |
 |---|---|---|
-| 1 | **Day 0:** a student in the Slim & Marcy flashback (unrecognized). **Day 1+:** teaches Science. **Day 5:** an **empty** envelope appears out of thin air in her classroom: Slim's taunt that he has returned. She knew him as "Paperboy", so she's **shocked and frightened**, but doesn't tell the class or the player why. | ✍️ |
+| 1 | **Day 0:** a student in the Slim & Marcy flashback (unrecognized). **Day 1+:** teaches Science. **Day 5:** cleaning up her room after class, she finds an **empty** envelope that appeared out of thin air: Slim's taunt that he has returned. She knew him as "Paperboy", so she's **shocked and frightened**, but doesn't tell the class or the player why. | ✍️ |
 | 2–6 | [TBD] | ☐ |
 
 ## Notes / open questions

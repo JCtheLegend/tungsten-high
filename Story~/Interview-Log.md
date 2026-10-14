@@ -42,8 +42,7 @@ don't care about, or add your own.
 - [ ] **Purrgatory** (the cats' dream world, named 2026-10-14): does Goblin recur? What's there besides Cat Central?
 - [ ] **Day 3 dream (new):** design it; tentative idea: confronting the fear of strangers (Mark only escaped the Stranger on Day 1). What does he gain?
 - [ ] **Day 4:** who does the player fight in the vault? How does the "money gone / The Hole wasn't alone" reveal play out on screen?
-- [ ] **Day 5:** Gym spar with Sandman — what's it for? Bubba's dream battle: what does his dream look like, and what is "the death of his dream" on screen? The **letter in Sparks' classroom** — what does it say, who sent it? What's the final image/hook into Chapter 2?
-- [ ] **Hero name:** what does choosing a hero name mean in-world, and should it reflect the week's choices (clubs, tables, fights)?
+- [ ] **Day 5 principal's office:** what happens in the visit (why is Mark sent there? what does Fi say?).
 
 ### Tier 4 — Chapter 1 setup → payoff
 

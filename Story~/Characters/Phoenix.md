@@ -48,7 +48,7 @@ the day. Slim's side tries to steal her at the Chapter 3 school dance.
 
 | Chapter | Where / what they do | Status |
 |---|---|---|
-| 1 | [TBD] | ☐ |
+| 1 | **Day 1 · Sci:** the assembly. **Day 5 (midday, as an adult):** Mark visits her office; her character introduction.  [TBD] | ☐ |
 | 3 | **School dance:** the attempted kidnapping at her midnight rebirth; Sparks tells her what the envelope means. | ☐ |
 
 ## Notes / open questions

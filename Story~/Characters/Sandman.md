@@ -45,7 +45,7 @@ A **second year** with experience navigating the **Dream World**. [TBD]
 
 | Chapter | Where / what they do | Status |
 |---|---|---|
-| 1 | **Day 1:** walks the player to class and gives him the **Planner**; shares Psych class with him. **Day 3 · Lunch:** defuses the Bubba conflict. **Day 4 · Bank:** there with the school during the hostage standoff; takes the **police megaphone** and tells everyone inside to relax while he deliberately throws his drowsing powder into the room through the **air vents**, putting everyone to sleep so the player can dream-walk into the goon's mind. | ✍️ |
+| 1 | **Day 5 · Gym:** Mr. Brock's upperclassman sparring; Sandy is Mark's partner and saps his energy with his powder. **Day 1:** walks the player to class and gives him the **Planner**; shares Psych class with him. **Day 3 · Lunch:** defuses the Bubba conflict. **Day 4 · Bank:** there with the school during the hostage standoff; takes the **police megaphone** and tells everyone inside to relax while he deliberately throws his drowsing powder into the room through the **air vents**, putting everyone to sleep so the player can dream-walk into the goon's mind. | ✍️ |
 | … | | ☐ |
 | 6 | **Day 4:** upgraded by Slim, puts the school to sleep with transformed sleeping dust through the sprinklers (the climax). He procures a **dream potion** to give the sleeping students a taste of their upgraded powers. The former mentor stands in the player's way and is the **first stage of the final battle**; the player defeats him. | ☐ |
 
