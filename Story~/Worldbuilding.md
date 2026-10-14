@@ -52,13 +52,17 @@ The player character is unusual even among the gifted:
 ## The Dream World
 
 - A **parallel of the real-world map** — the same geography, altered. Explored during the `dream` stage.
-- Buildings and places in the dream world reflect what people think, . School -> Prison
+- **Places and objects in the Dream World represent the thoughts and feelings of those who come there.** School is often
+  felt to be a prison by students (and teachers), so when Psych class arrives on Ch.1 Day 2, **somni are constructing a
+  prison** there.
 - Reached by going to bed, or entering into peoples dreams, or through various gateways
 - Populated by its own entities and guardians, including the **somni** (singular **somnus**), a species of creatures that live inside different areas of the Dream World (**Norbert**, in the player's mind, is one), and by manifestations of real people's inner lives
 - **Dream regions:**
   - **Main Area**
   - **Dreams** People dreaming make large bubbles floating in the Main Area. A dreaming person appears as a **floating head** the player can travel to. `[TBD: are the head and the bubble the same thing?]`
   - **Inner Mind** — relates to **the player only** (his own mind).
+    **The Hub:** the lobby and landing place where Mark arrives when he goes to bed each night, with entries to **the
+    Hollow**, **the Halcyon**, **the Mill**, and **the Theater** (where dreams are viewed).
     **Sword & shield:** two items hidden in his Inner Mind that he must find to become more powerful in **Dream World
     combat**:
       - The **sword**, hidden in the **Hollow**, symbolizes the **great courage and willpower** needed to fight against fear.
@@ -78,7 +82,9 @@ The player character is unusual even among the gifted:
         subconscious**, grinding the day's thoughts into dreams.
     **Norbert** lives in the player's mind: he **organizes the player's thoughts, memories, and feelings from the
     previous day into his subconscious** (in the Day 1 dream he's lost the key to the subconscious).
-  - **Catworld** — A dream world that all cats share when they sleep. The reason why cats sleep all the time is so they can hang out together in Cat World
+  - **Catworld** `[TBD: name]` — the **cat version of the Ephemeral World**. **All cats are dream-walkers**; they sleep so much
+    in the real world so they can all hang out and explore the dream world together. Mark's cat **Goblin** brings him into
+    it on Ch.1 Day 2.
 
 ## History
 
@@ -148,6 +154,8 @@ Track the sides of the central conflict here as they're decided:
 - **The Dream World** — the parallel dream map.
 - **Dream-walking** — the protagonist's power to enter/leave the Dream World.
 - **The Halcyon / The Hollow** — the Good and Bad Areas of Mark's Inner Mind, ruled by **Fantasy** and **Fear**.
+- **The Hub** — the lobby of Mark's Inner Mind where he lands each night; doors to the Hollow, the Halcyon, the Mill, and the Theater.
+- **The Theater** — the room in the Inner Mind where dreams are viewed.
 - **The Mill** — the machine in the Inner Mind that brings together thoughts from the Halcyon and the Hollow and binds them to the subconscious.
 - **Fear / Fantasy** — the entities that rule the Hollow and the Halcyon. Fear takes many forms; the **Dream Stranger** and the **Crab** are two of them.
 - **Fear** — a primary negative feeling of the Inner Mind's Hollow (Bad Area). In Ch.1 Day 1 it manifests as the **Crab** and the **Dream Stranger**.

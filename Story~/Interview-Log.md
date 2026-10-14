@@ -38,8 +38,8 @@ don't care about, or add your own.
 
 
 - [ ] **Day 0 follow-up:** how does Mark drift into Rip's dream on night one (does Rip pull him in, or chance)? Is the Dream Gym "Caught" beat a stealth section? Is the Day 2 **"Cart Man"** the Map Guy?
-- [ ] **Day 1 (remaining):** Whose fear is the **Fear swirl** (Mark's, presumably)? Name for Norbert's hub ("<THE PLACE>" in `1.Dream.PostCrabFight`): is it the Mill, or a separate room? **Fear & Fantasy:** how they look/speak, when Mark confronts each (Fear: the sword, Chs.4–5; Fantasy: Ch.3 escape, shield later).
-- [ ] **Day 2:** Psych class — the school appears as a prison in the Dream World; finish that sentence and write the scene that replaces `2.Psych.Placeholder`. Purpose of the race + dummy fight? (The Day 2 bank visit is an ordinary tour — decided.)
+- [ ] **Day 1 (remaining):** is the **Fear swirl** Fear itself (ruler of the Hollow)? **Fear & Fantasy:** how they look/speak, when Mark confronts each (Fear: the sword, Chs.4–5; Fantasy: Ch.3 escape, shield later). What's in **the Theater**?
+- [ ] **Catworld name** (the cats' dream world; all cats are dream-walkers). Does Goblin recur?
 - [ ] **Day 3:** the HoleDisguise sequence — whose disguise, and what's the "house"? Which dream monsters appear in Psych? What puzzles in Sci? What exactly happens between Bubba, Specs, and Sandman at lunch?
 - [ ] **Day 4:** who does the player fight in the vault? How does the "money gone / The Hole wasn't alone" reveal play out on screen?
 - [ ] **Day 5:** Gym spar with Sandman — what's it for? Bubba's dream battle: what does his dream look like, and what is "the death of his dream" on screen? The **letter in Sparks' classroom** — what does it say, who sent it? What's the final image/hook into Chapter 2?

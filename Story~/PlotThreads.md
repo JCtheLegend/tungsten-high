@@ -170,7 +170,7 @@ The player "makes friends." The cafeteria (15 tables), clubs, and Dodgeball are 
 Fights already exist as set-pieces (all Chapter 1) — decide who's behind them and why they matter:
 
 - **Punching bag** (Day 1 Gym, tutorial) · **Lawnmower** (Day 1 Post; Dad's nightmare, Mark's first dream-walk into someone else outside school) · **Crab** (Day 1 Dream) ·
-  **Fear swirl** (Day 1 Dream) · **Dummy** (Day 2 Gym, after a race) · **Bubba** (Day 3 Lunch, a rival) ·
+  **Fear swirl** (Day 1 Dream) · **Dummy** (Day 2 Gym, after a race: energy management when tired) · **Bubba** (Day 3 Lunch, a rival) ·
   **Bank-vault fight** (Day 4). `[TBD: which are training/tutorial vs. real antagonists?]`
 - **[Anti Hero](Characters/Anti%20Hero.md)** — hates people with powers; invented the power-cancelling handcuffs. A powerless tech genius, jealous of people with powers since the power academies (Tungsten High included) turned him away for having none, and the **villain of Chapter 4** (the science fair): he has a **ray that permanently removes powers**, completed **many years ago**, so he can get rid of powers in everyone. Back then he tried to get into the school to erase people's powers; [Mr. Brock](Characters/Brock.md), the Gym teacher (then a dream-walker), stopped him and lost his powers to the ray. That's why Brock trains students to fight even when their powers won't work.
 - **Bubba** and **Sandman** are the week's named rivals (Day 3). Both are **recurring**: Slim upgrades them and they kidnap the school (see §A).

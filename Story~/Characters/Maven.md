@@ -50,3 +50,4 @@ A **former magician**. [TBD: why he left magic for teaching; where the rug came 
 ## Notes / open questions
 
 - Is the rug how Psych class reaches the Dream World every time?
+- Ch.1: Day 1 he hints Mark's sleep routine will get more interesting now he can dream-walk; Day 2 he introduces the class to the somni.
