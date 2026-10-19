@@ -29,7 +29,7 @@ don't care about, or add your own.
 - [ ] **Sandman follow-ups:** when/how Slim approaches him; his look; his Ch.2–5 beats as mentor.
 - [ ] **Micycle / Laser Boy / Bloom follow-ups:** how Mike and the player meet on Day 1 Pre; Laser Boy's Day 1 PR intro, and is "Laser Boy" his hero name; why the player and Bloom get **detention in Ch.2**; where the flower-giving beats go; each friend's 6-chapter arc.
 - [ ] **Sparks** (profile started, backstory done): her power, personality, voice; why the envelope appears in her classroom and how she reacts.
-- [ ] **Principal Fiona Nix** ("Principal Fi"; profile started; power decided): ally, obstacle, or compromised?
+- [ ] **Principal Fi follow-ups:** her look at each age; what she wants; her backstory; when Mark meets her dream (teenage) self, and how that unrequited connection plays out across the chapters.
 - [ ] **Faculty follow-ups:** **Maven** — why he left magic, where the rug came from. **Mr. Brock** — does he face Anti Hero again in Ch.4?
 - [ ] Quick profiles (short form): **Map Guy** ("Cart Man" in game?), **Nurse**, **Mom**, **Dad**, **Goblin**, **Handstand** (2nd year), **Slow Moe**, **Sticky & Slicky** (twins).
 - [ ] **Somni follow-ups:** do other somni appear (in other people's dreams, Catworld)? Does each mind have its own? What do they look like?
@@ -41,7 +41,6 @@ don't care about, or add your own.
 - [ ] **Day 1 (remaining):** is the **Fear swirl** Fear itself (ruler of the Hollow)? **Fear & Fantasy:** how they look/speak, when Mark confronts each (Fear: the sword, Chs.4–5; Fantasy: Ch.3 escape, shield later). What's in **the Theater**?
 - [ ] **Purrgatory** (the cats' dream world, named 2026-10-14): does Goblin recur? What's there besides Cat Central?
 - [ ] **Day 3/4 dreams follow-ups:** what the warped town looks like (which real places, and how they're warped); what form Fear takes in each (the Dream Stranger again?); what Mark says to Fear on Day 4; where the Day 4 dream takes place.
-- [ ] **Day 5 principal's office:** what happens in the visit (why is Mark sent there? what does Fi say?).
 
 ### Tier 4 — Chapter 1 setup → payoff
 
