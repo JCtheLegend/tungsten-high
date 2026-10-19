@@ -132,11 +132,10 @@ Files: `Resources/Cutscenes/Chapter1/3/`.
 | Sci | Science class | More puzzles. Sparks announces **a quiz at the end of the week** (Day 5). | `3.Sci.End` | 🔨 |
 | Post | Home | Mom pickup / picked up; home; bed. | `3.Post.MomPickUp`, `3.Post.PickedUp`, `3.Post.ArriveHome`, `3.Post.GoToBed` | 🔨 |
 | Dodgeball | The match | The Dodgeball **game**: rounds 1–4, with Win/Lose branches. | `3.Dodgeball.1/2/3/4`, `3.Dodgeball.Win`, `3.Dodgeball.Lose` | 🔨 |
-| Dream | `[TBD]` | **New: there should be a dream this night.** Undecided; the writer's tentative idea is **confronting the fear of strangers** (on Day 1 Mark only escaped the Dream Stranger). | — | ☐ |
+| Dream | Warped town | **New:** a dream of a **warped version of the town**. Mark is **chased by Fear** and eventually **tries to fight it**, but Fear taunts him that **this isn't something you can punch your way out of**. (He faces it by **talking** on Day 4.) | — | ✍️ |
 
 **Notes:** **Sandman** (name fits the dream motif) and **Bubba** debut here as rivals — decide whether
-Sandman connects to the Dream World thread. There should be a `Dream` stage this night too (see the
-table; not built yet).
+Sandman connects to the Dream World thread. The night's `Dream` stage (warped town, Fear can't be punched) is planned but not built.
 
 ---
 
@@ -203,6 +202,7 @@ The week ends on the **envelope** (the hook into Chapter 2), then a quiet, dream
 - [ ] Fill in the many `[TBD]` class beats (Gym Day 3, Psych/Sci several days).
 - [x] Fix the misspelled `*.Pysch.*` filenames — all five renamed to `Psych` (`.json` + `.meta` moved together).
 - [x] End Day 5 on a clear hook into Chapter 2. *(Sparks finds the envelope; then a dreamless night.)*
+- [ ] **Build (Day 3 Dream):** new dream stage after `3.Post.GoToBed`: a **warped town** scene, a chase by Fear, an attempted fight that fails (Fear: this isn't something you can punch your way out of).
 - [ ] **Build (Day 3):** in `3.PR.HoleDisguise.1/2/3` the disguised **The Hole** is labelled **"Ms Nice"**; in `3.Pysch.1` Maven is labelled **"Gym Teacher"** and the class is a placeholder ("go into someone's dream… will get programmed later"). Add a **Day 3 Dream** stage (content TBD).
 - [ ] **Build (Day 1 Psych):** rework Psych class (`1.Psych.PsychClass.*`, currently an "under construction" area) so Maven talks about **walking into other people's dreams** (setting up the lawnmower dream-walk into Dad's nightmare that evening) and **hints that now Mark has learned to dream-walk, his sleep routine will get much more interesting**.
 - [ ] **Build (Day 1 Dream):** rewrite Norbert's greeting in `1.Dream.HubCenter` as a **first meeting** (currently "Oh, uh, hey boss!" as if they know each other). In `1.Dream.PostCrabFight`, replace "**<THE PLACE>**" with **the Hub**. The Dream Stranger encounter should end in an **escape**, not a win.
