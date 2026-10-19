@@ -188,7 +188,7 @@ The week ends on the **envelope** (the hook into Chapter 2), then a quiet, dream
 | Punching-bag fight | 1 · Gym | Punching bag | Combat tutorial | `PunchingBag*Controller` | 🔨 |
 | Lawnmower fight | 1 · Post | Lawnmower (in Dad's nightmare) | Mark's first walk into someone else's dream outside school: a low-stakes, at-home tutorial for the power | `LawnmowerController` | 🔨 |
 | Crab fight | 1 · Dream | Crab (a form of **Fear**, from a childhood beach-pinch memory) | The player's fear of talking to strangers, in battle form | `CrabEnemy` | 🔨 |
-| Fear encounter | 1 · Dream | "Fear" swirl | The player's own manifested fear (the Hollow, his Inner Mind's Bad Area) | — | 🔨 |
+| Fear encounter | 1 · Dream | "Fear" swirl (**Fear himself**, ruler of the Hollow; true form a ghastly, shadowy monster) | The player's own manifested fear (the Hollow, his Inner Mind's Bad Area) | — | 🔨 |
 | Race + dummy fight | 2 · Gym | Dummy | `[TBD]` | — | 🔨 |
 | Bubba fight | 3 · Lunch | Bubba | Rival | — | 🔨 |
 | Goon's mind (dream-walk) | 4 · Bank | The goon (in his own dream; guards the last number) | Retrieve the vault code from the sleeping goon's mind: collect the numbers around his luxury-lifestyle dream, then win the last one in a fight | — | ✍️ |

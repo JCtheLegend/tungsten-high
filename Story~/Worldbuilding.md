@@ -63,6 +63,8 @@ The player character is unusual even among the gifted:
   - **Inner Mind** — relates to **the player only** (his own mind).
     **The Hub:** the lobby and landing place where Mark arrives when he goes to bed each night, with entries to **the
     Hollow**, **the Halcyon**, **the Mill**, and **the Theater** (where dreams are viewed).
+    **The Theater:** where the player **experiences dreams, like normal people do**. **Most dream sequences require
+    progressing through the Theater** before the player can wake up.
     **Sword & shield:** two items hidden in his Inner Mind that he must find to become more powerful in **Dream World
     combat**:
       - The **sword**, hidden in the **Hollow**, symbolizes the **great courage and willpower** needed to fight against fear.
@@ -75,7 +77,9 @@ The player character is unusual even among the gifted:
     ones), and combines them into the contents of people's dreams.
     Sub Areas:
       - **The Halcyon** (the Good Area), ruled by the entity **Fantasy**: Full of the players' good memories, idealistic goals, and optimistic dreams come true. An enticing place can trap the player in a self-fulfilling world.
-      - **The Hollow** (the Bad Area), ruled by the entity **Fear**: Full of the players' bad memories, fears, regrets, and `[TBD]`. **Fear** is one of its
+        **Fantasy** looks like a **giant fairy** (think *The Legend of Zelda*). She is **tempting and deceptive**: she makes
+        promises and **minimizes the sacrifice and hard work** that fulfillment in life takes.
+      - **The Hollow** (the Bad Area), ruled by the entity **Fear** (in his true form, a **scary, ghastly, shadowy monster**; the Day 1 **Fear swirl** is Fear himself): Full of the players' bad memories, fears, regrets, and `[TBD]`. **Fear** is one of its
         primary negative feelings. It shows up in the Day 1 dream as a **Crab** (from a childhood memory of the
         player getting pinched on the beach) and as the **Dream Stranger** (his fear of talking to strangers).
       - **The Mill**: the machine that brings together thoughts from the Halcyon and the Hollow and **binds them to the
@@ -156,9 +160,9 @@ Track the sides of the central conflict here as they're decided:
 - **The Halcyon / The Hollow** — the Good and Bad Areas of Mark's Inner Mind, ruled by **Fantasy** and **Fear**.
 - **Purrgatory** — the cats' dream world, the cat version of the Ephemeral World (all cats are dream-walkers). "Catworld" in scene/file names.
 - **The Hub** — the lobby of Mark's Inner Mind where he lands each night; doors to the Hollow, the Halcyon, the Mill, and the Theater.
-- **The Theater** — the room in the Inner Mind where dreams are viewed.
+- **The Theater** — the room in the Inner Mind where the player experiences dreams like normal people; most dream sequences require progressing through it to wake up.
 - **The Mill** — the machine in the Inner Mind that brings together thoughts from the Halcyon and the Hollow and binds them to the subconscious.
-- **Fear / Fantasy** — the entities that rule the Hollow and the Halcyon. Fear takes many forms; the **Dream Stranger** and the **Crab** are two of them.
+- **Fear / Fantasy** — the entities that rule the Hollow and the Halcyon. Fear (true form: a ghastly, shadowy monster; the Day 1 Fear swirl) takes many forms; the **Dream Stranger** and the **Crab** are two of them. Fantasy looks like a giant fairy who tempts with promises.
 - **Fear** — a primary negative feeling of the Inner Mind's Hollow (Bad Area). In Ch.1 Day 1 it manifests as the **Crab** and the **Dream Stranger**.
 - **Somnus / somni** — the species of creatures that live in different areas of the Dream World (from Latin *somnus*, "sleep"). **Norbert** is one.
 - **Norbert** — a dream creature living in the player's mind who sorts the day's thoughts, memories, and feelings into his subconscious. A **somnus**, one of the species living in areas of the Dream World.
