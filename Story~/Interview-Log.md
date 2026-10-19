@@ -40,7 +40,7 @@ don't care about, or add your own.
 - [ ] **Day 0 follow-up:** how does Mark drift into Rip's dream on night one (does Rip pull him in, or chance)? Is the Dream Gym "Caught" beat a stealth section? Is the Day 2 **"Cart Man"** the Map Guy?
 - [ ] **Day 1 (remaining):** is the **Fear swirl** Fear itself (ruler of the Hollow)? **Fear & Fantasy:** how they look/speak, when Mark confronts each (Fear: the sword, Chs.4–5; Fantasy: Ch.3 escape, shield later). What's in **the Theater**?
 - [ ] **Purrgatory** (the cats' dream world, named 2026-10-14): does Goblin recur? What's there besides Cat Central?
-- [ ] **Day 3 dream (new):** design it; tentative idea: confronting the fear of strangers (Mark only escaped the Stranger on Day 1). What does he gain?
+- [ ] **Day 3/4 dreams follow-ups:** what the warped town looks like (which real places, and how they're warped); what form Fear takes in each (the Dream Stranger again?); what Mark says to Fear on Day 4; where the Day 4 dream takes place.
 - [ ] **Day 5 principal's office:** what happens in the visit (why is Mark sent there? what does Fi say?).
 
 ### Tier 4 — Chapter 1 setup → payoff

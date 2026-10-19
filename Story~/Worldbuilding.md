@@ -166,7 +166,7 @@ Track the sides of the central conflict here as they're decided:
 - **Maven's magic rug** — transports people into the Dream World.
 - **The sword & shield** — the player's Dream World weapons, hidden in his Inner Mind (sword: the Hollow, courage and willpower against fear; shield: the Halcyon, restraint and prudence against selfish desires and fantasies).
 - **The Snow Ball** — the winter dance (Ch.3, around Christmas).
-- **Dream Stranger** — one form of **Fear**: the player's fear of talking to strangers. On Day 1 Mark only escapes it.
+- **Dream Stranger** — one form of **Fear**: the player's fear of talking to strangers. On Day 1 Mark only escapes it; on Day 3 Fear can't be punched; on Day 4 he faces Fear by talking.
 - **Stair Guardian** — **Cubert**, "the only cubic super in the school" 20 years ago, guarding the staircase in Rip's Day 0 memory. A cameo; may return as a townsperson.
 - **Paperboy** — Slim's nickname in school.
 - **The amplifier** (the upgrade machine) — a machine that genetically alters and upgrades powers, built for the school science fair ~20 years ago by [Slim](Characters/Slim.md), [Marcy](Characters/Marcy.md), and [Sparks](Characters/Sparks.md). Called **the amplifier**.
