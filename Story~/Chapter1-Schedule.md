@@ -51,7 +51,7 @@ Writing week. Lock the canon that every remaining scene depends on.
       hangs on. Bubba's needs his full arc: bully → transfer denied → Day 5 battle → "death of his dream."
 - [x] Resolve in PlotThreads: is the **Dream Stranger** Slim? Sandman? Someone else? (This decides how
       Day 0/Day 1 dream scenes get revised.)
-- [ ] Fill PlotThreads **Setup → Payoff ledger** for Chapter 1: quarters, vault, letter, Bubba's transfer,
+- [x] Fill PlotThreads **Setup → Payoff ledger** for Chapter 1: quarters, vault, letter, Bubba's transfer,
       hero name.
 - [ ] Write the **Day 5 finale script** on paper (in Chapter-1.md): Bubba battle setup, the fight,
       the aftermath scene, Sparks' letter, the Chapter 2 hook.

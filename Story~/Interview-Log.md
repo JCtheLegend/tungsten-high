@@ -44,7 +44,8 @@ don't care about, or add your own.
 
 ### Tier 4 — Chapter 1 setup → payoff
 
-- [ ] For each Ch.1 plant, where does it pay off: the **quarters**, the **vault money**, **Sparks' letter**, **Bubba's rejection**, the **hero name**, **room 303**, **Catworld/Goblin**, the clubs the player joins.
+- [ ] **Hero name:** which later scenes use it (who calls Mark by it: the newspaper, the Ch.6 commendations?). Needs dynamic dialog in code first.
+- [ ] **Dodgeball team:** who's on it with Mark, and what the forced join on Day 1 looks like (who makes him join, and why).
 
 ### Tier 5 — World rules
 

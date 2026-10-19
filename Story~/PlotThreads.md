@@ -164,7 +164,7 @@ The player "makes friends." The cafeteria (15 tables), clubs, and Dodgeball are 
     from college with his old friends. In **Ch.2** they get **detention** together and have to go into the **sewers**, where they
     fight a **giant Venus flytrap** (the Janitor's science project; callback to the Day 0 dream). `[TBD: why detention]`
 - **Dodgeball team** as a bonding throughline across chapters. `[TBD]`
-- **Clubs** (Hero, Dodgeball) as opt-in relationship/plot hooks. `[TBD]`
+- **Clubs:** the Day 1 club signup is being rewritten so the player is **forced to join the Dodgeball team** (no free choice of Hero / Dodgeball / Costume).
 
 ## F. Rivals & enemies
 
@@ -185,7 +185,7 @@ Keep every promise. When you plant something, add a row; when it pays off, mark 
 | # | Setup (where planted) | Payoff (where resolved) | Status |
 |---|---|---|---|
 | 1 | Ch.1 · Day 0 · Dream — flashback of Slim & Marcy discussing the upgrade-machine prototype | A later chapter reveals the flashbacks come from the [Janitor](Characters/Janitor.md) `[TBD: which]`; Slim revealed in **Ch.3** (the attempted principal kidnapping) | ☐ |
-| 2 | Ch.1 · Day 4 · Bank — the vault money vanishes, turned into another dimension | Funds Slim's work on the machine, the goons he hires, and his plan in later chapters `[TBD: where it shows on screen]` | ☐ |
+| 2 | Ch.1 · Day 4 · Bank — the vault money vanishes, turned into another dimension | Funds Slim's work on the machine, the goons he hires, and his plan in later chapters. Only **implied** later on, never shown explicitly. | ✍️ |
 | 7 | Ch.1 — The Hole is guided by letters slipped in from a lower dimension; the player may notice they match Sparks' envelope. The jailed goon tells the player his boss only ever communicated by envelope. | `[TBD]` (Slim revealed Ch.3) | ☐ |
 | 8 | Ch.1 · Day 4 — The Hole is put in **power-cancelling handcuffs**, invented by [Anti Hero](Characters/Anti%20Hero.md) | Anti Hero is the villain of **Ch.4** (the science fair), with a ray that permanently removes powers | ☐ |
 | 3 | Ch.1 · Day 5 · after Dodgeball tryouts — Sparks, cleaning her room after class, finds an **empty** envelope (Slim's taunt: he's back); Sparks is shocked and frightened but won't say why | Sparks tells the **principal** in **Ch.3** | ☐ |
@@ -196,6 +196,9 @@ Keep every promise. When you plant something, add a row; when it pays off, mark 
 | 10 | **Ch.4** — a special training session with the Gym/combat teacher (Mr. Brock) teaches the **Mystic Punch** | Ch.6 Day 4 — key to the rooftop fight with Slim | ☐ |
 | 12 | Ch.1 · Day 0 dream + flashbacks — the Janitor's science-fair project, a **Venus flytrap exposed to exotrons** that came alive, was thrown in the sewers | Ch.2 — **detention subplot**: the player and Bloom go into the sewers and fight it as a **giant Venus flytrap** | ☐ |
 | 13 | Ch.1 · Day 0 — the intro dream is secretly a flashback, played as the Janitor; later, a dream-walking indicator by the Janitor, who walks away | **Ch.4** — the reveal of who the Janitor is and what the flashbacks are | ☐ |
+| 14 | Ch.1 · Day 2 · PR — the **quarters** collected around Garnet Square | None: they exist so the player explores the square's buildings, and are handed to the Bank Guy to put in the vault (`2.PR.Bank.OpenVault`). No later payoff. | ✍️ |
+| 15 | Ch.1 · Day 5 · PR — the player **chooses a hero name** | The chosen name is **used in dialog later on** `[TBD: where]` (needs dynamic dialog in the cutscene system) | ☐ |
+| 16 | Ch.1 · Day 1 · Post — the player is **made to join the Dodgeball team** | The Dodgeball team as a bonding throughline across the year `[TBD]` | ☐ |
 | 11 | `[TBD: which chapter]` — a student who makes **dream potions** is introduced | Ch.6 Day 4 — Sandman uses a dream potion to give the students a taste of upgraded powers | ☐ |
 
 ## Open questions (decide these to unblock planning)
