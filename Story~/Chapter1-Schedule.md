@@ -19,7 +19,11 @@ Tick items `[x]` as they're done; keep [Chapter-1.md](Chapters/Chapter-1.md)'s s
 > **Sync note:** the git repo looks **behind the writer's PC**. `Chapter-1.md` says the `*.Pysch.*` files were
 > renamed to `Psych` and that `Quizzes/Chapter1/2.PR.json` exists, but the repo still has `1/1.Pysch.PsychClass.1`,
 > `2/2.Pysch.1`, `2/2.Pysch.Placeholder`, `3/3.Pysch.1`, `5/5.Pysch.1`, and no `Quizzes/` folder.
+> Also missing from git (2026-10-20), though the docs mark them done: the Day 4 heist build (`4.BankVault.Open`,
+> `4.BankVault.Standoff`, `4.BankVault.AfterFight`, `4.GoonMind.Placeholder`, `Scenes/4/BankVault.json`, `VaultLock.Configure` /
+> the `VaultCode` scene type) and the trigger for `3.Lunch.Conflict`.
 > **Commit and push the PC's game work** before web sessions start building, or they'll edit stale files.
+> *Web work is paused until that push (writer's call, 2026-10-20).*
 
 ## Definition of "Chapter 1 complete"
 
@@ -86,10 +90,31 @@ Each one blocks a scene below. Ask them via `/story-interview`.
 - [ ] 🎮 Remove the rest of the superseded Day 4 prototypes if nothing triggers them: `4.BankVault.1`, `4.PR.BankVault.3`, `4.PR.Bank.Final`.
 - [ ] 🎮 **Morpheus** (cut): remove or repurpose the object in `Scenes/Dream/Day1Dream/80s School 2F.unity` and `0.Dream.Morpheus.json`.
 
+## 1b · Scene wiring (found 2026-10-20; fix after the PC push)
+
+`python3 .claude/skills/cutscene/check_scene_refs.py` checks every `Resources/Scenes/<day>/*.json` trigger against the cutscene files.
+A cutscene loads only from the **current day's folder** (or `Common/` via `common.<Name>`); a missing one plays as an empty cutscene, so
+the beat silently doesn't happen. Re-run it after the push, since the PC copy may already fix some of these. Found on the repo copy:
+
+- [ ] 🌐 **Wrong day:** `Scenes/3/MentalClass` → `5.Pysch.1` (should be `3.Pysch.1`); `Scenes/5/MentalClass` → `3.Pysch.1` (→ `5.Pysch.1`);
+      `Scenes/5/ScienceClass` → `3.Sci.End` ×2 (→ `5.Sci.End`); `Scenes/5/HomeOutside` → `3.Pre.HomeOutside.CarLeave` ×2 and `3.Post.ArriveHome`
+      (no Day 5 versions yet); `Scenes/2/PunchingBagFight` → `1.Gym.PunchingBagFight.1`.
+- [ ] 🌐 **Missing `common.` prefix:** `Scenes/2/UpstairsHallway` → `GoblinSleeping`; `Scenes/3/StartFight` → `StartFight` (so the Day 3 fight
+      may never start; Day 1 uses `common.StartFight`).
+- [ ] 🌐 **Lunchroom helpers missing on Days 2, 3, 5:** `<day>.Lunch.NeedFood`, `.NeedLeft`, `.NeedBottom` (copies of Day 1's `NeedFood`,
+      `NeedLunchLeft`, `NeedLunchBottom`); `3.Lunch.GetFood` and `5.Lunch.GetFood` (Day 2's points its tables at `2.Lunch.Eat`; Day 3's
+      should lead into `3.Lunch.Conflict`, Day 5's into the Bubba book scene).
+- [ ] 🌐 **Missing cutscenes the scenes expect:** `InSchool` (Day 2 hallway; Day 1 has `1.InSchool`), `2.PR.BankGuy.Final` (Days 2–3 bank),
+      `3/4/5.Post.Home.Arrive`, `3.Gym.Final`, `3.Dodgeball.Final` (now unreachable: write it or drop the trigger), `5.Gym.Final`,
+      `5.Dodgeball.Final`, `5.Pre.Downstairs`, `5.PR.1`, `5.Post.GoToBed` (the **dreamless night** ending's natural home: `Scenes/5/PlayerRoom`
+      already triggers it at Post / scene 2; after the fade it can load `Scenes/Menu/Thanks.unity`, which resets and returns to the menu).
+- [ ] 🌐 **Typo:** the `Car` in `Scenes/2–5/HomeOutside.json` says `valideStages`, so its stage window is ignored.
+- [ ] ✍️ Day 5 PR: `5.PR.Ending` says "I'll see you all tomorrow" (a Friday) and "you'll have to write a report", right after the essay is turned in.
+
 ## 2 · Day by day
 
 ### Day 0 — Intro dream (Rip's memory)
-- [ ] 🌐 Speaker fixes (section 1).
+- [x] 🌐 Speaker fixes (section 1): Fred keeps "Friend", his portrait's name.
 - [ ] 🎮 Playtest Day 0 from a fresh save.
 
 ### Day 1 — First school day
@@ -105,7 +130,7 @@ Each one blocks a scene below. Ask them via `/story-interview`.
 - [ ] 🎮 Play the **quarters quest** and all 6 **science puzzles**; fix what's broken. Playtest Day 2.
 
 ### Day 3 — Dodgeball tutorial, disguise, lunchroom conflict
-- [ ] 🌐 Check `3.Dodgeball.*` frames the match as the **tutorial**: a practice match against Mark's own teammates.
+- [x] 🌐 Check `3.Dodgeball.*` frames the match as the **tutorial**: it does ("your last exercise of today's practice", against "one of our athletes from last year", i.e. Jumper; the roster is decided Friday).
 - [ ] 🌐 Day 3 vault code via `VaultCode` (the code from the Bank Guy's house).
 - [ ] 🌐 Write the kept Gym/Psych/Sci beats (✍️ first); Psych is a placeholder ("will get programmed later").
 - [ ] 🌐 + 🎮 **New dream stage** after `3.Post.GoToBed`: the **warped town**, a chase by Fear, a failed attempt to fight it ("this isn't something you can punch your way out of").
@@ -121,7 +146,6 @@ Each one blocks a scene below. Ask them via `/story-interview`.
 - [ ] 🎮 Playtest Day 4 end to end.
 
 ### Day 5 — Week finale
-- [ ] 🌐 Fix `5.PR.Ending` ("see you all tomorrow" on a Friday).
 - [ ] 🌐 + 🎮 **Gym:** the Sandy spar (his powder saps Mark's energy). `5.Gym.1` is a leftover blocking-class placeholder ("that's getting developed later").
 - [ ] 🌐 + 🎮 **Lunch:** Bubba steals Laser Boy's books, gets the rejection letter; Mark fights him in his **crumbling Platinum Prep** dream (earthquake); returning the books bonds Mark and Laser Boy. The Lunch row currently points at `5.Gym.1`.
 - [ ] 🌐 **Psych:** Mark falls out of Bubba's dream into the Dream World with his Psych class.
