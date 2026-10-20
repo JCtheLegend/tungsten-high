@@ -71,8 +71,8 @@ Each one blocks a scene below. Ask them via `/story-interview`.
       "Gym Teacher" was standing in for: Maven (`3.Pysch.1`, `5.Pysch.1`, `5.Psych.Class.1`), Bubba (`3.Lunch.Conflict`),
       Sandman (`3.Lunch.Conflict.Sandman`), Ms Nice (`5.PR.TurnInEssay`), and narration (`5.Psych.Library.1`, now unnamed).
       Mom's lines in `4.Post.Home` were "Banker" and "Micycle". Fred stays **"Friend"**: that's his portrait's name on the `Heads` sheet.
-- [ ] ✍️ Check: in `3.Lunch.Conflict.Sandman`, "H-he was just trying to-" is now **Laser Boy** (a guess: Mark is silent). The same scene
-      says "Principal P"; she's Principal Fi now.
+- [x] `3.Lunch.Conflict.Sandman`: "H-he was just trying to-" is **Laser Boy** (confirmed); "Principal P" → "Principal Fi".
+- [ ] ✍️ Same scene: Sandman says "on the first day", but it's Day 3.
 - [ ] 🎮 Portrait for **The Hole** (in disguise) on the `Heads` sheet; until then his slot is empty.
 - [ ] 🎮 **Build Settings:** add `Fights/Bank Vault.unity` (after `City Buildings/Bank Vault`), `BlockingFight`, `Dodgeball`, `Day3Puzzles`, `Typemaster2000`.
 - [ ] 🎮 **Sprites/portraits:** Goon, The Hole (overworld), Sheriff, Bank Guy (all on the blank `Character` prefab), plus any new cast that appears on screen (Nimbus, Jumper, Puddle).
