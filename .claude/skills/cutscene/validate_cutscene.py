@@ -280,6 +280,10 @@ def check_shape(items, r):
     for i, a in enumerate(items):
         if a.get("type") == "disable" and a.get("name"):
             disabled.setdefault(a["name"], i)
+        elif a.get("type") == "loadObjects":
+            # a freshly spawned object takes the name, so Find can reach it again
+            for o in a.get("loadObjs") or []:
+                disabled.pop(o.get("name"), None)
         elif a.get("name") in disabled and a.get("type") not in ("loadObjects", "editObjects"):
             r.err(i, "%r was disabled at [%d]; GameObject.Find cannot reach an inactive object. "
                      "Use hide/unhide if it has to come back" % (a["name"], disabled[a["name"]]))

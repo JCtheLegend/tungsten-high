@@ -57,18 +57,21 @@ Each one blocks a scene below. Ask them via `/story-interview`.
       stage Post / scene 0 replays `3.Dodgeball.1`; they now set `Post`, scene 1, and load **School Front**, so Mom's pickup (`3.Post.MomPickUp`) plays.
 - [ ] 🎮 **Playtest the stage fixes**, all of Day 1 and the Day 3 Dodgeball → pickup handoff: stages that used to be silently ignored
       now change, so check each next scene fires (e.g. the Day 1 dream now starts in stage `Dream`).
-- [ ] 🎮 `3.Post.PickedUp` is never triggered (superseded by `3.Post.MomPickUp`; its Mom is labelled "Gym Teacher"): delete with its `.meta`.
-      `Scenes/3/Gym.json` registers `3.Dodgeball.Final` (Post, scene 1), which doesn't exist: write it or remove the trigger.
-- [ ] 🌐 Other validator errors: `3.Dodgeball.4` (unknown verb `enableScripts`),
-      `2.Post.Home.Arrive` (leaves the player frozen), `2.Pre.HomeOutside.CarLeave` (finds `Dad` after disabling him),
-      `5.Psych.Dreamwalk` (**invalid JSON**, line 28).
+- [ ] 🎮 `Scenes/3/Gym.json` registers `3.Dodgeball.Final` (Post, scene 1), which doesn't exist: write it or remove the trigger.
+- [x] 🌐 **Other validator errors** (fixed 2026-10-20; every Chapter 1 cutscene now validates): `5.Psych.Dreamwalk` missing comma;
+      `3.Dodgeball.4` `enableScripts` → `enableComponents` (turns on Jumper's dodgeball scripts, which was being skipped);
+      `2.Post.Home.Arrive` now ends with `enableMovement`; `Common/Example.json` `loadScene` uses `name`. `2.Pre.HomeOutside.CarLeave` was a
+      validator false alarm (the `loadObjects` spawns a new Dad); the validator now knows that. Deleted, with their `.meta`s (nothing referenced
+      them): `2/holder.json`, `3/3.Post.PickedUp`, `4/4.BankVault.2`, `4/4.BankVault.3`.
+- [ ] 🎮 Playtest those: Jumper actually plays in the Day 3 match; the player can move after `2.Post.Home.Arrive`.
+- [ ] ✍️ `5.Psych.Dreamwalk` is a copy of Day 2's Goblin dreamwalk (`2.Post.Cat.Dreamwalk`, loads `CatWalkway`), not Day 5 content: rewrite or drop it.
 - [ ] 🌐 **Dynamic dialog:** let cutscene text insert the hero name chosen on Day 5 (C# text substitution in the dialog system).
 - [ ] 🌐 **Wrong speaker labels:** The Hole as "Ms Nice" (`3.PR.HoleDisguise.1/2/3`); Maven as "Gym Teacher" (`3.Pysch.1`, `5.Psych.Class.1`);
       Bubba/narration as "Gym Teacher" (`3.Lunch.Conflict`, `5.Psych.Library.1`); "Friend" → **Fred** (`0.Dream.Gym.2`, `0.Dream.3F.1/2`, `0.Dream.303.1`). 🎮 check portraits.
 - [ ] 🎮 **Build Settings:** add `Fights/Bank Vault.unity` (after `City Buildings/Bank Vault`), `BlockingFight`, `Dodgeball`, `Day3Puzzles`, `Typemaster2000`.
 - [ ] 🎮 **Sprites/portraits:** Goon, The Hole (overworld), Sheriff, Bank Guy (all on the blank `Character` prefab), plus any new cast that appears on screen (Nimbus, Jumper, Puddle).
 - [ ] 🎮 Rename the remaining `*.Pysch.*` files to `Psych` in the editor (with their `.meta` files), if not already done on the PC.
-- [ ] 🎮 Remove dead files: `2/holder.json`, `Common/Example.json` (fails validation), and the superseded Day 4 prototypes `4.BankVault.1/2/3`, `4.PR.BankVault.3`, `4.PR.Bank.Final`.
+- [ ] 🎮 Remove the rest of the superseded Day 4 prototypes if nothing triggers them: `4.BankVault.1`, `4.PR.BankVault.3`, `4.PR.Bank.Final`.
 - [ ] 🎮 **Morpheus** (cut): remove or repurpose the object in `Scenes/Dream/Day1Dream/80s School 2F.unity` and `0.Dream.Morpheus.json`.
 
 ## 2 · Day by day
@@ -106,7 +109,7 @@ Each one blocks a scene below. Ask them via `/story-interview`.
 - [ ] 🎮 Playtest Day 4 end to end.
 
 ### Day 5 — Week finale
-- [ ] 🌐 Fix `5.Psych.Dreamwalk` (invalid JSON) and `5.PR.Ending` ("see you all tomorrow" on a Friday).
+- [ ] 🌐 Fix `5.PR.Ending` ("see you all tomorrow" on a Friday).
 - [ ] 🌐 + 🎮 **Gym:** the Sandy spar (his powder saps Mark's energy). `5.Gym.1` is a leftover blocking-class placeholder ("that's getting developed later").
 - [ ] 🌐 + 🎮 **Lunch:** Bubba steals Laser Boy's books, gets the rejection letter; Mark fights him in his **crumbling Platinum Prep** dream (earthquake); returning the books bonds Mark and Laser Boy. The Lunch row currently points at `5.Gym.1`.
 - [ ] 🌐 **Psych:** Mark falls out of Bubba's dream into the Dream World with his Psych class.

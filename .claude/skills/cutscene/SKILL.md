@@ -84,7 +84,7 @@ leave that flag false forever — the game does not error, it just stops.
 - **Only a subset of verbs works inside `moveSet`** (`move`, `teleport`, `wait`, `moveFace`,
   `animate`, `hide`/`unhide`, `disable`, `enable/disableCollider`, `goto`). Anything else is
   treated as a move and throws.
-- **`loadScene` takes `name`, not `text`.** (`Common/Example.json` is stale on this point.)
+- **`loadScene` takes `name`, not `text`.** (`Common/Example.json` used to get this wrong; fixed 2026-10-20.)
 
 ## File hygiene
 

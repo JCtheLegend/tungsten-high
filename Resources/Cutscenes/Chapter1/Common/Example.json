@@ -30,12 +30,12 @@
       "text": "24,0.5"
     },
     {
-      "type": "loadScene",
-      "text": "Player Room"
-    },
-    {
       "type": "setSceneCounter",
       "text": 0
+    },
+    {
+      "type": "loadScene",
+      "name": "Player Room"
     }
   ]
 }

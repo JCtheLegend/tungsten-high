@@ -114,7 +114,7 @@ puzzle gauntlet; the night dream is **Purrgatory**. Files: `Resources/Cutscenes/
 | Dream | Purrgatory | Mark's cat **Goblin** brings him into the cats' dream world (all cats are dream-walkers; they sleep so much so they can explore it together); "Cat Central"; a walkway. | `2.Catworld.Welcome`, `2.Post.CatCentral.Goblin`, `2.Post.CatWalkway` | 🔨 |
 
 **Loose files (day 2 root):** `PickupQuarter` (the quarter collectible cutscene, shared across the
-quest), `holder` (`[TBD — placeholder/scratch file? confirm and remove if unused]`).
+quest). (`holder` was an unused scratch file; deleted 2026-10-20.)
 
 ---
 
@@ -130,7 +130,7 @@ Files: `Resources/Cutscenes/Chapter1/3/`.
 | Lunch | Cafeteria conflict | A **conflict** with **Bubba** over [Laser Boy](../Characters/Laser%20Boy.md) being teased ("red eyes", "cat toy"); Sandman comes in to defuse the fight. | `3.Lunch.Conflict`, `3.Lunch.Conflict.Sandman`, `3.Lunch.BubbaFight` | 🔨 |
 | Psych | Psych class | Explore more of the Dream World around the school. Fight a few dream monsters [TBD] | `3.Psych.1` | 🔨 |
 | Sci | Science class | More puzzles. Sparks announces **a quiz at the end of the week** (Day 5). | `3.Sci.End` | 🔨 |
-| Post | Home | Mom pickup / picked up; home; bed. | `3.Post.MomPickUp`, `3.Post.PickedUp`, `3.Post.ArriveHome`, `3.Post.GoToBed` | 🔨 |
+| Post | Home | Mom pickup / picked up; home; bed. | `3.Post.MomPickUp`, `3.Post.ArriveHome`, `3.Post.GoToBed` | 🔨 |
 | Dodgeball | The match | The **Dodgeball tutorial**: a practice match (rounds 1–4, with Win/Lose branches) **against other people on the team**. | `3.Dodgeball.1/2/3/4`, `3.Dodgeball.Win`, `3.Dodgeball.Lose` | 🔨 |
 | Dream | Warped town | **New:** a dream of a **warped version of the town**. Mark is **chased by Fear** and eventually **tries to fight it**, but Fear taunts him that **this isn't something you can punch your way out of**. (He faces it by **talking** on Day 4.) | — | ✍️ |
 
@@ -201,8 +201,8 @@ The week ends on the **envelope** (the hook into Chapter 2), then a quiet, dream
 - [ ] **Build (code):** **dynamic dialog**: the hero name chosen on Day 5 must be insertable into later dialog lines (cutscene text substitution).
 - [ ] Define **Sandman**, **Bubba**, **Map Guy**, **Bloom**, the **Nurse**, the **Bank guy** — make profiles. *(Bubba started; the Bank Guy is an innocent employee.)*
 - [ ] **Build:** the Day 5 **empty envelope** scene (new: after Dodgeball tryouts, Sparks cleaning her room after class) should look the same as The Hole's letters, and show Sparks shocked and frightened without explaining why.
-- [ ] **Build (Day 5):** new **principal's office** visit (midday, adult Fi); new **dreamless night** ending (fade to black + "You have a good and peaceful night's sleep, without any dreams."); Bubba's dream as a **crumbling Platinum Prep** with an earthquake; Mark falls out into the Dream World with the Psych class. `5.Psych.Dreamwalk.json` is **invalid JSON** (missing comma near line 28). `5.Psych.Class.1` labels Maven "Gym Teacher". `5.PR.Ending` says "see you all tomorrow" on a Friday. The Lunch row reuses `5.Gym.1`: check.
-- [ ] Confirm/replace placeholder files: `2.Psych.Placeholder`, `holder.json`.
+- [ ] **Build (Day 5):** new **principal's office** visit (midday, adult Fi); new **dreamless night** ending (fade to black + "You have a good and peaceful night's sleep, without any dreams."); Bubba's dream as a **crumbling Platinum Prep** with an earthquake; Mark falls out into the Dream World with the Psych class. `5.Psych.Dreamwalk.json` (JSON fixed 2026-10-20) is a copy of Day 2's Goblin dreamwalk. `5.Psych.Class.1` labels Maven "Gym Teacher". `5.PR.Ending` says "see you all tomorrow" on a Friday. The Lunch row reuses `5.Gym.1`: check.
+- [ ] Confirm/replace placeholder file: `2.Psych.Placeholder` (`holder.json` deleted 2026-10-20).
 - [ ] Fill in the many `[TBD]` class beats (Gym Day 3, Psych/Sci several days).
 - [x] Fix the misspelled `*.Pysch.*` filenames — all five renamed to `Psych` (`.json` + `.meta` moved together).
 - [x] End Day 5 on a clear hook into Chapter 2. *(Sparks finds the envelope; then a dreamless night.)*
@@ -218,7 +218,7 @@ The week ends on the **envelope** (the hook into Chapter 2), then a quiet, dream
 - [ ] **Build:** Morpheus is an unused placeholder and is cut from the story. Remove or repurpose the `Morpheus` object in `Scenes/Dream/Day1Dream/80s School 2F.unity` and `Cutscenes/Chapter1/0/0.Dream.Morpheus.json` (it plays "He did not come this way").
 - [ ] **Build:** make sure the Day 4 vault scene shows the money (and the goons) **vanishing into another dimension**.
 - [ ] **Build:** new Day 4 content: the **hostage standoff** with the goon outside the vault, the police/school surrounding the building, **Sandman's powder through the air vents**, and a **Dream World sequence inside the goon's mind** to retrieve the vault code (no JSON yet).
-- [ ] **Build (Day 4 heist):** add `Fights/Bank Vault.unity` to **Build Settings**, *after* `City Buildings/Bank Vault` (cutscenes load both by full path; also missing from the build: `BlockingFight`, `Dodgeball`, `Day3Puzzles`, `Typemaster2000`). Sprites/portraits for the **Goon**, **The Hole** (overworld), **Sheriff**, **Bank Guy** (all use the blank `Character` prefab for now). An **air vent** object in the vault room. Design + build the **goon's mind** (`DreamHubRight` stands in): a luxury-lifestyle dream with the code's numbers placed around it to collect, and a fight with the goon for the last number (replaces `4.GoonMind.Placeholder`; needs a goon dream-fight). Check the Garnet Square aftermath crowd positions (estimated, below the bank door). Delete the superseded prototypes `4.BankVault.1/2/3`, `4.PR.BankVault.3`, `4.PR.Bank.Final` (they fail validation and nothing triggers them).
+- [ ] **Build (Day 4 heist):** add `Fights/Bank Vault.unity` to **Build Settings**, *after* `City Buildings/Bank Vault` (cutscenes load both by full path; also missing from the build: `BlockingFight`, `Dodgeball`, `Day3Puzzles`, `Typemaster2000`). Sprites/portraits for the **Goon**, **The Hole** (overworld), **Sheriff**, **Bank Guy** (all use the blank `Character` prefab for now). An **air vent** object in the vault room. Design + build the **goon's mind** (`DreamHubRight` stands in): a luxury-lifestyle dream with the code's numbers placed around it to collect, and a fight with the goon for the last number (replaces `4.GoonMind.Placeholder`; needs a goon dream-fight). Check the Garnet Square aftermath crowd positions (estimated, below the bank door). Delete the superseded prototypes `4.BankVault.1`, `4.PR.BankVault.3`, `4.PR.Bank.Final` if nothing triggers them (`4.BankVault.2/3` deleted 2026-10-20).
 - [x] **Build:** Day 4 vault code is now per-day: scene JSON `{"type": "VaultCode", "name": "Enter", "code": "287128", "fileName": "4.BankVault.Open"}` (new `VaultLock.Configure`). The Hole's `onDeathCutscene` = `4.BankVault.AfterFight`.
 - [ ] **Build:** Days 2–3 vault: the scene's own combination is `000000` and its solved cutscene is always `2.PR.Bank.OpenVault`. Use `VaultCode` to give Day 2 (`123456`) and Day 3 (the code from the Bank Guy's house) their own.
 - [x] **Plant (Day 3):** the Bank Guy, stuck in the vault (`3.PR.Bank.2`), mentions the emergency code **111111** sets off the **silent alarm** (pays off in `4.BankVault.Standoff`).

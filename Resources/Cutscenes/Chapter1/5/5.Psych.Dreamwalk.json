@@ -24,7 +24,7 @@
     },
     {
       "type": "endCutscene"
-    }
+    },
     {
       "type": "closeDialog"
     },

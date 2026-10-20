@@ -49,6 +49,9 @@
       "text": "9, -7",
       "direction": "right",
       "speed": 3
+    },
+    {
+      "type": "enableMovement"
     }
   ]
 }
