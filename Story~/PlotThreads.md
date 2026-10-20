@@ -197,7 +197,7 @@ Keep every promise. When you plant something, add a row; when it pays off, mark 
 | 12 | Ch.1 · Day 0 dream + flashbacks — the Janitor's science-fair project, a **Venus flytrap exposed to exotrons** that came alive, was thrown in the sewers | Ch.2 — **detention subplot**: the player and Bloom go into the sewers and fight it as a **giant Venus flytrap** | ☐ |
 | 13 | Ch.1 · Day 0 — the intro dream is secretly a flashback, played as the Janitor; later, a dream-walking indicator by the Janitor, who walks away | **Ch.4** — the reveal of who the Janitor is and what the flashbacks are | ☐ |
 | 14 | Ch.1 · Day 2 · PR — the **quarters** collected around Garnet Square | None: they exist so the player explores the square's buildings, and are handed to the Bank Guy to put in the vault (`2.PR.Bank.OpenVault`). No later payoff. | ✍️ |
-| 15 | Ch.1 · Day 5 · PR — the player **chooses a hero name** | The chosen name is **used in dialog later on** `[TBD: where]` (needs dynamic dialog in the cutscene system) | ☐ |
+| 15 | Ch.1 · Day 5 · PR — the player **chooses a hero name** | The chosen name is **used in dialog later on** `[TBD: where]` (write `<HeroName>` in a dialog line; supported since 2026-10-20) | ☐ |
 | 16 | Ch.1 · Day 1 — after the assembly, Nimbus and Jumper recruit Mark to **try out for Dodgeball**; Day 3 tutorial; Day 5 he always makes the team | The Dodgeball team across the year: after-school matches against other superhero schools, including **Platinum Prep** `[TBD: which chapters]` | ☐ |
 | 11 | `[TBD: which chapter]` — a student who makes **dream potions** is introduced | Ch.6 Day 4 — Sandman uses a dream potion to give the students a taste of upgraded powers | ☐ |
 

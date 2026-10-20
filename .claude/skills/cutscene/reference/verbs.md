@@ -36,6 +36,7 @@ Left/right select, Z confirms. Choice text is never typed out.
 |---|---|---|
 | `goto` | `text` | Absolute 0-based index into `Items` to run next. |
 | `endCutscene` | — | Stops here. Does **not** re-enable movement on its own. |
+| `chooseHeroName` | — | Opens a text box (`HeroNameEntry`) and waits until the player confirms a name; stores it in `GameManager.heroName` (saved with the game). `closeDialog` first. |
 | *(any action)* | `skip` | Added after the action runs: next index is `index + skip + 1`. Only applied when > 0. |
 
 ## Progression flags

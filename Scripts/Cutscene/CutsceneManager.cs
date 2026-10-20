@@ -496,6 +496,9 @@ public class CutsceneManager : MonoBehaviour
                     i = actions.Count;
                     actionDone = true;
                     break;
+                case "chooseHeroName":
+                    StartCoroutine(HandleChooseHeroName());
+                    break;
                 default:
                     Debug.Log("INVALID CUTSCENE ACTION" + a.type);
                     actionDone = true;
@@ -869,6 +872,19 @@ public class CutsceneManager : MonoBehaviour
     public void setAnimateDone()
     {
         animateDone = true;
+    }
+
+    IEnumerator HandleChooseHeroName()
+    {
+        HeroNameEntry entry = gameObject.AddComponent<HeroNameEntry>();
+        while (!entry.done)
+        {
+            yield return null;
+        }
+        GameManager.heroName = entry.heroName;
+        Destroy(entry);
+        Input.ResetInputAxes();
+        actionDone = true;
     }
 
     IEnumerator HandleDialog(CutsceneAction a)

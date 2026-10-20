@@ -198,7 +198,7 @@ The week ends on the **envelope** (the hook into Chapter 2), then a quiet, dream
 
 - [ ] **Build (Day 1):** new scene after the Day 1 assembly where **Nimbus and Jumper recruit Mark** to try out for Dodgeball, and rewrite the club signup to match (replace the Hero / Dodgeball / Costume choice; `1.Post.SignUp`, `1.Post.ClubHero`, `1.Post.ClubDodgeball`, `1.Post.ClubCostume`).
 - [ ] **Build (Day 3):** check `3.Dodgeball.*` frames the match as the **Dodgeball tutorial**, a practice match against Mark's own teammates.
-- [ ] **Build (code):** **dynamic dialog**: the hero name chosen on Day 5 must be insertable into later dialog lines (cutscene text substitution).
+- [x] **Build (code):** **dynamic dialog**: write `<HeroName>` in a dialog line to insert the hero name chosen on Day 5 (`<Name>` = the player's name). Added 2026-10-20; needs a test in the editor.
 - [ ] Define **Sandman**, **Bubba**, **Map Guy**, **Bloom**, the **Nurse**, the **Bank guy** — make profiles. *(Bubba started; the Bank Guy is an innocent employee.)*
 - [ ] **Build:** the Day 5 **empty envelope** scene (new: after Dodgeball tryouts, Sparks cleaning her room after class) should look the same as The Hole's letters, and show Sparks shocked and frightened without explaining why.
 - [ ] **Build (Day 5):** new **principal's office** visit (midday, adult Fi); new **dreamless night** ending (fade to black + "You have a good and peaceful night's sleep, without any dreams."); Bubba's dream as a **crumbling Platinum Prep** with an earthquake; Mark falls out into the Dream World with the Psych class. `5.Psych.Dreamwalk.json` (JSON fixed 2026-10-20) is a copy of Day 2's Goblin dreamwalk. `5.PR.Ending` says "see you all tomorrow" on a Friday. The Lunch row reuses `5.Gym.1`: check.

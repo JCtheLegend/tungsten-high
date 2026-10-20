@@ -84,6 +84,23 @@ public static class GameManager
     public static List<string> followers = new List<string>();
     public static Flags flags = new Flags();
     public static GameData gameData = new GameData("", 0, 0, 0, 0);
+    public const string defaultPlayerName = "Mark";
+    public static string playerName = defaultPlayerName;
+    // Chosen on Chapter 1 Day 5 (the chooseHeroName cutscene action); blank until then.
+    public static string heroName = "";
+
+    // Fills the name placeholders in dialog text: <Name> is the player's name, <HeroName> his
+    // hero name (falls back to his name before he has chosen one).
+    public static string FillNames(string text)
+    {
+        if (string.IsNullOrEmpty(text))
+        {
+            return text;
+        }
+        string hero = heroName != "" ? heroName : playerName;
+        return text.Replace("<HeroName>", hero).Replace("<Name>", playerName);
+    }
+
     public static void LoadScene(string sceneName)
     {
         SaveGameData();
@@ -99,6 +116,8 @@ public static class GameManager
         sceneCounter = 0;
         RoomData.toEntranceNum = 0;
         RoomData.toEntranceId = "";
+        playerName = defaultPlayerName;
+        heroName = "";
     }
 
     public static void SaveGameData()
@@ -109,6 +128,8 @@ public static class GameManager
         gameData.room = SceneManager.GetActiveScene().name;
         gameData.entranceNum = RoomData.toEntranceNum;
         gameData.entranceId = RoomData.toEntranceId;
+        gameData.playerName = playerName;
+        gameData.heroName = heroName;
         string data = JsonUtility.ToJson(gameData);
         File.WriteAllText(Application.persistentDataPath + "/gameData.json", data);
     }
@@ -124,6 +145,9 @@ public static class GameManager
         sceneCounter = loadedGameData.sceneCounter;
         RoomData.toEntranceNum = loadedGameData.entranceNum;
         RoomData.toEntranceId = loadedGameData.entranceId;
+        // Saves from before names were stored have neither field.
+        playerName = string.IsNullOrEmpty(loadedGameData.playerName) ? defaultPlayerName : loadedGameData.playerName;
+        heroName = loadedGameData.heroName ?? "";
     }
 
     public static class RoomData
@@ -189,6 +213,8 @@ public class GameData
     public int entranceNum = 0;
     public string entranceId = "";
     public int sceneCounter= 0;
+    public string playerName = GameManager.defaultPlayerName;
+    public string heroName = "";
 
     public GameData(string room, int day, int stage, int entrance, int scene)
     {

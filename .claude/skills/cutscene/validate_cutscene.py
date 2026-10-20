@@ -24,7 +24,7 @@ CUTSCENES = os.path.join(ASSETS, "Resources", "Cutscenes")
 # Every case in the switch. An unlisted type logs INVALID CUTSCENE ACTION and is skipped.
 VERBS = {
     "dialog", "dialogAndChoice", "choice", "closeDialog",
-    "goto", "endCutscene", "wait",
+    "goto", "endCutscene", "wait", "chooseHeroName",
     "addCondition", "removeCondition", "checkCondition", "checkInventory", "checkFriend",
     "updateInventory", "setSceneCounter", "setStageCounter", "setDayCounter", "friendship",
     "move", "moveBack", "moveSet", "teleport", "moveFace", "rotate",

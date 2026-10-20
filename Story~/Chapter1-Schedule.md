@@ -65,7 +65,13 @@ Each one blocks a scene below. Ask them via `/story-interview`.
       them): `2/holder.json`, `3/3.Post.PickedUp`, `4/4.BankVault.2`, `4/4.BankVault.3`.
 - [ ] 🎮 Playtest those: Jumper actually plays in the Day 3 match; the player can move after `2.Post.Home.Arrive`.
 - [ ] ✍️ `5.Psych.Dreamwalk` is a copy of Day 2's Goblin dreamwalk (`2.Post.Cat.Dreamwalk`, loads `CatWalkway`), not Day 5 content: rewrite or drop it.
-- [ ] 🌐 **Dynamic dialog:** let cutscene text insert the hero name chosen on Day 5 (C# text substitution in the dialog system).
+- [x] 🌐 **Dynamic dialog** (2026-10-20): dialog and choice text fill `<Name>` (the player's name, "Mark") and `<HeroName>` (the hero name,
+      falling back to his name until chosen) as they print. Before this, `<Name>` showed up literally in 7 lines. `5.PR.ChooseHeroName` now
+      runs the new `chooseHeroName` action: a plain text box (`Scripts/Cutscene/HeroNameEntry.cs`, IMGUI, max 16 characters, Enter to confirm).
+      Both names are saved in `gameData.json`; old saves load as "Mark" with no hero name.
+- [ ] 🎮 Test it: compile, choose a name on Day 5, check a `<HeroName>` line, save + reload. Restyle the text box to match the game if wanted
+      (Unity will make `HeroNameEntry.cs.meta` on import; commit it).
+- [ ] ✍️ Which later lines use `<HeroName>` (ledger #15). Ms Nice's reaction after he picks one?
 - [x] 🌐 **Wrong speaker labels** (fixed 2026-10-20). Speaker names never show on screen; they pick the portrait and voice pitch.
       The disguised Hole was "Ms Nice" → **The Hole** (`3.PR.HoleDisguise.1/2/3`; added to the low voice band in `DialogPrinter.cs`).
       "Gym Teacher" was standing in for: Maven (`3.Pysch.1`, `5.Pysch.1`, `5.Psych.Class.1`), Bubba (`3.Lunch.Conflict`),

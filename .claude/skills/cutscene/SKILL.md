@@ -135,7 +135,9 @@ validator — it walks the control flow and reports targets that no longer land 
   This is how the player "speaks"; he has no portrait of his own. 146 lines in Chapter 1 do this.
 - `isTyped: "true"` types the line out with the voice beep — use it for spoken dialog.
   `"false"` snaps the whole line up at once, for narration, signs and choice prompts.
-- `<Name>` inside `text` is the player-name placeholder used by existing files.
+- Name placeholders in `text` (and choices) are filled in when the line prints (`GameManager.FillNames`):
+  `<Name>` is the player's name ("Mark"), `<HeroName>` the hero name he picks on Day 5 (`chooseHeroName`;
+  before that it falls back to his name).
 - One thought per box; the box is small. Break long speeches into several `dialog` actions.
 - Choices are **always exactly two** — `choice1`/`choice2` are all the box has:
 
