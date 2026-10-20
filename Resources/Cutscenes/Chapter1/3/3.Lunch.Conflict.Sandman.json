@@ -71,7 +71,7 @@
     },
     {
       "type": "setStageCounter",
-      "name": "Psych"
+      "text": "Psych"
     },
     {
       "type": "closeDialog"

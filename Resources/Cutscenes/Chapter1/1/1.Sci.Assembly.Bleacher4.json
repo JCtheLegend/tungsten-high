@@ -506,7 +506,7 @@
     },
     {
       "type": "setStageCounter",
-      "text": 6
+      "text": "Post"
     },
     {
       "type": "setSceneCounter",

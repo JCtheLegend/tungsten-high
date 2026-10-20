@@ -48,13 +48,18 @@ Each one blocks a scene below. Ask them via `/story-interview`.
 
 ## 1 · Cross-cutting systems & cleanup
 
-- [ ] 🌐 **Stage-counter bug:** ~20 cutscenes call `setStageCounter` with a **number** (e.g. `"text": 6`), but
-      `CutsceneManager.SetStageCounter` only accepts stage names (`Pre`, `PR`, `Gym`, `Lunch`, `Psych`, `Sci`, `Post`,
-      `Dream`): a number logs "invalid stage", leaves the stage unchanged, and still resets the scene counter.
-      Files: `0.Dream.Gym.Caught`, `1.Dream.DreamStrangerEnd`, `1.Gym.GymClass.PostFight`, `1.PR.PRClass.2`, `1.Post.GoToBed`,
-      `1.Pre.SchoolOutside.3`, `1.Psych.PsychClass.4`, `1.Sci.Assembly` + `Bleacher2…7`, `3.Dodgeball.Win/Lose`,
-      `3.Lunch.Conflict`, `3.Lunch.Conflict.Sandman`, `3.Post.PickedUp`. Decide the intended stage for each, fix, then 🎮 playtest.
-- [ ] 🌐 Other validator errors: `1.Post.GoToBed` (unknown verb `setGameCounter`), `3.Dodgeball.4` (unknown verb `enableScripts`),
+- [x] 🌐 **Stage-counter bug** (fixed 2026-10-20): 14 cutscenes called `setStageCounter` with a **number**, which
+      `CutsceneManager.SetStageCounter` rejects ("invalid stage": stage unchanged, scene counter still reset). Each now
+      uses the stage name its number meant (`0.Dream.Gym.Caught`/`1.Dream.DreamStrangerEnd` → `Pre`, `1.Pre.SchoolOutside.3` → `PR`,
+      `1.PR.PRClass.2` → `Gym`, `1.Gym.GymClass.PostFight` → `Lunch`, `1.Psych.PsychClass.4` → `Sci`, `1.Sci.Assembly` + `Bleacher2…7` → `Post`,
+      `1.Post.GoToBed` → `Dream`). Also fixed: the typo'd verb in `3.Lunch.Conflict`, `name`→`text` in `3.Lunch.Conflict.Sandman`, and the
+      dead `setGameCounter` in `1.Post.GoToBed`. `3.Dodgeball.Win/Lose` had nonsense values (`PR`, `Dream`) and reloaded the Gym, where
+      stage Post / scene 0 replays `3.Dodgeball.1`; they now set `Post`, scene 1, and load **School Front**, so Mom's pickup (`3.Post.MomPickUp`) plays.
+- [ ] 🎮 **Playtest the stage fixes**, all of Day 1 and the Day 3 Dodgeball → pickup handoff: stages that used to be silently ignored
+      now change, so check each next scene fires (e.g. the Day 1 dream now starts in stage `Dream`).
+- [ ] 🎮 `3.Post.PickedUp` is never triggered (superseded by `3.Post.MomPickUp`; its Mom is labelled "Gym Teacher"): delete with its `.meta`.
+      `Scenes/3/Gym.json` registers `3.Dodgeball.Final` (Post, scene 1), which doesn't exist: write it or remove the trigger.
+- [ ] 🌐 Other validator errors: `3.Dodgeball.4` (unknown verb `enableScripts`),
       `2.Post.Home.Arrive` (leaves the player frozen), `2.Pre.HomeOutside.CarLeave` (finds `Dad` after disabling him),
       `5.Psych.Dreamwalk` (**invalid JSON**, line 28).
 - [ ] 🌐 **Dynamic dialog:** let cutscene text insert the hero name chosen on Day 5 (C# text substitution in the dialog system).
@@ -69,7 +74,7 @@ Each one blocks a scene below. Ask them via `/story-interview`.
 ## 2 · Day by day
 
 ### Day 0 — Intro dream (Rip's memory)
-- [ ] 🌐 Speaker fixes and the `0.Dream.Gym.Caught` stage counter (section 1).
+- [ ] 🌐 Speaker fixes (section 1).
 - [ ] 🎮 Playtest Day 0 from a fresh save.
 
 ### Day 1 — First school day

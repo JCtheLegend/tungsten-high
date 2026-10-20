@@ -77,7 +77,7 @@
     },
     {
       "type": "setStageCounter",
-      "text": 3
+      "text": "Lunch"
     },
     {
       "type": "enableMovement"
