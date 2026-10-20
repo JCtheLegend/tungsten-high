@@ -72,7 +72,7 @@ Each one blocks a scene below. Ask them via `/story-interview`.
       Sandman (`3.Lunch.Conflict.Sandman`), Ms Nice (`5.PR.TurnInEssay`), and narration (`5.Psych.Library.1`, now unnamed).
       Mom's lines in `4.Post.Home` were "Banker" and "Micycle". Fred stays **"Friend"**: that's his portrait's name on the `Heads` sheet.
 - [x] `3.Lunch.Conflict.Sandman`: "H-he was just trying to-" is **Laser Boy** (confirmed); "Principal P" → "Principal Fi".
-- [ ] ✍️ Same scene: Sandman says "on the first day", but it's Day 3.
+- [x] Same scene: Sandman's "on the first day" (it's Day 3) → "in your first week".
 - [ ] 🎮 Portrait for **The Hole** (in disguise) on the `Heads` sheet; until then his slot is empty.
 - [ ] 🎮 **Build Settings:** add `Fights/Bank Vault.unity` (after `City Buildings/Bank Vault`), `BlockingFight`, `Dodgeball`, `Day3Puzzles`, `Typemaster2000`.
 - [ ] 🎮 **Sprites/portraits:** Goon, The Hole (overworld), Sheriff, Bank Guy (all on the blank `Character` prefab), plus any new cast that appears on screen (Nimbus, Jumper, Puddle).
