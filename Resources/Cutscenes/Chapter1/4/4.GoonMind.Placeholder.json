@@ -1,0 +1,52 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "[PLACEHOLDER: the goon's mind. This room stands in until his dream is designed and built.]",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "Deep in the goon's memories, you find the moment he reset the vault.",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "His thick fingers jab at the keypad: 2... 8... 7... 1... 2... 8.",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "287128. Got it.",
+      "isTyped": "false"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "playSound",
+      "name": "teleport"
+    },
+    {
+      "type": "dreamExit"
+    },
+    {
+      "type": "startWhite"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "8"
+    },
+    {
+      "type": "loadScene",
+      "name": "Assets/Scenes/City Buildings/Bank Vault.unity"
+    }
+  ]
+}

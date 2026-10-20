@@ -1,0 +1,742 @@
+{
+  "Items": [
+    {
+      "validScenes": [
+        1,
+        1
+      ],
+      "validStages": [
+        2,
+        2
+      ],
+      "type": "cutscene",
+      "name": "1.Gym.GymClass.PreFight"
+    },
+    {
+      "validScenes": [
+        2,
+        2
+      ],
+      "validStages": [
+        2,
+        2
+      ],
+      "type": "cutscene",
+      "name": "1.Gym.GymClass.PostFight"
+    },
+    {
+      "validScenes": [
+        1,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "cutscene",
+      "name": "1.Sci.GymArrive"
+    },
+    {
+      "validScenes": [
+        1,
+        2
+      ],
+      "validStages": [
+        2,
+        2
+      ],
+      "location": "20, 0",
+      "type": "Gym Teacher",
+      "name": "Gym Teacher"
+    },
+    {
+      "validScenes": [
+        1,
+        2
+      ],
+      "validStages": [
+        2,
+        2
+      ],
+      "location": "15, -0.5",
+      "type": "Bloom",
+      "name": "Bloom",
+      "facing": "right"
+    },
+    {
+      "validScenes": [
+        1,
+        2
+      ],
+      "validStages": [
+        2,
+        2
+      ],
+      "location": "14, -3",
+      "type": "Kitchenette",
+      "name": "Kitchenette",
+      "facing": "right"
+    },
+    {
+      "validScenes": [
+        1,
+        2
+      ],
+      "validStages": [
+        2,
+        2
+      ],
+      "location": "16, -2.75",
+      "type": "Slicky",
+      "name": "Slicky",
+      "facing": "right"
+    },
+    {
+      "validScenes": [
+        1,
+        2
+      ],
+      "validStages": [
+        2,
+        2
+      ],
+      "location": "17, -5",
+      "type": "Micycle",
+      "name": "Micycle",
+      "facing": "up"
+    },
+    {
+      "validScenes": [
+        1,
+        2
+      ],
+      "validStages": [
+        2,
+        2
+      ],
+      "location": "22.75, -4",
+      "type": "Puddle",
+      "name": "Puddle",
+      "facing": "up"
+    },
+    {
+      "validScenes": [
+        1,
+        2
+      ],
+      "validStages": [
+        2,
+        2
+      ],
+      "location": "24.5, -1.25",
+      "type": "Laser Boy",
+      "name": "Laser Boy",
+      "facing": "left"
+    },
+    {
+      "validScenes": [
+        1,
+        2
+      ],
+      "validStages": [
+        2,
+        2
+      ],
+      "location": "25.5, -4",
+      "type": "Sticky",
+      "name": "Sticky",
+      "facing": "up"
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Stage",
+      "name": "Stage",
+      "location": "20, 1"
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Left Wire",
+      "name": "Left Wire",
+      "location": "15.22, 2.19"
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Right Wire",
+      "name": "Right Wire",
+      "location": "24.76, 2.3"
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Speaker",
+      "name": "Speaker",
+      "location": "26, 1"
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Speaker",
+      "name": "Speaker",
+      "location": "14, 1"
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Gym Teacher",
+      "name": "Gym Teacher",
+      "location": "5, 3",
+      "facing": "right",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "You should go grab a seat, it looks like the teachers are getting ready."
+          ],
+          "isTyped": [
+            false
+          ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Bloom",
+      "name": "Bloom",
+      "location": "26.5, -6.5",
+      "facing": "up"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Kitchenette",
+      "name": "Kitchenette",
+      "location": "8.5, -13",
+      "facing": "down"
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Slicky",
+      "name": "Slicky",
+      "location": "23.4, 11.5",
+      "facing": "down"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Micycle",
+      "name": "Micycle",
+      "location": "16.5, -7.3",
+      "facing": "up"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Puddle",
+      "name": "Puddle",
+      "location": "31.3, 13",
+      "facing": "down"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Laser Boy",
+      "name": "Laser Boy",
+      "location": "23, -6.5",
+      "facing": "up"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Sticky",
+      "name": "Sticky",
+      "location": "13.2, 13",
+      "facing": "down"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Dreamy",
+      "name": "Dreamy",
+      "location": "16.25, 13",
+      "facing": "down"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Wally",
+      "name": "Wally",
+      "location": "16.3, 12",
+      "facing": "down"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Seagull",
+      "name": "Seagull",
+      "location": "13.25, 11.75",
+      "facing": "down"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Songbird",
+      "name": "Songbird",
+      "location": "11.5, 11.85",
+      "facing": "down"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Sandman",
+      "name": "Sandman",
+      "location": "8.75, 12",
+      "facing": "down"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Freshy",
+      "name": "Freshy",
+      "location": "28.33, 12",
+      "facing": "down"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Nimbus",
+      "name": "Nimbus",
+      "location": "26.25, 13.25",
+      "facing": "down"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Jumper",
+      "name": "Jumper",
+      "location": "23.25, 13.15",
+      "facing": "down"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Mirror",
+      "name": "Mirror",
+      "location": "13.25, -6.5",
+      "facing": "up"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Bubba",
+      "name": "Bubba",
+      "location": "8.5, -6.5",
+      "facing": "up"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Moe",
+      "name": "Moe",
+      "location": "28.5, -7.25",
+      "facing": "up"
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Ms Sparks",
+      "name": "Ms Sparks",
+      "location": "5, 11",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "You should go grab a seat, it looks like the teachers are getting ready."
+          ],
+          "isTyped": [
+            false
+          ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Maven",
+      "name": "Maven",
+      "location": "5, 9",
+      "facing": "up",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "You should go grab a seat, it looks like the teachers are getting ready."
+          ],
+          "isTyped": [
+            false
+          ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Mr Wood",
+      "name": "Mr Wood",
+      "location": "5, 7",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "You should go grab a seat, it looks like the teachers are getting ready."
+          ],
+          "isTyped": [
+            false
+          ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Ms Nice",
+      "name": "Ms Nice",
+      "location": "5, 5",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "You should go grab a seat, it looks like the teachers are getting ready."
+          ],
+          "isTyped": [
+            false
+          ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Principal Fi",
+      "name": "Principal Fi",
+      "location": "5, 1",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "SimpleDialogTrigger",
+          "dialog": [
+            "You should go grab a seat, it looks like the teachers are getting ready."
+          ],
+          "isTyped": [
+            false
+          ],
+          "facePlayer": false
+        }
+      ]
+    },
+    {
+      "validScenes": [
+        0,
+        2
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "Mic",
+      "name": "Mic",
+      "location": "20, 1"
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "CutsceneCollider",
+      "name": "1.1-Assembly",
+      "location": "10,-5.5",
+      "size": "1,1",
+      "fileName": "1.Sci.Assembly"
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "CutsceneCollider",
+      "name": "1.1-Assembly.2",
+      "location": "15,-5.5",
+      "size": "1,1",
+      "fileName": "1.Sci.Assembly.Bleacher2"
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "CutsceneCollider",
+      "name": "1.1-Assembly.3",
+      "location": "25,-5.5",
+      "size": "1,1",
+      "fileName": "1.Sci.Assembly.Bleacher3"
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "CutsceneCollider",
+      "name": "1.1-Assembly.4",
+      "location": "30,-5.5",
+      "size": "1,1",
+      "fileName": "1.Sci.Assembly.Bleacher4"
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "CutsceneCollider",
+      "name": "1.1-Assembly.5",
+      "location": "10,10.5",
+      "size": "1,1",
+      "fileName": "1.Sci.Assembly.Bleacher5"
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "CutsceneCollider",
+      "name": "1.1-Assembly.6",
+      "location": "25,10.5",
+      "size": "1,1",
+      "fileName": "1.Sci.Assembly.Bleacher6"
+    },
+    {
+      "validScenes": [
+        0,
+        1
+      ],
+      "validStages": [
+        5,
+        5
+      ],
+      "type": "CutsceneCollider",
+      "name": "1.1-Assembly.7",
+      "location": "30,10.5",
+      "size": "1,1",
+      "fileName": "1.Sci.Assembly.Bleacher7"
+    }
+  ]
+}

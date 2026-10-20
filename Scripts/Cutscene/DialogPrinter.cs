@@ -25,7 +25,9 @@ public class DialogPrinter : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    internal Sprite FindHead(string name)
+    // Portrait lookup off the shared Heads sheet. Static: it reads no instance state, and the Friends
+    // page and FriendAlert need a portrait with no dialog box in the scene to own one.
+    internal static Sprite FindHead(string name)
     {
         Sprite[] spriteCol = Resources.LoadAll<Sprite>("Heads/Heads");
         List <Sprite> sList = spriteCol.ToList();

@@ -1,0 +1,128 @@
+{
+  "Items": [
+    {
+      "type": "startBlack"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "1.5,0.5"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "moveCamera",
+      "text": "0,-2",
+      "speed": 8,
+      "isContinue": true
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Garnet Sheriff's Office! Nobody move!",
+      "name": "Sheriff",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Sheriff",
+      "direction": "up",
+      "speed": 3,
+      "text": "0,-0.5"
+    },
+    {
+      "type": "dialog",
+      "text": "Well, well. The Hole.",
+      "name": "Sheriff",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I'm telling you, I didn't take it! Somebody set me up!",
+      "name": "The Hole",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Save it for the judge.",
+      "name": "Sheriff",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Sheriff",
+      "direction": "up",
+      "speed": 3,
+      "text": "0,0.5"
+    },
+    {
+      "type": "dialog",
+      "text": "The Sheriff snaps a pair of power-cancelling handcuffs onto The Hole's wrists.",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "Go ahead. Try slipping through a wall in those.",
+      "name": "Sheriff",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Mike and the Bank Guy stir awake.",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "Wh-what happened? Did we... win?",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Your goon's coming with me too.",
+      "name": "Sheriff",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You did good, kid. Real good. Your folks are waiting outside.",
+      "name": "Sheriff",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Player"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "11"
+    },
+    {
+      "type": "loadScene",
+      "name": "Garnet Square",
+      "entrance": "GarnetSquareBankEntrance"
+    }
+  ]
+}

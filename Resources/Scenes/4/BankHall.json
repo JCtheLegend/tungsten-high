@@ -1,0 +1,26 @@
+{
+  "Items": [
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 4, 4 ],
+      "type": "cutscene",
+      "name": "4.BankHallway.1"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 4, 4 ],
+      "type": "Bank Guy",
+      "name": "Bank Guy",
+      "location": "0,-6",
+      "facing": "up"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 4, 4 ],
+      "type": "Micycle",
+      "name": "Micycle",
+      "location": "-1.5,-8.5",
+      "facing": "up"
+    }
+  ]
+}

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMasterController : MonoBehaviour
+public class PlayerMasterController : SceneSingleton<PlayerMasterController>
 {
     [SerializeField] internal PlayerInputController input;
     [SerializeField] internal PlayerMovementController movement;

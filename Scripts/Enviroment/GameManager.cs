@@ -67,6 +67,47 @@ public enum direction { right, left, up, down, upRight, upLeft, downRight, downL
 
 public enum stage { pre, pr, gym, lunch, psych, sci, post, dream}
 
+// Display names for the `stage` enum -- the spelling cutscene JSON uses ("setStageCounter": "Psych")
+// and the one that appears in resource file names (Quizzes/Chapter1/5.Sci.json). Modelled on
+// Direction above: a plain helper next to the enum it describes.
+//
+// Name() is the single source of truth and TryParse() searches it, so the two directions cannot
+// drift apart the way two hand-written switches would.
+public class Stages
+{
+    public static string Name(stage s)
+    {
+        switch (s)
+        {
+            case stage.pre: return "Pre";
+            case stage.pr: return "PR";
+            case stage.gym: return "Gym";
+            case stage.lunch: return "Lunch";
+            case stage.psych: return "Psych";
+            case stage.sci: return "Sci";
+            case stage.post: return "Post";
+            case stage.dream: return "Dream";
+            default: return "Pre";
+        }
+    }
+
+    // False on an unrecognised name, leaving result at stage.pre, so callers can report the typo
+    // rather than silently running the wrong class.
+    public static bool TryParse(string s, out stage result)
+    {
+        foreach (stage candidate in System.Enum.GetValues(typeof(stage)))
+        {
+            if (Name(candidate) == s)
+            {
+                result = candidate;
+                return true;
+            }
+        }
+        result = stage.pre;
+        return false;
+    }
+}
+
 public class Flags
 {
    public bool hasPlanner = true;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MusicController : MonoBehaviour
+public class MusicController : SceneSingleton<MusicController>
 {
     internal AudioSource audioSource;
     private RoomManager room;

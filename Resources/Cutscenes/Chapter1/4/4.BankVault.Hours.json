@@ -1,0 +1,194 @@
+{
+  "Items": [
+    {
+      "type": "startBlack"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "0,-6"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "moveCamera",
+      "text": "0,-2",
+      "speed": 8,
+      "isContinue": true
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "playSound",
+      "name": "mic"
+    },
+    {
+      "type": "dialog",
+      "text": "This is the Garnet Police Department!",
+      "name": "Police",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "The building is surrounded!",
+      "name": "Police",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Release the hostages and come out with your hands up!",
+      "name": "Police",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Tch. Nobody's going anywhere.",
+      "name": "Goon",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Hours pass.",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "Nobody moves. The goon paces. Mike can't stop yawning.",
+      "isTyped": "false"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "playSound",
+      "name": "mic"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey... everybody in there. It's Sandy.",
+      "name": "Sandman",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Just relax, okay? Nobody has to do anything crazy.",
+      "name": "Sandman",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Take a deep breath... nice and slow...",
+      "name": "Sandman",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "dialog",
+      "text": "A fine, glittering dust drifts down from the air vent.",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "Everyone's eyelids start to feel heavy.",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "The goon slumps to the floor. He's out cold.",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "You're fading too... but a sleeping mind is a door you can walk through.",
+      "isTyped": "false"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Player"
+    },
+    {
+      "type": "moveSet",
+      "moveSet": [
+        {
+          "type": "move",
+          "name": "Player",
+          "direction": "left",
+          "speed": 2,
+          "text": "-4.5,-6"
+        },
+        {
+          "type": "move",
+          "name": "Player",
+          "direction": "up",
+          "speed": 2,
+          "text": "-4.5,0.5"
+        },
+        {
+          "type": "move",
+          "name": "Player",
+          "direction": "right",
+          "speed": 2,
+          "text": "-3.5,0.5"
+        }
+      ]
+    },
+    {
+      "type": "animate",
+      "name": "Dream Bubble",
+      "text": "dream_bubble_grow"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "right",
+      "speed": 2,
+      "text": "-1.5,0.5"
+    },
+    {
+      "type": "disable",
+      "name": "Player"
+    },
+    {
+      "type": "animate",
+      "name": "Dream Bubble",
+      "text": "dream_bubble_shrink"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "7"
+    },
+    {
+      "type": "loadScene",
+      "name": "DreamHubRight",
+      "entrance": "DreamHubRightLeft"
+    }
+  ]
+}

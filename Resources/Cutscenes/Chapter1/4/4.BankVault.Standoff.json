@@ -1,0 +1,221 @@
+{
+  "Items": [
+    {
+      "type": "startBlack"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "0,-6"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "moveCamera",
+      "text": "0,-2",
+      "speed": 8,
+      "isContinue": true
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "What's taking them so long?",
+      "name": "The Hole",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Those bags should've been out of the vault ages ago.",
+      "name": "The Hole",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Beats me, boss.",
+      "name": "Goon",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Stay out here and keep watch. I'm going in to check on them myself.",
+      "name": "The Hole",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "The Hole",
+      "direction": "up",
+      "speed": 3,
+      "text": "0,1.5"
+    },
+    {
+      "type": "fadeOut",
+      "name": "The Hole"
+    },
+    {
+      "type": "teleport",
+      "name": "The Hole",
+      "text": "0,100"
+    },
+    {
+      "type": "moveFace",
+      "name": "Goon",
+      "direction": "down"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey! FREEZE!",
+      "name": "Goon",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "The goon pulls out a gun.",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "Nobody moves. Nobody makes any trouble. Not while the job's going on.",
+      "name": "Goon",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "O-okay! Okay! We're not moving!",
+      "name": "Micycle",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "P-please... nobody needs to get hurt.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "L-look, you want the vault open? Let the kid do it. He's a pro with that keypad.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "One... one... one... one... one... one...",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Heh. Sure, go ahead, kid. Knock yourself out.",
+      "name": "Goon",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "up",
+      "speed": 3,
+      "text": "0,-4.75"
+    },
+    {
+      "type": "playSound",
+      "name": "beep"
+    },
+    {
+      "type": "wait",
+      "text": "0.4"
+    },
+    {
+      "type": "playSound",
+      "name": "beep"
+    },
+    {
+      "type": "wait",
+      "text": "0.4"
+    },
+    {
+      "type": "playSound",
+      "name": "beep"
+    },
+    {
+      "type": "wait",
+      "text": "0.6"
+    },
+    {
+      "type": "dialog",
+      "text": "The keypad flashes red.",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "Hahaha! Nice try, kid.",
+      "name": "Goon",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I reset the code. Nobody knows the new one but me.",
+      "name": "Goon",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now get back over there with the others and sit tight.",
+      "name": "Goon",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "down",
+      "speed": 3,
+      "text": "0,-6"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "up"
+    },
+    {
+      "type": "dialog",
+      "text": "The goon didn't notice. The silent alarm has been sent.",
+      "isTyped": "false"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "cameraFollow",
+      "name": "Player"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "6"
+    },
+    {
+      "type": "loadScene",
+      "name": "Assets/Scenes/City Buildings/Bank Vault.unity"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "Items": [
+    {
+      "type": "startBlack"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "hide",
+      "name": "The Hole"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "-3.5,0.5"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "right"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "You open your eyes. You're back in the vault room.",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "Everyone else is still fast asleep.",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "The goon's code is still fresh in your mind: 287128.",
+      "isTyped": "false"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

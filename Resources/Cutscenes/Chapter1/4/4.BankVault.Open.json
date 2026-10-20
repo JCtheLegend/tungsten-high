@@ -1,0 +1,75 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "animate",
+      "name": "Bank Vault",
+      "text": "vault_open",
+      "isContinue": "false"
+    },
+    {
+      "type": "unhide",
+      "name": "The Hole"
+    },
+    {
+      "type": "move",
+      "name": "Player",
+      "direction": "left",
+      "speed": 3,
+      "text": "2,0.5"
+    },
+    {
+      "type": "dialog",
+      "text": "Finally! What took you guys so— ...wait. You're not my goons.",
+      "name": "The Hole",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Where'd everybody go? Where's the MONEY?",
+      "name": "The Hole",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "The letters said the bags would come right back out through me. They said I'd get my cut!",
+      "name": "The Hole",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Not A Hole, I'm THE Hole! Supervillain of getting into even the most restricted spaces.",
+      "name": "The Hole",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I can make myself the hole in any wall... as long as it's not thicker than me. Which this vault is.",
+      "name": "The Hole",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "So if I'm stuck in here, kid, you're stuck in here with me!",
+      "name": "The Hole",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "9"
+    },
+    {
+      "type": "loadScene",
+      "name": "Assets/Scenes/Fights/Bank Vault.unity"
+    }
+  ]
+}

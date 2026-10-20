@@ -1,0 +1,107 @@
+{
+  "Items": [
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 5, 5 ],
+      "type": "cutscene",
+      "name": "4.BankVault.Standoff"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 6, 6 ],
+      "type": "cutscene",
+      "name": "4.BankVault.Hours"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 8, 8 ],
+      "type": "cutscene",
+      "name": "4.BankVault.Wake"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 10, 10 ],
+      "type": "cutscene",
+      "name": "4.BankVault.Arrest"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 8, 8 ],
+      "type": "VaultCode",
+      "name": "Enter",
+      "code": "287128",
+      "fileName": "4.BankVault.Open"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 5, 5 ],
+      "type": "Character",
+      "name": "The Hole",
+      "location": "1,0.5",
+      "facing": "left"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 8, 8 ],
+      "type": "Character",
+      "name": "The Hole",
+      "location": "0,1.5",
+      "facing": "down"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 10, 10 ],
+      "type": "Character",
+      "name": "The Hole",
+      "location": "0,1.5",
+      "facing": "down"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 5, 5 ],
+      "type": "Character",
+      "name": "Goon",
+      "location": "-1.5,0.5",
+      "facing": "right"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 6, 10 ],
+      "type": "Character",
+      "name": "Goon",
+      "location": "-1.5,0.5",
+      "facing": "down"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 6, 6 ],
+      "type": "Dream Bubble",
+      "name": "Dream Bubble",
+      "location": "-1.5,0.5"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 10, 10 ],
+      "type": "Character",
+      "name": "Sheriff",
+      "location": "0,-6.5",
+      "facing": "up"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 5, 10 ],
+      "type": "Bank Guy",
+      "name": "Bank Guy",
+      "location": "-1.5,-5.5",
+      "facing": "up"
+    },
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 5, 10 ],
+      "type": "Micycle",
+      "name": "Micycle",
+      "location": "1.5,-5.5",
+      "facing": "up"
+    }
+  ]
+}

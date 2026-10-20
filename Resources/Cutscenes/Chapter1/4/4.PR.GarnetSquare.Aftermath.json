@@ -1,0 +1,121 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "down"
+    },
+    {
+      "type": "dialog",
+      "text": "Oh, thank goodness! Are you hurt? Let me look at you!",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Easy, honey. He's alright. Aren't ya, son?",
+      "name": "Dad",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "The Sheriff told us everything. You kept your head in there, <Name>.",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "That was very brave.",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "And very dangerous. That's the side of hero work we can't teach in a classroom.",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "A town assignment was never supposed to end in a hostage situation. I'm so sorry.",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Hey, kid. Sorry about the dust. Figured you'd know what to do with a room full of sleeping people.",
+      "name": "Sandman",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "But... the vault was empty. Every last bag, gone.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "And The Hole didn't have a single coin on him.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Then where did the money go?",
+      "name": "Ms Nice",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "...That is a very good question.",
+      "name": "Principal Fi",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "You know, when you got into Tungsten High, I wasn't sure about all this superhero business.",
+      "name": "Dad",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "But you're growing up. We know being a hero comes with days like this.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "We're proud of you, son.",
+      "name": "Dad",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Now let's get you home. You've had a big day.",
+      "name": "Mom",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setStageCounter",
+      "text": "Post"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "1"
+    },
+    {
+      "type": "loadScene",
+      "name": "Home Front"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Science of Superpowers",
+  "subtitle": "Pop Quiz",
+  "speaker": "Ms Sparks",
+  "song": "School",
+  "secondsPerQuestion": 12,
+  "pointsPerQuestion": 100,
+  "speedBonus": 75,
+  "passPercent": 70,
+
+  "intro": [
+    "Surprise. Everything from this week, right now.",
+    "Twelve seconds a question. I did warn you on Monday."
+  ],
+
+  "questions": [
+    {
+      "prompt": "In the cell model from Monday's lab,\nwhat does a laser actually do to a cell?",
+      "options": [
+        "Destroys it",
+        "Changes what it can do",
+        "Moves it across the room",
+        "Nothing at all"
+      ],
+      "answer": 1,
+      "explainRight": "Correct. The beam changes its state, it doesn't break it.",
+      "explainWrong": "It changes what the cell can do. That's the whole point of the lab."
+    },
+    {
+      "prompt": "A strength-boosted cell pushes a block into a wall.\nWhat happens?",
+      "options": [
+        "The block passes through",
+        "The wall gives way",
+        "The block stops at the wall",
+        "The cell loses its boost"
+      ],
+      "answer": 2,
+      "explainRight": "Right. A boost is not an excuse to ignore a wall.",
+      "explainWrong": "The block stops. Strength doesn't make a wall optional."
+    },
+    {
+      "prompt": "A prism is in the path of a beam.\nWhat comes out the other side?",
+      "options": [
+        "Nothing; it absorbs the beam",
+        "The same beam, redirected",
+        "The beam, but weaker",
+        "Two beams of a new colour"
+      ],
+      "answer": 1,
+      "explainRight": "Yes. Same beam, new heading.",
+      "explainWrong": "It redirects the beam. Same beam, different direction."
+    },
+    {
+      "prompt": "Why does a boosted state wear off\ninstead of lasting forever?",
+      "options": [
+        "The cell runs out of the energy holding it",
+        "It doesn't; it is permanent",
+        "Only if the cell is hit again",
+        "It lasts until the end of the lesson"
+      ],
+      "answer": 0,
+      "explainRight": "Correct. Nothing holds a borrowed state for free.",
+      "explainWrong": "It costs energy to hold, and the energy runs out.",
+      "seconds": 16
+    },
+    {
+      "prompt": "What is the safest way to test an unfamiliar power?",
+      "options": [
+        "In a crowd, so there is help nearby",
+        "Alone, with nobody watching",
+        "In a controlled lab, with a reset to hand",
+        "Never test it at all"
+      ],
+      "answer": 2,
+      "explainRight": "Exactly. Control the room and you can afford a mistake.",
+      "explainWrong": "In a lab, where you can reset. That's why we have the labs."
+    },
+    {
+      "prompt": "Two powers meet and cancel out.\nWhat does that tell you?",
+      "options": [
+        "One of them was fake",
+        "They act on the same thing in opposite ways",
+        "Both are now gone forever",
+        "Nothing; it's random"
+      ],
+      "answer": 1,
+      "explainRight": "Good. Cancelling means they share a mechanism.",
+      "explainWrong": "They work on the same thing, pulling opposite ways."
+    }
+  ],
+
+  "outro": [
+    "Papers in. I'll have these back to you Monday.",
+    "Enjoy your weekend. Some of you have reading to do."
+  ],
+
+  "conditionOnPass": "sciQuizPassed",
+  "conditionOnFail": "sciQuizFailed",
+
+  "nextScene": "ScienceClassroom",
+  "sceneCounterOnFinish": 1
+}

@@ -1,0 +1,52 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "hideBars",
+      "bars": ""
+    },
+    {
+      "type": "dialog",
+      "text": "The Hole staggers back against the vault wall.",
+      "isTyped": "false"
+    },
+    {
+      "type": "playSound",
+      "name": "teleport"
+    },
+    {
+      "type": "dialog",
+      "text": "All around the vault, the money bags shimmer... and fold away into nothing.",
+      "isTyped": "false"
+    },
+    {
+      "type": "dialog",
+      "text": "Wha— Hey! HEY! Where's it going?!",
+      "name": "The Hole",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "That wasn't me! I didn't do that!",
+      "name": "The Hole",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "10"
+    },
+    {
+      "type": "loadScene",
+      "name": "Assets/Scenes/City Buildings/Bank Vault.unity"
+    }
+  ]
+}

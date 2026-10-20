@@ -7,7 +7,7 @@ using UnityEngine.Playables;
 using UnityEngine.UI;
 using Cinemachine;
 
-public class CutsceneManager : MonoBehaviour
+public class CutsceneManager : SceneSingleton<CutsceneManager>
 {
     PlayerMasterController player;
     GridMover gridPlayer;
@@ -591,35 +591,14 @@ public class CutsceneManager : MonoBehaviour
 
     void SetStageCounter(string s)
     {
-        switch (s)
+        stage parsed;
+        if (Stages.TryParse(s, out parsed))
         {
-            case "Pre":
-                GameManager.stageCounter = stage.pre;
-                break;
-            case "PR":
-                GameManager.stageCounter = stage.pr;
-                break;
-            case "Gym":
-                GameManager.stageCounter = stage.gym;
-                break;
-            case "Lunch":
-                GameManager.stageCounter = stage.lunch;
-                break;
-            case "Psych":
-                GameManager.stageCounter = stage.psych;
-                break;
-            case "Sci":
-                GameManager.stageCounter = stage.sci;
-                break;
-            case "Post":
-                GameManager.stageCounter = stage.post;
-                break;
-            case "Dream":
-                GameManager.stageCounter = stage.dream;
-                break;
-            default:
-                Debug.LogError("invalid stage");
-                break;
+            GameManager.stageCounter = parsed;
+        }
+        else
+        {
+            Debug.LogError("invalid stage");
         }
         GameManager.sceneCounter = 0;
     }

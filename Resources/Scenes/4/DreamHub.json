@@ -1,0 +1,10 @@
+{
+  "Items": [
+    {
+      "validStages": [ 1, 1 ],
+      "validScenes": [ 7, 7 ],
+      "type": "cutscene",
+      "name": "4.GoonMind.Placeholder"
+    }
+  ]
+}

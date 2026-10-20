@@ -1,0 +1,136 @@
+{
+  "title": "Public Relations",
+  "subtitle": "Pop Quiz",
+  "speaker": "Ms Nice",
+  "song": "School",
+  "secondsPerQuestion": 15,
+  "pointsPerQuestion": 100,
+  "speedBonus": 50,
+  "passPercent": 60,
+
+  "intro": [
+    "Books away, everyone. Yes, that means you.",
+    "Four answers, one clock. Let's see if anybody was listening."
+  ],
+
+  "tutorial": [
+    {
+      "trigger": "intro",
+      "lines": [
+        "First quiz of the year, so let me walk you through it.",
+        "I'll put a question up with four answers underneath it."
+      ],
+      "highlight": "options"
+    },
+    {
+      "trigger": "beforeQuestion",
+      "questionIndex": 0,
+      "lines": [
+        "Use the arrow keys to move between the four answers.",
+        "When you're happy with one, press Z to lock it in."
+      ],
+      "highlight": "options"
+    },
+    {
+      "trigger": "beforeQuestion",
+      "questionIndex": 1,
+      "lines": [
+        "See that bar? That's your clock.",
+        "Answer fast and you'll score more than someone who dithers.",
+        "Let it run out and I'll mark it wrong, so guess rather than freeze."
+      ],
+      "highlight": "timer"
+    },
+    {
+      "trigger": "afterAnswer",
+      "questionIndex": 1,
+      "lines": [
+        "Your running score is up in the corner.",
+        "That's the whole game. Off you go."
+      ],
+      "highlight": "score"
+    },
+    {
+      "trigger": "beforeResults",
+      "lines": [
+        "Pencils down. Let's see the damage."
+      ]
+    }
+  ],
+
+  "questions": [
+    {
+      "prompt": "A hero lands a rescue on live television.\nWhat is the FIRST thing they should do?",
+      "options": [
+        "Check the civilians are unhurt",
+        "Find the nearest camera",
+        "Give a statement to the press",
+        "Leave before anyone asks questions"
+      ],
+      "answer": 0,
+      "explainRight": "Correct. The rescue is the job. The cameras can wait.",
+      "explainWrong": "The people you just saved come first. Always."
+    },
+    {
+      "prompt": "Public Relations is best described as...",
+      "options": [
+        "Learning to fight in front of a crowd",
+        "Managing how the public sees a hero",
+        "Choosing a costume colour",
+        "Filing paperwork after a fight"
+      ],
+      "answer": 1,
+      "explainRight": "Exactly. Your reputation is a power like any other.",
+      "explainWrong": "It's about how the public sees you. That's the whole subject."
+    },
+    {
+      "prompt": "A hero causes property damage stopping a robbery.\nWhat is the right move?",
+      "options": [
+        "Say nothing and hope it blows over",
+        "Blame the villain for all of it",
+        "Report the damage and help make it right",
+        "Insist the damage never happened"
+      ],
+      "answer": 2,
+      "explainRight": "Right. Owning it costs less than being caught hiding it.",
+      "explainWrong": "Own the damage. A cover-up always costs more than the repair.",
+      "seconds": 20
+    },
+    {
+      "prompt": "Why does Tungsten High teach PR at all?",
+      "options": [
+        "Heroism is a public, watched profession",
+        "It's an easy credit",
+        "The school needs the funding",
+        "It replaces combat training"
+      ],
+      "answer": 0,
+      "explainRight": "Yes. Everything you do out there is watched by somebody.",
+      "explainWrong": "Because the work is public. Someone is always watching."
+    },
+    {
+      "prompt": "Your friend's power fails badly in front of a crowd.\nWhat do you do?",
+      "options": [
+        "Pretend you don't know them",
+        "Laugh along with the crowd",
+        "Post about it first",
+        "Stand with them and move the crowd on"
+      ],
+      "answer": 3,
+      "explainRight": "Good. You'll want the same from them one day.",
+      "explainWrong": "You stand with them. That's the answer I was looking for."
+    }
+  ],
+
+  "outro": [
+    "There. That wasn't so bad, was it?"
+  ],
+
+  "conditionOnPass": "prQuizPassed",
+  "conditionOnFail": "prQuizFailed",
+  "rewardItem": "Quarter",
+  "rewardAmount": 1,
+
+  "nextScene": "Classroom",
+  "sceneCounterOnFinish": 1
+}
