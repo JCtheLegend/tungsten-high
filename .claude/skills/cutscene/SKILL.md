@@ -258,4 +258,5 @@ day / stage index / scene counter; omit one to mean "always". The alternatives a
       cutscene registered with a matching `valid*` window), and the scene is in Build Settings.
 - [ ] The trigger exists in the scene JSON with the right `valid*` window.
 - [ ] `validate_cutscene.py` is clean.
+- [ ] `check_scene_refs.py` is clean for the scene files you touched (triggers name cutscenes that exist in that day's folder).
 - [ ] Story docs updated if the beat is new.
