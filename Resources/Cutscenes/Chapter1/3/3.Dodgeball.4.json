@@ -75,7 +75,7 @@
       "name": "Grid Player"
     },
     {
-      "type": "enableScripts",
+      "type": "enableComponents",
       "name": "Jumper Dodgeball"
     },
     {

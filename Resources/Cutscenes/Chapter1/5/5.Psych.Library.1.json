@@ -6,13 +6,11 @@
     {
       "type": "dialog",
       "text": "It looks like Bubba is sleeping. Bobby's notebook is underneath him.",
-      "name": "Gym Teacher",
       "isTyped": "true"
     },
     {
       "type": "dialog",
       "text": "There's an opened envelope laying on his face. It looks a little wet.",
-      "name": "Gym Teacher",
       "isTyped": "true"
     },
     {
@@ -42,7 +40,6 @@
     {
       "type": "dialog",
       "text": "We encourage you to apply again next year, or pursue your education at another establishment.\"",
-      "name": "Gym Teacher",
       "isTyped": "true"
     },
     {

@@ -35,6 +35,7 @@ public class DialogPrinter : MonoBehaviour
     internal IEnumerator PrintText(CutsceneAction d)
     {
         textDone = false;
+        string text = GameManager.FillNames(d.text);
         if(d.name != null && d.name != "") {
             speakerSprite.enabled = true;
             speakerSprite.sprite = FindHead(d.name);
@@ -65,6 +66,7 @@ public class DialogPrinter : MonoBehaviour
                         case "Ram":
                         case "Stilts":
                         case "Cubert":
+                        case "The Hole":
                             minPitch = 0.25f;
                             maxPitch = 0.75f;
                             break;
@@ -100,7 +102,7 @@ public class DialogPrinter : MonoBehaviour
                             maxPitch = 1.75f;
                             break;
                     }
-                    StartCoroutine(TypeText(dialogLine, d.text, defaultDelay, d.name != null && d.name != ""));
+                    StartCoroutine(TypeText(dialogLine, text, defaultDelay, d.name != null && d.name != ""));
                     while (!textDone)
                     {
                         yield return new WaitForEndOfFrame();
@@ -108,19 +110,19 @@ public class DialogPrinter : MonoBehaviour
                 }
                 else
                 {
-                    DisplayText(dialogLine, d.text);
+                    DisplayText(dialogLine, text);
                     textDone = true;
                 }
                 break;
             case "choice":
-                DisplayText(choice1, d.choices[0]);
-                DisplayText(choice2, d.choices[1]);
+                DisplayText(choice1, GameManager.FillNames(d.choices[0]));
+                DisplayText(choice2, GameManager.FillNames(d.choices[1]));
                 textDone = true;
                 break;
             case "dialogAndChoice":
-                DisplayText(dialogLine, d.text);
-                DisplayText(choice1, d.choices[0]);
-                DisplayText(choice2, d.choices[1]);
+                DisplayText(dialogLine, text);
+                DisplayText(choice1, GameManager.FillNames(d.choices[0]));
+                DisplayText(choice2, GameManager.FillNames(d.choices[1]));
                 textDone = true;
                 break;
         }

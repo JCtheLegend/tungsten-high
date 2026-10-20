@@ -9,7 +9,8 @@
 ## One-liner
 
 Tungsten High's principal, who lives the life cycle of a phoenix: reborn at midnight and aging throughout
-the day. Slim's side tries to steal her at the Chapter 3 school dance.
+the day, her personality changing with her age. An ally, caretaker, and friend to the player. Slim's side tries to
+steal her at the Chapter 3 school dance.
 
 ## Powers / abilities
 
@@ -25,9 +26,20 @@ the day. Slim's side tries to steal her at the Chapter 3 school dance.
 
 ## Personality
 
+Her personality **changes as she ages through the day**:
+
+| Time of day | Age | Personality |
+|---|---|---|
+| Early morning | Small child | Likes to **learn and play**. |
+| Late morning | Teenager | **Impulsive and moody**. Students rarely see her in this stage: she's more **self-conscious**, and knows she **can't form attachments to the students**. |
+| Afternoon | Grown woman | **Professional**; she sheds the drama of her teenage self. |
+| Evening | Old woman | **Kind and wise**, a grandmotherly type. |
+
+- **In the Dream World:** her personality is that of her **teenage** stage. Her subconscious **wants to make a
+  connection with the player**, but knows that **nothing can happen in the real world**.
 - **Wants:** [TBD]
 - **Fears / flaws:** [TBD]
-- **Voice:** [TBD]
+- **Voice:** [TBD] (shifts with her age; see the table)
 
 ## Backstory
 
@@ -35,7 +47,8 @@ the day. Slim's side tries to steal her at the Chapter 3 school dance.
 
 ## Relationships
 
-- **To the player:** [TBD]
+- **To the player:** an **ally, caretaker, and friend**; the relationship **changes as she ages** through the day. Her
+  dream self (teenage) wants a connection with him that can't happen in the real world.
 - **To others:** [Sparks](Sparks.md) (tells her what the envelope means in Ch.3)
 
 ## Role in the plot
@@ -48,10 +61,9 @@ the day. Slim's side tries to steal her at the Chapter 3 school dance.
 
 | Chapter | Where / what they do | Status |
 |---|---|---|
-| 1 | **Day 1 · Sci:** the assembly. **Day 5 (midday, as an adult):** Mark visits her office; her character introduction.  [TBD] | ☐ |
+| 1 | **Day 1 · Sci:** the assembly. **Day 5 (midday, as an adult):** her character introduction. She **debriefs Mark** on the Day 4 bank heist in her office: praises him, warns that **hero work is dangerous, even for those with simple powers**, and tells him **working with others keeps you safer and makes victory easier**, encouraging him to **make friends**. | ✍️ |
 | 3 | **School dance:** the attempted kidnapping at her midnight rebirth; Sparks tells her what the envelope means. | ☐ |
 
 ## Notes / open questions
 
-- Ally, obstacle, or compromised?
 - How is the kidnapping foiled?

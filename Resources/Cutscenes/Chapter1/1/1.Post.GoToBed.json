@@ -143,12 +143,8 @@
       "name": "Dream Bed"
     },
     {
-      "type": "setGameCounter",
-      "text": "20"
-    },
-    {
       "type": "setStageCounter",
-      "text": 7
+      "text": "Dream"
     },
     {
       "type": "setSceneCounter",

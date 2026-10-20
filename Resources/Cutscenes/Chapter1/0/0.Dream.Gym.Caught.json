@@ -115,7 +115,7 @@
     },
     {
       "type": "setStageCounter",
-      "text": "0"
+      "text": "Pre"
     },
     {
       "type": "setDayCounter",

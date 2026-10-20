@@ -19,7 +19,7 @@ Sticky       Stilts       Wally        Young Sparks
 ```
 
 Speakers used in Chapter 1 with **no** portrait on the sheet — they show an empty slot today, so
-either add a head or reuse an existing character: `Bank Guy`, `Banker`, `Norbert`, `Cart Man`.
+either add a head or reuse an existing character: `Bank Guy`, `Banker`, `Norbert`, `Cart Man`, `The Hole` (his Day 3 disguise; needs a head).
 
 **No `name` = narration or the player's own thoughts.** The player has no portrait; his voice is
 unattributed text. This is the most common `dialog` form in the game.
@@ -29,7 +29,7 @@ unattributed text. This is the most common `dialog` form in the game.
 `DialogPrinter` picks the typing beep's pitch from the speaker name. A name in none of these lists
 keeps whatever band the previous speaker set, so give new recurring characters a band.
 
-- **Low** — Dad, Gym Teacher, Jumper, Bubba, Nimbus, Micycle, Moe, Maven, Sticky, Sandman, George, Ram, Stilts, Cubert
+- **Low** — Dad, Gym Teacher, Jumper, Bubba, Nimbus, Micycle, Moe, Maven, Sticky, Sandman, George, Ram, Stilts, Cubert, The Hole
 - **Mid** — Mom, Slicky, Ms Nice, Ms Sparks, Laser Boy, Mirror, Principal Fi, Old Fi, Kitchenette, Freshy, Marcy, Seer, Seagull, Handstand, Paperboy, Wally, Regina, Friend
 - **High** — Bloom, Kid Fi, Songbird, Dreamy, Puddle, Young Sparks, Ivy
 

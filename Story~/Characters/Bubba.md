@@ -24,7 +24,7 @@ Slim upgrade him to help kidnap Tungsten High.
 
 ## Personality
 
-- **Wants:** To be accepted into a better school, **Platinum Prep**, where his **brother** got in.
+- **Wants:** To be accepted into a better school, **Platinum Prep**, where his **brother** got in, and to **play Dodgeball there**.
 - **Fears / flaws:** **Jealous of and resentful toward his brother.** Resents weaker superheroes and bullies them. Fears being seen as associated with them
   at the school.
 - **Voice:** [TBD]
@@ -35,7 +35,7 @@ His **brother was accepted into Platinum Prep**; Bubba is jealous and resentful,
 
 ## Relationships
 
-- **To the player:** Bully / rival.
+- **To the player:** Bully / rival; also his teammate on the **Dodgeball team**, where he **stays even after joining Slim**; Tungsten High plays the rivals at Platinum Prep `[TBD: which chapter]`.
 - **To others:** Bullies [Laser Boy](Laser%20Boy.md) (teases him as "Cat Toy") · works with [Slim](Slim.md) · his ally **Glowstick** · his brother (at Platinum Prep) `[TBD: name]`
 
 ## Role in the plot

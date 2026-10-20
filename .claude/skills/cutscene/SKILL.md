@@ -84,7 +84,7 @@ leave that flag false forever — the game does not error, it just stops.
 - **Only a subset of verbs works inside `moveSet`** (`move`, `teleport`, `wait`, `moveFace`,
   `animate`, `hide`/`unhide`, `disable`, `enable/disableCollider`, `goto`). Anything else is
   treated as a move and throws.
-- **`loadScene` takes `name`, not `text`.** (`Common/Example.json` is stale on this point.)
+- **`loadScene` takes `name`, not `text`.** (`Common/Example.json` used to get this wrong; fixed 2026-10-20.)
 
 ## File hygiene
 
@@ -135,7 +135,9 @@ validator — it walks the control flow and reports targets that no longer land 
   This is how the player "speaks"; he has no portrait of his own. 146 lines in Chapter 1 do this.
 - `isTyped: "true"` types the line out with the voice beep — use it for spoken dialog.
   `"false"` snaps the whole line up at once, for narration, signs and choice prompts.
-- `<Name>` inside `text` is the player-name placeholder used by existing files.
+- Name placeholders in `text` (and choices) are filled in when the line prints (`GameManager.FillNames`):
+  `<Name>` is the player's name ("Mark"), `<HeroName>` the hero name he picks on Day 5 (`chooseHeroName`;
+  before that it falls back to his name).
 - One thought per box; the box is small. Break long speeches into several `dialog` actions.
 - Choices are **always exactly two** — `choice1`/`choice2` are all the box has:
 
@@ -256,4 +258,5 @@ day / stage index / scene counter; omit one to mean "always". The alternatives a
       cutscene registered with a matching `valid*` window), and the scene is in Build Settings.
 - [ ] The trigger exists in the scene JSON with the right `valid*` window.
 - [ ] `validate_cutscene.py` is clean.
+- [ ] `check_scene_refs.py` is clean for the scene files you touched (triggers name cutscenes that exist in that day's folder).
 - [ ] Story docs updated if the beat is new.

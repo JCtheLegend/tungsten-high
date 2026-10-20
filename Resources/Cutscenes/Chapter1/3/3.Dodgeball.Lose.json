@@ -29,11 +29,15 @@
     },
     {
       "type": "setStageCounter",
-      "text": 7
+      "text": "Post"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "1"
     },
     {
       "type": "loadScene",
-      "name": "Gym"
+      "name": "School Front"
     },
     {
       "type": "closeDialog"

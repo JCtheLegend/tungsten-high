@@ -144,7 +144,7 @@ The dream-walking / walk-into-people gift is both a tool and a source of danger.
   Mind's Hollow (Bad Area). On Day 1, the day he meets new people and learns to talk to strangers, he faces a **fear of
   talking to strangers** (not paralyzing, just one most people have). It manifests as the **Crab** (a childhood
   memory of getting pinched on the beach) and the **Dream Stranger** (just one form of Fear). On Day 1 he only
-  **escapes** the Stranger; *tentatively*, he confronts that fear in a new Day 3 dream. **Fantasy**, ruler of the Halcyon, is the pull of the life that could have been (Ch.3).
+  **escapes** the Stranger; on **Day 3** Fear chases him through a dream of a **warped town**; he tries to fight it, but Fear taunts that this isn't something he can punch his way out of. On **Day 4**, in a new dream that night, he **stands up to Fear by talking** to it, which gives him **the ability to make friends**. The Day 1 **Fear swirl** is **Fear himself**; his true form is a ghastly, shadowy monster. **Fantasy**, ruler of the Halcyon, is the pull of the life that could have been (Ch.3): a **giant fairy**, tempting and deceptive, who makes promises and minimizes the sacrifice and hard work fulfillment takes.
 - **Slim in the Dream World** — the player can **see Slim moving around the Dream World** `[TBD: from which chapter]`.
   *Tentative, not locked:* he uses it to find out which students are most susceptible to coming over to his side,
   and perhaps recruits Sandman and Bubba there. The final boss fight has a Dream World part (inside his mind).
@@ -163,8 +163,8 @@ The player "makes friends." The cafeteria (15 tables), clubs, and Dodgeball are 
     the Snow Ball**, the winter dance (Ch.3, around Christmas); first Mark has to **move on from his ex-girlfriend**, home
     from college with his old friends. In **Ch.2** they get **detention** together and have to go into the **sewers**, where they
     fight a **giant Venus flytrap** (the Janitor's science project; callback to the Day 0 dream). `[TBD: why detention]`
-- **Dodgeball team** as a bonding throughline across chapters. `[TBD]`
-- **Clubs** (Hero, Dodgeball) as opt-in relationship/plot hooks. `[TBD]`
+- **Dodgeball team** as a bonding throughline across chapters. Mark's teammates: [Micycle](Characters/Micycle.md) (Mike), Sticky, Slicky, **Jumper**, [Nimbus](Characters/Nimbus.md), **Puddle** and [Bubba](Characters/Bubba.md). Practices and events are **after school**; the team plays **matches against other superhero schools**, including the **rivals at Platinum Prep**. The dodgeball-throwing "combat" system is also used in **fights with enemies**. Bubba **wanted to be a Dodgeball player at Platinum Prep**, and **stays on the team** even after joining Slim.
+- **Clubs:** the Day 1 club signup is being rewritten: instead of a free choice of Hero / Dodgeball / Costume, after the Day 1 assembly, [Nimbus](Characters/Nimbus.md) and **Jumper** **recruit Mark to try out for Dodgeball**. Day 3 is the Dodgeball tutorial (a practice match against teammates); tryouts still happen on Day 5, and Mark always makes the team.
 
 ## F. Rivals & enemies
 
@@ -185,7 +185,7 @@ Keep every promise. When you plant something, add a row; when it pays off, mark 
 | # | Setup (where planted) | Payoff (where resolved) | Status |
 |---|---|---|---|
 | 1 | Ch.1 · Day 0 · Dream — flashback of Slim & Marcy discussing the upgrade-machine prototype | A later chapter reveals the flashbacks come from the [Janitor](Characters/Janitor.md) `[TBD: which]`; Slim revealed in **Ch.3** (the attempted principal kidnapping) | ☐ |
-| 2 | Ch.1 · Day 4 · Bank — the vault money vanishes, turned into another dimension | Funds Slim's work on the machine, the goons he hires, and his plan in later chapters `[TBD: where it shows on screen]` | ☐ |
+| 2 | Ch.1 · Day 4 · Bank — the vault money vanishes, turned into another dimension | Funds Slim's work on the machine, the goons he hires, and his plan in later chapters. Only **implied** later on, never shown explicitly. | ✍️ |
 | 7 | Ch.1 — The Hole is guided by letters slipped in from a lower dimension; the player may notice they match Sparks' envelope. The jailed goon tells the player his boss only ever communicated by envelope. | `[TBD]` (Slim revealed Ch.3) | ☐ |
 | 8 | Ch.1 · Day 4 — The Hole is put in **power-cancelling handcuffs**, invented by [Anti Hero](Characters/Anti%20Hero.md) | Anti Hero is the villain of **Ch.4** (the science fair), with a ray that permanently removes powers | ☐ |
 | 3 | Ch.1 · Day 5 · after Dodgeball tryouts — Sparks, cleaning her room after class, finds an **empty** envelope (Slim's taunt: he's back); Sparks is shocked and frightened but won't say why | Sparks tells the **principal** in **Ch.3** | ☐ |
@@ -196,6 +196,9 @@ Keep every promise. When you plant something, add a row; when it pays off, mark 
 | 10 | **Ch.4** — a special training session with the Gym/combat teacher (Mr. Brock) teaches the **Mystic Punch** | Ch.6 Day 4 — key to the rooftop fight with Slim | ☐ |
 | 12 | Ch.1 · Day 0 dream + flashbacks — the Janitor's science-fair project, a **Venus flytrap exposed to exotrons** that came alive, was thrown in the sewers | Ch.2 — **detention subplot**: the player and Bloom go into the sewers and fight it as a **giant Venus flytrap** | ☐ |
 | 13 | Ch.1 · Day 0 — the intro dream is secretly a flashback, played as the Janitor; later, a dream-walking indicator by the Janitor, who walks away | **Ch.4** — the reveal of who the Janitor is and what the flashbacks are | ☐ |
+| 14 | Ch.1 · Day 2 · PR — the **quarters** collected around Garnet Square | None: they exist so the player explores the square's buildings, and are handed to the Bank Guy to put in the vault (`2.PR.Bank.OpenVault`). No later payoff. | ✍️ |
+| 15 | Ch.1 · Day 5 · PR — the player **chooses a hero name** | The chosen name is **used in dialog later on** `[TBD: where]` (write `<HeroName>` in a dialog line; supported since 2026-10-20) | ☐ |
+| 16 | Ch.1 · Day 1 — after the assembly, Nimbus and Jumper recruit Mark to **try out for Dodgeball**; Day 3 tutorial; Day 5 he always makes the team | The Dodgeball team across the year: after-school matches against other superhero schools, including **Platinum Prep** `[TBD: which chapters]` | ☐ |
 | 11 | `[TBD: which chapter]` — a student who makes **dream potions** is introduced | Ch.6 Day 4 — Sandman uses a dream potion to give the students a taste of upgraded powers | ☐ |
 
 ## Open questions (decide these to unblock planning)
