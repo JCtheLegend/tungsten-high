@@ -31,15 +31,15 @@ fastest way (for a human or Claude) to see the whole cast at a glance.
 | [Anchorman](Anchorman.md)           | Flashback / Minor    | Local hero 20 yrs ago; killed the werewolf (Marcy); now retired in town | [TBD]            |
 | [Janitor](Janitor.md) (Ripley "Rip" Winkle) | Staff | Dream-walker who can sleepwalk at will; stuck remembering the day Marcy (his crush) died; the source of the flashbacks (player plays as him) | Day 0 · Dream (as himself 20 yrs ago, unrevealed) |
 | [Sheriff](Sheriff.md) | Minor | Garnet's town sheriff; arrests The Hole and the goon (power-cancelling cuffs) | Day 4 · Bank Vault |
-| [Nimbus](Nimbus.md) | Student (2nd year) | Shapeshifter who can turn into a cloud; introduced over the year; with Bubba, brings the school back down (Ch.6 Day 4) | [TBD] (introduced through the year) |
+| [Nimbus](Nimbus.md) | Student (2nd year) | Shapeshifter who can turn into a cloud; on the Dodgeball team (with Jumper, recruits Mark); with Bubba, brings the school back down (Ch.6 Day 4) | Day 1 · after the assembly |
 | Dream-potion student `[TBD: name]` | Student | Makes dreams for people in the form of potions; Sandman uses one in Ch.6 Day 4 | [TBD] |
 | Mr Wood                             | Faculty              | Teaches shapeshifting; the player can't shapeshift, so has no class with him. Very minor, kind of boring | Day 1 · Sci (assembly) |
 | Handstand                           | Student (2nd year)   | Perfect balance on her hands; an upperclassman who greets the new students and leads them to their first class | Day 1 · Pre |
 | Slow Moe ("Moe")                    | Student (1st year)   | Can move himself in slow motion                 | Day 3 · PR       |
 | Sticky                              | Student (1st year)   | Twin of Slicky. Sticks to any object; struggles to control it and gets stuck to things; Dodgeball team | Day 2 · Gym |
 | Slicky                              | Student (1st year)   | Twin of Sticky. Becomes frictionless; struggles to control it and slides into things; Dodgeball team | Day 2 · Gym |
-| Jumper                              | Student              | Dodgeball team. `[TBD]` | [TBD] |
-| Puddle                              | Student              | Dodgeball team. `[TBD]` | [TBD] |
+| Jumper                              | Student (upperclassman) | Can double jump in the air; athletic jock; Dodgeball team; with Nimbus, recruits Mark | Day 1 · after the assembly |
+| Puddle                              | Student (1st year)   | Girl who can turn into a puddle of water; Dodgeball team | [TBD] |
 | Norbert                             | Dream creature (somnus) | Lives in the player's mind; organizes his thoughts, memories, and feelings from the previous day into his subconscious. A **somnus** (plural **somni**), a species of creatures living in areas of the Dream World | Day 1 · Dream |
 | [The Hole](The Hole.md)             | Week 1 Villain       | Becomes a hole in objects (things pass through; he can exit either side); robs the bank, guided by Slim's letters | Week 1 Day 2     |
 

@@ -2,7 +2,7 @@
 
 **Role:** Ally
 **Status in story:** ✍️ drafting
-**First appears:** [TBD] (introduced over the course of the year)
+**First appears:** Ch.1 · Day 1 · after the assembly
 
 ## One-liner
 
@@ -37,16 +37,17 @@ back down to earth.
 ## Role in the plot
 
 - **Threads they touch:** [A. Central mystery](../PlotThreads.md#a-the-central-mystery--the-plot-to-kidnap-the-school)
-- **Arc across the 6 chapters:** Introduced gradually throughout the year `[TBD: where]` → **Ch.6 Day 4**,
+- **Arc across the 6 chapters:** Recruits Mark for Dodgeball (Ch.1 Day 1) and plays on the team through the year `[TBD: other beats]` → **Ch.6 Day 4**,
   helps Bubba bring the school back down to the ground.
 
 ## Appearances by chapter
 
 | Chapter | Where / what they do | Status |
 |---|---|---|
-| 1–5 | Introduced over the course of the year `[TBD: which chapters/scenes]` | ☐ |
+| 1 | **Day 1:** after the assembly, with **Jumper**, recruits Mark to try out for Dodgeball. On the Dodgeball team. | ✍️ |
+| 2–5 | On the Dodgeball team `[TBD: other beats]` | ☐ |
 | 6 | **Day 4:** with Bubba, brings the school back down to the ground. | ☐ |
 
 ## Notes / open questions
 
-- Where is Nimbus first introduced, and how do they recur through Chapters 1–5?
+- How does Nimbus recur through Chapters 2–5 beyond Dodgeball?

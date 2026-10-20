@@ -128,8 +128,8 @@ of the week (the player's, in Chapter 1, is the Bank). It's how the wider town g
 
 ### After-school life (`post`)
 
-- **Dodgeball** — an upperclassman talks the player into trying out on Day 1; he plays a **match on Day 3** and **tryouts on Day 5**
-  (he always makes the team) (with Win/Lose branches). Practices and events are after school; the team plays
+- **Dodgeball** — Nimbus and Jumper recruit the player after the Day 1 assembly; Day 3 is the **tutorial** (a practice match against
+  teammates) and Day 5 is **tryouts** (he always makes the team) (with Win/Lose branches). Practices and events are after school; the team plays
   **matches against other superhero schools**, including the rivals at **Platinum Prep**. Team: Mike, Sticky, Slicky, Jumper, Nimbus, Puddle and Bubba.
   The dodgeball-throwing "combat" system is also used in **fights with enemies**. Backed by the `Dodgeball/` scene scripts (`DodgeballMatchController`, etc.).
 - **Home life** — the player has a home he returns to, a Mom, Dad, and a **pet cat** (`Goblin`).

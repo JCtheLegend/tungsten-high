@@ -14,7 +14,7 @@ don't care about, or add your own.
 
 ### Tier 1 — Chapter 1 keystones
 
-- [ ] **Ch.6 follow-ups (remaining):** **Nimbus:** where they're first introduced and how they recur in Chs.1–5 (a natural Ch.2–5 question). Ch.6 Days 1–3 (exam week): nothing planned yet — ask again once Chs.2–5 take shape.
+- [ ] **Ch.6 follow-ups (remaining):** **Nimbus:** first appears Ch.1 Day 1 (Dodgeball recruiter); how they recur in Chs.2–5 beyond Dodgeball. Ch.6 Days 1–3 (exam week): nothing planned yet — ask again once Chs.2–5 take shape.
 - [ ] **Janitor (Rip Winkle) follow-ups:** did he and Marcy date; what are exotrons; the Ch.2 detention subplot with the Venus flytrap; how the Ch.4 reveal plays out.
 - [ ] **Sparks tells the principal (Ch.3):** what pushes her, how Principal Phoenix reacts. Which chapter (5 or 6) has the final Marcy revelation, and does it change how the player sees Slim?
 - [ ] **Dream-potion student:** name, power details, when they're introduced, and how Sandman gets the potion (willingly?).
@@ -45,7 +45,7 @@ don't care about, or add your own.
 ### Tier 4 — Chapter 1 setup → payoff
 
 - [ ] **Hero name:** which later scenes use it (who calls Mark by it: the newspaper, the Ch.6 commendations?). Needs dynamic dialog in code first.
-- [ ] **Dodgeball follow-ups:** who convinces Mark to try out (Sandy or another upperclassman); Jumper's and Puddle's powers and year; who captains; the Day 3 match comes before Day 5 tryouts, so who is it against and why does Mark play?; which chapters hold the school matches and the Platinum Prep game (does Bubba's brother play?); Bubba as a teammate after his Day 5 rejection.
+- [ ] **Dodgeball follow-ups:** who captains; which chapters hold the school matches and the Platinum Prep game (does Bubba's brother play for them?); what the Day 1 recruit pitch says; Jumper's and Puddle's personalities beyond the basics, and where Puddle first appears.
 
 ### Tier 5 — World rules
 
