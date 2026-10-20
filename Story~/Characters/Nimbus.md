@@ -32,7 +32,7 @@ back down to earth.
 ## Relationships
 
 - **To the player:** [TBD] (a second-year, an upperclassman)
-- **To others:** With [Bubba](Bubba.md), brings the school down in Ch.6.
+- **To others:** On the **Dodgeball team** with Mark. With [Bubba](Bubba.md), brings the school down in Ch.6.
 
 ## Role in the plot
 

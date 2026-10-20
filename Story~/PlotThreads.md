@@ -163,8 +163,8 @@ The player "makes friends." The cafeteria (15 tables), clubs, and Dodgeball are 
     the Snow Ball**, the winter dance (Ch.3, around Christmas); first Mark has to **move on from his ex-girlfriend**, home
     from college with his old friends. In **Ch.2** they get **detention** together and have to go into the **sewers**, where they
     fight a **giant Venus flytrap** (the Janitor's science project; callback to the Day 0 dream). `[TBD: why detention]`
-- **Dodgeball team** as a bonding throughline across chapters. `[TBD]`
-- **Clubs:** the Day 1 club signup is being rewritten so the player is **forced to join the Dodgeball team** (no free choice of Hero / Dodgeball / Costume).
+- **Dodgeball team** as a bonding throughline across chapters. Mark's teammates: [Micycle](Characters/Micycle.md) (Mike), Sticky, Slicky, **Jumper**, [Nimbus](Characters/Nimbus.md), **Puddle** and [Bubba](Characters/Bubba.md). Practices and events are **after school**; the team plays **matches against other superhero schools**, including the **rivals at Platinum Prep**. The dodgeball-throwing "combat" system is also used in **fights with enemies**.
+- **Clubs:** the Day 1 club signup is being rewritten: instead of a free choice of Hero / Dodgeball / Costume, an upperclassman (Sandy or another `[TBD]`) **convinces Mark to try out for Dodgeball**. Tryouts still happen (Day 5), and Mark always makes the team.
 
 ## F. Rivals & enemies
 
@@ -198,7 +198,7 @@ Keep every promise. When you plant something, add a row; when it pays off, mark 
 | 13 | Ch.1 · Day 0 — the intro dream is secretly a flashback, played as the Janitor; later, a dream-walking indicator by the Janitor, who walks away | **Ch.4** — the reveal of who the Janitor is and what the flashbacks are | ☐ |
 | 14 | Ch.1 · Day 2 · PR — the **quarters** collected around Garnet Square | None: they exist so the player explores the square's buildings, and are handed to the Bank Guy to put in the vault (`2.PR.Bank.OpenVault`). No later payoff. | ✍️ |
 | 15 | Ch.1 · Day 5 · PR — the player **chooses a hero name** | The chosen name is **used in dialog later on** `[TBD: where]` (needs dynamic dialog in the cutscene system) | ☐ |
-| 16 | Ch.1 · Day 1 · Post — the player is **made to join the Dodgeball team** | The Dodgeball team as a bonding throughline across the year `[TBD]` | ☐ |
+| 16 | Ch.1 · Day 1 — an upperclassman convinces Mark to **try out for Dodgeball**; Day 5 he always makes the team | The Dodgeball team across the year: after-school matches against other superhero schools, including **Platinum Prep** `[TBD: which chapters]` | ☐ |
 | 11 | `[TBD: which chapter]` — a student who makes **dream potions** is introduced | Ch.6 Day 4 — Sandman uses a dream potion to give the students a taste of upgraded powers | ☐ |
 
 ## Open questions (decide these to unblock planning)

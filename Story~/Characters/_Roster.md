@@ -36,8 +36,10 @@ fastest way (for a human or Claude) to see the whole cast at a glance.
 | Mr Wood                             | Faculty              | Teaches shapeshifting; the player can't shapeshift, so has no class with him. Very minor, kind of boring | Day 1 · Sci (assembly) |
 | Handstand                           | Student (2nd year)   | Perfect balance on her hands; an upperclassman who greets the new students and leads them to their first class | Day 1 · Pre |
 | Slow Moe ("Moe")                    | Student (1st year)   | Can move himself in slow motion                 | Day 3 · PR       |
-| Sticky                              | Student (1st year)   | Twin of Slicky. Sticks to any object; struggles to control it and gets stuck to things | Day 2 · Gym |
-| Slicky                              | Student (1st year)   | Twin of Sticky. Becomes frictionless; struggles to control it and slides into things | Day 2 · Gym |
+| Sticky                              | Student (1st year)   | Twin of Slicky. Sticks to any object; struggles to control it and gets stuck to things; Dodgeball team | Day 2 · Gym |
+| Slicky                              | Student (1st year)   | Twin of Sticky. Becomes frictionless; struggles to control it and slides into things; Dodgeball team | Day 2 · Gym |
+| Jumper                              | Student              | Dodgeball team. `[TBD]` | [TBD] |
+| Puddle                              | Student              | Dodgeball team. `[TBD]` | [TBD] |
 | Norbert                             | Dream creature (somnus) | Lives in the player's mind; organizes his thoughts, memories, and feelings from the previous day into his subconscious. A **somnus** (plural **somni**), a species of creatures living in areas of the Dream World | Day 1 · Dream |
 | [The Hole](The Hole.md)             | Week 1 Villain       | Becomes a hole in objects (things pass through; he can exit either side); robs the bank, guided by Slim's letters | Week 1 Day 2     |
 

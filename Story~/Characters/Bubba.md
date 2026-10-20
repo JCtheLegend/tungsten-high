@@ -35,7 +35,7 @@ His **brother was accepted into Platinum Prep**; Bubba is jealous and resentful,
 
 ## Relationships
 
-- **To the player:** Bully / rival.
+- **To the player:** Bully / rival; also his teammate on the **Dodgeball team**.
 - **To others:** Bullies [Laser Boy](Laser%20Boy.md) (teases him as "Cat Toy") · works with [Slim](Slim.md) · his ally **Glowstick** · his brother (at Platinum Prep) `[TBD: name]`
 
 ## Role in the plot

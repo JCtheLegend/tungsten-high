@@ -35,7 +35,7 @@ at Tungsten High, and his PR partner for Week 1.
 
 - **To the player:** Friend; the player's **PR partner for Week 1**. They **bond after the events of Week 1**. One of the
   **core group** (the player, Micycle, [Laser Boy](Laser%20Boy.md), [Bloom](Bloom.md)) all year.
-- **To others:** [TBD]
+- **To others:** On the **Dodgeball team** with Mark. [TBD]
 
 ## Role in the plot
 

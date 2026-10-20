@@ -45,7 +45,7 @@ don't care about, or add your own.
 ### Tier 4 — Chapter 1 setup → payoff
 
 - [ ] **Hero name:** which later scenes use it (who calls Mark by it: the newspaper, the Ch.6 commendations?). Needs dynamic dialog in code first.
-- [ ] **Dodgeball team:** who's on it with Mark, and what the forced join on Day 1 looks like (who makes him join, and why).
+- [ ] **Dodgeball follow-ups:** who convinces Mark to try out (Sandy or another upperclassman); Jumper's and Puddle's powers and year; who captains; the Day 3 match comes before Day 5 tryouts, so who is it against and why does Mark play?; which chapters hold the school matches and the Platinum Prep game (does Bubba's brother play?); Bubba as a teammate after his Day 5 rejection.
 
 ### Tier 5 — World rules
 
