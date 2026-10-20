@@ -1,131 +1,129 @@
-# Chapter 1 — Completion Schedule (target: October 1, 2026)
+# Chapter 1 — Build Backlog
 
-A weekly checklist to take Chapter 1 from "heavily built" to **done** by October. Check items off
-(`[x]`) as you go; if a week slips, pull its unfinished items into the next week rather than
-rescheduling everything. Built from the actual state of `Resources/Cutscenes/Chapter1/`,
-[Chapter-1.md](Chapters/Chapter-1.md), the [Roster](Characters/_Roster.md),
-[PlotThreads](PlotThreads.md), and [Worldbuilding](Worldbuilding.md) as of **July 29, 2026**.
+**Goal:** ship Chapter 1 as a finished product (the writer's first priority, set 2026-10-20). This replaces
+the old week-by-week schedule (target Oct 1, 2026), whose build weeks mostly never ran. Rebuilt on
+**2026-10-20** from [Chapter-1.md](Chapters/Chapter-1.md) (day tables + "Loose ends"), a validator run over all
+231 Chapter 1 cutscenes, and `Scripts/Cutscene/CutsceneManager.cs`. Target date: `[TBD]`.
+
+**Where each task can be done:**
+
+| Tag | Meaning |
+|---|---|
+| ✍️ **Story** | Needs the writer's decision first (a `/story-interview` question). |
+| 🌐 **Web** | Cutscene JSON or C# that a web session can write and validate (`python3 .claude/skills/cutscene/validate_cutscene.py <file>`), but **not playtest**. |
+| 🎮 **Editor** | Needs the Unity editor on the writer's PC: scenes, prefabs, sprites, `.meta` files, Build Settings, playtesting. |
+
+Most new scenes are 🌐 + 🎮: a web session writes the JSON, then the editor wires the trigger and playtests it.
+Tick items `[x]` as they're done; keep [Chapter-1.md](Chapters/Chapter-1.md)'s status column in step.
+
+> **Sync note:** the git repo looks **behind the writer's PC**. `Chapter-1.md` says the `*.Pysch.*` files were
+> renamed to `Psych` and that `Quizzes/Chapter1/2.PR.json` exists, but the repo still has `1/1.Pysch.PsychClass.1`,
+> `2/2.Pysch.1`, `2/2.Pysch.Placeholder`, `3/3.Pysch.1`, `5/5.Pysch.1`, and no `Quizzes/` folder.
+> **Commit and push the PC's game work** before web sessions start building, or they'll edit stale files.
 
 ## Definition of "Chapter 1 complete"
 
 - [ ] Every day (0–5) is playable **start to finish** from a fresh save — no dead ends, no placeholders.
-- [ ] All `[TBD]` class beats in Chapter-1.md are either written & built, or consciously cut.
-- [ ] The new story canon is **in the game**, not just in the docs (Bubba Day 5 battle, The Hole reveal, Sparks' letter, Slim's Day 0 presence).
-- [ ] All 8 set-pieces play correctly (punching bag, lawnmower, crab, fear, race+dummy, Bubba ×2, bank vault).
-- [ ] Day 5 ends on a hook into Chapter 2.
-- [ ] Story files (characters / plot threads / worldbuilding) are filled in for everything Chapter 1 touches.
-
-## Known content gaps (canon written, game content missing)
-
-These came from diffing your story docs against the cutscene JSON — they are the *new build work*,
-as opposed to polish of existing scenes:
-
-1. **Bubba Day 5 battle** — the summary says his transfer is denied and the player witnesses "the death
-   of his dream" after a battle on Day 5. Only `3.Lunch.BubbaFight` exists; **no Day 5 Bubba fight files**.
-2. **Slim on Day 0** — canon: Day 0 has a **flashback** of Slim talking with Marcy about their prototype
-   upgrade machine. No Day 0 cutscene has it yet. (The **Dream Stranger** is a manifestation of the player's Fear — decided.)
-3. **Sparks' letter** — "a letter appears out of thin air in Sparks' classroom" (the Ch.2 hook). No scene yet;
-   natural home is Day 5 `Sci` (currently just `5.Sci.End`).
-4. **The Hole reveal** — the vault money "mysteriously disappears, and The Hole wasn't working alone."
-   Confirm the Day 4 vault scenes actually land this beat.
-5. **Placeholder files** — `2.Psych.Placeholder.json`, `holder.json`, and the empty `[TBD]` class beats
-   (Day 3 Gym/Psych/Sci, Day 5 Gym/Sci).
+- [ ] Every Chapter 1 cutscene passes the validator (or its warnings are understood).
+- [ ] The story canon in [Chapter-1.md](Chapters/Chapter-1.md) is **in the game**, not just in the docs.
+- [ ] All set-pieces play correctly (punching bag, lawnmower, crab, Fear, race + dummy, Bubba ×2, goon's mind, The Hole, Day 5 spar).
+- [ ] Day 5 ends on the hook into Chapter 2 (the envelope, then the dreamless night).
+- [ ] A Windows build plays through clean (the build, not the editor).
 
 ---
 
-## Week 0 · Jul 29 – Aug 2 — Kickoff: play it, triage it
+## 0 · Story blockers (✍️ answer these first)
 
-Small week (3 days). Goal: know exactly what you have.
+Each one blocks a scene below. Ask them via `/story-interview`.
 
-- [ ] **Full playthrough of Days 0–5** as they exist (use `SceneLoader`'s debug counters to jump).
-      In Chapter-1.md, mark every scene ✅ (works), 🔨 (broken/rough), or ☐ (missing).
-- [ ] List every bug you hit in a `Bugs` section at the bottom of Chapter-1.md.
-- [x] Decide the week's **one big open question**: what is the Bank *really*, and how do The Hole,
-      Slim, and the letter connect? Write the answer into [PlotThreads §A](PlotThreads.md).
+- [ ] **Day 2 Psych:** the somni scene is decided; write its dialog (replaces `2.Pysch.Placeholder`).
+- [ ] **Day 2 Gym:** what the race + dummy fight is for (purpose is `[TBD]`).
+- [ ] **Day 3 Gym/Psych/Sci:** Psych's dream and its dream monsters (parked 2026-10-14); keep or cut the other class beats.
+- [ ] **Day 3 dream:** what the warped town looks like and what form Fear takes.
+- [ ] **Day 4 dream:** where it takes place; what Mark says to Fear.
+- [ ] **Day 1 recruit scene:** what Nimbus and Jumper say when they recruit Mark after the assembly.
+- [ ] **Day 5:** dialog for the principal's office debrief, the Sandy spar, Bubba's crumbling-dream fight, and Sparks' envelope scene (beats are decided; lines aren't).
+- [ ] **Sprites/looks:** what the Goon, The Hole, the Sheriff, the Bank Guy, Nimbus, Jumper and Puddle look like (for the 🎮 sprite work).
+- [ ] Anything not worth building: **cut it** and say so in Chapter-1.md.
 
-## Week 1 · Aug 3 – 9 — Story lock: villains & the mystery spine
+## 1 · Cross-cutting systems & cleanup
 
-Writing week. Lock the canon that every remaining scene depends on.
+- [ ] 🌐 **Stage-counter bug:** ~20 cutscenes call `setStageCounter` with a **number** (e.g. `"text": 6`), but
+      `CutsceneManager.SetStageCounter` only accepts stage names (`Pre`, `PR`, `Gym`, `Lunch`, `Psych`, `Sci`, `Post`,
+      `Dream`): a number logs "invalid stage", leaves the stage unchanged, and still resets the scene counter.
+      Files: `0.Dream.Gym.Caught`, `1.Dream.DreamStrangerEnd`, `1.Gym.GymClass.PostFight`, `1.PR.PRClass.2`, `1.Post.GoToBed`,
+      `1.Pre.SchoolOutside.3`, `1.Psych.PsychClass.4`, `1.Sci.Assembly` + `Bleacher2…7`, `3.Dodgeball.Win/Lose`,
+      `3.Lunch.Conflict`, `3.Lunch.Conflict.Sandman`, `3.Post.PickedUp`. Decide the intended stage for each, fix, then 🎮 playtest.
+- [ ] 🌐 Other validator errors: `1.Post.GoToBed` (unknown verb `setGameCounter`), `3.Dodgeball.4` (unknown verb `enableScripts`),
+      `2.Post.Home.Arrive` (leaves the player frozen), `2.Pre.HomeOutside.CarLeave` (finds `Dad` after disabling him),
+      `5.Psych.Dreamwalk` (**invalid JSON**, line 28).
+- [ ] 🌐 **Dynamic dialog:** let cutscene text insert the hero name chosen on Day 5 (C# text substitution in the dialog system).
+- [ ] 🌐 **Wrong speaker labels:** The Hole as "Ms Nice" (`3.PR.HoleDisguise.1/2/3`); Maven as "Gym Teacher" (`3.Pysch.1`, `5.Psych.Class.1`);
+      Bubba/narration as "Gym Teacher" (`3.Lunch.Conflict`, `5.Psych.Library.1`); "Friend" → **Fred** (`0.Dream.Gym.2`, `0.Dream.3F.1/2`, `0.Dream.303.1`). 🎮 check portraits.
+- [ ] 🎮 **Build Settings:** add `Fights/Bank Vault.unity` (after `City Buildings/Bank Vault`), `BlockingFight`, `Dodgeball`, `Day3Puzzles`, `Typemaster2000`.
+- [ ] 🎮 **Sprites/portraits:** Goon, The Hole (overworld), Sheriff, Bank Guy (all on the blank `Character` prefab), plus any new cast that appears on screen (Nimbus, Jumper, Puddle).
+- [ ] 🎮 Rename the remaining `*.Pysch.*` files to `Psych` in the editor (with their `.meta` files), if not already done on the PC.
+- [ ] 🎮 Remove dead files: `2/holder.json`, `Common/Example.json` (fails validation), and the superseded Day 4 prototypes `4.BankVault.1/2/3`, `4.PR.BankVault.3`, `4.PR.Bank.Final`.
+- [ ] 🎮 **Morpheus** (cut): remove or repurpose the object in `Scenes/Dream/Day1Dream/80s School 2F.unity` and `0.Dream.Morpheus.json`.
 
-- [ ] Character profiles (from `_TEMPLATE.md`): **Slim**, **The Hole**, **Bubba** — the three the plot
-      hangs on. Bubba's needs his full arc: bully → transfer denied → Day 5 battle → "death of his dream."
-- [x] Resolve in PlotThreads: is the **Dream Stranger** Slim? Sandman? Someone else? (This decides how
-      Day 0/Day 1 dream scenes get revised.)
-- [x] Fill PlotThreads **Setup → Payoff ledger** for Chapter 1: quarters, vault, letter, Bubba's transfer,
-      hero name.
-- [ ] Write the **Day 5 finale script** on paper (in Chapter-1.md): Bubba battle setup, the fight,
-      the aftermath scene, Sparks' letter, the Chapter 2 hook.
+## 2 · Day by day
 
-## Week 2 · Aug 10 – 16 — Story lock: friends, faculty & world rules
+### Day 0 — Intro dream (Rip's memory)
+- [ ] 🌐 Speaker fixes and the `0.Dream.Gym.Caught` stage counter (section 1).
+- [ ] 🎮 Playtest Day 0 from a fresh save.
 
-- [ ] Character profiles: **Micycle**, **Laser Boy**, **Sandman** (finish its 1 TBD), **Sparks** (incl. the
-      Slim friendship backstory), **Principal Fiona Nix**, **Maven** (Psych).
-- [ ] Quick profiles (short form is fine): Bubba's ally, Map Guy, Nurse, Mom, Dad, Goblin, Ms Nice (PR) & Mr. Brock (Gym).
-- [ ] Worldbuilding: write the **powers system** rules, the **Dream World rules** (how dream-walking works,
-      its cost), and name the **town**. Clear the 11 `[TBD]`s or mark them post-launch.
-- [ ] Protagonist.md: clear its 14 `[TBD]`s — name (or confirm nameless), what his power costs, who knows.
-- [ ] Write scripts (dialog on paper) for every `[TBD]` class beat you're keeping: Day 3 Gym/Psych/Sci,
-      Day 5 Gym/Sci, Day 2 Psych (replaces `2.Psych.Placeholder`). **Cut anything you won't build.**
+### Day 1 — First school day
+- [ ] 🌐 **New:** after the assembly, **Nimbus and Jumper recruit Mark** for Dodgeball (needs ✍️ dialog). Rewrite the club signup to match
+      (`1.Post.SignUp`, `1.Post.ClubHero`, `1.Post.ClubDodgeball`, `1.Post.ClubCostume`). 🎮 place Nimbus/Jumper, wire the trigger.
+- [ ] 🌐 Rework Psych (`1.Psych.PsychClass.*`, now "under construction"): Maven on walking into other people's dreams, setting up the lawnmower, and hinting Mark's nights will get interesting.
+- [ ] 🌐 Dream: Norbert's greeting in `1.Dream.HubCenter` as a **first meeting**; `<THE PLACE>` → **the Hub** in `1.Dream.PostCrabFight`; the Dream Stranger ends in an **escape**, not a win.
+- [ ] 🎮 Confirm Bubba's Day 1 intro lands (`1.Pre.SchoolOutside.1/3`). Playtest Day 1.
 
-## Week 3 · Aug 17 – 23 — Build: Days 0 & 1
+### Day 2 — PR assignment, quarters, science puzzles
+- [ ] 🌐 Replace `2.Pysch.Placeholder` with the **somni** scene (class meets the somni building the school-as-prison). Needs ✍️ dialog.
+- [ ] 🌐 Give the Day 2 vault its own code (`VaultCode`, `123456`); today the scene's combination is `000000` and always plays `2.PR.Bank.OpenVault`.
+- [ ] 🎮 Play the **quarters quest** and all 6 **science puzzles**; fix what's broken. Playtest Day 2.
 
-- [ ] Revise **Day 0** to match locked canon (Slim/Dream Stranger presence; what room 303 means;
-      is the Gym "Caught" stealth beat staying?).
-- [ ] Polish **Day 1** end-to-end: fix bugs from Week 0's list; confirm Bubba's *introduction* lands
-      (canon says he's introduced Day 1 — currently he first appears Day 3).
-- [ ] Playtest Days 0–1 back-to-back from a fresh save; update statuses in Chapter-1.md.
+### Day 3 — Dodgeball tutorial, disguise, lunchroom conflict
+- [ ] 🌐 Check `3.Dodgeball.*` frames the match as the **tutorial**: a practice match against Mark's own teammates.
+- [ ] 🌐 Day 3 vault code via `VaultCode` (the code from the Bank Guy's house).
+- [ ] 🌐 Write the kept Gym/Psych/Sci beats (✍️ first); Psych is a placeholder ("will get programmed later").
+- [ ] 🌐 + 🎮 **New dream stage** after `3.Post.GoToBed`: the **warped town**, a chase by Fear, a failed attempt to fight it ("this isn't something you can punch your way out of").
+- [ ] 🎮 Polish **HoleDisguise** (reads as him scouting the bank) and the Sandman conflict + Bubba fight. Playtest Dodgeball Win *and* Lose, then Day 3.
 
-## Week 4 · Aug 24 – 30 — Build: Day 2
+### Day 4 — The bank heist
+- [ ] 🌐 + 🎮 The vault scene shows the money and goons **vanishing into another dimension**.
+- [ ] 🌐 + 🎮 **New:** hostage standoff with the goon outside the vault; police/school surround the bank; Sandman's powder through the **air vents** (🎮 vent object).
+- [ ] 🌐 + 🎮 **Goon's mind:** a luxury-lifestyle dream with the code's numbers to collect, then a dream-fight with the goon for the last number (replaces `4.GoonMind.Placeholder`; `DreamHubRight` stands in today).
+- [ ] 🎮 The Hole's fight uses his attack pattern (holes in money bags, coin spills). Check the Garnet Square aftermath crowd positions.
+- [ ] 🌐 + 🎮 **New dream stage** after `4.Post.GoToBed`: Mark faces Fear **by talking** (a dialog confrontation, not a fight).
+- [ ] 🌐 + 🎮 Optional: the enterable **town jail** with the jailed goon (ruined dream; his boss only used envelopes).
+- [ ] 🎮 Playtest Day 4 end to end.
 
-Biggest existing day — polish, don't rebuild.
+### Day 5 — Week finale
+- [ ] 🌐 Fix `5.Psych.Dreamwalk` (invalid JSON) and `5.PR.Ending` ("see you all tomorrow" on a Friday).
+- [ ] 🌐 + 🎮 **Gym:** the Sandy spar (his powder saps Mark's energy). `5.Gym.1` is a leftover blocking-class placeholder ("that's getting developed later").
+- [ ] 🌐 + 🎮 **Lunch:** Bubba steals Laser Boy's books, gets the rejection letter; Mark fights him in his **crumbling Platinum Prep** dream (earthquake); returning the books bonds Mark and Laser Boy. The Lunch row currently points at `5.Gym.1`.
+- [ ] 🌐 **Psych:** Mark falls out of Bubba's dream into the Dream World with his Psych class.
+- [ ] 🌐 + 🎮 **Sci:** the end-of-week quiz (shared quiz minigame; check its question file exists in the repo).
+- [ ] 🌐 + 🎮 **New:** the **principal's office** debrief (midday, adult Fi).
+- [ ] 🌐 + 🎮 **New:** Sparks finds the **empty envelope** after Dodgeball tryouts (it should look like The Hole's letters).
+- [ ] 🌐 **New:** the **dreamless night** ending (fade to black + "You have a good and peaceful night's sleep, without any dreams.").
+- [ ] 🎮 Verify ChooseHeroName + the essay turn-in. Playtest Day 5.
 
-- [ ] Replace `2.Psych.Placeholder` with the written Psych scene; delete `holder.json` if confirmed unused.
-- [ ] Play the **quarters quest** and all 6 **science puzzles**; fix what's broken.
-- [ ] Verify the Day 2 **Bank scenes** foreshadow The Hole correctly under locked canon (revise dialog if needed).
-- [ ] Playtest Day 2 end-to-end; update Chapter-1.md.
+## 3 · Integration & ship (🎮)
 
-## Week 5 · Aug 31 – Sep 6 — Build: Day 3
-
-- [ ] Build the written Day 3 Gym / Psych / Sci class beats.
-- [ ] Polish the **HoleDisguise** sequence and the **Sandman conflict + Bubba fight** at lunch.
-- [ ] Playtest the **Dodgeball match** incl. Win *and* Lose branches.
-- [ ] Playtest Day 3 end-to-end; update Chapter-1.md.
-
-## Week 6 · Sep 7 – 13 — Build: Day 4 + start Day 5
-
-- [ ] Day 4: polish the **bank hallway → vault puzzle → fight** flow; make the vault-empty /
-      "Hole wasn't working alone" reveal land.
-- [ ] Day 5: build **Bubba's battle** (new fight content — an `EnemyController` subclass or reuse of an
-      existing boss pattern, arena scene, `StartFight` cutscene, win state).
-- [ ] Playtest Day 4 end-to-end; update Chapter-1.md.
-
-## Week 7 · Sep 14 – 20 — Build: finish Day 5
-
-- [ ] Build the Bubba **aftermath** scene ("death of his dream") + remaining Day 5 class beats (Gym, Sci).
-- [ ] Build **Sparks' letter** scene and the **Chapter 2 hook** ending.
-- [ ] Verify **ChooseHeroName** + essay turn-in reflect the week (clubs, fights, tables) where feasible.
-- [ ] Playtest Day 5 end-to-end; update Chapter-1.md.
-
-## Week 8 · Sep 21 – 27 — Full-chapter integration pass
-
-- [ ] **Two full playthroughs of Days 0–5 from a fresh save** (one "friendly" run, one contrarian —
-      lose the dodgeball match, fail talks, pick different tables). Fix everything that breaks.
+- [ ] **Two full playthroughs of Days 0–5 from a fresh save** (one "friendly" run, one contrarian: lose the
+      Dodgeball tutorial, fail talks, pick different tables). Fix everything that breaks.
 - [ ] Save/load test: quit + reload at least once per day; confirm `gameData.json` restores correctly.
-- [ ] Sweep the **Bugs** list in Chapter-1.md to zero (or explicitly defer).
-- [ ] Migrate the most bug-prone doors to `Entrance` markers if door spawns caused issues in testing.
-
-## Week 9 · Sep 28 – Oct 1 — Buffer & ship
-
-- [ ] Fix whatever Week 8 shook out.
-- [ ] One final clean playthrough, then build the Windows player and play *the build* (not the editor).
-- [ ] Update Chapter-1.md statuses to ✅, write the Chapter 2 stub's opening hook while it's fresh.
-- [ ] 🎉 **Chapter 1 done.**
+- [ ] Sweep a **Bugs** list in Chapter-1.md to zero (or explicitly defer).
+- [ ] Build the Windows player and play **the build**, not the editor.
+- [ ] Mark Chapter-1.md statuses ✅. 🎉 **Chapter 1 done.**
 
 ---
 
-## Weekly rhythm
+## Working rhythm
 
-- **Write before you build**: Weeks 1–2 lock story so Weeks 3–7 never stall on "what happens here?"
-- End every build week with an **end-to-end playtest of that day** and a status update in Chapter-1.md —
-  the doc stays the source of truth.
-- If a week overflows, cut scope (a class beat can become a 2-line scene) before cutting the playtest.
+- **Web sessions:** take 🌐 items day by day with the `cutscene` skill; validate every file; list what needs 🎮 wiring in the commit message.
+- **PC sessions:** pull, wire triggers/scenes/sprites, playtest the day, update Chapter-1.md statuses, commit, push.
+- If a day overflows, cut scope (a class beat can become a 2-line scene) before cutting the playtest.
