@@ -1,6 +1,19 @@
 {
   "Items": [
     {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 6, 6 ],
+      "type": "Ms Sparks",
+      "name": "Ms Sparks",
+      "location": "0, 1.5"
+    },
+    {
+      "validScenes": [ 3, 3 ],
+      "validStages": [ 6, 6 ],
+      "type": "cutscene",
+      "name": "5.Post.Envelope"
+    },
+    {
       "validScenes": [ 0, 1 ],
       "validStages": [ 5, 5 ],
       "type": "Micycle",

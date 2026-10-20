@@ -4,13 +4,26 @@
       "type": "disableMovement"
     },
     {
-      "type": "fadeOut",
-      "name": "BlackFade"
+      "type": "animate",
+      "name": "Bank Vault",
+      "text": "vault_open"
     },
     {
       "type": "dialog",
-      "text": "Thanks, go to the teacher.",
       "name": "Bank Guy",
+      "text": "You did it! I'm free!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "Thank you so much, both of you. I'd still be stuck in there without you.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bank Guy",
+      "text": "Now you'd better hurry back to Ms Nice before she wonders where you went.",
       "isTyped": "true"
     },
     {
@@ -18,7 +31,7 @@
     },
     {
       "type": "setSceneCounter",
-      "text": 8
+      "text": "8"
     },
     {
       "type": "enableMovement"

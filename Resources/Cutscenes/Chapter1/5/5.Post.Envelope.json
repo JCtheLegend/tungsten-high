@@ -1,0 +1,72 @@
+{
+  "Items": [
+    {
+      "type": "startBlack"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "hide",
+      "name": "Player"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "Meanwhile, after school...",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Ms Sparks",
+      "text": "Another week done. Now, where did I put my grading pen...",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "An envelope sits on her desk. It wasn't there a minute ago.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Ms Sparks",
+      "text": "Hm? What's this?",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "She opens it. It's empty.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Ms Sparks",
+      "text": "...",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Ms Sparks",
+      "text": "No. It can't be.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "2"
+    },
+    {
+      "type": "loadScene",
+      "name": "School Front"
+    }
+  ]
+}

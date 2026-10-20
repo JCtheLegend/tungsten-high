@@ -30,7 +30,7 @@
       "validStages": [ 6, 6 ],
       "validScenes": [ 1, 1 ],
       "type": "cutscene",
-      "name": "5.Dodgeball.Final"
+      "name": "5.Dodgeball.End"
     },
     {
       "validScenes": [ 0, 0 ],

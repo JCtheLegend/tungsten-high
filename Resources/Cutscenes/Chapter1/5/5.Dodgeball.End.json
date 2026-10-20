@@ -32,11 +32,19 @@
       "isTyped": "true"
     },
     {
-      "type": "setSceneCounter",
-      "text": 2
+      "type": "closeDialog"
     },
     {
-      "type": "enableMovement"
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": 3
+    },
+    {
+      "type": "loadScene",
+      "name": "ScienceClassroom"
     }
   ]
 }

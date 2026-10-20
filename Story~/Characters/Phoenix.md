@@ -61,7 +61,7 @@ Her personality **changes as she ages through the day**:
 
 | Chapter | Where / what they do | Status |
 |---|---|---|
-| 1 | **Day 1 · Sci:** the assembly. **Day 5 (midday, as an adult):** her character introduction. She **debriefs Mark** on the Day 4 bank heist in her office: praises him, warns that **hero work is dangerous, even for those with simple powers**, and tells him **working with others keeps you safer and makes victory easier**, encouraging him to **make friends**. | ✍️ |
+| 1 | **Day 1 · Sci:** the assembly. **Day 5 (midday, as an adult):** her character introduction; she calls Mark to her office **after lunch**. She **debriefs Mark** on the Day 4 bank heist in her office: praises him, warns that **hero work is dangerous, even for those with simple powers**, and tells him **working with others keeps you safer and makes victory easier**, encouraging him to **make friends**. | ✍️ |
 | 3 | **School dance:** the attempted kidnapping at her midnight rebirth; Sparks tells her what the envelope means. | ☐ |
 
 ## Notes / open questions

@@ -1,7 +1,24 @@
 {
   "Items": [
     {
+      "type": "startWhite"
+    },
+    {
       "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "3, -3.5"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "down"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
     },
     {
       "type": "dialog",
@@ -16,10 +33,28 @@
       "isTyped": "true"
     },
     {
+      "type": "dialog",
+      "name": "Maven",
+      "text": "Let us return!",
+      "isTyped": "true"
+    },
+    {
       "type": "closeDialog"
     },
     {
-      "type": "enableMovement"
+      "type": "playSound",
+      "name": "teleport"
+    },
+    {
+      "type": "dreamExit"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "2"
+    },
+    {
+      "type": "loadScene",
+      "name": "MentalClassroom"
     }
   ]
 }

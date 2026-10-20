@@ -53,7 +53,9 @@ Each one blocks a scene below. Ask them via `/story-interview`.
 - [ ] **Day 3 dream:** what the warped town looks like and what form Fear takes.
 - [ ] **Day 4 dream:** where it takes place; what Mark says to Fear.
 - [ ] **Day 1 recruit scene:** what Nimbus and Jumper say when they recruit Mark after the assembly.
-- [ ] **Day 5:** dialog for the principal's office debrief, the Sandy spar, Bubba's crumbling-dream fight, and Sparks' envelope scene (beats are decided; lines aren't).
+- [x] **Day 5 staging** (2026-10-20): the day order, how Bubba falls asleep (cried himself to sleep in the library after a sleepless night),
+      the spar and Bubba fights are real fights (Bubba: retry on a loss), principal after lunch, the envelope is a Sparks-only cutaway. See
+      Chapter-1.md's Day 5 "Day order". **Dialog:** the writer asked Claude to draft it from the decided beats for review (🌐).
 - [ ] **Sprites/looks:** what the Goon, The Hole, the Sheriff, the Bank Guy, Nimbus, Jumper and Puddle look like (for the 🎮 sprite work).
 - [ ] Anything not worth building: **cut it** and say so in Chapter-1.md.
 
@@ -68,7 +70,7 @@ Each one blocks a scene below. Ask them via `/story-interview`.
       stage Post / scene 0 replays `3.Dodgeball.1`; they now set `Post`, scene 1, and load **School Front**, so Mom's pickup (`3.Post.MomPickUp`) plays.
 - [ ] 🎮 **Playtest the stage fixes**, all of Day 1 and the Day 3 Dodgeball → pickup handoff: stages that used to be silently ignored
       now change, so check each next scene fires (e.g. the Day 1 dream now starts in stage `Dream`).
-- [ ] 🎮 `Scenes/3/Gym.json` registers `3.Dodgeball.Final` (Post, scene 1), which doesn't exist: write it or remove the trigger.
+- [x] 🎮 `Scenes/3/Gym.json` registered `3.Dodgeball.Final` (Post, scene 1), which doesn't exist: trigger removed (2026-10-20).
 - [x] 🌐 **Other validator errors** (fixed 2026-10-20; every Chapter 1 cutscene now validates): `5.Psych.Dreamwalk` missing comma;
       `3.Dodgeball.4` `enableScripts` → `enableComponents` (turns on Jumper's dodgeball scripts, which was being skipped);
       `2.Post.Home.Arrive` now ends with `enableMovement`; `Common/Example.json` `loadScene` uses `name`. `2.Pre.HomeOutside.CarLeave` was a
@@ -95,7 +97,17 @@ Each one blocks a scene below. Ask them via `/story-interview`.
       `Typemaster2000` (2026-10-20, edited `ProjectSettings/EditorBuildSettings.asset` with Unity closed). `4.Post.Homework` loaded
       `TypeMaster2000`; now spelled like the scene file, `Typemaster2000`.
 - [x] 🌐 **Bedtime "No" went to bed anyway** (fixed 2026-10-20): in `1–4.Post.GoToBed` the "No" answer's `enableMovement` had a stale
-      `skip` (3) that landed on the sleep lines. It now jumps past the end of the file.
+      `skip` (3) that landed on the sleep lines. It now jumps past the end of the file. Same bug in `2.Post.Cat.Dreamwalk` ("Dreamwalk?" → No
+      still walked Mark into Goblin's dream bubble); fixed too.
+- [x] 🌐 **Validator** (2026-10-20): now reads the verb list from `CutsceneManager.HandleCutscene` itself and errors on a verb the game has no
+      `case` for (how `hideBars` slipped through), and warns when an `enableMovement` with a `skip` lands back inside the file (the bedtime /
+      Dreamwalk bug). It prints a `NOTE` for verbs it knows that the game doesn't: today `friendship` and `checkFriend` (see next item).
+- [ ] 🌐 **Friendship is only half built.** Storage, saving (2026-10-20) and the Planner's Friends tab exist, but nothing ever *awards* points:
+      no `friendship` / `checkFriend` cutscene verbs, no points for passing a talk meter, no friend skip of the talk meter, no `FriendAlert`,
+      no `friendPoints` / `friendDialog` in scene JSON. CLAUDE.md and the README describe all of it as done. No cutscene uses it yet.
+- [x] 🌐 Removed dead wiring (2026-10-20): `3.Dodgeball.Final`'s trigger in `Scenes/3/Gym.json` (Dodgeball Win/Lose no longer return to the
+      Gym), the stray `Scenes/2/PunchingBagFight.json` (Day 2 never loads that scene), and the unused town-tour leftover `5.PR.Ending`.
+      Kept `5.Gym.Final` (after the Sandy spar) and `5.Dodgeball.Final` (the return from the scrimmage) for when those are built.
 - [x] 🌐 **Fight exits** (2026-10-20): `hideBars` / `showBars` cutscene actions now exist (`4.BankVault.AfterFight` used `hideBars`, which was
       being skipped). The Hole's `onDeathCutscene` in `Fights/Bank Vault.unity` is set to `4.BankVault.AfterFight`. The Day 3 blocking dummy had
       none, so the Gym dead-ended after the fight: it now plays the new `3.Gym.AfterFight` (back to the Gym) → `3.Gym.Final` (Day 2's staging
@@ -118,7 +130,7 @@ the beat silently doesn't happen. Re-run it after the push, since the PC copy ma
 **Re-run on the PC, 2026-10-20: down from ~90 findings to 7.** What was fixed, then what's left:
 
 - [x] 🌐 **Wrong day:** `Scenes/3/MentalClass` → `3.Psych.1`, `Scenes/5/MentalClass` → `5.Psych.1`, `Scenes/5/ScienceClass` → `5.Sci.End` ×2,
-      `Scenes/5/HomeOutside` → the new `5.Pre.HomeOutside.CarLeave` ×2 and `5.Post.ArriveHome`. Left alone: `Scenes/2/PunchingBagFight` → `1.Gym.PunchingBagFight.1`,
+      `Scenes/5/HomeOutside` → the new `5.Pre.HomeOutside.CarLeave` ×2 and `5.Post.ArriveHome`. Deleted later: `Scenes/2/PunchingBagFight` → `1.Gym.PunchingBagFight.1`,
       because Day 2 never loads that scene (its Gym is the race + dummy fight).
 - [x] 🌐 **`common.` prefix:** `Scenes/2/UpstairsHallway` → `common.GoblinSleeping`; `Scenes/3/StartFight` → `common.StartFight`.
 - [x] 🌐 **Lunchroom helpers, Days 2, 3, 5:** the blockers now use the shared `common.Lunch.NeedFood` / `common.Lunch.BlockLeft` / `common.Lunch.BlockBottom`
@@ -136,9 +148,9 @@ the beat silently doesn't happen. Re-run it after the push, since the PC copy ma
       `Thanks.unity` (end card, resets the save, back to the menu). `Scenes/5/PlayerRoom`'s bed trigger moved to scene 3, where ArriveHome leaves it.
 - [x] 🌐 **Typo:** `valideStages` → `validStages` on the `Car` in `Scenes/2–5/HomeOutside.json`.
 - [ ] ✍️ **Still missing, waiting on content:** `2.PR.BankGuy.Final` (Days 2–3 bank: what does the Bank Guy say?), `5.Lunch.GetFood` (needs the
-      Bubba book scene), `5.Gym.Final` (needs the Sandy spar), `3.Dodgeball.Final` / `5.Dodgeball.Final` (unreachable today: write or drop).
+      Bubba book scene), `5.Gym.Final` (needs the Sandy spar), `5.Dodgeball.Final` (the return from the scrimmage).
 - [ ] ✍️ Review the new lines above (Mom's greetings and pickup line, the tryouts line), and the `5.PR.1` order: is turn-in → hero name → Gym right?
-      `5.PR.Ending` (unwired) is a town-assignment leftover: "I'll see you all tomorrow" (a Friday) and "you'll have to write a report".
+      (`5.PR.Ending`, a town-tour leftover, was deleted 2026-10-20.)
 - [x] `5.Sci.End` said "You'll have a quiz at the end of the week" right after that quiz. Now: "Make sure to keep your notes for next
       week!" / "Thank you all for your hard work on today's quiz." (2026-10-20, ✍️ check the wording).
 - [ ] 🎮 Playtest Day 5 start to finish: morning route, PR, then (once built) the midday, tryouts → pickup → home → the dreamless night → `Thanks`.
@@ -171,8 +183,13 @@ the beat silently doesn't happen. Re-run it after the push, since the PC copy ma
 
 ### Day 3 — Dodgeball tutorial, disguise, lunchroom conflict
 - [x] 🌐 Check `3.Dodgeball.*` frames the match as the **tutorial**: it does ("your last exercise of today's practice", against "one of our athletes from last year", i.e. Jumper; the roster is decided Friday).
-- [ ] ✍️ Day 3 vault code via `VaultCode` (the code from the Bank Guy's house): **no code has been chosen**, and `3.PR.House.1` is a stub
-      ("Go back to the bank"). Pick the code and what the paper at his house says; then it's one scene-JSON line.
+- [x] 🌐 Day 3 vault (built 2026-10-20, draft lines): the Bank Guy House scene had no scene JSON, so nothing played there; it now has
+      `Scenes/3/Bank Guy House.json`: Mike's arrival line (`3.PR.House.1`) and a press-Z **paper** (`3.PR.House.Paper`: "Wednesday:
+      4-4-1-6-2-5.", sets scene 7). The vault room had `3.PR.Bank.2` *and* `3.PR.Bank.3` auto-starting together; now `3.PR.Bank.2` plays on
+      arrival and the keypad (`VaultCode` **441625**, scene 7) plays the rewritten `3.PR.Bank.3` (vault opens; thanks; back to Ms Nice; scene 8).
+      Talking to him in the lobby afterwards: new `2.PR.BankGuy.Final` (Day 2) and `3.PR.BankGuy.Final` (Day 3 can't load Day 2's file).
+- [ ] 🎮 Day 3 house: the paper is an **invisible** trigger at the room's centre (`5.17,-15`, the camera's spot) until its hiding place is
+      decided (✍️ parked) — move it and give it a sprite. Playtest the bank → house → vault loop.
 - [x] 🌐 The Bank Guy's **`111111` silent-alarm** plant is now in `3.PR.Bank.2` (2026-10-20), after "Aw, rats. I forgot.": "The only code I never
       forget is the emergency one. All ones: 1-1-1-1-1-1." / "But that one sets off the silent alarm and calls the police, so please don't use it!"
 - [ ] 🌐 Write the kept Gym/Psych/Sci beats (✍️ first); Psych is a placeholder ("will get programmed later").
@@ -190,12 +207,28 @@ the beat silently doesn't happen. Re-run it after the push, since the PC copy ma
 
 ### Day 5 — Week finale
 - [ ] 🌐 + 🎮 **Gym:** the Sandy spar (his powder saps Mark's energy). `5.Gym.1` is a leftover blocking-class placeholder ("that's getting developed later").
-- [ ] 🌐 + 🎮 **Lunch:** Bubba steals Laser Boy's books, gets the rejection letter; Mark fights him in his **crumbling Platinum Prep** dream (earthquake); returning the books bonds Mark and Laser Boy. The Lunch row currently points at `5.Gym.1`.
-- [ ] 🌐 **Psych:** Mark falls out of Bubba's dream into the Dream World with his Psych class.
-- [ ] 🌐 + 🎮 **Sci:** the end-of-week quiz (shared quiz minigame; check its question file exists in the repo).
-- [ ] 🌐 + 🎮 **New:** the **principal's office** debrief (midday, adult Fi).
-- [ ] 🌐 + 🎮 **New:** Sparks finds the **empty envelope** after Dodgeball tryouts (it should look like The Hole's letters).
-- [ ] 🌐 **New:** the **dreamless night** ending (fade to black + "You have a good and peaceful night's sleep, without any dreams.").
+- [x] 🌐 **Midday built 2026-10-20 (draft dialog, ✍️ review):**
+      **Lunch** `5.Lunch.GetFood` → any table → `5.Lunch.BookTheft`: Day 3's seat by Bubba; he takes Bobby's books, opens his Platinum Prep
+      letter, goes quiet, storms out with the books; the intercom calls Mark to the principal. **Principal** (same cutscene, over black until
+      the office exists): Fi praises the bank, warns hero work is dangerous even with simple powers, says working with others keeps you safer,
+      tells him to make friends. **Library** (`Scenes/5/SchoolLibrary.json`): Mark thinks of the books → the library → asleep Bubba
+      (`5.Psych.Library.1`: its Yes/No skips were wrong, "No" read the letter anyway; fixed) → touching Bubba plays `5.Psych.BubbaDream`
+      (**text placeholder** for the crumbling Platinum Prep dream and the fight, with Bubba's draft lines) → the Ephemeral realm with the Psych
+      class (`Scenes/5/Ephemeral.json`, `5.Psych.Class.1`: Maven's "so nice of you to join us", "Let us return!") → the classroom
+      (`5.Psych.End`, on to Sci). Going to Psych first just nudges Mark to the library (`5.Psych.1`).
+- [ ] 🎮 + 🌐 **Bubba's dream:** the crumbling Platinum Prep scene (earthquake) and his fight (an `EnemyController`; losing = retry), replacing
+      the text in `5.Psych.BubbaDream`. Position Bubba and his dream bubble in the library (both sit at the room's start point, `-3.12,-1.38`).
+- [ ] 🎮 **Principal's office** scene; then move the debrief out of `5.Lunch.BookTheft` into it.
+- [ ] 🌐 **Returning the books** (bonds Mark and Laser Boy): not built yet. Natural spot: Laser Boy in Sci class. Needs the friendship
+      verbs (section 1) for the bond itself.
+- [ ] 🎮 **Sci:** the quiz has no scene yet (`QuizController` is in no `.unity`), so nothing loads `Quizzes/Chapter1/5.Sci.json`; Day 5 Sci
+      currently plays `5.Sci.End` directly.
+- [x] 🌐 **Envelope** (2026-10-20, draft lines): after tryouts `5.Dodgeball.End` cuts to `ScienceClassroom` (Post / scene 3) for
+      `5.Post.Envelope`: Mark hidden; Sparks tidies up, finds an envelope that wasn't there, it's empty: "No. It can't be." Then School Front
+      (Mom's pickup). 🎮 an envelope sprite that matches The Hole's letters. ✍️ Should she say "Paperboy"? Left out for now.
+- [ ] 🎮 **Tryouts:** `5.Dodgeball.1` now shows a placeholder line and returns to the Gym (Post / scene 1 → `5.Dodgeball.End`, rewired from
+      the missing `5.Dodgeball.Final`) until the `DodgeballScrimmage` scene exists.
+- [x] 🌐 **New:** the **dreamless night** ending (fade to black + "You have a good and peaceful night's sleep, without any dreams.").
 - [ ] 🎮 Verify ChooseHeroName + the essay turn-in. Playtest Day 5.
 
 ## 3 · Integration & ship (🎮)

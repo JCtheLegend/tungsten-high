@@ -69,6 +69,34 @@ DIRECTIONS = {"up", "down", "left", "right", "upLeft", "upRight", "downLeft", "d
 VECTOR = re.compile(r"^\s*-?\d+(\.\d+)?\s*,\s*-?\d+(\.\d+)?\s*$")
 
 
+def load_implemented_verbs():
+    """The case labels of HandleCutscene's switch in CutsceneManager.cs, or None if it can't be read.
+
+    VERBS above is what this script knows how to check; this is what the game actually runs. A verb
+    in VERBS but missing here (hideBars once was) is skipped in-game with INVALID CUTSCENE ACTION.
+    """
+    path = os.path.join(ASSETS, "Scripts", "Cutscene", "CutsceneManager.cs")
+    try:
+        with open(path, encoding="utf-8-sig", errors="replace") as f:
+            src = f.read()
+    except OSError:
+        return None
+    start = src.find("IEnumerator HandleCutscene(")
+    if start < 0:
+        return None
+    # Walk braces from the method's opening brace to its end (no braces appear in its strings).
+    i = src.index("{", start)
+    depth = 0
+    for j in range(i, len(src)):
+        if src[j] == "{":
+            depth += 1
+        elif src[j] == "}":
+            depth -= 1
+            if depth == 0:
+                return set(re.findall(r'case\s+"([A-Za-z]+)"\s*:', src[i:j]))
+    return None
+
+
 def load_heads():
     meta = os.path.join(ASSETS, "Resources", "Heads", "Heads.png.meta")
     try:
@@ -94,6 +122,7 @@ class Report:
         self.path = path
         self.rows = []
         self.seen_missing_heads = set()
+        self.skip_after_enable = []
 
     def err(self, idx, msg):
         self.rows.append(("ERROR", idx, msg))
@@ -115,7 +144,7 @@ class Report:
             print("  %-5s %-5s %s" % (level, where, msg))
 
 
-def check_action(a, i, r, heads, in_moveset=False):
+def check_action(a, i, r, heads, in_moveset=False, implemented=None):
     t = a.get("type")
     if not t:
         r.err(i, "no 'type'")
@@ -128,6 +157,9 @@ def check_action(a, i, r, heads, in_moveset=False):
         else:
             r.err(i, "unknown verb '%s' -- logs INVALID CUTSCENE ACTION and is skipped" % t)
         return
+    if not in_moveset and implemented is not None and t not in implemented:
+        r.err(i, "'%s' has no case in CutsceneManager.HandleCutscene -- the game logs INVALID "
+                 "CUTSCENE ACTION and skips it" % t)
 
     if t in NEEDS_NAME and not a.get("name"):
         r.err(i, "%s needs 'name'" % t)
@@ -195,6 +227,11 @@ def check_action(a, i, r, heads, in_moveset=False):
         else:
             for j, m in enumerate(sub):
                 check_action(m, "%s.%s" % (i, j), r, heads, in_moveset=True)
+    if t == "enableMovement" and (as_int(a.get("skip")) or 0) > 0:
+        # Hands control back and then jumps: normally the end of a branch (e.g. the "No" answer),
+        # so it should land past the end. Landing inside the file is usually a stale offset --
+        # the bedtime "No" once landed on the go-to-sleep lines this way.
+        r.skip_after_enable.append(i)
 
 
 def successors(a, i, n):
@@ -242,6 +279,12 @@ def check_flow(items, r):
                           "fine if that is the intent" % (nxt, n))
             elif nxt not in seen:
                 stack.append(nxt)
+    for i in r.skip_after_enable:
+        target = i + as_int(items[i].get("skip")) + 1
+        if target < n:
+            r.warn(i, "enableMovement hands control back, then 'skip' jumps to [%d] and the "
+                      "cutscene keeps running -- a branch that returns control should usually skip "
+                      "past the end (%d actions)" % (target, n))
     dead = sorted(set(range(n)) - seen)
     if dead:
         r.warn(None, "unreachable: %s -- usually a stale 'goto'/'skips' offset after an edit"
@@ -292,7 +335,7 @@ def check_shape(items, r):
                      "cameraFollow \"Player\"")
 
 
-def validate(path, heads):
+def validate(path, heads, implemented=None):
     r = Report(path)
     try:
         with open(path, encoding="utf-8-sig") as f:
@@ -316,7 +359,7 @@ def validate(path, heads):
         if not isinstance(a, dict):
             r.err(i, "not an object")
             continue
-        check_action(a, i, r, heads)
+        check_action(a, i, r, heads, implemented=implemented)
     check_flow(items, r)
     check_shape(items, r)
     return r
@@ -331,9 +374,13 @@ def main(argv):
     else:
         paths = argv
     heads = load_heads()
+    implemented = load_implemented_verbs()
+    if implemented is not None:
+        for v in sorted(VERBS - implemented):
+            print("NOTE  the validator accepts '%s' but CutsceneManager.HandleCutscene has no case for it" % v)
     failed = 0
     for p in paths:
-        r = validate(p, heads)
+        r = validate(p, heads, implemented)
         r.print()
         failed += r.errors()
     print("\n%d file(s), %d error(s)" % (len(paths), failed))

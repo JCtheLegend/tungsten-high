@@ -5,11 +5,18 @@
     },
     {
       "type": "dialog",
-      "text": "Go back to the bank"
+      "name": "Micycle",
+      "text": "So this is his place. He said the paper's in here somewhere.",
+      "isTyped": "true"
     },
     {
-      "type": "setSceneCounter",
-      "text": 7
+      "type": "dialog",
+      "name": "Micycle",
+      "text": "Let's look around!",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
     },
     {
       "type": "enableMovement"

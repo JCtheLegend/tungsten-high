@@ -1,7 +1,13 @@
 {
   "Items": [
     {
-      "validScenes": [ 0, 0 ],
+      "validScenes": [ 2, 2 ],
+      "validStages": [ 4, 4 ],
+      "type": "cutscene",
+      "name": "5.Psych.End"
+    },
+    {
+      "validScenes": [ 0, 2 ],
       "validStages": [ 4, 4 ],
       "type": "Seer",
       "name": "Seer",
@@ -9,7 +15,7 @@
       "facing": "down"
     },
     {
-      "validScenes": [ 0, 0 ],
+      "validScenes": [ 0, 2 ],
       "validStages": [ 4, 4 ],
       "type": "Wally",
       "name": "Wally",
@@ -17,7 +23,7 @@
       "facing": "down"
     },
     {
-      "validScenes": [ 0, 0 ],
+      "validScenes": [ 0, 2 ],
       "validStages": [ 4, 4 ],
       "type": "Sandman",
       "name": "Sandman",
@@ -25,7 +31,7 @@
       "facing": "down"
     },
     {
-      "validScenes": [ 0, 0 ],
+      "validScenes": [ 0, 2 ],
       "validStages": [ 4, 4 ],
       "type": "Songbird",
       "name": "Songbird",
@@ -33,7 +39,7 @@
       "facing": "up"
     },
     {
-      "validScenes": [ 0, 0 ],
+      "validScenes": [ 0, 2 ],
       "validStages": [ 4, 4 ],
       "type": "Dreamy",
       "name": "Dreamy",
@@ -41,7 +47,7 @@
       "facing": "up"
     },
     {
-      "validScenes": [ 0, 0 ],
+      "validScenes": [ 0, 2 ],
       "validStages": [ 4, 4 ],
       "type": "Maven",
       "name": "Maven",

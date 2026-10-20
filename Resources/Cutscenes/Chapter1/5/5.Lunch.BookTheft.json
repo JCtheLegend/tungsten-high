@@ -1,0 +1,185 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "-5.5, -0.5"
+    },
+    {
+      "type": "moveFace",
+      "name": "Player",
+      "direction": "down"
+    },
+    {
+      "type": "setWhite"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "wait",
+      "text": "0.2"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "changeCostume",
+      "text": ""
+    },
+    {
+      "type": "dialog",
+      "name": "Bubba",
+      "text": "Hey, Cat Toy. Nice books. I'll be taking those.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Laser Boy",
+      "text": "H-hey! Give those back, Bubba! My notes are in there!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bubba",
+      "text": "Relax. Today's my last day in this dump anyway.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bubba",
+      "text": "My letter from Platinum Prep came this morning. Watch me read my ticket out of here.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Bubba tears open the envelope. His grin fades as he reads.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bubba",
+      "text": "...",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Without a word, Bubba shoves back from the table and storms out, Bobby's books still under his arm.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "hide",
+      "name": "Bubba"
+    },
+    {
+      "type": "dialog",
+      "name": "Laser Boy",
+      "text": "My books...",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "playSound",
+      "name": "mic"
+    },
+    {
+      "type": "dialog",
+      "text": "\"<Name>, please report to the principal's office. <Name>, to the principal's office.\"",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "[PLACEHOLDER: Principal Fi's office. This plays over black until the room is built.]",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Principal Fi",
+      "text": "Ah, <Name>. Come in, have a seat.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Principal Fi",
+      "text": "I heard all about yesterday at the bank. Holding your nerve with a gun pointed at you...",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Principal Fi",
+      "text": "Getting into that goon's head for the code. That was quick thinking. I'm proud of you.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Principal Fi",
+      "text": "But I'll be honest with you: hero work is dangerous. Even for those of us with simple powers.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Principal Fi",
+      "text": "The heroes who last are the ones who don't go it alone.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Principal Fi",
+      "text": "Working with others keeps you safer, and it makes winning a whole lot easier.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Principal Fi",
+      "text": "So make some friends here, <Name>. Good ones. That's my advice.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Principal Fi",
+      "text": "Now, off you go. I believe you have a class to get to.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "dialog",
+      "text": "On your way out, you think about Bobby's books. Where would Bubba have gone?",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Maybe somewhere quiet... like the library.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setStageCounter",
+      "text": "Psych"
+    },
+    {
+      "type": "loadScene",
+      "name": "School Library"
+    }
+  ]
+}

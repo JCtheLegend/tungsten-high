@@ -1,0 +1,25 @@
+{
+  "Items": [
+    {
+      "validScenes": [
+        0,
+        0
+      ],
+      "validStages": [
+        4,
+        4
+      ],
+      "type": "Bubba",
+      "name": "Bubba",
+      "location": "-3.12,-1.38",
+      "facing": "down",
+      "assets": [
+        {
+          "type": "CutsceneActTrigger",
+          "fileName": "5.Psych.Library.1",
+          "facePlayer": false
+        }
+      ]
+    }
+  ]
+}

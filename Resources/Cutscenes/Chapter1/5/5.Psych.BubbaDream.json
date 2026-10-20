@@ -1,0 +1,81 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "You reach out and touch Bubba's shoulder...",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "playSound",
+      "name": "teleport"
+    },
+    {
+      "type": "setWhite"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "[PLACEHOLDER: Bubba's dream, Platinum Prep in an earthquake, and his fight. This plays as text until the dream scene and the fight are built.]",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bubba",
+      "text": "This is it. Platinum Prep. Mom and Dad are gonna be so proud of me.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "The ground shakes. Cracks race up the marble columns.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bubba",
+      "text": "No... no, no, no! Not now!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bubba",
+      "text": "You?! What are you doing here? Get out of my dream!",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "[FIGHT: Bubba. A real fight; if you lose, you try again.]",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Bubba",
+      "text": "I worked so hard for this...",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "The last of Platinum Prep crumbles away, and the dream breaks apart beneath you.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "1"
+    },
+    {
+      "type": "loadScene",
+      "name": "Ephemeral"
+    }
+  ]
+}

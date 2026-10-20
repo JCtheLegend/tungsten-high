@@ -1,0 +1,33 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "dialog",
+      "text": "A crumpled sheet of paper: \"Vault combinations, this week.\"",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Wednesday: 4-4-1-6-2-5.",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "name": "Micycle",
+      "text": "That's it! Let's get back to the bank!",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "7"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}

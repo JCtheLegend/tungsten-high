@@ -17,7 +17,7 @@
       "name": "Door"
     },
     {
-      "validScenes": [ 7, 7 ],
+      "validScenes": [ 8, 8 ],
       "validStages": [ 1, 1 ],
       "type": "Bank Guy",
       "name": "Bank Guy",
@@ -25,8 +25,8 @@
       "assets": [
         {
           "type": "CutsceneActTrigger",
-          "name": "2.PR.BankGuy.Final",
-          "fileName": "2.PR.BankGuy.Final"
+          "name": "3.PR.BankGuy.Final",
+          "fileName": "3.PR.BankGuy.Final"
         }
       ]
     }

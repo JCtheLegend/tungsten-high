@@ -1,0 +1,32 @@
+{
+  "Items": [
+    {
+      "validScenes": [
+        6,
+        6
+      ],
+      "validStages": [
+        1,
+        1
+      ],
+      "type": "cutscene",
+      "name": "3.PR.House.1"
+    },
+    {
+      "validScenes": [
+        6,
+        6
+      ],
+      "validStages": [
+        1,
+        1
+      ],
+      "type": "CutsceneActTrigger",
+      "name": "3.PR.House.Paper",
+      "fileName": "3.PR.House.Paper",
+      "location": "5.17,-15",
+      "size": "1,1",
+      "destroy": true
+    }
+  ]
+}

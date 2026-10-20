@@ -56,7 +56,7 @@ His **brother was accepted into Platinum Prep**; Bubba is jealous and resentful,
 
 | Chapter | Where / what they do | Status |
 |---|---|---|
-| 1 | **Day 1 · Pre:** introduced outside the school, after Mike: calls it a "crappy school," says his Platinum Prep application is still under review, and sneers at Mark's power. **Day 3 · Lunch:** conflict over Laser Boy being teased, then a fight; Sandman defuses it. **Day 5 · Lunch:** steals Laser Boy's books, gets his rejection letter from Platinum Prep; the player enters his dream and battles him. **Day 5 · Psych:** his dream bursts, leaving him and the player in the middle of Psych class. | 🔨 |
+| 1 | **Day 1 · Pre:** introduced outside the school, after Mike: calls it a "crappy school," says his Platinum Prep application is still under review, and sneers at Mark's power. **Day 3 · Lunch:** conflict over Laser Boy being teased, then a fight; Sandman defuses it. **Day 5 · Lunch:** steals Laser Boy's books, gets his rejection letter from Platinum Prep. He stayed up all night anxious about the letter; exhausted and defeated, he **cries himself to sleep in the library**, where the player enters his dream and battles him. **Day 5 · Psych:** his dream bursts, leaving him and the player in the middle of Psych class. | 🔨 |
 | 2–5 | [TBD] | ☐ |
 | 6 | **Day 4:** upgraded by Slim, envelops the school in a bubble and carries it into the sky (the climax). Spends the final battle **in a trance**, straining to keep the school afloat, but watching: seeing ordinary students be heroes turns him. Afterward he and [Nimbus](Nimbus.md) bring the school back down to the ground, and he is **forgiven**. | ☐ |
 

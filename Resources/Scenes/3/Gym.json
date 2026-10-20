@@ -21,12 +21,6 @@
       "fileName": "3.Dodgeball.1"
     },
     {
-      "validScenes": [ 1, 1 ],
-      "validStages": [ 6, 6 ],
-      "type": "cutscene",
-      "name": "3.Dodgeball.Final"
-    },
-    {
       "validScenes": [ 3, 3 ],
       "validStages": [ 2, 2 ],
       "type": "cutscene",

@@ -5,22 +5,16 @@
     },
     {
       "type": "dialog",
-      "text": "Ah",
-      "name": "Maven",
+      "text": "Bobby's books first. Bubba must have taken them somewhere quiet...",
       "isTyped": "true"
     },
     {
       "type": "dialog",
-      "text": "But that will get programmed later.",
-      "name": "Maven",
+      "text": "Maybe the library?",
       "isTyped": "true"
     },
     {
       "type": "closeDialog"
-    },
-    {
-      "type": "setStageCounter",
-      "text": "Sci"
     },
     {
       "type": "enableMovement"

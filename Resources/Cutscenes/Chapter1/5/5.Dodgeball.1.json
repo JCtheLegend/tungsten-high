@@ -38,12 +38,27 @@
       "isTyped": "true"
     },
     {
+      "type": "closeDialog"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "text": "[PLACEHOLDER: the tryout scrimmage. Skipped until its scene is built; it returns here at Post / scene 1.]",
+      "isTyped": "false"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
       "type": "setSceneCounter",
       "text": 1
     },
     {
       "type": "loadScene",
-      "name": "DodgeballScrimmage"
+      "name": "Gym"
     }
   ]
 }

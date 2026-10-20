@@ -7,10 +7,12 @@
       "name": "3.PR.Bank.2"
     },
     {
-      "validScenes": [ 5, 5 ],
+      "validScenes": [ 7, 7 ],
       "validStages": [ 1, 1 ],
-      "type": "cutscene",
-      "name": "3.PR.Bank.3"
+      "type": "VaultCode",
+      "name": "Enter",
+      "code": "441625",
+      "fileName": "3.PR.Bank.3"
     }
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "Items": [
+    {
+      "type": "startWhite"
+    },
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "teleport",
+      "name": "Player",
+      "text": "3, -3.5"
+    },
+    {
+      "type": "fadeOut",
+      "name": "BlackFade"
+    },
+    {
+      "type": "dialog",
+      "name": "Maven",
+      "text": "Well class, have a restful weekend. Do try to dream of something pleasant.",
+      "isTyped": "true"
+    },
+    {
+      "type": "closeDialog"
+    },
+    {
+      "type": "setStageCounter",
+      "text": "Sci"
+    },
+    {
+      "type": "enableMovement"
+    }
+  ]
+}
