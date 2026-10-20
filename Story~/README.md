@@ -22,7 +22,7 @@ year he makes friends, faces enemies, and works to uncover a plot to kidnap the 
 |---|---|
 | `README.md` | This index + the code-mapping conventions below. |
 | `Interview-Log.md` | State for the `/story-interview` flow — the queue of story questions Claude asks you, parked questions, and a session log. |
-| `Chapter1-Schedule.md` | **The active production schedule** — weekly checklist to finish Chapter 1 by Oct 1, 2026. |
+| `Chapter1-Schedule.md` | **The Chapter 1 build backlog** — every task left to ship Chapter 1, tagged story / web / editor. |
 | `Worldbuilding.md` | The setting, the powers system, the Dream World, factions, tone, and a glossary. |
 | `PlotThreads.md` | The central mystery and every subplot, tracked as threads that span chapters. |
 | `Characters/_Roster.md` | One-line index of every character, with a link to each profile. |
