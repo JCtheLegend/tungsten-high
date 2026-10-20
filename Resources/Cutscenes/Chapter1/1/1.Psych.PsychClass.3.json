@@ -5,19 +5,25 @@
     },
     {
       "type": "dialog",
-      "text": "Hm, under development you say?",
+      "text": "Ah, the Dreamwalker. You must have some experience in a place like this.",
       "name": "Maven",
       "isTyped": "true"
     },
     {
       "type": "dialog",
-      "text": "Well, perhaps this area is a bigger dream of someone else then...",
+      "text": "Everyone who sleeps dreams somewhere in this realm. Most of us can only look in from outside.",
       "name": "Maven",
       "isTyped": "true"
     },
     {
       "type": "dialog",
-      "text": "There is much I do not know about the Ephemeral Realm.",
+      "text": "But a Dreamwalker can step right inside. Touch someone while they sleep, and in you go.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "Inside, you can read their memories, talk with them, or even wake them up.",
       "name": "Maven",
       "isTyped": "true"
     },
@@ -29,7 +35,13 @@
     },
     {
       "type": "dialog",
-      "text": "Nonetheless, thank you for enlightening me. I suppose that is all we have for class today.",
+      "text": "Now that you have begun to walk in dreams, I suspect your nights will get much more interesting.",
+      "name": "Maven",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "I suppose that is all we have for class today.",
       "name": "Maven",
       "isTyped": "true"
     },
@@ -109,13 +121,13 @@
     },
     {
       "type": "dialog",
-      "text": "Well class, it seems as if our exploration is cut short today.",
+      "text": "Well class, that is enough exploring for one day.",
       "name": "Maven",
       "isTyped": "true"
     },
     {
       "type": "dialog",
-      "text": "No matter, We have the rest of the school year to learn.",
+      "text": "We have the rest of the school year to learn more.",
       "name": "Maven",
       "isTyped": "true"
     },

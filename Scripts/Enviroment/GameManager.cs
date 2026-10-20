@@ -159,6 +159,8 @@ public static class GameManager
         RoomData.toEntranceId = "";
         playerName = defaultPlayerName;
         heroName = "";
+        PlayerInventory.Restore(null, null, null);
+        Friendship.Restore(null, null);
     }
 
     public static void SaveGameData()
@@ -171,6 +173,11 @@ public static class GameManager
         gameData.entranceId = RoomData.toEntranceId;
         gameData.playerName = playerName;
         gameData.heroName = heroName;
+        gameData.inventoryItems = PlayerInventory.SaveItems();
+        gameData.inventoryCounts = PlayerInventory.SaveCounts(gameData.inventoryItems);
+        gameData.conditions = PlayerInventory.condition.ToArray();
+        gameData.friendNames = Friendship.SaveNames();
+        gameData.friendPoints = Friendship.SavePoints(gameData.friendNames);
         string data = JsonUtility.ToJson(gameData);
         File.WriteAllText(Application.persistentDataPath + "/gameData.json", data);
     }
@@ -189,6 +196,9 @@ public static class GameManager
         // Saves from before names were stored have neither field.
         playerName = string.IsNullOrEmpty(loadedGameData.playerName) ? defaultPlayerName : loadedGameData.playerName;
         heroName = loadedGameData.heroName ?? "";
+        // Older saves have none of these; Restore treats missing arrays as empty.
+        PlayerInventory.Restore(loadedGameData.inventoryItems, loadedGameData.inventoryCounts, loadedGameData.conditions);
+        Friendship.Restore(loadedGameData.friendNames, loadedGameData.friendPoints);
     }
 
     public static class RoomData
@@ -256,6 +266,13 @@ public class GameData
     public int sceneCounter= 0;
     public string playerName = GameManager.defaultPlayerName;
     public string heroName = "";
+    // PlayerInventory.inventory as parallel arrays, PlayerInventory.condition (the story flags),
+    // and Friendship's points as parallel arrays.
+    public string[] inventoryItems;
+    public int[] inventoryCounts;
+    public string[] conditions;
+    public string[] friendNames;
+    public int[] friendPoints;
 
     public GameData(string room, int day, int stage, int entrance, int scene)
     {

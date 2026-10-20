@@ -25,13 +25,13 @@
     },
     {
       "type": "dialog",
-      "text": "Make sure to review your notes!",
+      "text": "Make sure to keep your notes for next week!",
       "name": "Ms Sparks",
       "isTyped": "true"
     },
     {
       "type": "dialog",
-      "text": "You'll have a quiz at the end of the week on the material you've learned.",
+      "text": "Thank you all for your hard work on today's quiz.",
       "name": "Ms Sparks",
       "isTyped": "true"
     },

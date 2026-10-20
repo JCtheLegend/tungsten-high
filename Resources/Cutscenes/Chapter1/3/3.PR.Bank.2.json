@@ -81,6 +81,18 @@
     },
     {
       "type": "dialog",
+      "text": "The only code I never forget is the emergency one. All ones: 1-1-1-1-1-1.",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
+      "text": "But that one sets off the silent alarm and calls the police, so please don't use it!",
+      "name": "Bank Guy",
+      "isTyped": "true"
+    },
+    {
+      "type": "dialog",
       "text": "But don't worry! I wrote down all the combinations for this week on a piece of paper...",
       "name": "Bank Guy",
       "isTyped": "true"

@@ -133,6 +133,7 @@ public class Menu : MonoBehaviour
         GameObject.Find("Music Manager(Clone)").GetComponent<MusicController>().StopMusic();
         if (state == MenuState.newGameSelect)
         {
+            GameManager.ResetGameData();
             GameManager.LoadScene("80s 303");
         }
         else

@@ -181,8 +181,8 @@
             {
               "type": "SimpleDialogTrigger",
               "dialog": [
-                "I found this sign!",
-                "I wonder who's idea this was for it to show up here."
+                "Pretty quiet in here today, huh?",
+                "Go talk to Maven when you're done looking around."
               ],
               "isTyped": [ true, true ],
               "facePlayer": true,
@@ -199,16 +199,9 @@
           "facing": "down",
           "assets": [
             {
-              "type": "SimpleDialogTrigger",
-              "dialog": [
-                "Ah, the Dreamwalker. You must have some experience in a place like this."
-              ],
-              "isTyped": [ true ],
-              "facePlayer": true,
-              "talkMeter": {
-                "range": 0.4,
-                "speed": 1
-              }
+              "type": "CutsceneActTrigger",
+              "fileName": "1.Psych.PsychClass.3",
+              "facePlayer": true
             }
           ]
         }

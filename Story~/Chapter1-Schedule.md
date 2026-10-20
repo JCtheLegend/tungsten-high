@@ -139,7 +139,8 @@ the beat silently doesn't happen. Re-run it after the push, since the PC copy ma
       Bubba book scene), `5.Gym.Final` (needs the Sandy spar), `3.Dodgeball.Final` / `5.Dodgeball.Final` (unreachable today: write or drop).
 - [ ] ✍️ Review the new lines above (Mom's greetings and pickup line, the tryouts line), and the `5.PR.1` order: is turn-in → hero name → Gym right?
       `5.PR.Ending` (unwired) is a town-assignment leftover: "I'll see you all tomorrow" (a Friday) and "you'll have to write a report".
-- [ ] ✍️ `5.Sci.End` still says "You'll have a quiz at the end of the week" — on Day 5, right after that quiz.
+- [x] `5.Sci.End` said "You'll have a quiz at the end of the week" right after that quiz. Now: "Make sure to keep your notes for next
+      week!" / "Thank you all for your hard work on today's quiz." (2026-10-20, ✍️ check the wording).
 - [ ] 🎮 Playtest Day 5 start to finish: morning route, PR, then (once built) the midday, tryouts → pickup → home → the dreamless night → `Thanks`.
 
 ## 2 · Day by day
@@ -151,7 +152,11 @@ the beat silently doesn't happen. Re-run it after the push, since the PC copy ma
 ### Day 1 — First school day
 - [ ] 🌐 **New:** after the assembly, **Nimbus and Jumper recruit Mark** for Dodgeball (needs ✍️ dialog). Rewrite the club signup to match
       (`1.Post.SignUp`, `1.Post.ClubHero`, `1.Post.ClubDodgeball`, `1.Post.ClubCostume`). 🎮 place Nimbus/Jumper, wire the trigger.
-- [ ] 🌐 Rework Psych (`1.Psych.PsychClass.*`, now "under construction"): Maven on walking into other people's dreams, setting up the lawnmower, and hinting Mark's nights will get interesting.
+- [x] 🌐 Rework Psych (2026-10-20). It was also a **dead end**: the "under construction" sign (`1.Psych.PsychClassSign`, now deleted) was never
+      placed, and it was the only thing that hooked up Maven's wrap-up, so class could never end. Now Sandman says "Go talk to Maven when you're
+      done looking around", and talking to Maven plays `1.Psych.PsychClass.3`: the dream-walking rules from Worldbuilding (everyone dreams in this
+      realm; a Dreamwalker steps inside by touching a sleeper; inside you can read memories, talk, or wake them), which sets up Dad's nightmare
+      that evening, then "I suspect your nights will get much more interesting." ✍️ check Maven's voice; 🎮 playtest.
 - [x] 🌐 Dream (2026-10-20): `<THE PLACE>` → **the Hub** in `1.Dream.PostCrabFight`. Norbert's "Oh, uh, hey boss!" → "Whoa, a visitor! Uh, hi! I'm
       Norbert, your somnus." (✍️ check the wording; the rest of his speech still works for a first meeting). The Dream Stranger already ends with
       "You cannot run. / You are mine" and Mark waking up, not a win, so it was left as is.
@@ -167,8 +172,9 @@ the beat silently doesn't happen. Re-run it after the push, since the PC copy ma
 ### Day 3 — Dodgeball tutorial, disguise, lunchroom conflict
 - [x] 🌐 Check `3.Dodgeball.*` frames the match as the **tutorial**: it does ("your last exercise of today's practice", against "one of our athletes from last year", i.e. Jumper; the roster is decided Friday).
 - [ ] ✍️ Day 3 vault code via `VaultCode` (the code from the Bank Guy's house): **no code has been chosen**, and `3.PR.House.1` is a stub
-      ("Go back to the bank"). Pick the code and what the paper at his house says; then it's one scene-JSON line. Also missing: the Bank Guy's
-      **`111111` silent-alarm** line in `3.PR.Bank.2`, which Chapter-1.md marks done and `4.BankVault.Standoff` depends on.
+      ("Go back to the bank"). Pick the code and what the paper at his house says; then it's one scene-JSON line.
+- [x] 🌐 The Bank Guy's **`111111` silent-alarm** plant is now in `3.PR.Bank.2` (2026-10-20), after "Aw, rats. I forgot.": "The only code I never
+      forget is the emergency one. All ones: 1-1-1-1-1-1." / "But that one sets off the silent alarm and calls the police, so please don't use it!"
 - [ ] 🌐 Write the kept Gym/Psych/Sci beats (✍️ first); Psych is a placeholder ("will get programmed later").
 - [ ] 🌐 + 🎮 **New dream stage** after `3.Post.GoToBed`: the **warped town**, a chase by Fear, a failed attempt to fight it ("this isn't something you can punch your way out of").
 - [ ] 🎮 Polish **HoleDisguise** (reads as him scouting the bank) and the Sandman conflict + Bubba fight. Playtest Dodgeball Win *and* Lose, then Day 3.
@@ -196,7 +202,11 @@ the beat silently doesn't happen. Re-run it after the push, since the PC copy ma
 
 - [ ] **Two full playthroughs of Days 0–5 from a fresh save** (one "friendly" run, one contrarian: lose the
       Dodgeball tutorial, fail talks, pick different tables). Fix everything that breaks.
-- [ ] Save/load test: quit + reload at least once per day; confirm `gameData.json` restores correctly.
+- [x] 🌐 **Saves now keep story flags, items and friendships** (2026-10-20). Before, `gameData.json` held only the counters, room and names:
+      every `addCondition` flag (quiz results, `GotTheMap`, `quizTutorialDone`…), every item (quarters) and, despite the docs, every
+      friendship was lost on Continue. `GameData` now stores all three; old saves load with them empty. `ResetGameData` (end of chapter,
+      and now New Game) clears them too, so a new game in the same launch starts clean.
+- [ ] Save/load test: quit + reload at least once per day; confirm `gameData.json` restores correctly (flags, quarters, friends too).
 - [ ] Sweep a **Bugs** list in Chapter-1.md to zero (or explicitly defer).
 - [ ] Build the Windows player and play **the build**, not the editor.
 - [ ] Mark Chapter-1.md statuses ✅. 🎉 **Chapter 1 done.**
