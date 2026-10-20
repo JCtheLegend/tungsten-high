@@ -1,7 +1,7 @@
 {
   "Items": [
     {
-      "valideStages": [ 0, 0 ],
+      "validStages": [ 0, 0 ],
       "validScenes": [ 2, 2 ],
       "type": "Car",
       "name": "Car",

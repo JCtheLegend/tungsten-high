@@ -277,22 +277,16 @@ public class CutsceneManager : MonoBehaviour
                     actionDone = true;
                     break;
                 case "startFight":
-                    foreach (SpriteRenderer s in enemy.enemyHealthBar.GetComponentsInChildren<SpriteRenderer>())
-                    {
-                        s.enabled = true;
-                        StartCoroutine(GameManager.FadeIn(s, 1));
-                    }
-                    foreach (SpriteRenderer s in gridPlayer.GetComponent<PlayerCombatController>().playerHealthBar.GetComponentsInChildren<SpriteRenderer>())
-                    {
-                        s.enabled = true;
-                        StartCoroutine(GameManager.FadeIn(s, 1));
-                    }
-                    foreach (SpriteRenderer s in gridPlayer.GetComponent<PlayerCombatController>().energyBar.GetComponentsInChildren<SpriteRenderer>())
-                    {
-                        s.enabled = true;
-                        StartCoroutine(GameManager.FadeIn(s, 1));
-                    }
+                    SetFightBars(true);
                     StartCoroutine(enemy.StartFight());
+                    actionDone = true;
+                    break;
+                case "showBars":
+                    SetFightBars(true);
+                    actionDone = true;
+                    break;
+                case "hideBars":
+                    SetFightBars(false);
                     actionDone = true;
                     break;
                 case "teleport":
@@ -556,6 +550,42 @@ public class CutsceneManager : MonoBehaviour
                 f.gameObject.GetComponent<AnimatableObject>().StopAnimation();
             }
             f.Face(Direction.ParseDirection(a.direction));
+        }
+    }
+
+    // Fades the enemy's health bar and the fight player's health and energy bars in or out.
+    // Bars that are gone (the enemy destroyed on death) are skipped.
+    void SetFightBars(bool visible)
+    {
+        List<GameObject> bars = new List<GameObject>();
+        if (enemy != null)
+        {
+            bars.Add(enemy.enemyHealthBar);
+        }
+        PlayerCombatController combat = gridPlayer != null ? gridPlayer.GetComponent<PlayerCombatController>() : null;
+        if (combat != null)
+        {
+            bars.Add(combat.playerHealthBar);
+            bars.Add(combat.energyBar);
+        }
+        foreach (GameObject bar in bars)
+        {
+            if (bar == null)
+            {
+                continue;
+            }
+            foreach (SpriteRenderer s in bar.GetComponentsInChildren<SpriteRenderer>())
+            {
+                if (visible)
+                {
+                    s.enabled = true;
+                    StartCoroutine(GameManager.FadeIn(s, 1));
+                }
+                else
+                {
+                    StartCoroutine(GameManager.FadeOut(s, 1));
+                }
+            }
         }
     }
 

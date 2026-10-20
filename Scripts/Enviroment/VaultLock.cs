@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class VaultLock : MonoBehaviour
@@ -19,6 +20,22 @@ public class VaultLock : MonoBehaviour
     {
         sprite = GetComponent<SpriteRenderer>();
         cutsceneManager = GameObject.Find("Cutscene Manager").GetComponent<CutsceneManager>();
+    }
+
+    // Called from scene JSON ("type": "VaultCode") so each day can use its own code. A blank
+    // solvedCutscene keeps the one set in the inspector.
+    public void Configure(string code, string solvedCutscene)
+    {
+        if (code == null || code.Length != nums.Length || !code.All(char.IsDigit))
+        {
+            Debug.LogError("VaultCode '" + code + "' needs exactly " + nums.Length + " digits");
+            return;
+        }
+        combination = code.Select(c => c - '0').ToArray();
+        if (!string.IsNullOrEmpty(solvedCutscene))
+        {
+            cutscene = solvedCutscene;
+        }
     }
 
     void Check()

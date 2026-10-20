@@ -19,16 +19,16 @@
     },
     {
       "validStages": [ 6, 6 ],
-      "validScenes": [ 3, 3 ],
+      "validScenes": [ 2, 2 ],
       "type": "Mom",
       "name": "Mom",
       "location": "-1.75,-2.65"
     },
     {
       "validStages": [ 6, 6 ],
-      "validScenes": [ 3, 3 ],
+      "validScenes": [ 2, 2 ],
       "type": "cutscene",
-      "name": "4.Post.Home.Arrive"
+      "name": "4.Post.Home"
     }
   ]
 }

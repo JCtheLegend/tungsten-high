@@ -2107,7 +2107,7 @@ MonoBehaviour:
   deadAnimation: 
   defaultAnimation: 
   moveSpeed: 1
-  onDeathCutscene: 
+  onDeathCutscene: 4.BankVault.AfterFight
   currentHealth: 100
   maxHealth: 100
   attackDamage: 2

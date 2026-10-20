@@ -2,7 +2,7 @@
   "Items": [
     {
       "type": "cutscene",
-      "name": "StartFight"
+      "name": "common.StartFight"
     }
   ]
 }

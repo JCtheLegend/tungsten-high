@@ -1,6 +1,14 @@
 {
   "Items": [
     {
+      "validScenes": [ 6, 7 ],
+      "validStages": [ 1, 1 ],
+      "type": "VaultCode",
+      "name": "Enter",
+      "code": "123456",
+      "fileName": "2.PR.Bank.OpenVault"
+    },
+    {
       "validScenes": [ 6, 6 ],
       "validStages": [ 1, 1 ],
       "type": "cutscene",

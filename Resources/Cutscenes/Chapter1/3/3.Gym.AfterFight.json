@@ -1,0 +1,25 @@
+{
+  "Items": [
+    {
+      "type": "disableMovement"
+    },
+    {
+      "type": "stopMusic"
+    },
+    {
+      "type": "hideBars"
+    },
+    {
+      "type": "fadeIn",
+      "name": "BlackFade"
+    },
+    {
+      "type": "setSceneCounter",
+      "text": "3"
+    },
+    {
+      "type": "loadScene",
+      "name": "Gym"
+    }
+  ]
+}

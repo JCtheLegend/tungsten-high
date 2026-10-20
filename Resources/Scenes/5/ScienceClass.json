@@ -148,7 +148,7 @@
       "validScenes": [ 1, 1 ],
       "validStages": [ 5, 5 ],
       "type": "cutscene",
-      "name": "3.Sci.End"
+      "name": "5.Sci.End"
     },
     {
       "validScenes": [ 0, 0 ],
@@ -156,8 +156,8 @@
       "location": "3.5,-4",
       "type": "CutsceneCollider",
       "size": "3,1",
-      "name": "3.Sci.End",
-      "fileName": "3.Sci.End",
+      "name": "5.Sci.End",
+      "fileName": "5.Sci.End",
       "destroy": true
     }
   ]

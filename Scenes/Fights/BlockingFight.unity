@@ -24768,7 +24768,7 @@ MonoBehaviour:
   deadAnimation: 
   defaultAnimation: 
   moveSpeed: 3
-  onDeathCutscene: 
+  onDeathCutscene: 3.Gym.AfterFight
   currentHealth: 100
   maxHealth: 100
   attackDamage: 2

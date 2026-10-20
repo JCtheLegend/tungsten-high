@@ -9,7 +9,7 @@
       "assets": [
         {
           "type": "CutsceneActTrigger",
-          "fileName": "3.Pre.HomeOutside.CarLeave",
+          "fileName": "5.Pre.HomeOutside.CarLeave",
           "destroy": true,
           "facePlayer": false
         }
@@ -24,7 +24,7 @@
       "assets": [
         {
           "type": "CutsceneActTrigger",
-          "fileName": "3.Pre.HomeOutside.CarLeave",
+          "fileName": "5.Pre.HomeOutside.CarLeave",
           "destroy": true,
           "facePlayer": true
         }
@@ -34,11 +34,11 @@
       "validScenes": [ 2, 2 ],
       "validStages": [ 6, 6 ],
       "type": "cutscene",
-      "name": "3.Post.ArriveHome"
+      "name": "5.Post.ArriveHome"
     },
     {
       "validScenes": [ 2, 2 ],
-      "valideStages": [ 6, 6 ],
+      "validStages": [ 6, 6 ],
       "type": "Car",
       "name": "Car",
       "location": "-75,-5"

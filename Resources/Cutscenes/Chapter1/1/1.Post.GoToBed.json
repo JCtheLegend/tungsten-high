@@ -26,7 +26,7 @@
     },
     {
       "type": "enableMovement",
-      "skip": 3
+      "skip": 28
     },
     {
       "type": "closeDialog"

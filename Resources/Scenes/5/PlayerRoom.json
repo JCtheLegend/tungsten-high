@@ -8,7 +8,7 @@
     },
     {
       "validStages": [ 6, 6 ],
-      "validScenes": [ 2, 2 ],
+      "validScenes": [ 3, 3 ],
       "type": "CutsceneActTrigger",
       "name": "5.GoToBed",
       "fileName": "5.Post.GoToBed",

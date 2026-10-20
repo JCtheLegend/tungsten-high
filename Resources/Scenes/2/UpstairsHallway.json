@@ -17,7 +17,7 @@
       "validStages": [ 6, 6 ],
       "validScenes": [ 4, 4 ],
       "type": "cutscene",
-      "name": "GoblinSleeping"
+      "name": "common.GoblinSleeping"
     },
     {
       "validStages": [ 6, 6 ],

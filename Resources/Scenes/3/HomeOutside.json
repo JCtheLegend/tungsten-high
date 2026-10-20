@@ -38,7 +38,7 @@
     },
     {
       "validScenes": [ 2, 2 ],
-      "valideStages": [ 6, 6 ],
+      "validStages": [ 6, 6 ],
       "type": "Car",
       "name": "Car",
       "location": "-75,-5"

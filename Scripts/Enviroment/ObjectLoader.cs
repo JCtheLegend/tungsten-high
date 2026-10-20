@@ -22,6 +22,8 @@ public class LoadedObject
     public string size;
     public LoadObjAsset[] assets;
     public string facing;
+    // VaultCode only: the day's combination, as a string of digits ("123456").
+    public string code;
 }
 
 [System.Serializable]
@@ -58,6 +60,12 @@ public class ObjectLoader : MonoBehaviour
         else if (obj.type == "UnlockDoor")
         {
             GameObject.Find(obj.name).GetComponent<RoomExit>().locked = false;
+        }
+        else if (obj.type == "VaultCode")
+        {
+            // The Bank Vault scene is shared by Days 2-4; each day sets its own combination and
+            // the cutscene that plays when it's solved.
+            GameObject.Find(obj.name).GetComponent<VaultLock>().Configure(obj.code, obj.fileName);
         }
         else
         {

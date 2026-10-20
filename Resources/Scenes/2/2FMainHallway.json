@@ -44,8 +44,8 @@
       "location": "9,-4.5",
       "type": "CutsceneCollider",
       "size": "6,1",
-      "name": "InSchool",
-      "fileName": "InSchool"
+      "name": "2.InSchool",
+      "fileName": "2.InSchool"
     },
     {
       "validStages": [ 1, 1 ],

@@ -359,7 +359,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.1",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
     },
     {
       "validScenes": [ 0, 10 ],
@@ -368,7 +368,7 @@
       "type": "CutsceneCollider",
       "size": "1,6",
       "name": "2.Lunch.NeedLeft",
-      "fileName": "2.Lunch.NeedLeft"
+      "fileName": "common.Lunch.BlockLeft"
     },
     {
       "validScenes": [ 0, 10 ],
@@ -377,7 +377,7 @@
       "type": "CutsceneCollider",
       "size": "4,1",
       "name": "2.Lunch.NeedBottom",
-      "fileName": "2.Lunch.NeedBottom"
+      "fileName": "common.Lunch.BlockBottom"
     },
     {
       "validScenes": [ 0, 10 ],
@@ -398,7 +398,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.2",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
     },
     {
       "validScenes": [ 0, 10 ],
@@ -407,7 +407,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.3",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
     },
     {
       "validScenes": [ 0, 10 ],
@@ -416,7 +416,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.4",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
 
     },
     {
@@ -426,7 +426,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.5",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
     },
     {
       "validScenes": [ 0, 10 ],
@@ -435,7 +435,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.6",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
 
     },
     {
@@ -445,7 +445,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.7",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
 
     },
     {
@@ -455,7 +455,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.8",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
     },
     {
       "validScenes": [ 0, 10 ],
@@ -464,7 +464,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.9",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
 
     },
     {
@@ -474,7 +474,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.10",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
     },
     {
       "validScenes": [ 0, 10 ],
@@ -483,7 +483,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.11",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
     },
     {
       "validScenes": [ 0, 10 ],
@@ -492,7 +492,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.12",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
 
     },
     {
@@ -502,7 +502,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.13",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
     },
     {
       "validScenes": [ 0, 10 ],
@@ -511,7 +511,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.14",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
     },
     {
       "validScenes": [ 0, 10 ],
@@ -520,7 +520,7 @@
       "type": "CutsceneActTrigger",
       "size": "1,1",
       "name": "1.1-Cafeteria.15",
-      "fileName": "2.Lunch.NeedFood"
+      "fileName": "common.Lunch.NeedFood"
     },
     {
       "validScenes": [ 0, 10 ],
@@ -529,7 +529,7 @@
       "type": "CutsceneActTrigger",
       "size": "6,1",
       "name": "1.1-Cafeteria.GetFood",
-      "fileName": "2.Lunch.NeedFood",
+      "fileName": "common.Lunch.NeedFood",
       "destroy": true
     },
     {

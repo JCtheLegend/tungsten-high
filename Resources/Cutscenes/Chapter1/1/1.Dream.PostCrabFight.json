@@ -41,7 +41,7 @@
     },
     {
       "type": "dialog",
-      "text": "Let's grab the key and get back to <THE PLACE>, so you can back to your dream.",
+      "text": "Let's grab the key and get back to the Hub, so you can get back to your dream.",
       "name": "Norbert",
       "isTyped": "true"
     },

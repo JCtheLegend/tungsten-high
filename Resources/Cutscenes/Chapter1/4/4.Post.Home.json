@@ -16,6 +16,9 @@
       "isTyped": "true"
     },
     {
+      "type": "closeDialog"
+    },
+    {
       "type": "enableMovement"
     }
   ]
