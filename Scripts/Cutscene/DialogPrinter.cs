@@ -65,6 +65,7 @@ public class DialogPrinter : MonoBehaviour
                         case "Ram":
                         case "Stilts":
                         case "Cubert":
+                        case "The Hole":
                             minPitch = 0.25f;
                             maxPitch = 0.75f;
                             break;

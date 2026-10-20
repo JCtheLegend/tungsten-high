@@ -66,8 +66,14 @@ Each one blocks a scene below. Ask them via `/story-interview`.
 - [ ] 🎮 Playtest those: Jumper actually plays in the Day 3 match; the player can move after `2.Post.Home.Arrive`.
 - [ ] ✍️ `5.Psych.Dreamwalk` is a copy of Day 2's Goblin dreamwalk (`2.Post.Cat.Dreamwalk`, loads `CatWalkway`), not Day 5 content: rewrite or drop it.
 - [ ] 🌐 **Dynamic dialog:** let cutscene text insert the hero name chosen on Day 5 (C# text substitution in the dialog system).
-- [ ] 🌐 **Wrong speaker labels:** The Hole as "Ms Nice" (`3.PR.HoleDisguise.1/2/3`); Maven as "Gym Teacher" (`3.Pysch.1`, `5.Psych.Class.1`);
-      Bubba/narration as "Gym Teacher" (`3.Lunch.Conflict`, `5.Psych.Library.1`); "Friend" → **Fred** (`0.Dream.Gym.2`, `0.Dream.3F.1/2`, `0.Dream.303.1`). 🎮 check portraits.
+- [x] 🌐 **Wrong speaker labels** (fixed 2026-10-20). Speaker names never show on screen; they pick the portrait and voice pitch.
+      The disguised Hole was "Ms Nice" → **The Hole** (`3.PR.HoleDisguise.1/2/3`; added to the low voice band in `DialogPrinter.cs`).
+      "Gym Teacher" was standing in for: Maven (`3.Pysch.1`, `5.Pysch.1`, `5.Psych.Class.1`), Bubba (`3.Lunch.Conflict`),
+      Sandman (`3.Lunch.Conflict.Sandman`), Ms Nice (`5.PR.TurnInEssay`), and narration (`5.Psych.Library.1`, now unnamed).
+      Mom's lines in `4.Post.Home` were "Banker" and "Micycle". Fred stays **"Friend"**: that's his portrait's name on the `Heads` sheet.
+- [ ] ✍️ Check: in `3.Lunch.Conflict.Sandman`, "H-he was just trying to-" is now **Laser Boy** (a guess: Mark is silent). The same scene
+      says "Principal P"; she's Principal Fi now.
+- [ ] 🎮 Portrait for **The Hole** (in disguise) on the `Heads` sheet; until then his slot is empty.
 - [ ] 🎮 **Build Settings:** add `Fights/Bank Vault.unity` (after `City Buildings/Bank Vault`), `BlockingFight`, `Dodgeball`, `Day3Puzzles`, `Typemaster2000`.
 - [ ] 🎮 **Sprites/portraits:** Goon, The Hole (overworld), Sheriff, Bank Guy (all on the blank `Character` prefab), plus any new cast that appears on screen (Nimbus, Jumper, Puddle).
 - [ ] 🎮 Rename the remaining `*.Pysch.*` files to `Psych` in the editor (with their `.meta` files), if not already done on the PC.
